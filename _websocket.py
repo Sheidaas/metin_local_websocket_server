@@ -8,7 +8,7 @@ PACKETS_PATTERNS_TYPES = {
     'unknow': 'unknow',
     'hearthbeat': 'hearthbeat',
     'result': 'result',
-    'informations': 'informations'
+    'information': 'information'
     }
 
 PACKETS_PATTERNS = {
@@ -90,12 +90,12 @@ class WebsocketServer:
 
             if message_key == 'type':
                 if json_message[message_key] not in RECEIVED_PACKETS_PATTERNS_TYPES.keys():
-                    print(str(json_message[message_key]) + 'is not there ' + RECEIVED_PACKETS_PATTERNS_TYPES.keys())
+                    print(str(json_message[message_key]) + 'is not there ' + str(RECEIVED_PACKETS_PATTERNS_TYPES.keys()))
                     return False
 
             if message_key == 'data':
                 if not type(json_message[message_key]) == dict: 
-                    print(str(json_message[message_key]) + 'is not a dict ')
+                    print(str(json_message[message_key]) + ' is not a dict ')
                     return False
                     
                 for data_key in json_message[message_key].keys():
@@ -105,12 +105,12 @@ class WebsocketServer:
 
             if message_key == 'action':
                 if json_message[message_key] not in ACTION_GOOD_KEYS:
-                    print(str(json_message[message_key]) + 'is not there ' + ACTION_GOOD_KEYS)
+                    print(str(json_message[message_key]) + ' is not there ' + ACTION_GOOD_KEYS)
                     return False 
             
             if message_key == 'memory':
                 if json_message[message_key] not in MEMORY_GOOD_KEYS:
-                    print(str(json_message[message_key]) + 'is not there ' + MEMORY_GOOD_KEYS)
+                    print(str(json_message[message_key]) + ' is not there ' + MEMORY_GOOD_KEYS)
                     return False            
 
         return json_message
@@ -141,7 +141,7 @@ class WebsocketServer:
 
                 if cleared_message['data']['message'] == 'metin2_client':
                     #print('this is metin2 client')
-                    self.client_list.remove(client)
+                    client_list.remove(client)
                     self.metin_clients.append(client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
@@ -149,7 +149,7 @@ class WebsocketServer:
                 elif cleared_message['data']['message'] == 'front_client':
                     #print('this is front client')
                     client_list.remove(client)
-                    self.metin_clients.append(client)
+                    self.front_client.append(client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
                 
@@ -167,13 +167,13 @@ class WebsocketServer:
                     'data': cleared_message['data']['message']
                 }
                 memory_object = self.get_memory_object_by_client_id(client['id'])
-                if memory_object == None:
+                if memory_object is None:
                     memory_object = {
                         'client_id': client['id'],
                         'object': MetinMemoryObject(),
                     }
                     self.metin_memory_objects.append(memory_object)
-                result = memory_object['object'].OnReceiveInformations(received_information) # This will validate data and stuff
+                result = memory_object['object'].OnReceiveInformation(received_information) # This will validate data and stuff
                 if result: 
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
