@@ -13,7 +13,7 @@ PACKETS_PATTERNS = {
     'hearthbeat': {'type': 'hearthbeat', 'data': {'message': 'hearthbeat'}},
     'set_role_as_metin_client': {'type': 'set_role', 'data': {'message': 'metin2_client'}},
     'set_role_as_front_client': {'type': 'set_role', 'data': {'message': 'front_client'}},
-    'send_information_vid_mobs': {'type': 'information', 'data': {'message': append_vids, 'action': 'append_vids'}},
+    'send_information_vid_mobs': {'type': 'information', 'data': {'message': append_vids, 'action': 'set_vids'}},
     'bad': "fdsafdasfdafsda",
 }
 

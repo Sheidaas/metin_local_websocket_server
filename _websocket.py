@@ -1,6 +1,6 @@
 import websocket_server
 import logging
-import json
+import simplejson as json
 from Modules.MetinMemoryObject import MetinMemoryObject
 
 
@@ -59,6 +59,7 @@ class WebsocketServer:
 
     def new_client(self, client, server):
         self.all_clients.append(client)
+        print('New client joined')
         server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
 
     def client_left(self, client, server):
@@ -69,14 +70,17 @@ class WebsocketServer:
         return
     
     def ValidateMessage(self, message):
+        #print(message)
         try:
             json_message = json.loads(message)
         except:
-            print('This is not a json message')
+            print('This is not a json message, validate message')
             return False
         
+        if type(json_message) == list:
+            json_message = json_message[0]
+        
         message_keys = json_message.keys()
-        #print(message_keys)
         for message_key in message_keys:
             if message_key not in PACKET_GOOD_KEYS:
                 print('Message keys are not in packet_good_keys')
@@ -116,7 +120,7 @@ class WebsocketServer:
         return json_message
 
     def message_received(self, client, server, message):
-        
+       #print(message)
         cleared_message = self.ValidateMessage(message)
         #print(cleared_message)
         if not cleared_message:
@@ -140,7 +144,7 @@ class WebsocketServer:
 
 
                 if cleared_message['data']['message'] == 'metin2_client':
-                    #print('this is metin2 client')
+                    print('this is metin2 client')
                     client_list.remove(client)
                     self.metin_clients.append(client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))

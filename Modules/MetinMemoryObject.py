@@ -12,15 +12,17 @@ class MetinMemoryObject:
             print('cleaned_information is empty')
             return False
 
-        if received_information['action'] == 'append_vids':
-            for instance in received_information['data']:
-                self.InstancesList.append(instance)
+        if received_information['action'] == 'set_vids':
+            self.InstancesList = [None] * len(received_information['data'])
+            for instance in range(len(received_information['data'])):
+                self.InstancesList[instance] = received_information['data'][instance]
         print(self.InstancesList)
+        print('that was instances list')
         return True
 
     def ValidateReceivedInformation(self, received_information):
 
-        if received_information['action'] == 'append_vids':
+        if received_information['action'] == 'set_vids':
             if not type(received_information['data']) == list:
                 print('Data[message] is not a list!')
                 return False
