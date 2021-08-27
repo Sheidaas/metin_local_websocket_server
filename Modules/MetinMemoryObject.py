@@ -8,6 +8,8 @@ class MetinMemoryObject:
         self.character_status = {
             'Position': [float, float],
             'CurrentMap': 'None',
+            'FirstEmpireMap': 'None',
+            'SecondEmpireMap': 'None',
             'Name': 'None',
             'Experience': 0,
             'MaxExperience': 0,

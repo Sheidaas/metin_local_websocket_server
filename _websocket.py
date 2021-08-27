@@ -21,13 +21,14 @@ PACKETS_PATTERNS = {
 }
 
 RECEIVED_PACKETS_PATTERNS_TYPES = {
+    'actions': 'actions',
     'hearthbeat': 'hearthbeat',
     'set_role': 'set_role',
     'information': 'information'
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
-DATA_GOOD_KEYS = ['message', 'action', 'memory']
+DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id']
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
@@ -42,6 +43,12 @@ class WebsocketServer:
         self.frontend_clients = []
 
         self.server = websocket_server.WebsocketServer(port, host=host, loglevel=logging.INFO)
+
+    def get_client_by_id_and_list(self, client_list, client_id):
+        for client in client_list:
+            if client['id'] == client_id:
+                return client
+        return None
 
     def get_memory_object_by_client_id(self, client_id):
         for memory_object in self.metin_memory_objects:
@@ -106,7 +113,7 @@ class WebsocketServer:
                     
                 for data_key in json_message[message_key].keys():
                     if data_key not in DATA_GOOD_KEYS:
-                        print(data_key + ' is not in ' + DATA_GOOD_KEYS)
+                        print(data_key, ' is not in ', DATA_GOOD_KEYS)
                         return False
 
             if message_key == 'action':
@@ -122,6 +129,18 @@ class WebsocketServer:
         #print(json_message['data'].keys())
         if 'message' not in json_message['data'].keys():
             return False
+
+        if json_message['type'] == 'actions':
+            if not type(json_message['data']['message']) == list:
+                return False
+            
+            if not (len(json_message['data']['message'])):
+                return False
+            try:
+                if not type(json_message['data']['message'][0]['function_args']) == list:
+                    return False      
+            except KeyError:
+                return False     
 
 
         return json_message
@@ -223,18 +242,24 @@ class WebsocketServer:
                         character_status = memory_object['object'].character_status
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': character_status, 'action': 'get_full_character_status'}}
                         server.send_message(client, json.dumps(message))
-                    else:
-                        print('empty')
                 
                 if cleared_message['data']['action'] == 'get_full_instances_list':
-                    print(str(cleared_message))
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         instances_list = memory_object['object'].InstancesList
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': instances_list, 'action': 'get_full_instances_list'}}
                         server.send_message(client, json.dumps(message))
-                    else:
-                        print('empty')
+
+            elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
+                client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
+                if client_to_send is None:
+                    return
+                
+                for action in cleared_message['data']['message']:
+                    for action_key in action.keys():
+                        action[action_key] = action[action_key].encode('cp-1252')
+
+                server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)
