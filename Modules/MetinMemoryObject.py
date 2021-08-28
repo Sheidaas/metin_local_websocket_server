@@ -34,7 +34,23 @@ class MetinMemoryObject:
             'Vitality': 0,
             'Inteligence': 0,
             'Strength': 0,
-            'Dexterity': 0,
+            'Dexterity': 0,}
+        self.hack_options = {
+            'WaitHack': {
+                'enabled': False,
+                'switches': {
+                    'IsWallBetween': False,
+                    'CheckIsPlayer': False,
+                    'CloudExploit': False,
+                    'AttackBlockedMonsters': False,
+                    'AttackPlayers': False
+                },
+                'values': {
+                    'Range': 0,
+                    'Speed': 0,
+                    'Monsters': 0,
+                }
+            }
         }
         self.InstancesList = []
 
@@ -56,11 +72,17 @@ class MetinMemoryObject:
             for status_key in received_information['data'].keys():
                 self.character_status[status_key] = received_information['data'][status_key]
             #print(self.character_status)
-            
+
+        if received_information['action'] == 'set_hack_status':
+            for hack_option in received_information['data'].keys():
+                self.hack_options[hack_option] = received_information['data'][hack_option]
+            print(self.hack_options)
+            #print(self.character_status)
+
             return True
 
     def ValidateReceivedInformation(self, received_information):
-
+        #print(received_information)
         if received_information['action'] == 'set_vids':
             if not type(received_information['data']) == list:
                 print('Data[message] is not a list!')

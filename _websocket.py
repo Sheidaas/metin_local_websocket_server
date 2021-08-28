@@ -255,7 +255,6 @@ class WebsocketServer:
                 if client_to_send is None:
                     return
                 
-                print(cleared_message['data']['message'])
                 for action in cleared_message['data']['message']:
                     for action_key in action.keys():
                         if type(action[action_key]) == str:
