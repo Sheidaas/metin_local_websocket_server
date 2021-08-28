@@ -105,7 +105,7 @@ class MetinMemoryObject:
                         print('mob has wrong data')
                         return False
 
-        if received_information['action'] == 'set_character_status':
+        elif received_information['action'] == 'set_character_status':
             #print(type(received_information['data']))
             if not type(received_information['data']) == dict:
                 print('data is not dict')
@@ -130,6 +130,18 @@ class MetinMemoryObject:
                         if not type(received_information['data'][status_key][tuple_index]) == type(self.character_status[status_key][tuple_index]):
                             print('tuples have different types')
                             return False
+
+        elif received_information['action'] == 'set_hack_status':
+            if not type(received_information['data']) == dict:
+                print('data is not dict')
+                return False
+
+            for message_key in received_information['data'].keys():
+                if message_key not in self.hack_options.keys():
+                    print('Key is not in hack options')
+                    return False
+            
+            
 
         return True
 

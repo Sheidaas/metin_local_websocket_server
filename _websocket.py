@@ -250,6 +250,13 @@ class WebsocketServer:
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': instances_list, 'action': 'get_full_instances_list'}}
                         server.send_message(client, json.dumps(message))
 
+                if cleared_message['data']['action'] == 'get_full_hack_status':
+                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    if memory_object is not None:
+                        hack_status = memory_object['object'].hack_options
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': hack_status, 'action': 'get_full_hack_status'}}
+                        server.send_message(client, json.dumps(message))
+
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
                 if client_to_send is None:
