@@ -255,9 +255,11 @@ class WebsocketServer:
                 if client_to_send is None:
                     return
                 
+                print(cleared_message['data']['message'])
                 for action in cleared_message['data']['message']:
                     for action_key in action.keys():
-                        action[action_key] = action[action_key].encode('cp-1252')
+                        if type(action[action_key]) == str:
+                            action[action_key] = action[action_key].encode('utf-8')
 
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
