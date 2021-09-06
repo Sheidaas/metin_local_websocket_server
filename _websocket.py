@@ -24,11 +24,12 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
     'actions': 'actions',
     'hearthbeat': 'hearthbeat',
     'set_role': 'set_role',
-    'information': 'information'
+    'information': 'information',
+    'update': 'update',
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
-DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id']
+DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module']
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
@@ -49,6 +50,13 @@ class WebsocketServer:
             if client['id'] == client_id:
                 return client
         return None
+
+    def remove_memory_object_by_client_id(self, client_id):
+        for memory_object in self.metin_memory_objects:
+            if memory_object['client_id'] == client_id:
+                self.metin_memory_objects.remove(memory_object)
+                return True
+        return False 
 
     def get_memory_object_by_client_id(self, client_id):
         for memory_object in self.metin_memory_objects:
@@ -76,6 +84,7 @@ class WebsocketServer:
         if not client_list:
             return
         client_list.remove(client)
+        self.remove_memory_object_by_client_id(client['id'])
         return
     
     def ValidateMessage(self, message):
@@ -103,7 +112,7 @@ class WebsocketServer:
 
             if message_key == 'type':
                 if json_message[message_key] not in RECEIVED_PACKETS_PATTERNS_TYPES.keys():
-                    print(str(json_message[message_key]) + 'is not there ' + str(RECEIVED_PACKETS_PATTERNS_TYPES.keys()))
+                    print(str(json_message[message_key]) +  'is not there ' + str(RECEIVED_PACKETS_PATTERNS_TYPES.keys()))
                     return False
 
             if message_key == 'data':
@@ -266,8 +275,37 @@ class WebsocketServer:
                     for action_key in action.keys():
                         if type(action[action_key]) == str:
                             action[action_key] = action[action_key].encode('utf-8')
+                        
+                        if action_key == 'function_args':
+                            for req in range(len(action['function_args'])):
+                                if type(action['function_args'][req]) == str:
+                                    print(action['function_args'][req])
+                                    action['function_args'][req] = action['function_args'][req].encode('utf-8')           
+                    
 
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
+
+            elif cleared_message['type'] ==  RECEIVED_PACKETS_PATTERNS_TYPES['update']:
+                client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
+                if client_to_send is None:
+                    return
+                print(cleared_message)   
+                if cleared_message['data']['module'] == 'FarmBot':
+                    for module_key in cleared_message['data']['message']:
+                        if module_key == 'Path':
+                            for point in cleared_message['data']['message']['Path']:
+                                if not len(point) == 3:
+                                    return
+                                #point[2] = point[2].encode('utf-8')
+
+                server.send_message(client_to_send, json.dumps(cleared_message))
+  
+                                
+
+
+                    
+
+
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)

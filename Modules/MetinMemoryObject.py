@@ -6,6 +6,8 @@ class MetinMemoryObject:
 
     def __init__(self):
         self.character_status = {
+            'Server': '',
+            'CurrentChannel': 0,
             'Position': [float, float],
             'CurrentMap': 'None',
             'FirstEmpireMap': 'None',
@@ -22,6 +24,7 @@ class MetinMemoryObject:
             'AttPower': 0,
             'AttSpeed': 0, 
             'Stamina': 0,
+            'MaxStamina': 0,
             'HP': 0,
             'MaxHP': 0,
             'RecoveryHP': 0,
@@ -36,21 +39,10 @@ class MetinMemoryObject:
             'Strength': 0,
             'Dexterity': 0,}
         self.hack_options = {
-            'WaitHack': {
-                'enabled': False,
-                'switches': {
-                    'IsWallBetween': False,
-                    'CheckIsPlayer': False,
-                    'CloudExploit': False,
-                    'AttackBlockedMonsters': False,
-                    'AttackPlayers': False
-                },
-                'values': {
-                    'Range': 0,
-                    'Speed': 0,
-                    'Monsters': 0,
-                }
-            }
+            'WaitHack': {},
+            'SkillBot': {},
+            'FarmBot': {},
+            'Settings': {},
         }
         self.InstancesList = []
 
@@ -76,7 +68,7 @@ class MetinMemoryObject:
         if received_information['action'] == 'set_hack_status':
             for hack_option in received_information['data'].keys():
                 self.hack_options[hack_option] = received_information['data'][hack_option]
-            print(self.hack_options)
+            #print(self.hack_options)
             #print(self.character_status)
 
             return True
