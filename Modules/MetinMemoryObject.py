@@ -1,3 +1,6 @@
+from . import FileLoader
+import os
+
 instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
 data_valid_keys = ['message', 'action']
 
@@ -42,8 +45,7 @@ class MetinMemoryObject:
             'WaitHack': {},
             'SkillBot': {},
             'FarmBot': {},
-            'Settings': {},
-        }
+            'Settings': {},}
         self.InstancesList = []
 
     def OnReceiveInformation(self, received_information):
@@ -137,3 +139,8 @@ class MetinMemoryObject:
 
         return True
 
+    def ReturnServerItemList(self, PATH):
+        return FileLoader.load_item_list(PATH)
+    
+    def ReturnServerMobList(self, PATH):
+        return FileLoader.load_mob_list(PATH)

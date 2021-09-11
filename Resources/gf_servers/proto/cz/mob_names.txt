@@ -1,0 +1,2634 @@
+Vnum	LocalizedName
+101	Divokı pes
+102	Vlk
+103	Silnı vlk
+104	Modrı vlk
+105	Modrı silnı vlk
+106	Šedı vlk
+107	Šedı silnı vlk
+108	Divoèák
+109	Èervenı divoèák
+110	Medvìd
+111	Medvìd grizzly
+112	Èernı medvìd
+113	Hnìdı medvìd
+114	Tygr
+115	Bílı tygr
+131	Prokletı vlk
+132	Prokletı silnı vlk
+133	Prokletı modrı vlk
+134	Prokletı modrı silnı vlk
+135	Prokletı šedı vlk
+136	Prokletı šedı silnı vlk
+137	Prokletı divoèák
+138	Prokletı èervenı divoèák
+139	Prokletı medvìd
+140	Prokletı medvìd grizzly
+141	Prokletı èernı medvìd
+142	Prokletı hnìdı medvìd
+143	Prokletı tygr
+144	Prokletı bílı tygr
+151	Cung-Mok
+152	Mu-Rang
+153	Jug-Hyul
+154	Young-Ji
+155	Li-An
+171	Hladovı divokı pes
+172	Hladovı vlk
+173	Hladovı silnı vlk
+174	Hladovı modrı vlk
+175	Hladovı modrı silnı vlk
+176	Hladovı šedı vlk
+177	Hladovı šedı silnı vlk
+178	Hladovı divoèák
+179	Hladovı èervenı divoèák
+180	Hladovı medvìd
+181	Hladovı medvìd grizzly
+182	Hladovı èernı medvìd
+183	Hladovı hnìdı medvìd
+184	Hladovı tygr
+185	Hladovı bílı tygr
+191	Lykos
+192	Scrofa
+193	Bera
+194	Tigris
+301	Vojaèka Bílé Pøísahy
+302	Luèištnice Bílé Pøísahy
+303	Generálka Bílé Pøísahy
+304	Velitelka Bílé Pøísahy
+331	Vojaèka Bílé Pøísahy
+332	Luèištnice Bílé Pøísahy
+333	Generálka Bílé Pøísahy
+334	Velitelka Bílé Pøísahy
+351	Zbabìlá vojaèka Pøísahy
+352	Zbabìlı støelec Pøísahy
+353	Zbabìlı generál Pøísahy
+354	Zbabìlı velitel Pøísahy
+391	Mi-Jung
+392	Eun-Jung
+393	Se-Rang
+394	Jin-Hee
+395	Bezduchá Mi-Jung
+396	Bezduchá Eun-Jung
+397	Bezduchá Se-Rang
+398	Bezduchá Jin-Hee
+401	Voják Èerného vìtru
+402	Posedlı èernım vìtrem
+403	Luèištník Èerného vìtru
+404	Jak-To Èerného vìtru
+405	To-Su Èerného vìtru
+406	Gu-Ryung Èerného vìtru
+431	Voják Èerné bouøe
+432	Posedlı èernou bouøí
+433	Luèištník Èerné bouøe
+434	Joh-Hwan Èerné bouøe
+435	Kyuk-Jang Èerné bouøe
+436	Pho-Hwan Èerné bouøe
+451	Zlı voják Èerné bouøe
+452	Zlı posedlı bouøí
+453	Zlı luèištník Bouøe
+454	Zlı Joh-Hwan Bouøe
+455	Zlı Kyuk-Jang Bouøe
+456	Zlı Pho-Hwan Bouøe
+491	Mahon
+492	Bo
+493	Goo-Pae
+494	Chuong
+501	Divokı pìšák
+502	Divokı poddanı
+503	Divokı lukostøelec
+504	Divokı generál
+531	Brutální voják
+532	Brutální posedlı
+533	Brutální lukostøelec
+534	Brutální specialista
+551	Silnı divokı pìšák
+552	Silnı divokı poddanı
+553	Silnı divokı lukostøelec
+554	Silnı divokı generál
+591	Brutální velitel
+595	Brutální Geum-Chul
+601	Ork
+602	Orèí zvìd
+603	Orèí bojovník
+604	Orèí šaman
+631	Silnı ork
+632	Silnı orèí zvìd
+633	Silnı orèí bojovník
+634	Silnı orèí šaman
+635	Silnı orèí generál
+636	Èernı ork
+637	Èernı obøí ork
+651	Hrdı velkı ork
+652	Hrdı velkı orèí zvìd
+653	Hrdı velkı orèí bojovník
+654	Hrdı velkı orèí šaman
+655	Hrdı velkı orèí generál
+656	Hrdı èernı ork
+657	Hrdı èernı obøí ork
+691	Vrchní ork
+692	Silnı vrchní ork
+693	Obrozenı vùdce orkù
+701	Tmavı fanatik
+702	Tmavı Arahan
+703	Tmavı bojovník
+704	Vrchní tmavı arahan
+705	Tmavı popravèí
+706	Tmavı muèitel
+707	Tmavı zaøíkávaè
+731	Hrdı tmavı fanatik
+732	Hrdı tmavı arahan
+733	Hrdı tmavı bojovník
+734	Hrdı tmavı plukovník
+735	Hrdı tmavı støelec
+736	Silnı tmavı muèitel
+737	Silnı tmavı zaøíkávaè
+751	Vysokı fanatik
+752	Vysokı arahan
+753	Vysokı bojovník arahan
+754	Vysokı plukovník arahan
+755	Vysokı popravèí
+756	Vysokı muèitel
+757	Vysokı zaøíkávaè
+771	Brutální fanatik
+772	Brutální arahan
+773	Brutální bojovník arahan
+774	Brutál. plukovník arahan
+775	Brutální popravèí
+776	Brutální muèitel
+777	Brutální zaøíkávaè
+791	Tmavı vùdce
+792	Tmavı vùdce duchù
+793	Silnı tmavı vùdce
+794	Silnı vùdce duchù
+795	Silnı bojovník
+796	Silnı tmavı bojovník
+901	Duch mrtvol
+902	Pes útrapy
+903	Mu útrapy
+904	Bojovník s meèem útrapy
+905	Oštìpaø útrapy
+906	Lukostøelec útrapy
+907	Vùdce útrapy
+931	Vzteklı duch mrtvol
+932	Vzteklı pes útrapy
+933	Vzteklı mu útrapy
+934	Vzteklı bojovník útrapy
+935	Vzteklı oštìpaø útrapy
+936	Vztek.lukostøelec útrapy
+937	Hnìvivı vùdce útrapy
+991	Vejce útrapy
+992	Nosiè útrapy
+993	Obrovskı nosiè útrapy
+1001	Voják démonù
+1002	Lukostøelec démonù
+1003	Oštìpaø démonù
+1004	Démonní šaman
+1031	Hnusnı voják
+1032	Hnusnı lukostøelec
+1033	Hnusnı oštìpaø
+1034	Hnusnı šaman
+1035	Duch zášti
+1036	Duch chaosu
+1037	Hnusnı vùdce démonù
+1038	Mistr meèe umrlèí lebky
+1039	Létající lebka
+1040	Nesmrtelnı duch
+1041	Démonické zvíøe
+1061	Hnusnı duch vojáka
+1062	Hnusnı duch støelce
+1063	Hnusnı duch bojovníka
+1064	Hnusnı duch šamana
+1065	Hnusnı duch zášti
+1066	Hnusnı duch chaosu
+1067	Hnusnı duch vùdce
+1068	Duch mistra meèe
+1069	Hnusná létající lebka
+1070	Nesmrtelnı duch
+1071	Démonické zvíøe
+1091	Král démonù
+1092	Hrdı král démonù
+1093	Zubatá s kosou
+1094	Hnusnı král démonù
+1095	Modrá smrt
+1096	Áø»ç±Í¿Õ
+1101	Zaèarované ledovištì
+1102	Ledová zabijácká velryba
+1103	Ledovı hmyz
+1104	Ledovı lev
+1105	Ledovı mu
+1106	Yeti
+1107	Ledovı golem
+1108	Ledovı golem
+1131	Podzemní ledová tøíska
+1132	Podzemní rohatı plejtvák
+1133	Podzemní ledovı hmyz
+1134	Podzemní ledovı lev
+1135	Podzemní ledovı mu
+1136	Podzemní Yeti
+1137	Podzemní ledovı golem
+1138	Podzemní ledovı golem
+1151	Ledovı ïábel
+1152	Ledová zabijácká velryba
+1153	Ledovı hmyz
+1154	Seol-Gu
+1155	Ledovı mu
+1156	Ledovı obr
+1157	Ledovı golem
+1171	Zlé zaèarované ledovištì
+1172	Zlı plejtvák -zabiják
+1173	Zlı ledovı hmyz
+1174	Zlı ledovı lev
+1175	Zlı ledovı mu
+1176	Zlı yeti
+1177	Zlı ledovı golem
+1191	Ledová èarodìjnice
+1192	Velká ledová èarodìjnice
+1301	abovoják
+1302	Vùdce abovojákù
+1303	Zloduch
+1304	lutı duch tygra
+1305	Generál - obøí ropucha
+1306	Zlı lutı duch tygra
+1307	Zlı lutı duch tygra
+1308	Zlı lutı duch tygra
+1309	Zlı lutı duch tygra
+1310	Zlı lutı duch tygra
+1331	Velkı abovoják
+1332	Velkı vùdce abovojákù
+1333	Velkı zloduch
+1334	Velkı lutı duch tygra
+1335	Vel.generál-obøí ropucha
+1336	Generál - obøí ropucha
+1401	Nièitel
+1402	Sekyrník
+1403	Tisícibojovník
+1501	Kamennı golem
+1502	Drtiè kamene
+1503	Obrovskı skalní golem
+1601	Váleènı zlobr
+1602	Krvelaènı zlobr
+1603	Zuøivı zlobr
+1901	Devítiocas
+1902	Silnı Devítiocas
+1903	Silnı Devítiocas
+1904	Silnı Devítiocas
+1905	Silnı Devítiocas
+1906	Silnı Devítiocas
+2001	Pavouèek
+2002	Jedovatı pavouk
+2003	Èervenı jedovatı pavouk
+2004	Spárovatı pavouk
+2005	Vojenskı pavouk
+2031	Jedovatı pavouèek
+2032	Smrtelnì jedovatı pavouk
+2033	Èervenı smrtící pavouk
+2034	Spárovatı jed. pavouk
+2035	Jedovatı voj. pavouk
+2036	Hrdı voj. jed. pavouk
+2037	Jedovatı voj. pavouk
+2051	Zlı jedovatı pavouèek
+2052	Zlı smrtící jed. pavouk
+2053	Zlı èervenı jed. pavouk
+2054	Zlı jed.spárovatı pavouk
+2055	Zlı jedovatı voj.pavouk
+2061	Malı jedovatı pavouk
+2062	Smrtelnì jedovatı pavouk
+2063	Èervenı smrt.jed. pavouk
+2064	Spárovatı jed. pavouk
+2065	Jedovatı voj. pavouk
+2071	Brutální jed. pavouèek
+2072	Brutál.smrt. jed. pavouk
+2073	Brutál. èerv. jed.pavouk
+2074	Brutál.spár. jed. pavouk
+2075	Brutál. voj. pavouk
+2076	Brutál. sil. jed. pavouk
+2091	Královna pavoukù
+2092	Pavouèí baronka
+2093	Tmavá královna pavoukù
+2094	Pavouèí baron
+2095	Pavouèí vejce
+2101	Pouštní liška
+2102	Létající pouštní oko
+2103	Král štírù
+2104	Mladı štíøí mu
+2105	Štíøí lukostøelec
+2106	Hadí bojovník s meèem
+2107	Hadí lukostøelec
+2108	Pouštní bandita
+2131	Bestiální štíøí mu
+2132	Štíøí lukostøelec
+2133	Hadí bojovník s meèem
+2134	Hadí lukostøelec
+2135	Pouštní bandita
+2151	Silná pouštní liška
+2152	Silnı derviš
+2153	Silnı král štírù
+2154	Silnı štíøí mu
+2155	Silnı štíøí lukostøelec
+2156	Silnı hadí bojovník
+2157	Silnı hadí støelec
+2158	Silnı pouštní bandita
+2191	Velká pouštní elva
+2192	Tmavá pouštní elva
+2201	Zotroèenı bojovı tygr
+2202	Duch plamenù
+2203	Bojovı tygr
+2204	Plamen
+2205	Ohnivı váleèník
+2206	Král plamenù
+2207	Tmavı král plamenù
+2231	Silnı zotroè. boj. tygr
+2232	Silnı duch plamenù
+2233	Silnı bojovı tygr
+2234	Silnı duch plamenù
+2235	Silnı ohnivı váleèník
+2291	Èervenı drak
+2301	Strom duchù
+2302	Paøez duchù
+2303	Dryáda
+2304	Vrba duchù
+2305	Zlı strom
+2306	Obrovskı strom duchù
+2307	Lord stromù duchù
+2311	Èervenı strom duchù
+2312	Èervenı paøez duchù
+2313	Èervená dryáda
+2314	Èervená vrba duchù
+2315	Èervenı zlı strom
+2401	Bojovník Setaou
+2402	Lovec Setaou
+2403	Duchovní Setaou
+2404	Velitel Setaou
+2411	Voják Setaou
+2412	Luèištník Setaou
+2413	Úøedník Setaou
+2414	Komandant Setaou
+2415	Komandant Setaou
+2431	ÃµÀÇº´»ç
+2432	ÃµÀÇ±Ãº´
+2433	ÃµÀÇ¹ı»ç
+2434	ÃµÀÇÀå¼ö
+2451	ÁøÃµÀÇº´»ç
+2452	ÁøÃµÀÇ±Ãº´
+2453	ÁøÃµÀÇ¹ı»ç
+2454	ÁøÃµÀÇÀå¼ö
+2491	Kapitán Yonghan
+2492	Generál Yonghan
+2493	Beran-Setaou
+2494	Kapitán Huashin
+2495	Generál Huashin
+2501	Pekelná medùza
+2502	Pekelnı chrt
+2503	Zombie
+2504	Pekelnı dùstojník
+2505	Pekelnı stráce
+2506	Dvouhl. pekelnı støelec
+2507	Pekelnı dráp
+2508	Pekelnı váleèník
+2509	Pekelnı støelec
+2510	Pekelnı kopiník
+2511	Pekelnı knìí
+2512	Pekelnı vùdce
+2513	Pekelnı øezník
+2514	Pekelnı generál
+2541	Zlı pekelnı váleèník
+2542	Zlı pekelnı støelec
+2543	Zlı pekelnı kopiník
+2544	Zlı pekelnı knìí
+2545	Zlı pekelnı vùdce
+2546	Zlı pekelnı øezník
+2547	Zlı pekelnı generál
+2591	Tartaros
+2592	Pekelnı bastard
+2593	Pekelnı bastard
+2594	Pekelnı bastard
+2595	Erebos
+2596	Azraelùv zplozenec
+2597	Charon
+2598	Azrael
+2600	Vlk Zvìrokruhu
+2601	Modrı vlk Zvìrokruhu
+2602	Lykos Zvìrokruhu
+2603	Luèištník Zvìrokruhu
+2604	Divokı kanec Zvìrokruhu
+2605	Div. è. kanec Zvìrokruhu
+2606	Scrofa Zvìrokruhu
+2607	Mi-Jung Zvìrokruhu
+2608	Bera Zvìrokruhu
+2609	Medvìd Zvìrokruhu
+2610	Grizzly Zvìrokruhu
+2611	Hndı medvìd Zvìrokruhu
+2612	Eun-Jung Zvìrokruhu
+2613	Tigris Zvìrokruhu
+2614	Tygr Zvìrokruhu
+2615	Bílı tygr Zvìrokruhu
+2616	Se-Rang Zvìrokruhu
+2617	Jin-Hee Zvìrokruhu
+2618	Pavouèek Zvìrokruhu
+2619	Jed. pavouk Zvìrokruhu
+2620	Jed. è.pavouk Zvìrokruhu
+2621	Spár. pavouk Zvìrokruhu
+2622	Voj. pavouk Zvìrokruhu
+2623	Duch plamenù Zvìrokruhu
+2624	Bojovı tygr Zvìrokruhu
+2625	Plamen Zvìrokruhu
+2626	Ohnivı váleè. Zvìrokruhu
+2627	Král plamenù Zvìrokruhu
+2628	Temnı král Zvìrokruhu
+2629	Divokı pìšák Zvìrokruhu
+2630	Div. poddanı Zvìrokruhu
+2631	Div. lukostø. Zvìrokruhu
+2632	Div. generál Zvìrokruhu
+2633	Brut. velitel Zvìrokruhu
+2634	Zaè. ledov. Zvìrokruhu
+2635	Zlı plejtvák Zvìrokruhu
+2636	Ledovı hmyz Zvìrokruhu
+2637	Ledovı lev Zvìrokruhu
+2638	Ledovı mu Zvìrokruhu
+2639	Yeti Zvìrokruhu
+2640	Ledovı golem Zvìrokruhu
+2641	Pouštní liška Zvìrokruhu
+2642	Král štírù Zvìrokruhu
+2643	Hadí bojovník Zvìrokruhu
+2644	Hadí lukostø. Zvìrokruhu
+2645	Pouštní band. Zvìrokruhu
+2646	Voják è. vìt. Zvìrokruhu
+2647	Maniak è. v. Zvìrokruhu
+2648	Luèiš. è. v. Zvìrokruhu
+2649	Mahon Zvìrokruhu
+2650	Bo Zvìrokruhu
+2651	Goo-Pae Zvìrokruhu
+2652	Chuong Zvìrokruhu
+2653	Brut. štír Zvìrokruhu
+2654	Štíøí lukos. Zvìrokruhu
+2655	Derviš Zvìrokruhu
+2656	abovoják Zvìrokruhu
+2657	Vùdce ab Zvìrokruhu
+2658	Zloduch Zvìrokruhu
+2659	Nièitel Zvìrokruhu
+2660	Sekyrník Zvìrokruhu
+2661	Tisícibojov. Zvìrokruhu
+2662	Tmavı fanatik Zvìrokruhu
+2663	Arahan Zvìrokruhu
+2664	Ezot. Arahan Zvìrokruhu
+2665	V. ezo. arah. Zvìrokruhu
+2666	Tmavı kat Zvìrokruhu
+2667	Tmavı muèitel Zvìrokruhu
+2668	Zaøíkávaè Zvìrokruhu
+2669	Elitní ork Zvìrokruhu
+2670	Elitní zvìd Zvìrokruhu
+2671	Elitní bojov. Zvìrokruhu
+2672	Orèí šaman Zvìrokruhu
+2673	Elitní gen. Zvìrokruhu
+2674	Èernı ork Zvìrokruhu
+2675	Èernı gigant Zvìrokruhu
+2676	Èerv. zlodìj Zvìrokruhu
+2677	Èerv. vrah Zvìrokruhu
+2678	Èerv. mág Zvìrokruhu
+2679	Èerv. kat Zvìrokruhu
+2680	Krabí váleè. Zvìrokruhu
+2681	Štíøí lukos. Zvìrokruhu
+2682	Garnát. voják Zvìrokruhu
+2683	Dém. poust. Zvìrokruhu
+2684	Obrn. krab Zvìrokruhu
+2685	Gig. kousal Zvìrokruhu
+2686	Gig. zabiják Zvìrokruhu
+2687	Mág Zvìrokruhu
+2688	Dvojobr Zvìrokruhu
+2689	Kat zlobrù Zvìrokruhu
+2690	Luè. zlobrù Zvìrokruhu
+2691	Hádavı zlobr Zvìrokruhu
+2692	Mág zlobrù Zvìrokruhu
+2700	Toulavı vlk
+2701	Voják Toulavıch vlkù
+2702	Generál Toulavıch vlkù
+2703	Kerberos
+2704	Hadí Kerberos
+2705	Draèí Kerberos
+2706	Kentaur
+2707	Kentauøí váleèník
+2708	Kentauøí generál
+2709	Moloch
+2710	Váleèník Molochù
+2711	Generál Molochù
+2712	Deathwing
+2713	Nemocnı Deathwing
+2714	Hnijící Deathwing
+2715	Zefír
+2716	Zefíøí váleèník
+2717	Zefíøí generál
+2718	Uruk
+2719	Váleèník Urukù
+2720	Generál Urukù
+2721	Carnifant
+2722	Váleèník Carnifant
+2723	Generál Carnifant
+2724	Sparan
+2725	Sparanskı voják
+2726	Sparanskı generál
+2727	Kostlivec - gladiátor
+2728	Kostlivec - voják
+2729	Kostlivec - generál
+2730	Scarabaeus Sagittarius
+2731	Scarabaeus Gigantus
+2732	Scarabaeus Virgo
+2733	eleznı luèištník
+2734	eleznı váleèník
+2735	eleznı generál
+2736	Uprchlík
+2737	Damage_Trap
+2750	Dùstojník Zi
+2751	Stráce Zi
+2752	Generál Zi
+2760	Dùstojník Chou
+2761	Stráce Chou
+2762	Generál Chou
+2770	Dùstojník Yin
+2771	Stráce Yin
+2772	Generál Yin
+2780	Dùstojník Mao
+2781	Stráce Mao
+2782	Generál Mao
+2790	Dùstojník Chen
+2791	Stráce Chen
+2792	Generál Chen
+2800	Dùstojník Si
+2801	Stráce Si
+2802	Generál Si
+2810	Dùstojník Wu
+2811	Stráce Wu
+2812	Generál Wu
+2820	Dùstojník Wei
+2821	Stráce Wei
+2822	Generál Wei
+2830	Dùstojník Shen
+2831	Stráce Shen
+2832	Generál Shen
+2840	Dùstojník You
+2841	Stráce You
+2842	Generál You
+2850	Dùstojník Xu
+2851	Stráce Xu
+2852	Generál Xu
+2860	Dùstojník Hai
+2861	Stráce Hai
+2862	Generál Hai
+2900	Metin krysy
+2901	Metin vola
+2902	Metin tygra
+2903	Metin draka
+2904	Metin hada
+2905	Metin konì
+2906	Metin kozy
+2907	Metin opice
+2908	Metin psa
+3001	Váleèník Gnollù
+3002	Luèištník Gnollù
+3003	Obránce Gnollù
+3004	Kouzelník Gnollù
+3005	Generál Gnollù
+3090	Lord Gnollù
+3091	Vrchní stránı Gnollù
+3101	Jednookı rváè
+3102	Kyklopskı voják
+3103	Kyklopskı kouzelník
+3104	Kyklopskı popravèí
+3105	Generál Outis
+3190	Argés
+3191	Polyphemos
+3201	Váleèník Mantikor
+3202	Voják Mantikor
+3203	Mág Mantikor
+3204	Popravèí Mantikor
+3205	Generál Kor
+3290	Rakshasa
+3291	Martyaxwar
+3301	Lemuøí váleèník
+3302	Lemuøí voják
+3303	Lemuøí kouzelník
+3304	Lemuøí popravèí
+3305	Lemuøí generál
+3390	Lemuøí princ
+3391	Lemuøí ochránce
+3401	Tritoní muréna
+3402	raloèí voják
+3403	Tritoní kouzelník
+3404	Tritoní lovec
+3405	Tritoní sekáè
+3490	Generál Kappa
+3491	Triton
+3501	Amazonka Rudıch zlodìjù
+3502	Vrah Rudıch zlodìjù
+3503	Kouzelník Rudıch zlodìjù
+3504	Popravèí Rudıch zlodìjù
+3505	Èernı generál
+3551	Brut. amaz. Rud. zlodìjù
+3552	Brut. vrah Rud. zlodìjù
+3553	Brut. kouz. Rud. zlodìjù
+3554	Brut. popr. Rud. zlodìjù
+3555	Bílı generál
+3590	Lebkoun
+3591	Rudı šéf
+3595	Brutální lebkoun
+3596	Brutální rudı šéf
+3601	Krabí váleèník
+3602	Luèištník škorpión
+3603	Garnátovı voják
+3604	Démonickı poustevník
+3605	Obrnìnı krab
+3690	Generál Humr
+3691	Královskı krab
+3701	Gigantickı kousal
+3702	Gigantickı øezník
+3703	Gigantickı mág
+3704	Dvojobr
+3705	Kapitán Hák
+3790	Gargoyle
+3791	Král Wubba
+3801	Hangork
+3802	Zlobøí luèištník
+3803	Hádavı zlobr
+3804	Mág zlobrù
+3805	Generál Ogg
+3890	Kapitán Shruk
+3891	Velkı zlobr
+3901	Vrbovı mu
+3902	Eoten
+3903	Skouman
+3904	Kapitán Hák
+3905	Mu-Shu
+3906	Yah-Ki
+3907	Moghu
+3908	Carnifex
+3909	Generál Albus
+3910	Skeletos
+3911	Aku-Boku
+3912	Arboretum
+3913	Sycomore
+3949	Portál: Novı kontinent
+3950	Kappa
+3951	Kappa z laguny
+3952	Kappa z hlubin
+3953	Kappa velitel
+3954	Voják Moray
+3955	Voják Moray z hlubin
+3956	Královna Sirén
+3957	Hydøí zplozenec
+3958	Hydøí zplozenec
+3959	Hydøí zplozenec
+3960	Hydra
+3961	Hydra
+3962	Hydra
+3963	Hydra
+3964	Hydra
+3965	Poklad hydry
+3970	
+3971	Køišál Northwindu
+3972	NorthwindDeeps 415 136
+3973	NorthwindDeeps 94 139
+3980	Ohnivı elementál
+3981	Ledovı elementál
+3982	Elementál blesku
+3983	Vìtrnı elementál
+3984	Elementál Zemì
+3985	Elementál Temnoty
+3986	Duch plamene
+3987	Duch mrazu
+3988	Elektrickı duch
+3989	Duch vzduchu
+3990	Duch kamene
+3991	Stínovı duch
+3992	Hoøící lord
+3993	Ledovcovı lord
+3994	Lord hromu
+3995	Lord bouøe
+3996	Lord Zemì
+3997	Noèní lord
+3998	Øíše elementálù
+3999	Ukonèit
+4000	Metin ohnì
+4001	Metin ledu
+4002	Metin blesku
+4003	Metin vìtru
+4004	Metin Zemì
+4005	Metin noci
+4006	Stráce elementálu
+4019	Mìstská vstupní hala
+4020	Vì Sung Mahi
+4021	Peèe vee
+4022	Portál do Hadího chrámu
+4023	Zmìna úrovnì
+4024	Hlava hada
+4025	Hlava hada
+4026	Hlava hada
+4027	Hlava hada
+4030	Vejce bílého draka
+4101	Stráce soudného dne Zi
+4102	Stráce soud. dne Chou
+4103	Stráce soudného dne Yin
+4104	Stráce soudného dne Mao
+4105	Stráce soud. dne Chen
+4106	Stráce soudného dne Si
+4107	Stráce soudného dne Wu
+4108	Stráce soudného dne Wei
+4109	Stráce soud. dne Shen
+4110	Stráce soudného dne You
+4111	Stráce soudného dne Xu
+4112	Stráce soudného dne Hai
+4121	Stráce soudného dne Zi
+4122	Stráce soud. dne Chou
+4123	Stráce soudného dne Yin
+4124	Stráce soudného dne Mao
+4125	Stráce soud. dne Chen
+4126	Stráce soudného dne Si
+4127	Stráce soudného dne Wu
+4128	Stráce soudného dne Wei
+4129	Stráce soud. dne Shen
+4130	Stráce soudného dne You
+4131	Stráce soudného dne Xu
+4132	Stráce soudného dne Hai
+4141	Metin poslední bitvy
+4142	Metin Soudného dne
+4143	Metin potopy
+4144	Metin potopy
+4145	Henkog Soudného dne
+4146	Taj. Henkog Soudného dne
+4147	Kappa Soudného dne
+4148	Kappa z hlubin Soud. dne
+4149	Chuong Soudného dne
+4150	Taj. Chuong Soudného dne
+4151	Warlock Soudného dne
+4152	Taj. Warlock Soud. dne
+4200	ÈT: Bojovník Setaou
+4201	ÈT: Lovec Setaou
+4202	ÈT: Duchovní Setaou
+4203	ÈT: Voják Setaou
+4204	ÈT: Luèištník Setaou
+4205	ÈT: Úøedník Setaou
+4206	ÈT: Komandant Setaou
+4207	ÈT: Kapitán Yonghan
+4208	ÈT: Kapitán Yonghan
+4209	ÈT: Generál Yonghan
+4210	ÈT: Generál Yonghan
+4220	ÈT: Duch havıch plamenù
+4221	ÈT: Tygr havıch plamenù
+4222	ÈT: havı plamen
+4223	ÈT: Váleèník h. plamenù
+4224	ÈT: Tygr havıch plamenù
+4225	ÈT: Trol havıch plamenù
+4226	ÈT: Vousáè h. plamenù
+4227	ÈT: Generál h. plamenù
+4228	ÈT: Šéf havıch plamenù
+4229	ÈT: Zapalovaè
+4240	ÈT: Mrazivı krystal
+4241	ÈT: Mrazivı hmyz
+4242	ÈT: Mrazivı mu
+4243	ÈT: Mrazivı Yeti
+4244	ÈT: Mrazivı golem
+4245	ÈT: Mrazivı trol
+4246	ÈT: Mrazivı vousáè
+4247	ÈT: Mrazivı generál
+4248	ÈT: Mrazivı lord
+4249	ÈT: Magmovı Yeti
+4260	ÈT: Váleèník En-Tai
+4261	ÈT: Voják En-Tai
+4262	ÈT: Druid En-Tai
+4263	ÈT: Léèitel En-Tai
+4264	ÈT: Nièitel En-Tai
+4265	ÈT: Vládce En-Tai
+4266	ÈT: Léèitel Ochao
+4267	ÈT: Váleèník En-Tai
+4268	ÈT: Voják En-Tai
+4269	ÈT: Druid En-Tai
+4270	ÈT: Léèitel En-Tai
+4271	ÈT: Nièitel En-Tai
+4272	ÈT: Bagjanamu
+4273	ÈT: Voják Ochao
+4274	ÈT: Kouzelník Ochao
+4275	ÈT: Popravèí Ochao
+4276	ÈT: Generál Ochao
+4280	BO: Bojovník Setaou
+4281	BO: Lovec Setaou
+4282	BO: Duchovní Setaou
+4283	BO: Voják Setaou
+4284	BO: Luèištník Setaou
+4285	BO: Úøedník Setaou
+4286	BO: Komandant Setaou
+4287	BO: Kapitán Yonghan
+4288	BO: Kapitán Yonghan
+4289	BO: Generál Yonghan
+4290	BO: Generál Yonghan
+4300	BO: Duch havıch plamenù
+4301	BO: Tygr havıch plamenù
+4302	BO: havı plamen
+4303	BO: Váleèník h. plamenù
+4304	BO: Tygr havıch plamenù
+4305	BO: Trol havıch plamenù
+4306	BO: Vousáè h. plamenù
+4307	BO: Generál h. plamenù
+4308	BO: Šéf havıch plamenù
+4309	BO: Zapalovaè
+4320	BO: Mrazivı krystal
+4321	BO: Mrazivı hmyz
+4322	BO: Mrazivı mu
+4323	BO: Mrazivı Yeti
+4324	BO: Mrazivı golem
+4325	BO: Mrazivı trol
+4326	BO: Mrazivı vousáè
+4327	BO: Mrazivı generál
+4328	BO: Mrazivı lord
+4329	BO: Magmovı Yeti
+4340	BO: Váleèník En-Tai
+4341	BO: Voják En-Tai
+4342	BO: Druid En-Tai
+4343	BO: Léèitel En-Tai
+4344	BO: Nièitel En-Tai
+4345	BO: Vládce En-Tai
+4346	BO: Léèitel Ochao
+4347	BO: Váleèník En-Tai
+4348	BO: Voják En-Tai
+4349	BO: Druid En-Tai
+4350	BO: Léèitel En-Tai
+4351	BO: Nièitel En-Tai
+4352	BO: Bagjanamu
+4353	BO: Voják Ochao
+4354	BO: Kouzelník Ochao
+4355	BO: Popravèí Ochao
+4356	BO: Generál Ochao
+4400	ÈT: Beran-Setaou
+4401	ÈT: Razador
+4402	ÈT: Nemere
+4403	ÈT: Jotun Thrym
+4410	BO: Beran-Setaou
+4411	BO: Razador
+4412	BO: Nemere
+4413	BO: Jotun Thrym
+4420	W: En-Tai Váleèník
+4421	W: Voják En-Tai
+4422	W: Druid En-Tai
+4423	W: Léèitel En-Tai
+4424	W: Nièitel En-Tai
+4429	W: Bagjanamu
+4430	W: Luèištník Gnollù
+4431	W: Kyklopskı voják
+4432	W: Kyklopskı kouzelník
+4433	W: Kyklopskı popravèí
+4434	W: Generál Outis
+4439	W: Polyphemos
+4440	W: Pekelnı støelec
+4441	W: Pekelnı kopiník
+4442	W: Pekelnı knìí
+4443	W: Pekelnı vùdce
+4444	W: Pekelnı generál
+4449	W: Azrael
+4450	W: Velkı abovoják
+4451	W: Vùdce ab
+4452	W: Zloduch
+4453	W: V. l. duch tygra
+4454	W: Gen. - obøí rop.
+4459	W: lutı duch tygra
+4460	W: Duch havıch plamenù
+4461	W: Tygr havıch plamenù
+4462	W: havı plamen
+4463	W: Váleèník h. plamenù
+4464	W: Magmovı køišál
+4469	W: Draèí hlídaè Idall
+4470	W: Hangork
+4471	W: Zlobøí luèištník
+4472	W: Hádavı zlobr
+4473	W: Mág zlobrù
+4474	W: Generál Ogg
+4479	W: Velkı zlobr
+5001	Pirát Tanaka
+5002	Hae-Tae
+5003	Opice
+5004	Pirát Tanaka
+5101	Slabı opièí voják
+5102	Slabı opièí vrhaè
+5103	Slabı opièí bojovník
+5104	Slabı opièí generál
+5111	Opièí voják
+5112	Opièí vrhaè
+5113	Opièí bojovník
+5114	Opièí generál
+5115	Kamenná opice
+5116	Opièí vùdce
+5121	Silnı opièí voják
+5122	Silnı opièí vrhaè
+5123	Silnı opièí bojovník
+5124	Silnı opièí generál
+5125	Silná kamenná opice
+5126	Silná zlatá opice
+5127	Silnı opièí vùdce
+5131	Malı chytrı opièí voják
+5132	Malı chytrı opièí vrhaè
+5133	Malı chytrı op. bojovník
+5134	Malı chytrı op. generál
+5141	Chytrı opièí voják
+5142	Chytrı opièí vrhaè
+5143	Chytrı opièí bojovník
+5144	Chytrı opièí generál
+5145	Chytrá kamenná opice
+5146	Chytrı opièí vùdce
+5151	Zlı opièí voják
+5152	Zlı opièí vrhaè
+5153	Zlı opièí bojovník
+5154	Zlı opièí generál
+5155	Zlá kamenná opice
+5156	Zlá zlatá opice
+5157	Zlı opièí vùdce
+5161	Skalní opice
+5162	Chodící opice
+5163	Opièí lord
+5201	Divokı pes
+5202	Divokı kanec
+5203	Divokı èervenı kanec
+5204	Medvìd
+5205	Hnìdı medvìd
+5206	Èernı medvìd
+5207	Hladovı hnìdı medvìd
+5208	Tygr
+5209	Bílı tygr
+6001	Duch havıch plamenù
+6002	Tygr havıch plamenù
+6003	havı plamen
+6004	Váleèník havıch plamenù
+6005	Král havıch plamenù
+6006	Trol havıch plamenù
+6007	Vousáè havıch plamenù
+6008	Generál havıch plamenù
+6009	Náèelník havıch plamenù
+6051	Ignitor
+6091	Razador
+6101	Mrazivı krystal
+6102	Mrazivı hmyz
+6103	Mrazivı mu
+6104	Mrazivı Yeti
+6105	Mrazivı golem
+6106	Mrazivı trol
+6107	Mrazivı vousáè
+6108	Mrazivı generál
+6109	Mrazivı lord
+6110	Magmovı yeti
+6111	Magmovı golem
+6112	Magmovı brouk
+6113	Magmovı mu
+6114	Magmovı køišál
+6115	Magmovı wyvern
+6116	Draèí hlídaè Idall
+6117	Idallùv poddanı
+6118	Draèí socha
+6151	Szel
+6191	Nemere
+6192	Jotun Thrym
+6193	Draèí královna Meley
+6201	Magmovı Yeti
+6202	Magmovı golem
+6203	Magmovı brouk
+6204	Magmovı mu
+6205	Magmovı køišál
+6206	Magmovı wyvern
+6207	Draèí hlídaè Idall
+6209	Draèí socha
+6301	Váleèník Ochao
+6302	Voják Ochao
+6303	Kouzelník Ochao
+6304	Popravèí Ochao
+6305	Generál Ochao
+6306	Silnı váleèník Ochao
+6307	Silnı voják Ochao
+6308	Silnı kouzelník Ochao
+6309	Silnı popravèí Ochao
+6310	Silnı generál Ochao
+6391	Lord Ochao
+6392	Ochránce Ochao
+6393	Silnı lord Ochao
+6394	Silnı stráce Ochao
+6401	Váleèník En-Tai
+6402	Voják En-Tai
+6403	Druid En-Tai
+6404	Léèitel En-Tai
+6405	Stráce En-Tai
+6406	Nièitel En-Tai
+6407	Vládce En-Tai
+6408	Bagjanamu
+6409	Léèitel Ochao
+6410	Silnı váleèník En-Tai
+6411	Silnı voják En-Tai
+6412	Silnı druid En-Tai
+6413	Silnı léèitel En-Tai
+6414	Silnı nièitel En-Tai
+6415	Událost Beran-Setaou
+6416	Událost Nemere
+6417	Událost Razador
+6418	Událost Jotun Thrym
+6419	Událost Èervenı drak
+6420	Stínovı váleèník
+6421	Baashido
+6422	Metin agónie
+6500	Draèí král Akzadur
+6501	Draèí král Nafaroth
+6502	Draèí král Exedyar
+6503	Draèí král Ruilith
+6504	Tyolduran
+6513	Draèí portál
+6514	K draèímu králi
+6515	Ukonèit
+6686	Jin Bing
+6687	Voják Ki
+6688	Voják Mao
+6689	Voják Gong
+6690	Útoènı mág
+6691	Kao
+6692	Král Bao (Úkol)
+6693	Jin Bing
+6694	Voják Ki
+6695	Voják Mao
+6696	Voják Gong
+6697	Útoènı mág
+6698	Kao
+6699	Král Bao
+6700	Pekelnı chrt
+6701	Trolí voják
+6702	Trolí váleèník
+6703	Trolí luèištník
+6704	Trolí šaman
+6705	Natanan
+6706	Argos
+6707	Trolí voják
+6708	Trolí váleèník
+6709	Trolí luèištník
+6710	Špatnı duch
+6711	Pekelnı chrt
+6712	Trolí voják
+6713	Trolí váleèník
+6714	Trolí luèištník
+6715	Trolí šaman
+6716	Natanan
+6717	Argos
+6718	Quag Kovix
+6719	Dìlník Quag
+6720	Golem Quag
+6721	Váleèník Quag
+6722	Kouzelník Quag
+6723	Veterán Quag
+6724	Quag Primus
+6725	Quag Kovix
+6726	Dìlník Quag
+6727	Golem Quag
+6728	Váleèník Quag
+6729	Kouzelník Quag
+6730	Veterán Quag
+6731	Quag Primus
+6744	Voják Kappa
+6745	Dìlník Kappa
+6746	Voják Kappa
+6747	Èarodìj Kappa
+6748	Lovec Kappa
+6749	Mocná Kappa
+6750	Hadí škorpión
+6751	Hadí dìlník
+6752	Hadí Kappa
+6753	Hadí voják
+6754	Hadí asketa
+6755	Mocnı hadí váleèník
+6756	Hadí královna Nethis
+6757	Hadí pilíø
+6758	Špinavı voják
+6759	Špinavı harcovník
+6760	Špinavı váleèník
+6761	Špinavı mnich
+6762	Špinavı generál
+6763	Špinavı náèelník
+6764	Špinavı vojevùdce
+6765	Mocnı hadí váleèník
+6770	Zmrzlá liška
+6771	Zmrzlı zvìd
+6772	Zmrzlı váleèník
+6773	Zmrzlı lovec
+6774	Zmrzlı generál
+6775	Zmrzlı náèelník
+6776	Zmrzlı vojevùdce
+6777	Zmrzlı jelen
+6778	Zmrzlı snìnı leopard
+6779	Yeti Northwindu
+6780	Duch Northwindu
+6781	Golem Northwindu
+6782	Bigfoot
+6783	Vojevùdce Northwindu
+6784	Voják Útoèištì
+6785	Harcovník Útoèištì
+6786	Váleèník Útoèištì
+6787	Warlock Útoèištì
+6788	Generál Útoèištì
+6789	Vojevùdce Útoèištì
+6790	Alastor
+6791	Alastor
+6792	Voják Útoèištì
+6793	Harcovník Útoèištì
+6794	Váleèník Útoèištì
+6795	Warlock Útoèištì
+6796	Generál Útoèištì
+6797	Vojevùdce Útoèištì
+6800	Váleèník Gnollù
+6801	Zvìd Gnollù
+6802	Šaman Gnollù
+6803	Maršál Gnollù
+6804	Mistr Gnollù
+6805	Kapitán Gnollù
+6806	Voják Gnollù
+6807	Špión Gnollù
+6808	Kouzelník Gnollù
+6809	Komandant Gnollù
+6810	Váleèník Athrin
+6811	Zvìd Athrin
+6812	Šaman Athrin
+6813	Komandant Athrin
+6814	Kapitán Athrin
+6815	Kapitán Athrin
+6816	Špión Athrin
+6817	Warlock Athrin
+6818	Komandant Athrin
+6819	Velmistr Athrin
+6820	Velmistr Athrin
+6850	Hadí škorpión
+6851	Hadí dìlník
+6852	Hadí Kappa
+6853	Hadí voják
+6854	Hadí øezník
+6855	Mocnı hadí váleèník
+6856	Hadí královna Nethis
+6860	Šermíø Jin
+6861	Oštìpaø Ki
+6862	Oštìpaø Mao
+6863	Luèištník Gong
+6864	Šermíø Kao
+6865	Šermíø Jin
+6866	Oštìpaø Ki
+6867	Oštìpaø Mao
+6868	Luèištník Gong
+6869	Šermíø Kao
+6870	Tajemnı mnich
+6871	Tajemnı mnich
+6875	Špinavı voják
+6876	Špinavı harcovník
+6877	Špinavı váleèník
+6878	Špinavı mnich
+6879	Špinavı generál
+6880	Špinavı náèelník
+6881	Špinavı vojevùdce
+6882	Zmrzlá liška
+6883	Zmrzlı zvìd
+6884	Zmrzlı váleèník
+6885	Zmrzlı lovec
+6886	Zmrzlı generál
+6887	Zmrzlı náèelník
+6888	Zmrzlı vojevùdce
+6889	Zmrzlı jelen
+6890	Zmrzlı snìnı leopard
+6891	Yeti Northwindu
+6892	Duch Northwindu
+6893	Golem Northwindu
+6894	Bigfoot
+6895	Vojevùdce Northwindu
+7001	Opièí voják
+7002	Opièí jezdec
+7003	Opièí voják Gimu
+7004	Opièí velitel
+7005	Kamenná opice
+7006	Zlatá opice
+7007	Opièí generál
+7008	Dìlník Tu-Gui
+7009	Zkoušející vojákù Tu-Gui
+7010	Bílı velitel Tu-Gui
+7012	Bi-Ma-Gui-An
+7013	Štíøí král
+7014	Chytrı štíøí mu
+7015	Štíøí lukostøelec
+7016	Hadí bojovník s meèem
+7017	Hadí lukostøelec
+7018	Pouštní bandita
+7019	Voják Tu-Ji
+7020	Hwa-ryung
+7021	Povaleè Tu-Ji
+7022	Cham-Ma
+7023	Teawha-Mu
+7024	Juk-Gui
+7025	Dung-Juk
+7026	Juk-Mok
+7027	Hwaryu Juk
+7028	Èernı Juk-Guimok
+7029	Ledovı ïábel
+7030	Ledová zabijácká velryba
+7031	Ledovı hmyz
+7032	Seol-Gu
+7033	Ledovı mu
+7034	Ledovı obr
+7035	Ledovı golem
+7036	Ledovı ïábel
+7037	Ledová zabijácká velryba
+7038	Ledovı hmyz
+7039	Seol-Gu
+7040	Ledovı mu
+7041	Ledovı obr
+7042	Ledovı golem
+7043	Ledovı ïábel
+7044	Ledová zabijácká velryb
+7045	Ledovı hmyz
+7046	Seol-Gu
+7047	Ledovı mu
+7048	Ledovı obr
+7049	Ledovı golem
+7050	Létající pouštní oko
+7051	Král štírù
+7052	Mladı štíøí mu
+7053	Štíøí lukostøelec
+7054	Hadí bojovník s meèem
+7055	Hadí lukostøelec
+7056	Pouštní bandita
+7057	Létající pouštní oko
+7058	Král štírù
+7059	Mladı štíøí mu
+7060	Štíøí lukostøelec
+7061	Hadí bojovník s meèem
+7062	Hadí lukostøelec
+7063	Pouštní bandita
+7064	Létající pouštní oko
+7065	Král štírù
+7066	Mladı štíøí mu
+7067	Štíøí lukostøelec
+7068	Hadí bojovník s meèem
+7069	Hadí lukostøelec
+7070	Pouštní bandita
+7071	Zotroèenı bojovı tygr
+7072	Duch plamenù
+7073	Bojovı tygr
+7074	Plamen
+7075	Ohnivı váleèník
+7076	Zotroèenı bojovı tygr
+7077	Duch plamenù
+7078	Bojovı tygr
+7079	Plamen
+7080	Ohnivı váleèník
+7081	Zotroèenı bojovı tygr
+7082	Duch plamenù
+7083	Bojovı tygr
+7084	Plamen
+7085	Ohnivı váleèník
+7086	Paøez duchù
+7087	Dryáda
+7088	Vrba duchù
+7089	Zlı strom
+7090	Paøez duchù
+7091	Dryáda
+7092	Vrba duchù
+7093	Zlı strom
+7094	Paøez duchù
+7095	Dryáda
+7096	Vrba duchù
+7101	Kanón
+7102	Kanón
+7103	Šípová balista
+7104	Šípová balista
+7105	Vì
+7106	Krb
+7107	Krb
+7108	Krb
+7109	Krb
+7110	Krb
+7111	Krb
+7112	Krb
+7113	Cheeta
+7114	Kraton
+7115	Charly
+7116	Nini
+7117	Zulu
+7118	Opièí váleèník Deka
+7119	Opièí váleèník Oba
+7120	Král Keung
+7121	Kiros
+7122	Manchu
+7123	Sgok
+7124	Indrik
+7550	Vlk vìe
+7551	Rváè vìe
+7552	Berserker vìe
+7553	Warlock vìe
+7554	Øezník vìe
+7555	Nekromant vìe
+7556	Velmistr vìe
+7557	Vlk vìe
+7558	Rváè vìe
+7559	Berserker vìe
+7560	Warlock vìe
+7561	Øezník vìe
+7562	Nekromant vìe
+7563	Velmistr vìe
+7564	Vlk vìe
+7565	Rváè vìe
+7566	Berserker vìe
+7567	Warlock vìe
+7568	Øezník vìe
+7569	Nekromant vìe
+7570	Velmistr vìe
+7571	Vlk vìe
+7572	Rváè vìe
+7573	Berserker vìe
+7574	Warlock vìe
+7575	Øezník vìe
+7576	Nekromant vìe
+7577	Velmistr vìe
+7578	Vlk vìe
+7579	Rváè vìe
+7580	Berserker vìe
+7581	Warlock vìe
+7582	Øezník vìe
+7583	Nekromant vìe
+7584	Velmistr vìe
+7585	Vlk vìe
+7586	Rváè vìe
+7587	Berserker vìe
+7588	Warlock vìe
+7589	Øezník vìe
+7590	Nekromant vìe
+7591	Velmistr vìe
+7592	Nièitel vìe
+7593	Nièitel vìe
+7594	Kámen Vìe démonù
+7595	Luèištník vìe
+7600	Kámen duše vìe
+7609	Mistr warlock vìe
+7610	Tyran vìe
+7611	Tyran vìe
+7612	Smrtelnı tyran vìe
+7613	Smrtelnı tyran vìe
+7614	Mistr warlock vìe
+7615	Vlk vìe
+7616	Rváè vìe
+7617	Øezník vìe
+7618	Øezník vìe
+7619	Berserker vìe
+7620	Warlock vìe
+8001	Metin smutku
+8002	Metin boje
+8003	Metin bitvy
+8004	Metin laènosti
+8005	Metin èernoty
+8006	Metin tmy
+8007	Metin árlivosti
+8008	Metin duše
+8009	Metin stínu
+8010	Metin tvrdosti
+8011	Metin ïábla
+8012	Metin pádu
+8013	Metin smrti
+8014	Metin vrady
+8015	Metin tvrdosti
+8016	Metin ïábla
+8017	Metin pádu
+8018	Metin smrti
+8019	Metin vrady
+8020	Balvan Shinsoo
+8021	Balvan Jinno
+8022	Balvan Chunjo
+8023	Císaøskı Balvan
+8024	Metin Pung-Ma
+8025	Metin Ma-An
+8026	Metin Tu-Young
+8027	Metin Jeon-Un
+8031	Metin pohoøí
+8032	Metin pomsty
+8033	Metin samoty
+8034	Metin nadutosti
+8035	Metin vykoupení
+8036	Metin zrady
+8037	Metin zášti
+8038	Metin odplaty
+8039	Metin pıchy
+8040	Metin nenávisti
+8041	Velikonoèní Metin
+8042	Velikonoèní Metin
+8043	Velikonoèní Metin
+8044	Velikonoèní Metin
+8045	Velikonoèní Metin
+8046	Velikonoèní Metin
+8047	Velikonoèní Metin
+8048	Velikonoèní Metin
+8049	Velikonoèní Metin
+8050	Velikonoèní Metin
+8051	Metin soumraku
+8052	Metin áru
+8053	Metin marnosti
+8054	Metin zloby
+8055	Metin zkázy
+8056	Metin zlomyslnosti
+8057	Metin Ohnì oèistce
+8058	Metin chladu
+8059	Metin stromovıch bytostí
+8060	Dıòovı Metin
+8061	Metin lesù
+8062	Metin vnímání (Q)
+8063	Metin uznání
+8064	Metin všímavosti
+8065	Metin Jin
+8066	Metin Shiho
+8067	Metin vnímání
+8068	Metin Ohnivého hada
+8069	Metin Ledového hada
+8070	Metin Vìtrného hada
+8071	Metin Hada Zemì
+8072	Vejce bílého draka (leh)
+8073	Vejce bílého draka (tì)
+8075	Metin Hada èasu
+8076	Metin Hada vesmíru
+8077	Metin zloducha
+8101	Metin smutku
+8102	Metin boje
+8103	Metin bitvy
+8104	Metin laènosti
+8105	Metin èernoty
+8106	Metin tmy
+8107	Metin árlivosti
+8108	Metin duše
+8109	Metin stínu
+8110	Metin tvrdosti
+8111	Metin ïábla
+8112	Metin pádu
+8113	Metin smrti
+8114	Metin vrady
+8115	Metin Mìsíce
+8120	ÈT: Metin hory
+8121	ÈT: Metin pomsty
+8122	ÈT: Metin samoty
+8123	ÈT: Metin nadutosti
+8124	ÈT: Metin Ohnì oèistce
+8125	ÈT: Metin chladu
+8126	ÈT: Metin strom. bytostí
+8127	ÈT: Metin lesù
+8130	BO: Metin hory
+8131	BO: Metin pomsty
+8132	BO: Metin samoty
+8133	BO: Metin nadutosti
+8134	BO: Metin Ohnì oèistce
+8135	BO: Metin chladu
+8136	BO: Metin tøí bytostí
+8137	BO: Metin lesù
+8200	Èokoládovı Metin
+8201	Èokoládovı Metin
+8203	Metin osvícení
+8204	Velikonoèní Metin
+8205	Velikonoèní Metin
+8206	Velikonoèní Metin
+8501	Divokı pes
+8502	Divoèák
+8503	Medvìd
+8504	Bílı tygr
+8505	Èernı obøí ork
+8506	Vùdce ab
+8507	Pouštní bandita
+8508	Ezoterickı muèitel
+8509	Ezoterickı zaøíkávaè
+8510	Ohnivı váleèník
+8511	Ledovı golem
+8600	¿õ±Í´ëÁ·Àå
+8601	¿õ±Í´ëÁ·Àå
+8602	¹Ğ±³´ëÁÖ±³
+8603	¹Ğ±³´ëÁÖ±³
+8604	¸í»ç±Í¿Õ
+8605	¸í»ç±Í¿Õ
+8606	»ç½Å
+8607	»ç½Å
+8608	±¸¹ÌÈ£
+8609	±¸¹ÌÈ£
+8610	´©··Åõ¹ü±Í
+8611	´©··Åõ¹ü±Í
+8612	¿©¿Õ°Å¹Ì
+8613	¿©¿Õ°Å¹Ì
+8614	°Å´ë»ç¸·°ÅºÏ
+8615	°Å´ë»ç¸·°ÅºÏ
+8616	Billy Loomis
+8617	Jack Torrance
+8618	Chucky
+8619	Jigsaw
+8620	Jason
+8621	Michael Myers
+8622	Freddy Krueger
+8623	Leatherface
+8625	Základna Trollù
+8626	Základna Quag 1
+8627	Základna Quag 2
+9001	Obchodník se zbranìmi
+9002	Obchodník s vızbrojí
+9003	Obchodnice smíš. zboím
+9004	Pomocnice pøi událostech
+9005	Správce skladištì
+9006	Staøenka
+9007	Obchodník se zbranìmi
+9008	Obchodník s vızbrojí
+9009	Rybáø
+9010	Obchod se smíš. zboím
+9011	Manaerka svateb
+9012	Teleportér
+9013	Obchodník iluzí
+9014	Obchodník
+20470	Socha iluze
+20471	Socha oivení
+20472	Socha èasové trhliny
+20473	Socha zbrojíøe
+20474	Socha platnéøe
+20475	Svatı øemeslník
+20476	Vítìznı øemeslník
+20477	Svatı øemeslník
+20478	Královskı øemeslník
+20479	Majestátní øemeslník
+20480	Správkynì obchodù
+20481	Správkynì obchodù
+10001	Oblast_Jayang 4002 8995
+10002	Oblast_Yongan 4503 9050
+10003	Oblast_Bokjung 1118 2161
+10004	Oblast_Joan 876 2131
+10005	Oblast_Bakra 9064 2214
+10006	Oblast_Pyungmo 9372 2188
+10007	Oblast_Yongan 4188 9560
+10008	Oblast_Jayang 3179 8332
+10009	Oblast_Joan 897 1127
+10010	Oblast_Bokjung 1759 2210
+10011	Oblast_Pyungmo 9343 3143
+10012	Oblast_Bakra 8348 2926
+10013	Chrám_Hwang 5536 1441
+10014	Seungryong 3326 7468
+10015	Pouš_Yongbi 3467 6329
+10016	Kuahlo_Dong 600 4960
+10017	Chrám_Hwang 5906 1102
+10018	Vì_Gumsan 2165 7270
+10019	Oblast_Jayang 3211 9009
+10020	Jungrang 1356 43
+10021	Oblast_Bokjung 1168 2920
+10022	Waryong 2219 93
+10023	Oblast_Bakra 9098 2948
+10024	Imha 2718 130
+10025	Hora_Sohan 4993 2984
+10026	Lungsam 2887 57
+10027	Lungsam 2866 437
+10028	Èervenı_les 11199 708
+10029	Hadí_pole 10590 7262
+10030	Pouš_Yongbi 3519 6223
+10031	Hadí_pole 10590 7262
+10032	Zemì_obrù 8283 7635
+10033	Sluj_Zin 10594 7525
+10034	Sluj_Zin_2 10594 7525
+10035	Deon-Zeon 917 5253
+10036	Deon-Zeon_2 7041 4642
+10037	ÀÚ¾çÇö 3809 8233
+10038	½Å¼ö¼º 9752 1330
+10039	º¹Á¤Çö 1917 2900
+10040	Áø³ë¼º 9239 1836
+10041	¹Ú¶óÇö 8316 2154
+10042	ÃµÁ¶¼º 9772 1850
+10043	¼­ÇÑ»ê 3819 2969
+10044	½Å¼ö¼º 10189 1484
+10045	¼­ÇÑ»ê 3819 2969
+10046	½Å¼ö¼º 9774 1501
+10047	½Â·æ°î 2699 6752
+10048	Áø³ë¼º 9679 1994
+10049	½Â·æ°î 2699 6752
+10050	Áø³ë¼º 9256 2012
+10051	¿µºñ»ç¸· 3478 6189
+10052	ÃµÁ¶¼º 9780 1995
+10053	¿µºñ»ç¸· 3478 6189
+10054	ÃµÁ¶¼º 10190 2002
+10055	µµ¿°È­Áö 6011 6874
+10056	¼­ÇÑ»ê 4368 2158
+10057	½Â·æ°î 3355 7558
+10058	¹Ğ±³»ç¿ø 5943 1337
+10059	¼­ÇÑ»ê 0 10496
+10060	¹Ğ±³»ç¿ø 1536 10496
+10061	Ohnivá_zemì 4608 10496
+10062	½Â·æ°î 6144 10496
+10063	±Í¸ñ¸² 3031 266
+10064	Àû±Í¸ñ¸² 11133 534
+10065	½Å±Í¸ñ¸² 7754 10553
+10066	½ÅÀû±Í¸ñ¸² 9915 11195
+10067	Opièí_jeskynì 7752 4477
+10068	Oblast_Jayang 4062 8756
+10069	Opièí_jeskynì 8520 4477
+10070	Oblast_Bokjung 1611 2130
+10071	Opièí_jeskynì 9288 4477
+10072	Oblast_Bakra 8727 2100
+10073	Pouš_Yongbi 3061 6202
+10074	Opièí_jeskynì 1352 6532
+10075	Pouš_Yongbi 2879 5407
+10076	Opièí_jeskynì 1352 7300
+10077	Jeskynì_vyhnanství 9 1207
+10078	½Â·æ°î 2842 8106
+10079	Grotto1 1459 13236
+10080	Grotto2 2413 12755
+10081	ÃµÀÇµ¿±¼1Ãş 99 13618
+10082	¿µ¾ÈÀ¾¼º 5028 9998
+10083	ÃµÀÇµ¿±¼1Ãş 1360 14972
+10084	ÃµÀÇµ¿±¼2Ãş 2414 14289
+10085	ÃµÀÇµ¿±¼1Ãş 99 15154
+10086	Á¶¾ÈÀ¾¼º 616 1148
+10087	ÃµÀÇµ¿±¼1Ãş 1360 16508
+10088	ÃµÀÇµ¿±¼2Ãş 2414 15825
+10089	ÃµÀÇµ¿±¼1Ãş 99 16690
+10090	Æò¹«À¾¼º 9609 3188
+10091	ÃµÀÇµ¿±¼1Ãş 1360 18044
+10092	ÃµÀÇµ¿±¼2Ãş 2414 17361
+10093	Draèí_brána 1731 12205
+10094	Draèí_brána 1733 13743
+10095	Draèí_brána 1728 15277
+10096	Draèí_brána 1724 16824
+10097	SD2 7040 5235
+10098	SD3 984 5711
+10099	Záliv 11043 17885
+10100	Záliv 10963 16744
+10101	Nefritovı 10869 16558
+10102	Záliv 11664 16779
+10103	Hory 11345 16546
+10104	Hory 11921 16550
+10105	Gautama 12263 16811
+10106	³ì¸²Áö 8168 15050
+10107	DongGwang 10629 4767
+10109	LightningRidge 451 9492
+10110	LightningPoint 830 9454
+10111	FireRange 1430 9616
+10112	IceMounts 690 10169
+10113	LightningPoint 1023 9623
+10114	IceMounts 303 10113
+10115	FirePeak 2117 9447
+10116	FireRange 1720 9499
+10117	WindIsle 1973 10159
+10118	FirePeak 2337 9633
+10119	DarkCrest 2710 9616
+10120	WindIsle 1582 10111
+10121	DarkSummit 3393 9454
+10122	DarkCrest 3012 9500
+10123	EarthDesert 3069 10174
+10124	DarkSummit 3685 9551
+10126	Exit 11622 5809
+10127	DongGwang 10551 4881
+10128	SeoGwang 12218 4895
+10129	NamGwang 12780 4411
+10130	SeoGwang 12144 5555
+10131	Level2 9916 6630
+10132	Level3 9896 6302
+10133	Level1 9534 6281
+10134	Level2 9564 6610
+10135	Back 9338 6287
+10136	Yilad-Pass 303 14147
+10137	NamGwangChasm 13184 4735
+10138	Konec
+10139	Northwind_C 1106 15997
+10140	YiladPass 83 14763
+10141	WaitingArea 401 477
+10142	SoulGorge 1851 15786
+10143	Northwind_C 247 15392
+10201	Opustit
+10202	Northwind_D 11590 12181
+10203	Northwind_S 11323 13499
+10204	Konec
+10205	. 70 149
+10206	. 295 157
+10207	. 190 149
+10208	. 70 149
+10209	. 650 184
+10210	. 476 53
+10211	. 70 149
+10212	. 80 330
+10213	. 351 385
+10214	. 81 451
+10215	. 70 149
+10216	. 707 445
+10217	. 351 445
+10218	. 70 149
+10219	. 215 557
+10220	. 698 325
+10221	. 70 149
+10222	SecretCham 11913 12692
+10223	Back 11553 12697
+10224	. 646 65
+10225	. 70 149
+10501	. 345 361
+10502	. 106 547
+10503	. 75 368
+10504	. 89 746
+10505	. 520 352
+10506	. 541 45
+10507	. 211 109
+10508	. 615 49
+10509	. 284 705
+10510	. 145 310
+10511	. 553 285
+10512	. 487 274
+10513	. 626 291
+10514	. 285 569
+10515	. 80 303
+10516	. 315 238
+10517	. 416 272
+10518	. 72 498
+10519	. 215 495
+10520	. 523 415
+10521	. 72 498
+10522	. 518 480
+10523	. 583 379
+10524	. 459 558
+10601	. 345 361
+10602	. 520 352
+10603	. 487 274
+10604	. 75 368
+10605	. 211 109
+10606	. 215 495
+10607	. 315 238
+10608	. 520 352
+10609	. 284 705
+10610	. 145 310
+10611	. 416 272
+10612	. 80 303
+10613	. 72 498
+10614	. 106 547
+10615	. 523 415
+10616	. 541 45
+10617	. 72 121
+10618	. 518 480
+10619	. 89 746
+10620	. 285 569
+10621	. 615 49
+10622	. 72 498
+10623	. 583 379
+10624	. 459 558
+10625	. 609 553
+10626	. 594 338
+10701	. 75 368
+10702	. 541 45
+10703	. 615 49
+10704	. 284 705
+10705	. 520 352
+10706	. 553 285
+10707	. 145 310
+10708	. 345 361
+10709	. 523 415
+10710	. 72 498
+10711	. 626 291
+10712	. 487 274
+10713	. 72 498
+10714	. 106 547
+10715	. 518 480
+10716	. 285 569
+10717	. 80 303
+10718	. 211 109
+10719	. 416 272
+10720	. 215 495
+10721	. 315 238
+10722	. 89 746
+10723	. 583 379
+10724	. 459 558
+10725	. 609 553
+10726	. 594 338
+10801	. 70 581
+10802	. 69 664
+10803	. 132 660
+10804	. 184 566
+10805	. 285 567
+10806	. 272 636
+10807	. 191 667
+10808	. 345 563
+10809	. 400 570
+10810	. 68 806
+10811	. 140 811
+10812	. 189 722
+10813	. 274 722
+10814	.233 780
+10815	. 318 780
+10816	. 273 833
+10817	.356 717
+10818	.412 712
+10819	. 372 776
+10820	. 354 840
+10821	. 366 817
+10822	. 420 841
+10823	. 94 846
+10824	. 63 864
+10825	. 131 866
+10826	. 59 920
+10827	. 91 940
+10828	. 135 919
+10829	. 194 870
+10830	. 243 862
+10831	. 312 861
+10832	. 373 893
+10833	. 406 880
+10834	. 422 935
+10835	. 500 807
+10901	. 333 358
+10902	. 452 116
+10903	. 515 415
+10904	. 515 480
+10905	. 145 305
+10906	. 228 238
+10907	. 452 116
+10908	. 77 500
+10909	. 111 550
+10910	. 452 116
+10911	. 145 305
+10912	. 333 358
+10913	. 615 50
+10914	. 218 110
+10915	. 288 708
+10916	. 582 385
+10917	. 218 110
+10918	. 452 116
+10919	. 615 50
+10920	. 510 480
+10921	. 75 435
+10922	. 194 614
+10923	. 310 237
+10924	. 609 553
+10931	. 250 425
+10932	. 452 116
+10933	. 520 415
+10934	. 77 370
+10935	. 145 305
+10936	. 122 678
+10937	. 297 175
+10938	. 452 116
+10939	. 423 266
+10940	. 122 678
+10941	. 510 480
+10942	. 250 425
+10943	. 452 116
+10944	. 297 175
+10945	. 250 425
+10946	. 627 290
+10947	. 297 175
+10948	. 450 116
+10949	. 582 385
+10950	. 440 705
+10951	. 145 305
+10952	. 297 175
+10953	. 75 435
+10954	. 609 553
+10961	. 333 358
+10962	. 452 116
+10963	. 520 415
+10964	. 77 370
+10965	. 145 305
+10966	. 297 175
+10967	. 452 116
+10968	. 195 615
+10969	. 195 615
+10970	. 510 480
+10971	. 145 305
+10972	. 333 358
+10973	. 71 435
+10974	. 297 175
+10975	. 460 560
+10976	. 333 358
+10977	. 260 175
+10978	. 452 116
+10979	. 540 45
+10980	. 80 295
+10981	. 522 414
+10982	. 297 175
+10983	. 582 385
+10984	. 609 553
+11000	Stráce návsi
+11001	Správce bitev
+11002	Stráce návsi
+11003	Správce bitev
+11004	Stráce návsi
+11005	Správce bitev
+11100	Stráce návsi
+11101	Správce bitev
+11102	Stráce návsi
+11103	Správce bitev
+11104	Stráce návsi
+11105	Správce bitev
+11106	Stráce návsi
+11107	Správce bitev
+11108	Stráce návsi
+11109	Správce bitev
+11110	Stráce návsi
+11111	Správce bitev
+11112	Stráce návsi
+11113	Správce bitev
+11114	Stráce návsi
+11115	Správce bitev
+11116	Stráce návsi
+11117	Správce bitev
+11505	Zlatá ába
+11506	Táborák
+11507	Táborák
+11508	Táborák
+11509	Táborák
+11510	Táborák
+12000	Táborák
+13000	Døevìná brána
+13001	Kamenná brána
+14000	Dílna
+14001	Dílna
+14002	Dílna
+14003	Dílna
+14004	Dílna
+14005	Dílna
+14006	Dílna
+14007	Dílna
+14008	Dílna
+14009	Dílna
+14010	Oltáø
+14011	Oltáø
+14012	Oltáø
+14013	Oltáø
+14014	Oltáø
+14015	Oltáø
+14016	Oltáø
+14017	Oltáø
+14018	Oltáø
+14019	Oltáø
+14020	Hlavní základna
+14021	Hlavní základna
+14022	Hlavní základna
+14023	Hlavní základna
+14024	Hlavní základna
+14025	Hlavní základna
+14026	Hlavní základna
+14027	Hlavní základna
+14028	Hlavní základna
+14029	Hlavní základna
+14030	Tréninkovı tábor
+14031	Tréninkovı tábor
+14032	Tréninkovı tábor
+14033	Tréninkovı tábor
+14034	Tréninkovı tábor
+14035	Tréninkovı tábor
+14036	Tréninkovı tábor
+14037	Tréninkovı tábor
+14038	Tréninkovı tábor
+14039	Tréninkovı tábor
+14040	Kamna
+14041	Kamna
+14042	Kamna
+14043	Kamna
+14044	Kamna
+14045	Kamna
+14046	Kamna
+14047	Kamna
+14048	Kamna
+14049	Kamna
+14050	Kamna
+14051	Kamna
+14052	Kamna
+14053	Kamna
+14054	Kamna
+14055	Kamna
+20001	Alchymista
+20002	Aranyo
+20003	Ah-Yu
+20004	ebrák
+20005	Yonah
+20006	Mirine
+20007	Správce skladištì
+20008	Octavio
+20009	Staøec
+20010	Obchodní cestující
+20011	Uriel
+20012	Yu-Rang
+20013	Rybáø
+20014	Taurean
+20015	Deokbae
+20016	Kováø
+20017	Yu-Hwan
+20018	Baek-Go
+20019	Yang-Shin
+20020	Zrádce Balso
+20021	Ariyoung
+20022	Huahn-So
+20023	Soon
+20024	Harang
+20025	.
+20026	Ji-Ryu
+20027	Gillian
+20028	Mirinin bratr
+20029	Pony
+20030	Kùò
+20031	Santa Claus
+20032	Vánoèní stromek
+20033	Vánoèní stromek
+20034	Vánoèní stromek
+20035	Vlajka
+20036	Vlajka
+20037	Vlajka
+20038	..
+20039	.
+20040	Správce pozemkù
+20041	Opilı obèan
+20042	Obchodní cestující
+20043	.
+20044	Zbrojíø
+20045	Platnéø
+20046	Klenotník
+20047	Diamantová íla
+20048	Jantarová íla
+20049	Nalezištì zkamen. døeva
+20050	Mìdìná íla
+20051	Støíbrná íla
+20052	Zlatá íla
+20053	Nefritová íla
+20054	Nalezištì eben. døeva
+20055	Stoh mušlí
+20056	íla bílého zlata
+20057	Nalezištì køišálù
+20058	Køemenová íla
+20059	Nalezištì nebeskıch slz
+20060	Alchymista diamantù
+20061	Alchymista jantaru
+20062	Alchymista zkamen. døeva
+20063	Alchymista mìdi
+20064	Alchymista støíbra
+20065	Alchymista zlata
+20066	Alchymista nefritu
+20067	Alchymista eben. døeva
+20068	Alchymista perel
+20069	Alchymista bílého zlata
+20070	Alchymista køišálù
+20071	Alchymista køemene
+20072	Alchymista nebeskıch slz
+20073	Stará peèe
+20074	Zbrojíø z vìe
+20075	Platnéø z vìe
+20076	Klenotník z vìe
+20077	Stráce oltáøe
+20078	Stráce oltáøe
+20079	Stráce oltáøe
+20080	Vedoucí vıcviku
+20081	Ukradená peèe chodby
+20082	Mistr
+20083	Jegal-Tunseok
+20084	Biolog Chaegirab
+20085	Jimjunja
+20086	Handu-Up
+20087	Wonda-Rim
+20088	Chuk-Sal
+20089	Pung-Ho
+20090	Heuk-Young
+20091	Seon-Pyeong
+20092	Hwa-Hee
+20093	Koe-Pung
+20094	Hong-Hae
+20095	Seon-Hae
+20096	Obelisk
+20097	Brána hradu
+20098	Brána hradu
+20099	Brána hradu
+20101	Bílı kùò
+20102	Hnìdı kùò
+20103	Èernı kùò
+20104	Bílı kùò
+20105	Hnìdı kùò
+20106	Èernı kùò
+20107	Bílı kùò
+20108	Hnìdı kùò
+20109	Èernı kùò
+20110	Divokı kanec
+20111	Vlk
+20112	Tygr
+20113	Lev
+20114	white lion
+20115	Divokı bojovı kanec
+20116	Bojovı vlk
+20117	Bouølivı tygr
+20118	Bojovı lev
+20119	Vznešenı èernı kùò
+20120	Ã»ÀÇÀü°©È£
+20121	ÁøÀûÀÇÀü°©È£
+20122	È²ÀÇÀü°©È£
+20123	³ìÀÇÀü°©È£
+20124	ÈæÀÇÀü°©È£
+20125	¹éÀÇÀü°©È£
+20126	Santa Claus
+20127	Vıroèní vlajka 1
+20128	Vıroèní vlajka 2
+20129	Vıroèní vlajka 3
+20130	Vıroèní vlajka 4
+20131	Vıroèní vlajka 5
+20132	Vıroèní vlajka 6
+20133	Vıroèní vlajka 7
+20134	Sluneèní prapor
+20135	Vánoèní vlajka
+20139	Vlajka cechu (purpurová)
+20140	Vlajka cechu (mod./zel.)
+20141	Vlajka cechu (èer./zla.)
+20138	Prapor Ramadánu
+20142	Halloweenská vlajka
+20143	Velikonoèní prapor
+20201	Àü°©¿ø
+20202	Àü°©¶û
+20203	Àü°©È£
+20204	Àü°©»çÀÚ
+20205	³­ÆøÇÑ Àü°©¿ø
+20206	³­ÆøÇÑ Àü°©¶û
+20207	³­ÆøÇÑ Àü°©È£
+20208	³­ÆøÇÑ Àü°©»çÀÚ
+20209	¿ë¸ÍÇÑ Àü°©¿ø
+20210	¿ë¸ÍÇÑ Àü°©¶û
+20211	¿ë¸ÍÇÑ Àü°©È£
+20212	¿ë¸ÍÇÑ Àü°©»çÀÚ
+20213	Àü°©¼ı¼ø·Ï
+20214	³­ÆøÇÑ Àü°©¼ı¼ø·Ï
+20215	¿ë¸ÍÇÑ Àü°©¼ı¼ø·Ï
+20216	Àü°©¾Ï¼ø·Ï
+20217	³­ÆøÇÑ Àü°©¾Ï¼ø·Ï
+20218	¿ë¸ÍÇÑ Àü°©¾Ï¼ø·Ï
+20219	blackpony
+20220	Å©¸®½º¸¶½º ¼ø·Ï
+20221	Àü°©¹é¿õ
+20222	Àü°©ÆÒ´õ
+20223	Àü°©¼®·æÀÚ
+20224	³­ÆøÇÑ Àü°©¼®·æÀÚ
+20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ
+20226	ÈæÀ¯´ÏÄÜ
+20227	¹éÀ¯´ÏÄÜ
+20228	Àü°©¸ÍÁ¶
+20229	³­ÆøÇÑ Àü°©¸ÍÁ¶
+20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶
+20231	Àü°©Èæ¹ü
+20232	Àü°©Ç¥¹ü
+20233	Muffin (hnìdé ozdoby)
+20234	Nugget (hnìdé ozdoby)
+20235	Muffin (modré ozdoby)
+20236	Nugget (modré ozdoby)
+20237	Muffin (zelené ozdoby)
+20238	Nugget (zelené ozdoby)
+20239	Blitzen
+20240	Donner
+20241	Nugget (modrı)
+20242	Muffin (rùovı)
+20243	NoNAme
+20244	Drak Nirvány
+20245	Drak Samsáry
+20246	Manny
+20247	Ellie
+20248	Hnìdá bitevní tula
+20249	Èerná bitevní tula
+20250	Ještìr z Lávové jeskynì
+20251	Ještìr z Ledové jeskynì
+20252	Magmovı drak
+20253	Appaloosa
+20254	Bílı králík
+20255	Mìsíèní zajíèek
+20257	Bernie
+20258	Modrı Barry
+20259	Kerberos (zlatı)
+20260	Kerberos (støíbrnı)
+20261	Strašidelnı oø
+20262	Equus Nocturnus
+20263	Krvavé køídlo
+20264	Nyctalus
+20265	Stínovı oø
+20266	Oø se støíbrnou hvìzdou
+20267	Zlatı War-Ochs
+20268	Støíbrnı War-Ochs
+20269	Bílá sfinga
+20270	Kamenná sfinga
+20271	Ledovı havran
+20272	Noèní havran
+20273	Bílá zimní lama
+20274	Hnìdá zimní lama
+20275	Alastor
+20276	Rychlı králík (rùovı)
+20277	Rychlı králík (modrı)
+20300	Uèitel tìlesného boje
+20301	Uèitel mentálního boje
+20302	Uèitel boje zblízka
+20303	Uèitel dálkového boje
+20304	Uèitel magickıch zbraní
+20305	Uèitel èerné magie
+20306	Uèitel draèí moci
+20307	Uèitel léèby
+20320	Uèitel tìlesného boje
+20321	Uèitel mentálního boje
+20322	Uèitel boje zblízka
+20323	Uèitel dálkového boje
+20324	Uèitel magickıch zbraní
+20325	Uèitel èerné magie
+20326	Uèitel draèí moci
+20327	Uèitel léèby
+20340	Uèitel tìlesného boje
+20341	Uèitel mentálního boje
+20342	Uèitel boje zblízka
+20343	Uèitel dálkového boje
+20344	Uèitel magickıch zbraní
+20345	Uèitel èerné magie
+20346	Uèitel draèí moci
+20347	Uèitel léèby
+20348	Stráce vìe démonù
+20349	Pacholek
+20350	Stráce podzemí
+20351	Stráce haly
+20352	Kamennı pomník Hasun
+20353	Kam. pomník Seul Rong
+20354	Stráce mìsta
+20355	Velitel
+20356	Sbìraè listí gingko
+20357	Památník Weol
+20358	Kvìtiny bez jména
+20359	Stará krabice s papíry
+20360	Památník Wha
+20361	Památník Su
+20362	Památník Mok
+20363	Památník Gum
+20364	Nakajima
+20365	Památník Tho
+20366	Sa-Soe
+20367	Stráce katakomby
+20368	Obchodní cestující
+20369	Lee Chung
+20370	Otrávenı voják
+20371	Starı náhrobní kámen
+20372	Pouitá kamenná tabulka
+20373	Osobní stráce
+20374	Stránı
+20375	Døevìná barikáda
+20376	Kim Rim
+20377	Yak-Hwan
+20378	Admirál Angmur
+20379	Zranìnı voják
+20380	Yon-I-Walker
+20381	Konfucius
+20382	Devaterník
+20383	Jae-Seon Kim
+20384	Vánoèní stromek
+20385	Str Am-heh
+20386	Náhrobek Isfet
+20387	Zámek osudu
+20388	Draèí brána
+20389	NoNAme
+20390	Taramorùv náhrobní kámen
+20391	Sluneèní bylina
+20392	Mrtvı voják
+20393	Zranìnı voják
+20394	Stráce Ohnivé zemì
+20395	Stráce ledové zemì
+20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø
+20397	Ledovı lev
+20398	Arktická kostka
+20399	Sloup severního draka
+20400	Moudrı Myonghorang
+20401	Stráce kolonie
+20402	Stráce portálu
+20403	Amarok
+20404	Nagual
+20405	Waheela
+20406	NoNAme
+20407	Fenrir
+20408	Stráce chrámu
+20409	Stráce lesa
+20410	Zvìd lesa
+20411	Ochránce lesa
+20412	Velitel lesních strácù
+20413	Kawuco
+20414	Andastre
+20415	Portál
+20416	Dınì Sam
+20417	Stùl Okey
+20419	Draèí hlídaè Dolnarr
+20420	Zlatá draèí truhla
+20421	Draèí hlídaè Jaharr
+20422	Draèí vejce
+20423	Alchymista krystalù duše
+20424	Alchymista rubínù
+20425	Alchymista granátù
+20426	Alchymista smaragdù
+20427	Alchymista safírù
+20428	Alchymista turmalínù
+20429	Správce bitevní zóny
+20430	Cherie
+20431	Vıroèní obchodník
+20432	Vejce hydry
+20433	Socha váleèníka
+20434	Stìeò
+20435	Stopa Meley
+20436	Kormidlo
+20437	Døevo na opravu
+20438	Mnich Milbon
+20439	Portál Zi
+20440	Portál Chou
+20441	Portál Yin
+20442	Portál Mao
+20443	Portál Chen
+20444	Portál Si
+20445	Portál Wu
+20446	Portál Wei
+20447	Portál Shen
+20448	Portál You
+20449	Portál Xu
+20450	Portál Hai
+20451	Obchodník Zvìrokruhu
+20452	Socha Zi
+20453	Socha Chou
+20454	Socha Yin
+20455	Socha Mao
+20456	Socha Chen
+20457	Socha Si
+20458	Socha Wu
+20459	Socha Wei
+20460	Socha Shen
+20461	Socha You
+20462	Socha Xu
+20463	Socha Hai
+20464	Kanón
+20465	Portál Zvìrokruhu
+20500	Draèí vejce
+20501	Gaya truhla
+20502	Stùl na Yutnori
+20503	Gaya obchodník
+20504	Gaya trištì
+20505	Tyèka Yut
+20506	Stùl Chy krále
+20510	ÈT: Duch sury
+20511	ÈT: Str Am-heh
+20512	ÈT: Taramorùv náh. kámen
+20513	ÈT: Náhrobek Isfet
+20514	ÈT: Zámek osudu
+20515	ÈT: Draèí brána
+20516	ÈT: Ledovı lev
+20517	ÈT: Arktická kostka
+20518	ÈT: Sloup sev. draka
+20519	ÈT: Stráce lesa
+20520	ÈT: Zvìd lesa
+20521	ÈT: Ochránce lesa
+20522	ÈT: Stráce lesa Vedoucí
+20530	BO: Duch sury
+20531	BO: Str Am-heh
+20532	BO: Taramorùv náh. kámen
+20533	BO: Náhrobek Isfet
+20534	BO: Zámek osudu
+20535	BO: Draèí brána
+20536	BO: Ledovı lev
+20537	BO: Arktická kostka
+20538	BO: Sloup sev. draka
+20539	BO: Stráce lesa
+20540	BO: Zvìd lesa
+20541	BO: Ochránce lesa
+20542	BO: Stráce lesa Vedoucí
+20650	Stráce medailí
+20660	Alchymista Nefrit. mlhy
+20661	Alchymista Slun. nefrotu
+20662	Alchymista Tem. nefritu
+20663	Alchymista Kouø. nefritu
+20702	Oltáø energie
+20703	Oltáø štìstí
+20704	Oltáø síly
+20705	Oltáø bohatství
+20706	Oltáø osvícení
+20707	Æ÷Å»(°İÀüÁö) 385 385
+20710	Truhla se zásobami (KB)
+20711	Truhla s vıbavou (KB)
+20712	Elektrické pole
+20713	Truhla s vıbavou (KB)
+20714	Sp. truhla se zás. (KB)
+20799	Kytky
+20800	Zranìnı
+20802	Hlídaè Yohary
+20803	Stráce Yohary
+20804	Hadí stráce
+20805	Stráce Northwindu
+20806	Stráce Soul Gorge
+20807	Socha hada
+20808	Generál Kohan
+20809	Konfucius
+20810	Chaegirab
+20811	Kim Rim
+20812	Admirál Angmur
+20813	Poustevník Northwindu
+20814	Ztracenı zvìd
+20815	Strašidelnı stráce
+20822	Filuta
+20823	Mistr Chi
+20826	Huahn-So
+20828	Koeluh
+20829	Kováø Hadího chrámu
+20830	Velitel vyslancù
+20831	Velitel Yohary
+20832	Admirál Angmur
+20833	Zkaené kvìtiny
+20834	Oltáø
+20835	Zapisovatel
+20836	Halapartník
+20837	Konec
+20838	Úroveò 2
+20839	Úroveò 3
+20840	Planiny Dong Gwang
+20841	Lovec odmìn
+20842	Uvìznìnı kováø
+20844	Socha hada
+20845	Bounty H. (Northwind C.)
+20846	Lovec odmìn (Soul Gorge)
+20847	Lovec odmìn (Útoèištì)
+20848	Staré kosti
+20849	Taehwarang
+20850	Tajemnı oltáø
+20851	Lovec odmìn (Pustiny)
+20852	Lovec odmìn (Propast)
+30000	°³ÀÎ»óÁ¡
+30001	°³ÀÎ»óÁ¡
+30002	1001 nocí
+30003	Král grilování
+30004	Lovec pokladù
+30005	Skromnı plamen
+30006	Obchodník se zbranìmi
+30007	Obchodník s brnìním
+30008	Alchymista
+30101	Socha Kud
+30102	Obelisk Basalt
+30103	elví skála
+30104	Runovı sloup
+30111	1. Brána zatracení
+30112	2. Brána zatracení
+30113	3. Brána zatracení
+30114	4. Brána zatracení
+30115	5. Brána zatracení
+30116	6. Brána zatracení
+30117	7. Brána zatracení
+30118	8. Brána zatracení
+30119	9. Brána zatracení
+30120	Batoh s bylinami
+30121	Duše Sury
+30122	Duše váleèníka
+30123	Temnı oltáø
+30124	Sura-kostlivec 1
+30125	Sura-kostlivec 2
+30126	Sura-kostlivec 3
+30127	Sura-kostlivec 4
+30128	Sura-kostlivec 5
+30129	Velikonoèní zajíèek
+30130	Náhrobní kámen
+30131	Pan B.
+30132	Pan B.
+30301	íla rudy krystalu duše
+30302	íla rubínové rudy
+30303	íla granátové rudy
+30304	íla smaragdové rudy
+30305	íla safírové rudy
+30306	íla Turmalínové rudy
+30307	Léto
+30308	Poštovní schránka
+30309	íla Nefrit. mlhy (úkol)
+30310	íla Sluneèního nefritu
+30311	íla Temného nefritu
+30312	íla Kouøového nefritu
+30313	íla Nefritové mlhy
+33001	¸ğÇè°¡ÀÇ ÇØ°ñ
+33002	Historik
+33003	Hladovìjící obèan
+33004	Hladovìjící obèan
+33005	Hladovìjící obèan
+33006	Hladovìjící obèan
+33007	Hladovìjící obèan
+33008	Dınì Jack
+33009	Oltáø krve
+34001	Ohnivı fénix
+34002	Sobí mládì
+34003	Ledovı fénix
+34004	Baby Azrael
+34005	Porky
+34006	Rufus
+34007	Khan
+34008	Leonidas
+34009	Baby Azrael
+34010	Bambi
+34011	Knuud
+34012	Bao Bao
+34013	Buclatı Mini-Exekutor
+34014	Bucl. Mini-Exekutor (zl)
+34015	Boney
+34016	Nefritovı fénix
+34017	Polární Porkie
+34018	Mrazivı Rufus
+34019	Arktickı Khan
+34020	Snìnı Leonidas
+34021	Sheldon
+34022	Cooper
+34023	Mládì pantera
+34024	Mládì leoparda
+34026	Hlava dınì
+34027	Malé koštì
+34028	Snìhová vloèka
+34029	Snìhošlap
+34030	Andílek
+34031	Vášnivé srdce
+34032	Èervenı srpovitı mìsíc
+34033	Modrı srpovitı mìsíc
+34034	Eweriel
+34035	Ramblue
+34036	Dragonette
+34037	Dragonette (hrdina)
+34039	Baby Huashin
+34041	Mini opièka
+34042	Mini opièka (hrdinná)
+34045	Mini pavouk
+34046	Mini pavouk (hrdinnı)
+34047	Exedyarovo mládì
+34048	Vzácné Exedyarovo mládì
+34049	Mini Razador
+34050	Mini Razador (hrdinnı)
+34053	Mini Nemere
+34054	Mini Nemere (hrdinnı)
+34055	Bruce
+34056	Wayne
+34057	Robin
+34058	Valentino
+34059	Valentinia
+34060	Valentino
+34061	Valentinia
+34062	Srpovitı mìsíc (oran.)
+34063	Srpovitı mìsíc (modrı)
+34064	Mini Meley
+34065	Mini Meley
+34066	Bonsai
+34067	Paní Jiangshi+
+34068	Pan Jiangshi+
+34069	Jiangshi junior
+34070	Rudı elf
+34071	Zelenı elf
+34072	Uiteènı elf
+34073	Mini Azrael
+34074	Mini Azrael (hrdinnı)
+34075	Tlustı Mini Exekutor
+34076	T Mini Exekutor (hrd)
+34077	Naštvanı Mini Alastor
+34078	Probuzenı Mini Alastor
+34080	Baby Baashido
+34081	Baby Baashido (hrdinnı)
+34082	Nessie
+34083	Nessie (hrdina)
+34084	Donnie
+34085	Frank
+34086	Shiver
+34087	Snivel
+34088	Cruella
+34089	Minidall
+34090	Barevnı lampión
+34091	Zelenı lampión
+34092	Sir Oswald
+34093	Sir Cobblepot
+34094	Sir Chesterfield
+34095	Gryph
+34096	Nogai
+34097	Astrabell
+34098	Helexna
+34099	Chaotika
+34100	Gary Lycaner
+34101	Lycaninho
+34102	Malı Catenaccio
+34103	Vznešenı Modrı páv
+34104	Rùovı páv
+34105	Modrı páv
+34106	Harry Hazelnut
+34107	Willy Walnut
+34108	Corporal Crack
+34109	Humpitzer
+34110	Caboomel
+34111	Velbloudí kavalerie
+34112	Mrazivı brouk+
+34113	Mrazivı brouk
+34114	Vševidoucí ohnivá koèka
+34115	Vševidoucí ledová koèka
+34116	Trojoká ohnivá koèka
+34117	Trpaslièí jeíšek+ (èv.)
+34118	Trpaslièí jeíšek+ (ze.)
+34119	Trpaslièí jeíšek
+34120	Èervené Baby Huashin
+34121	Bílé Baby Huashin
+34122	Bonsai+
+34123	+Bonsai+
+34124	Malı ohnivı elementál
+34125	Malı ledovı elementál
+34126	Malı elementál blesku
+34127	Malı vìtrnı elementál
+34128	Malı elementál Zemì
+34129	Malı elementál Temnoty
+34130	Hravı Láskador
+34131	Nemotornı Láskador
+34132	Malı Láskador
+34133	Mini krabí váleèník
+34134	Mini krab
+34135	Tøaslavá mumie
+34136	Potácivá mumie
+34137	Nejistá mumie
+34138	Zelenı Vánoèní ent
+34139	Sukovitı Vánoèní ent
+34140	Malı Vánoèní ent
+34141	Pùlnoènì modrı Anubis
+34142	Krvavì rudı Anubis
+34143	Malı Anubis
+34145	Mocná Led. zab. velryba
+34146	Krotká Led. zab. velryba
+34147	Snìnı Leonidas
+34148	Astrabell
+34149	Ohnivı fénix
+60000	Správce cechu
+60001	Správce cechu
+60002	Správce cechu
+60003	Theowahdan

@@ -1,7 +1,7 @@
-import websocket_server
-import logging
-import simplejson as json
+import websocket_server, logging, os, simplejson as json
 from Modules.MetinMemoryObject import MetinMemoryObject
+
+PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 
 
 PACKETS_PATTERNS_TYPES = {
@@ -265,6 +265,16 @@ class WebsocketServer:
                         hack_status = memory_object['object'].hack_options
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': hack_status, 'action': 'get_full_hack_status'}}
                         server.send_message(client, json.dumps(message))
+
+                if cleared_message['data']['action'] == 'get_full_server_status':
+                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    if memory_object is not None:
+                        server_info = {
+                            'Items': memory_object['object'].ReturnServerItemList(PATH),
+                            'Mobs': memory_object['object'].ReturnServerMobList(PATH)
+                        }
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': 'set_full_server_status'}}
+                        server.send_message(client, json.dumps(message))                    
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
