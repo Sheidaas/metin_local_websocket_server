@@ -11,7 +11,7 @@ class MetinMemoryObject:
         self.character_status = {
             'Server': '',
             'CurrentChannel': 0,
-            'Position': [float, float],
+            'Position': [0, 0],
             'CurrentMap': 'None',
             'FirstEmpireMap': 'None',
             'SecondEmpireMap': 'None',
@@ -45,8 +45,11 @@ class MetinMemoryObject:
             'WaitHack': {},
             'SkillBot': {},
             'FarmBot': {},
-            'Settings': {},}
+            'Settings': {},
+            'ActionBot': {}}
         self.InstancesList = []
+        self.Inventory = []
+        self.PickupFilter = []
 
     def OnReceiveInformation(self, received_information):
         #print(received_information)
@@ -58,21 +61,25 @@ class MetinMemoryObject:
             self.InstancesList = [None] * len(received_information['data'])
             for instance in range(len(received_information['data'])):
                 self.InstancesList[instance] = received_information['data'][instance]
-        #print(self.InstancesList)
-        #print('that was instances list')
             return True
 
         if received_information['action'] == 'set_character_status':
             for status_key in received_information['data'].keys():
                 self.character_status[status_key] = received_information['data'][status_key]
-            #print(self.character_status)
+            return True
 
         if received_information['action'] == 'set_hack_status':
             for hack_option in received_information['data'].keys():
                 self.hack_options[hack_option] = received_information['data'][hack_option]
-            #print(self.hack_options)
-            #print(self.character_status)
+            return True
+        
+        if received_information['action'] == 'set_inventory_status':
+            self.Inventory = received_information['data']
+            return True
 
+        if received_information['action'] == 'set_pickup_filter':
+            print(received_information)
+            self.PickupFilter = received_information['data']
             return True
 
     def ValidateReceivedInformation(self, received_information):

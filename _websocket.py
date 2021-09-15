@@ -17,7 +17,8 @@ PACKETS_PATTERNS = {
     'hearthbeat': {'type': PACKETS_PATTERNS_TYPES['hearthbeat'], 'data': {'message': 'hearthbeat'}},
     'result_confirmed': {'type': PACKETS_PATTERNS_TYPES['result'], 'data': {'message': 'confirmed'}},
     'result_denied': {'type': PACKETS_PATTERNS_TYPES['result'], 'data': {'message': 'denied'}},
-    'all_clients': {'type': PACKETS_PATTERNS_TYPES['update_state'], 'data': {'message': []}}
+    'all_clients': {'type': PACKETS_PATTERNS_TYPES['update_state'], 'data': {'message': []}},
+    'set_inventory_status': {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': [], 'action': 'set_inventory_status'}}
 }
 
 RECEIVED_PACKETS_PATTERNS_TYPES = {
@@ -26,6 +27,7 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
     'set_role': 'set_role',
     'information': 'information',
     'update': 'update',
+    'update_request': 'update_request',
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
@@ -159,6 +161,7 @@ class WebsocketServer:
         cleared_message = self.ValidateMessage(message)
         #print(cleared_message)
         if not cleared_message:
+            #print(message)
             server.send_message(client, json.dumps(PACKETS_PATTERNS['unknow_request']))
             return
 
@@ -238,11 +241,9 @@ class WebsocketServer:
                                 'player_max_experience': memory_object['object'].character_status['MaxExperience'],
                                 'player_curr_map': memory_object['object'].character_status['CurrentMap'],
                                 })
-
-                    #print(clients)
-                    message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': 'get_all_connected_metin_clients'}}
-                    
-                    server.send_message(client, json.dumps(message))
+                            message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': 'get_all_connected_metin_clients'}}
+                            
+                            server.send_message(client, json.dumps(message))
 
                 if cleared_message['data']['action'] == 'get_full_character_status':
                     
@@ -274,7 +275,7 @@ class WebsocketServer:
                             'Mobs': memory_object['object'].ReturnServerMobList(PATH)
                         }
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': 'set_full_server_status'}}
-                        server.send_message(client, json.dumps(message))                    
+                        server.send_message(client, json.dumps(message))  
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
@@ -289,7 +290,7 @@ class WebsocketServer:
                         if action_key == 'function_args':
                             for req in range(len(action['function_args'])):
                                 if type(action['function_args'][req]) == str:
-                                    print(action['function_args'][req])
+                                    #print(action['function_args'][req])
                                     action['function_args'][req] = action['function_args'][req].encode('utf-8')           
                     
 
@@ -299,7 +300,7 @@ class WebsocketServer:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
-                print(cleared_message)   
+                #print(cleared_message)   
                 if cleared_message['data']['module'] == 'FarmBot':
                     for module_key in cleared_message['data']['message']:
                         if module_key == 'Path':
@@ -309,13 +310,32 @@ class WebsocketServer:
                                 #point[2] = point[2].encode('utf-8')
 
                 server.send_message(client_to_send, json.dumps(cleared_message))
-  
-                                
 
+            elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update_request']:
+                client_to_send = self.get_client_by_id_and_list(self.metin_clients, int(cleared_message['data']['message']))
+                if client_to_send is None:
+                    return
+                if cleared_message['data']['action'] == 'get_inventory_status':
+ 
+                    server.send_message(client_to_send, json.dumps(cleared_message))
 
-                    
+                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    if memory_object is not None:
+                        inventory = {
+                            'Inventory': memory_object['object'].Inventory
+                        }
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': 'set_inventory_status'}}
+                        server.send_message(client, json.dumps(message))  
 
-
+                elif cleared_message['data']['action'] == 'get_pickup_filter':
+                    server.send_message(client_to_send, json.dumps(cleared_message))
+                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    if memory_object is not None:
+                        PickupFilter = {
+                            'PickupFilter': memory_object['object'].PickupFilter
+                        }
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': PickupFilter, 'action': 'set_pickup_filter'}}
+                        server.send_message(client, json.dumps(message))        
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)
