@@ -322,8 +322,10 @@ class WebsocketServer:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         inventory = {
-                            'Inventory': memory_object['object'].Inventory
+                            'Inventory': memory_object['object'].Inventory,
+                            'Equipment': memory_object['object'].Equipment,
                         }
+                        #print(inventory)
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': 'set_inventory_status'}}
                         server.send_message(client, json.dumps(message))  
 

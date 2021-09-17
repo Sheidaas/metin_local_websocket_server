@@ -48,6 +48,7 @@ class MetinMemoryObject:
             'Settings': {},
             'ActionBot': {}}
         self.InstancesList = []
+        self.Equipment = {}
         self.Inventory = []
         self.PickupFilter = []
 
@@ -74,11 +75,13 @@ class MetinMemoryObject:
             return True
         
         if received_information['action'] == 'set_inventory_status':
-            self.Inventory = received_information['data']
+            self.Inventory = received_information['data']['Inventory']
+            self.Equipment = received_information['data']['Equipment']
+            #print(self.Inventory)
             return True
 
         if received_information['action'] == 'set_pickup_filter':
-            print(received_information)
+            #print(received_information)
             self.PickupFilter = received_information['data']
             return True
 
