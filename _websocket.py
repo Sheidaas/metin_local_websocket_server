@@ -1,4 +1,4 @@
-import websocket_server, logging, os, simplejson as json
+import logging, os, pkg_resources, sys, subprocess
 from Modules.MetinMemoryObject import MetinMemoryObject
 
 PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)))
@@ -345,5 +345,30 @@ class WebsocketServer:
         self.server.set_fn_client_left(self.client_left)
         self.server.run_forever()
 
-server = WebsocketServer('127.0.0.1', 13254)
-server.run_server()
+
+def check_installed_packages():
+    required = {'websocket_server', 'simplejson'}
+    installed = {pkg.key for pkg in pkg_resources.working_set}
+    missing = required - installed
+
+    if missing:
+        python = sys.executable
+        print("Upgrading pip")
+        subprocess.check_call([python, '-m', 'pip', 'install', '--upgrade', ' pip'], stdout=subprocess.DEVNULL)
+        print("Going to install")
+        print(missing)
+        subprocess.check_call([python, '-m', 'pip', 'install', *missing], stdout=subprocess.DEVNULL)
+
+    global websocket_server, json
+    import websocket_server, simplejson as json
+
+
+def main():
+    check_installed_packages()
+
+    server = WebsocketServer('127.0.0.1', 13254)
+    server.run_server()
+
+
+if __name__ == '__main__':
+    main()
