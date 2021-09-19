@@ -40,7 +40,10 @@ class MetinMemoryObject:
             'Vitality': 0,
             'Inteligence': 0,
             'Strength': 0,
-            'Dexterity': 0,}
+            'Dexterity': 0,
+            'IsMountingHorse': 0,
+            'DefGrade': 0,
+            'Skills': {}}
         self.hack_options = {
             'WaitHack': {},
             'SkillBot': {},
