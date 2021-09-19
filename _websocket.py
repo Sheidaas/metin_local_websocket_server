@@ -35,6 +35,14 @@ DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module']
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
+ACTIONS = {
+    'GET_ALL_CONNECTED_METIN_CLIENTS': 'GET_ALL_CONNECTED_METIN_CLIENTS',
+    'GET_FULL_CHARACTER_STATUS': 'GET_FULL_CHARACTER_STATUS',
+    'GET_FULL_INSTANCES_LIST': 'GET_FULL_INSTANCES_LIST',
+    'GET_FULL_HACK_STATUS': 'GET_FULL_HACK_STATUS',
+    'GET_FULL_SERVER_STATUS': 'GET_FULL_SERVER_STATUS'
+}
+
 class WebsocketServer:
 
     def __init__(self, host, port):
@@ -226,7 +234,7 @@ class WebsocketServer:
             #print(str(cleared_message))
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['information']:
 
-                if cleared_message['data']['action'] == 'get_all_connected_metin_clients':
+                if cleared_message['data']['action'] == ACTIONS['GET_ALL_CONNECTED_METIN_CLIENTS']:
                     clients = []
                     for metin_client in self.metin_clients:
                         memory_object = self.get_memory_object_by_client_id(metin_client['id'])
@@ -241,40 +249,40 @@ class WebsocketServer:
                                 'player_max_experience': memory_object['object'].character_status['MaxExperience'],
                                 'player_curr_map': memory_object['object'].character_status['CurrentMap'],
                                 })
-                            message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': 'get_all_connected_metin_clients'}}
+                            message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': ACTIONS['GET_ALL_CONNECTED_METIN_CLIENTS']}}
                             
                             server.send_message(client, json.dumps(message))
 
-                if cleared_message['data']['action'] == 'get_full_character_status':
+                if cleared_message['data']['action'] == ACTIONS['GET_FULL_CHARACTER_STATUS']:
                     
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         character_status = memory_object['object'].character_status
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': character_status, 'action': 'get_full_character_status'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': character_status, 'action': ACTIONS['GET_FULL_CHARACTER_STATUS']}}
                         server.send_message(client, json.dumps(message))
                 
-                if cleared_message['data']['action'] == 'get_full_instances_list':
+                if cleared_message['data']['action'] == ACTIONS['GET_FULL_INSTANCES_LIST']:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         instances_list = memory_object['object'].InstancesList
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': instances_list, 'action': 'get_full_instances_list'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': instances_list, 'action': ACTIONS['GET_FULL_INSTANCES_LIST']}}
                         server.send_message(client, json.dumps(message))
 
-                if cleared_message['data']['action'] == 'get_full_hack_status':
+                if cleared_message['data']['action'] == ACTIONS['GET_FULL_HACK_STATUS']:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         hack_status = memory_object['object'].hack_options
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': hack_status, 'action': 'get_full_hack_status'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': hack_status, 'action': ACTIONS['GET_FULL_HACK_STATUS']}}
                         server.send_message(client, json.dumps(message))
 
-                if cleared_message['data']['action'] == 'get_full_server_status':
+                if cleared_message['data']['action'] == ACTIONS['GET_FULL_SERVER_STATUS']:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         server_info = {
                             'Items': memory_object['object'].ReturnServerItemList(PATH),
                             'Mobs': memory_object['object'].ReturnServerMobList(PATH)
                         }
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': 'set_full_server_status'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
                         server.send_message(client, json.dumps(message))  
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
