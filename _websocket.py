@@ -282,6 +282,7 @@ class WebsocketServer:
                             'Items': memory_object['object'].ReturnServerItemList(PATH),
                             'Mobs': memory_object['object'].ReturnServerMobList(PATH)
                         }
+                        #print('sended server')
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
                         server.send_message(client, json.dumps(message))  
 
@@ -323,7 +324,7 @@ class WebsocketServer:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, int(cleared_message['data']['message']))
                 if client_to_send is None:
                     return
-                if cleared_message['data']['action'] == 'get_inventory_status':
+                if cleared_message['data']['action'] == 'GET_INVENTORY_STATUS':
  
                     server.send_message(client_to_send, json.dumps(cleared_message))
 
@@ -334,17 +335,17 @@ class WebsocketServer:
                             'Equipment': memory_object['object'].Equipment,
                         }
                         #print(inventory)
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': 'set_inventory_status'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': 'SET_INVENTORY_STATUS'}}
                         server.send_message(client, json.dumps(message))  
 
-                elif cleared_message['data']['action'] == 'get_pickup_filter':
+                elif cleared_message['data']['action'] == 'GET_PICKUP_FILTER':
                     server.send_message(client_to_send, json.dumps(cleared_message))
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         PickupFilter = {
                             'PickupFilter': memory_object['object'].PickupFilter
                         }
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': PickupFilter, 'action': 'set_pickup_filter'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': PickupFilter, 'action': 'SET_PICKUP_FILTER'}}
                         server.send_message(client, json.dumps(message))        
 
     def run_server(self):
