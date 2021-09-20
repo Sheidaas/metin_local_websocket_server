@@ -49,7 +49,8 @@ class MetinMemoryObject:
             'SkillBot': {},
             'FarmBot': {},
             'Settings': {},
-            'ActionBot': {}}
+            'ActionBot': {},
+            'ChannelSwitcher': {}}
         self.InstancesList = []
         self.Equipment = {}
         self.Inventory = []
@@ -145,7 +146,7 @@ class MetinMemoryObject:
 
             for message_key in received_information['data'].keys():
                 if message_key not in self.hack_options.keys():
-                    print('Key is not in hack options')
+                    print(message_key, ' is not in hack options')
                     return False
             
             
