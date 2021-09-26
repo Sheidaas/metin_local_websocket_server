@@ -1,5 +1,6 @@
 import logging, os, pkg_resources, sys, subprocess
 from Modules.MetinMemoryObject import MetinMemoryObject
+import Modules.FileLoader as FileLoader
 
 PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 
@@ -31,7 +32,7 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
-DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module']
+DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema', 'options']
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
@@ -40,7 +41,12 @@ ACTIONS = {
     'GET_FULL_CHARACTER_STATUS': 'GET_FULL_CHARACTER_STATUS',
     'GET_FULL_INSTANCES_LIST': 'GET_FULL_INSTANCES_LIST',
     'GET_FULL_HACK_STATUS': 'GET_FULL_HACK_STATUS',
-    'GET_FULL_SERVER_STATUS': 'GET_FULL_SERVER_STATUS'
+    'GET_FULL_SERVER_STATUS': 'GET_FULL_SERVER_STATUS',
+    'GET_INVENTORY_STATUS': 'GET_INVENTORY_STATUS',
+    'SET_INVENTORY_STATUS': 'SET_INVENTORY_STATUS',
+    'GET_PICKUP_FILTER': 'GET_PICKUP_FILTER',
+    'SET_PICKUP_FILTER': 'SET_PICKUP_FILTER',
+    'SET_NEW_SCHEMA': 'SET_NEW_SCHEMA'
 }
 
 class WebsocketServer:
@@ -86,7 +92,7 @@ class WebsocketServer:
 
     def new_client(self, client, server):
         self.all_clients.append(client)
-        print('New client joined')
+        #print('New client joined')
         server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
 
     def client_left(self, client, server):
@@ -190,14 +196,14 @@ class WebsocketServer:
 
 
                 if cleared_message['data']['message'] == 'metin2_client':
-                    print('this is metin2 client')
+                    print('New metin2 client joined')
                     client_list.remove(client)
                     self.metin_clients.append(client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
                 
                 elif cleared_message['data']['message'] == 'frontend_client':
-                    print('this is frontend_client')
+                    print('New frontend client joined')
                     client_list.remove(client)
                     self.frontend_clients.append(client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
@@ -318,13 +324,16 @@ class WebsocketServer:
                                     return
                                 #point[2] = point[2].encode('utf-8')
 
+
+
                 server.send_message(client_to_send, json.dumps(cleared_message))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update_request']:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, int(cleared_message['data']['message']))
                 if client_to_send is None:
                     return
-                if cleared_message['data']['action'] == 'GET_INVENTORY_STATUS':
+
+                if cleared_message['data']['action'] == ACTIONS['GET_INVENTORY_STATUS']:
  
                     server.send_message(client_to_send, json.dumps(cleared_message))
 
@@ -335,18 +344,26 @@ class WebsocketServer:
                             'Equipment': memory_object['object'].Equipment,
                         }
                         #print(inventory)
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': 'SET_INVENTORY_STATUS'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': ACTIONS['SET_INVENTORY_STATUS']}}
                         server.send_message(client, json.dumps(message))  
 
-                elif cleared_message['data']['action'] == 'GET_PICKUP_FILTER':
+                elif cleared_message['data']['action'] == ACTIONS['GET_PICKUP_FILTER']:
                     server.send_message(client_to_send, json.dumps(cleared_message))
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         PickupFilter = {
                             'PickupFilter': memory_object['object'].PickupFilter
                         }
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': PickupFilter, 'action': 'SET_PICKUP_FILTER'}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': PickupFilter, 'action': ACTIONS['SET_PICKUP_FILTER']}}
                         server.send_message(client, json.dumps(message))        
+
+                elif cleared_message['data']['action'] == ACTIONS['SET_NEW_SCHEMA']:
+                    schema = FileLoader.load_schema_by_name(PATH, cleared_message['data']['schema'])
+                    schema['OPTIONS'] = cleared_message['data']['options']
+                    message = {'type': RECEIVED_PACKETS_PATTERNS_TYPES['update_request'], 'data':{'message': schema, 'action': ACTIONS['SET_NEW_SCHEMA']}}
+                    server.send_message(client_to_send, json.dumps(message))
+
+
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)
