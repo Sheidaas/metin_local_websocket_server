@@ -1,0 +1,18 @@
+{
+    "REQUIREMENTS": {},
+    "OPTIONS": {},
+    "NAME": "EnergyBot",
+    "STAGES": {
+        "0": {
+            "ACTIONS": [{"name": "Buying a lot of daggers",
+                        "function_args": ["9001", "metin2_first_city"],
+                        "function": "BuyItemsForAlchemist",
+                        "requirements": {}
+                        },
+                        {"name": "Exchanging daggers to energy",
+                        "function_args": [["1040"], "20001", "metin2_first_city"],
+                        "function": "GetEnergyFromAlchemist",
+                        "requirements": {}}]
+        }
+    }
+}

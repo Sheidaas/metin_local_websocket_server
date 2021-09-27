@@ -1,3 +1,5 @@
+import simplejson as json
+
 def load_item_list(path, language='en', server='gf_servers'):
     items = {}
     real_path = path + '\\' + 'Resources\\' + server + '\\proto\\' + language + '\\' + 'item_names.txt'
@@ -42,3 +44,13 @@ def load_mob_list(path, language='en', server='gf_servers'):
             except ValueError:
                 continue
     return mobs
+
+def load_schema_by_name(path, schema_name):
+    real_path = path + '\\' + 'Resources\\Schemas\\' + schema_name + '.schema'
+    try:
+        with open(real_path, 'r') as file:
+            data = json.loads(file.read())
+    except Exception as e:
+        print(e)
+        return False
+    return data
