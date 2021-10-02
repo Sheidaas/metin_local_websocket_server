@@ -14,9 +14,9 @@ class StatisticsDatabase:
     
     #Valid Type Numbers for mobs. Ignoring NPCs and Ores and other instances.
     VALID_TYPES = { 
-            -1:'boss',
-            0:'regular',
-            2:'metin'
+            'BOSS':-1,
+            'REGULAR':0,
+            'METIN':2
         }
 
     def __init__(self):
@@ -64,7 +64,7 @@ class StatisticsDatabase:
         
         for instance in InstancesList:
             #check if monster of any kind = Boss, Metin-Stone, regular mob 
-            if instance.type in self.VALID_TYPES:
+            if instance.type in [self.VALID_TYPES[value] for value in self.VALID_TYPES.keys()]:
 
                 mob_id = (self.mob.search(where('id')==instance.id))[0].doc_id #list should only return one item - thus accessing [0]
                 map_id = (self.map.search(where('map_name')==current_map))[0].doc_id #again only one result
