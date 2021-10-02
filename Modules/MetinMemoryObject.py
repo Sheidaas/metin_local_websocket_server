@@ -1,9 +1,15 @@
 from . import FileLoader
-import os
+from .StatisticsDatabase import statDB
 
 instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
 data_valid_keys = ['message', 'action']
 
+ACTIONS = {'SET_VIDS': 'set_vids',
+           'SET_CHARACTER_STATUS': 'set_character_status',
+           'SET_HACK_STATUS': 'set_hack_status',
+           'SET_INVENTORY_STATUS': 'set_inventory_status',
+           'SET_PICKUP_FILTER': 'set_pickup_filter',
+           }
 
 class MetinMemoryObject:
 
@@ -62,29 +68,32 @@ class MetinMemoryObject:
             print('cleaned_information is empty')
             return False
 
-        if received_information['action'] == 'set_vids':
+        if received_information['action'] == ACTIONS['SET_VIDS']:
             self.InstancesList = [None] * len(received_information['data'])
             for instance in range(len(received_information['data'])):
                 self.InstancesList[instance] = received_information['data'][instance]
+
+            if self.character_status['CurrentMap']:
+                statDB.AddNewMobData(self.InstancesList, self.character_status['CurrentMap'])
             return True
 
-        if received_information['action'] == 'set_character_status':
+        if received_information['action'] == ACTIONS['SET_CHARACTER_STATUS']:
             for status_key in received_information['data'].keys():
                 self.character_status[status_key] = received_information['data'][status_key]
             return True
 
-        if received_information['action'] == 'set_hack_status':
+        if received_information['action'] == ACTIONS['SET_HACK_STATUS']:
             for hack_option in received_information['data'].keys():
                 self.hack_options[hack_option] = received_information['data'][hack_option]
             return True
         
-        if received_information['action'] == 'set_inventory_status':
+        if received_information['action'] == ACTIONS['SET_INVENTORY_STATUS']:
             self.Inventory = received_information['data']['Inventory']
             self.Equipment = received_information['data']['Equipment']
             #print(self.Inventory)
             return True
 
-        if received_information['action'] == 'set_pickup_filter':
+        if received_information['action'] == ACTIONS['SET_PICKUP_FILTER']:
             #print(received_information)
             self.PickupFilter = received_information['data']
             return True
