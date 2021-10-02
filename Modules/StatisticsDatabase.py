@@ -1,5 +1,4 @@
 import tinydb
-from os.path import exists
 from _websocket import PATH
 
 class StatisticsDatabase:
