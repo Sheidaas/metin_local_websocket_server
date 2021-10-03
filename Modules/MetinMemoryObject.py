@@ -1,6 +1,4 @@
 from . import FileLoader
-from .StatisticsDatabase import statDB
-
 instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
 data_valid_keys = ['message', 'action']
 
@@ -63,6 +61,7 @@ class MetinMemoryObject:
         self.PickupFilter = []
 
     def OnReceiveInformation(self, received_information):
+        from .StatisticsDatabase import statDB
         #print(received_information)
         if not self.ValidateReceivedInformation(received_information):
             print('cleaned_information is empty')
@@ -73,8 +72,8 @@ class MetinMemoryObject:
             for instance in range(len(received_information['data'])):
                 self.InstancesList[instance] = received_information['data'][instance]
 
-            if self.character_status['CurrentMap']:
-                statDB.AddNewMobData(self.InstancesList, self.character_status['CurrentMap'])
+            statDB.AddNewMobData(self.InstancesList, self.character_status['CurrentMap'])
+            print(statDB.ReturnMobLocation(101))
             return True
 
         if received_information['action'] == ACTIONS['SET_CHARACTER_STATUS']:

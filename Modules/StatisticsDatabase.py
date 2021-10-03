@@ -1,156 +1,59 @@
-from tinydb import TinyDB,Query
-from tinydb import queries
+from tinydb import TinyDB
 from tinydb.queries import where
-from MetinMemoryObject import MetinMemoryObject
 from _websocket import PATH
+from math import sqrt
 
+VALID_TYPES = {
+    'BOSS': -1,
+    'MONSTER': 0,
+    'METIN': 2
+}
 class StatisticsDatabase:
 
-
-    # creating for later class-wide-usage, defining in init
-    loc = None
-    mob = None
-    map = None
-    
     #Valid Type Numbers for mobs. Ignoring NPCs and Ores and other instances.
-    VALID_TYPES = { 
-            'BOSS':-1,
-            'REGULAR':0,
-            'METIN':2
-        }
+
 
     def __init__(self):
-        self.database = TinyDB(PATH + '\\statistics.db')
+        self.database = TinyDB(PATH + '\\Resources\\statistics.db')
         # setting short names for faster access
-        self.loc = self.database.table('loc')
-        self.mob = self.database.table('mob')
-        self.map = self.database.table('map')
-        if self.map.count(all) < 19: #current amount of maps, to check if filled, if yes skip. 
-            self.PreFillDatabase()
-        
+        self.mobs = self.database.table('mobs')
 
-    def PreFillDatabase(self):
-        # pre-loading mob list into db - performance increase 
-        mob_list = MetinMemoryObject.ReturnServerMobList()
-        
-
-        [self.mob.insert({'mob_id': mob.mob_id}) for mob in mob_list]
-
-        # pre-loading map list into db - performance increase 
-        map_list = ["map_a2",
-        "map_n_snowm_01",
-        "metin2_map_b1",
-        "metin2_map_b3",
-        "metin2_map_c1",
-        "metin2_map_c3",
-        "metin2_map_devilsCatacomb",
-        "metin2_map_deviltower1",
-        "metin2_map_guild_02",
-        "metin2_map_milgyo",
-        "metin2_map_monkeydungeon_03",
-        "metin2_map_monkeydungeon",
-        "metin2_map_n_desert_01",
-        "metin2_map_n_flame_01",
-        "metin2_map_privateshop",
-        "metin2_map_spiderdungeon_02",
-        "metin2_map_spiderdungeon",
-        "metin2_map_trent02",
-        "metin2_map_trent"]
-        
-        [self.map.insert({'map_name':map_entity}) for map_entity in map_list]
-    
     def AddNewMobData(self, InstancesList, current_map):
         # {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
-        
+        print(current_map, InstancesList)
         for instance in InstancesList:
             #check if monster of any kind = Boss, Metin-Stone, regular mob 
-            if instance.type in [self.VALID_TYPES[value] for value in self.VALID_TYPES.keys()]:
+            if instance['type'] in [VALID_TYPES[value] for value in VALID_TYPES.keys()]:
+                self.mobs.insert({'id': instance['id'], 'map': current_map,
+                                  'location': [instance['x'], instance['y']]})
 
-                mob_id = (self.mob.search(where('id')==instance.id))[0].doc_id #list should only return one item - thus accessing [0]
-                map_id = (self.map.search(where('map_name')==current_map))[0].doc_id #again only one result
-                #checking if exists to avoid duplicate locations - eventually to be removed, to create a "heat" map, where more mobs of this kind spawn.
-                #this would (probably) decrease performance. To be checked if search uses less ressources than insert. 
-
-                q = Query()
-                if len(self.loc.search((q.mob_id==mob_id) & (q.map_id==map_id) & (q.x==instance.x) & (q.y==instance.y)))>1:
-
-                    #insert into db
-                    self.loc.insert({'mob_id':mob_id,'map_id':map_id, 'x':instance.x, 'y':instance.y})
-
-
-    def ReturnMobLocation(self,mob_id:int): 
+    def ReturnMobLocation(self, mob_id: int):
         # Returns: map{map_name:str, coord_map_list[{x,y},...]}
         # probably a lot of bug fixing necessary - dont kill me pls :D
-        
 
-        #getting database mob_id
-        mob = (self.mob.search(where('id')==mob_id))[0].doc_id #only 1 item return, or broken db. 
+        mobs = self.mobs.search(where('id') == mob_id) #grabbing full location list for selected mob
+        if not mobs:
+            return None
 
-        full_loc_list = self.loc.search(where('mob_id')==mob) #grabbing full location list for selected mob 
-        
-        #Sort by y first and then by x to have x and y sorted upwards
-        full_loc_list = sorted(full_loc_list, key=lambda k:k['y'])
-        full_loc_list = sorted(full_loc_list, key=lambda k:k['x']) 
-        
-        #Sort by map id last, to only have one map at a time.
-        full_loc_list = sorted(full_loc_list, key=lambda k:k['map_id'])
-
-
-        loc_list = {}
-
-        ###
-        # following values in calculation need to be adjusted, only an rough sketch without data. 
-        # trying to figure out circles from available data. returning middle point of circle. 
-         
-        map_id=0
-        loc_circle_x=[]
-        loc_circle_y=[]
-
-        loc_circle_centers=[]
-        last_x=0
-        last_y=0
-
-        while len(full_loc_list>0):
-            loc = full_loc_list.pop(0)      #reduce location lists one by one
-    
-            #select only close mob ranges next to each other. Further away mobs are new spawning circles.
-            if loc['x']-last_x<100 and loc['y']-last_y<100: #TODO: Figure out optimal range (currently 100)
-                loc_circle_x.append(loc['x'])
-                loc_circle_y.append(loc['y'])
+        maps_with_locations = {}
+        for mob in mobs:
+            if mob['map'] in maps_with_locations.keys():
+                maps_with_locations[mob['map']].append(mob['location'])
             else:
-                loc_circle_centers.append(self.ReturnCircleCenter(loc_circle_x, loc_circle_y))
-                log_circle_x=[]
-                loc_circle_y=[]
-                loc_circle_x.append(loc['x'])
-                loc_circle_y.append(loc['y'])
+                maps_with_locations[mob['map']] = [mob['location']]
+
+        for map_name in maps_with_locations.keys():
+            to_close_points = []
+            points = []
+            for location in maps_with_locations[map_name]:
+                if location in to_close_points or location in points: continue
+                [to_close_points.append(_location)
+                 if sqrt((location[0] - _location[0]) ** 2 + (location[1] - _location[1]) ** 2) < 2000 and
+                    _location not in points and _location != location else _location for _location in maps_with_locations[map_name]]
+                points.append(location)
+            maps_with_locations[map_name] = points
 
 
-            if loc['map_id']!=map_id:       #check if map changes
-                if map_id==0:               #ignore first change from default value to read map
-                    map_id=loc['map_id']
-                else:
-                    loc_circle_centers.append(self.ReturnCircleCenter(loc_circle_x,loc_circle_y)) #append one last circle
-                    #get map name
-                    map_name = self.map.get(doc_id=map_id)
-                    loc_list[map_name]=loc_circle_centers
-                    last_x=0
-                    last_y=0
-                    log_circle_x=[]
-                    loc_circle_y=[]
-                    loc_circle_centers=[]
-
-        #One last time for final Circle and map after full location list is empty 
-
-        loc_circle_centers.append(self.ReturnCircleCenter(loc_circle_x,loc_circle_y)) #append one last circle
-        #get map name
-        map_name = self.map.get(doc_id=map_id)
-        loc_list[map_name]=loc_circle_centers
-
-        return loc_list 
-    
-    test1 = [{'id':1,'map':1,'x':10,'y':10}]
-
-    def ReturnCircleCenter(list_x, list_y):
-        return {'x':(sum(list_x)/len(list_x)),'y':(sum(list_y)/len(list_y))}
+        return maps_with_locations
 
 statDB = StatisticsDatabase()
