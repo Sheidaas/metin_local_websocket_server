@@ -20,12 +20,11 @@ class StatisticsDatabase:
 
     def AddNewMobData(self, InstancesList, current_map):
         # {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
-        print(current_map, InstancesList)
+        parsed_mobs = []
         for instance in InstancesList:
-            #check if monster of any kind = Boss, Metin-Stone, regular mob 
             if instance['type'] in [VALID_TYPES[value] for value in VALID_TYPES.keys()]:
-                self.mobs.insert({'id': instance['id'], 'map': current_map,
-                                  'location': [instance['x'], instance['y']]})
+                parsed_mobs.append({'id': instance['id'], 'map': current_map, 'location': [instance['x'], instance['y']]})
+        self.mobs.insert_multiple(parsed_mobs)
 
     def ReturnMobLocation(self, mob_id: int):
         # Returns: map{map_name:str, coord_map_list[{x,y},...]}
@@ -52,7 +51,6 @@ class StatisticsDatabase:
                     _location not in points and _location != location else _location for _location in maps_with_locations[map_name]]
                 points.append(location)
             maps_with_locations[map_name] = points
-
 
         return maps_with_locations
 
