@@ -61,19 +61,17 @@ class MetinMemoryObject:
         self.PickupFilter = []
 
     def OnReceiveInformation(self, received_information):
-        from .StatisticsDatabase import statDB
+        #from .StatisticsDatabase import statDB
         #print(received_information)
         if not self.ValidateReceivedInformation(received_information):
             print('cleaned_information is empty')
             return False
 
         if received_information['action'] == ACTIONS['SET_VIDS']:
-            self.InstancesList = [None] * len(received_information['data'])
-            for instance in range(len(received_information['data'])):
-                self.InstancesList[instance] = received_information['data'][instance]
+            self.InstancesList = [instance for instance in received_information['data']]
 
-            statDB.AddNewMobData(self.InstancesList, self.character_status['CurrentMap'])
-            print(statDB.ReturnMobLocation(101))
+            #statDB.AddNewMobData(self.InstancesList, self.character_status['CurrentMap'])
+            #print(statDB.ReturnMobLocation(101))
             return True
 
         if received_information['action'] == ACTIONS['SET_CHARACTER_STATUS']:
