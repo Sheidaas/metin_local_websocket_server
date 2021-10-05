@@ -32,7 +32,7 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
-DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema', 'options']
+DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema', 'options', 'needed_options']
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
@@ -360,6 +360,7 @@ class WebsocketServer:
                 elif cleared_message['data']['action'] == ACTIONS['SET_NEW_SCHEMA']:
                     schema = FileLoader.load_schema_by_name(PATH, cleared_message['data']['schema'])
                     schema['OPTIONS'] = cleared_message['data']['options']
+                    schema['NEEDED_OPTIONS'] = cleared_message['data']['needed_options']
                     message = {'type': RECEIVED_PACKETS_PATTERNS_TYPES['update_request'], 'data':{'message': schema, 'action': ACTIONS['SET_NEW_SCHEMA']}}
                     server.send_message(client_to_send, json.dumps(message))
 
@@ -373,7 +374,7 @@ class WebsocketServer:
 
 
 def check_installed_packages():
-    required = {'websocket_server', 'simplejson'}
+    required = {'websocket_server', 'simplejson', 'tinydb'}
     installed = {pkg.key for pkg in pkg_resources.working_set}
     missing = required - installed
 
