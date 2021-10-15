@@ -1919,11 +1919,11 @@ Vnum	LocaleName
 9508	Waaier+3
 9509	Stalen Fakkel+3
 9510	Ragnaroek
-9511	Ostí Nekonena
+9511	OstÃ­ Nekonena
 9512	Gott Der Server
 9513	CanonjawS
 9514	Lethal Damage
-9515	L'âme de Pitchou
+9515	L'Ã¢me de Pitchou
 9516	Kusanagi
 9517	TritaRifiuti
 9518	owca Smoczych Monet
@@ -3706,16 +3706,16 @@ Vnum	LocaleName
 12347	Lederen Kap+7
 12348	Lederen Kap+8
 12349	Lederen Kap+9
-12360	Maliën Kap+0
-12361	Maliën Kap+1
-12362	Maliën Kap+2
-12363	Maliën Kap+3
-12364	Maliën Kap+4
-12365	Maliën Kap+5
-12366	Maliën Kap+6
-12367	Maliën Kap+7
-12368	Maliën Kap+8
-12369	Maliën Kap+9
+12360	MaliÃ«n Kap+0
+12361	MaliÃ«n Kap+1
+12362	MaliÃ«n Kap+2
+12363	MaliÃ«n Kap+3
+12364	MaliÃ«n Kap+4
+12365	MaliÃ«n Kap+5
+12366	MaliÃ«n Kap+6
+12367	MaliÃ«n Kap+7
+12368	MaliÃ«n Kap+8
+12369	MaliÃ«n Kap+9
 12380	Stalen Kap+0
 12381	Stalen Kap+1
 12382	Stalen Kap+2
@@ -5736,8 +5736,8 @@ Vnum	LocaleName
 21960	Askalahel
 21961	Doorn van de Furie
 21962	Goddelijke Zephyr
-21963	Götterdämmerung
-21964	Coup de Grâce
+21963	GÃ¶tterdÃ¤mmerung
+21964	Coup de GrÃ¢ce
 21965	Nexus
 21966	Tijger Tenen
 21970	Requiem
@@ -5745,7 +5745,7 @@ Vnum	LocaleName
 21972	Ependrion
 21973	Brachindul
 21974	Dodelijke Kus
-21975	Kor-Glâsh
+21975	Kor-GlÃ¢sh
 21976	Carnifex
 21991	NoNAme
 21992	NoNAme
@@ -6348,7 +6348,7 @@ Vnum	LocaleName
 30032	Zwarte Uniform
 30033	Gebroken Porselein
 30034	Witte Haarband
-30035	Gezichtscrême
+30035	GezichtscrÃªme
 30036	Mystieke Kruid
 30037	Tijgerklauw
 30038	Tijger Vacht
@@ -6583,7 +6583,7 @@ Vnum	LocaleName
 30325	Spinachtige Sleutel
 30326	Gif v/d Spinnenkoningin
 30327	Spinachtige Fluit
-30328	¿ë½ÅÀÇ »óÀÚ
+30328	Â¿Ã«Â½Ã…Ã€Ã‡ Â»Ã³Ã€Ãš
 30329	Gouden Tandrad
 30330	Steen der Maat
 30331	Vries Sleutel
@@ -7025,7 +7025,7 @@ Vnum	LocaleName
 38016	TM Voucher (20)
 38017	TM Voucher (50)
 38018	TM Voucher (100)
-38020	¼º¸¶ÇÁ¸®¹Ì¾ö¹öÇÁ
+38020	Â¼ÂºÂ¸Â¶Ã‡ÃÂ¸Â®Â¹ÃŒÂ¾Ã¶Â¹Ã¶Ã‡Ã
 38050	Kracht Kist
 38051	Koninklijk Tijgerkristal
 38052	De Kist der Koningen
@@ -7510,7 +7510,7 @@ Vnum	LocaleName
 41316	Azraels Pantser (v)
 41317	Azraels Pantser+ (m)
 41318	Azraels Pantser+ (v)
-41319	Èæ»ç°©
+41319	ÃˆÃ¦Â»Ã§Â°Â©
 41320	Pompoenen Jan Pak (m)
 41321	Pompoenen Jan Jurk (v)
 41322	Pompoenen Jan Pak+ (m)
@@ -8104,7 +8104,7 @@ Vnum	LocaleName
 45152	Azraels Helm (v)
 45153	Azraels Helm+ (m)
 45154	Azraels Helm+ (v)
-45155	Èæ»çÅõ±¸
+45155	ÃˆÃ¦Â»Ã§Ã…ÃµÂ±Â¸
 45156	Pompoenen Jan hoofd (m)
 45157	Pompoenen Jan Hoofd (v)
 45158	Pompoenen Jan Hoofd+ (m)
@@ -8665,7 +8665,7 @@ Vnum	LocaleName
 50212	Leerling Kist I
 50213	Leerling Kist I
 50215	Halloween Kist
-50216	Glühwijn
+50216	GlÃ¼hwijn
 50249	Kist der Triomf
 50252	Cor Draconis
 50253	NoNAme
@@ -8702,7 +8702,7 @@ Vnum	LocaleName
 50286	Gouden Strijd Zone Kist
 50287	Veld Doos 1
 50288	Veld Doos 2
-50289	Reïncarnatie
+50289	ReÃ¯ncarnatie
 50290	Houten Strijd Zone Kist
 50294	Koningin Meley's Kist
 50296	Doos der Beschermingen
@@ -9508,7 +9508,7 @@ Vnum	LocaleName
 54703	Nemere's Kist
 54704	Jotun Thrym's Kist
 54705	Hydra's Kist
-55001	Proteïne Snack
+55001	ProteÃ¯ne Snack
 55002	Transporteer Doos
 55003	Jonge Huisdieren Boek
 55004	Wilde Huisdieren Boek
@@ -9546,7 +9546,7 @@ Vnum	LocaleName
 55036	Adelaarsogen Boek
 55037	Levensroof Boek
 55038	Vederlicht Boek
-55100	Goddelijke Proteïne Hap.
+55100	Goddelijke ProteÃ¯ne Hap.
 55400	Mysterieuze Doos
 55401	Apenei
 55402	Spinnenei
@@ -9630,12 +9630,12 @@ Vnum	LocaleName
 70019	Millionairs Armband
 70020	Perzik Bloem Wijn
 70021	Engel Zegening
-70022	Bera´s Hart
+70022	BeraÂ´s Hart
 70023	Wijze Man Stok
 70024	Gezegend Bol
 70025	Waardigheid Ring
 70026	Verdwijnend Spiegel
-70027	Smid´s Notitie
+70027	SmidÂ´s Notitie
 70028	Wijze Man Notitie
 70029	Rood Veren Pen
 70030	Rode Oogglas
@@ -10405,7 +10405,7 @@ Vnum	LocaleName
 76028	Steen Ambacht Boek
 76029	Groene Draken Boon
 76030	Kracht Lolly
-76031	Proteïne Snack
+76031	ProteÃ¯ne Snack
 76033	Perzik Bloem Wijn+
 76034	Geconcentreerd Lezen
 76035	Draken God Leven

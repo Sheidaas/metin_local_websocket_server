@@ -211,7 +211,7 @@ Vnum	LocalizedName
 1093	Man met de Zeis
 1094	El. Slinkse Dem. Koning
 1095	Blauwe Dood
-1096	Áø»ç±Í¿Õ
+1096	ÃÃ¸Â»Ã§Â±ÃÂ¿Ã•
 1101	Betoverd IJs
 1102	IJs Walvis
 1103	IJs Kever
@@ -365,14 +365,14 @@ Vnum	LocalizedName
 2413	Setaou Magistraat
 2414	Setaou Commandant
 2415	Setaou Commandant
-2431	ÃµÀÇº´»ç
-2432	ÃµÀÇ±Ãº´
-2433	ÃµÀÇ¹ı»ç
-2434	ÃµÀÇÀå¼ö
-2451	ÁøÃµÀÇº´»ç
-2452	ÁøÃµÀÇ±Ãº´
-2453	ÁøÃµÀÇ¹ı»ç
-2454	ÁøÃµÀÇÀå¼ö
+2431	ÃƒÂµÃ€Ã‡ÂºÂ´Â»Ã§
+2432	ÃƒÂµÃ€Ã‡Â±ÃƒÂºÂ´
+2433	ÃƒÂµÃ€Ã‡Â¹Ã½Â»Ã§
+2434	ÃƒÂµÃ€Ã‡Ã€Ã¥Â¼Ã¶
+2451	ÃÃ¸ÃƒÂµÃ€Ã‡ÂºÂ´Â»Ã§
+2452	ÃÃ¸ÃƒÂµÃ€Ã‡Â±ÃƒÂºÂ´
+2453	ÃÃ¸ÃƒÂµÃ€Ã‡Â¹Ã½Â»Ã§
+2454	ÃÃ¸ÃƒÂµÃ€Ã‡Ã€Ã¥Â¼Ã¶
 2491	Kapitein Yonghan
 2492	Generaal Yonghan
 2493	Beran-Setaou
@@ -485,7 +485,7 @@ Vnum	LocalizedName
 2675	Zwarte Zodiac Ork Reus
 2676	Zodiac Rode Dief Amazone
 2677	Zodiac Rode Dief Moord.
-2678	Zodiac Rode Dief Magiër
+2678	Zodiac Rode Dief MagiÃ«r
 2679	Zodiac Rode Dief Beul
 2680	Zodiac Krab Krijger
 2681	Zodiac Schorpioen Scherp
@@ -494,12 +494,12 @@ Vnum	LocalizedName
 2684	Zodiac Gepantserde Krab
 2685	Zodiac Gigantische Bijt.
 2686	Gig. Zodiac Slachter
-2687	Zodiac Magiër
+2687	Zodiac MagiÃ«r
 2688	Zodiac Tweus
 2689	Zodiac Oger Beul
 2690	Zodiac Oger Boogsch.
 2691	Zodiac Knok Oger
-2692	Zodiac Oger Magiër
+2692	Zodiac Oger MagiÃ«r
 2700	Vargulf
 2701	Vargulf Soldaat
 2702	Vargulf Generaal
@@ -590,7 +590,7 @@ Vnum	LocalizedName
 3005	Gnol Generaal
 3090	Gnol Heerser
 3091	Opperste Gnol Wachter
-3101	Één-oog Mepper
+3101	Ã‰Ã©n-oog Mepper
 3102	Cycloop soldaat
 3103	Cycloop Magier
 3104	Cycloop Beul
@@ -793,19 +793,19 @@ Vnum	LocalizedName
 4249	TS: Magma Yeti
 4260	TS: En-Tai Krijger
 4261	TS: En-Tai Soldaat
-4262	TS: En-Tai Druïde
+4262	TS: En-Tai DruÃ¯de
 4263	TS: En-Tai Genezer
 4264	TS: En-Tai Vernietiger
 4265	TS: En-Tai Heerser
 4266	TS: Ochao Genezer
 4267	TS: En-Tai Krijger
 4268	TS: En-Tai Soldaat
-4269	TS: En-Tai Druïde
+4269	TS: En-Tai DruÃ¯de
 4270	TS: En-Tai Genezer
 4271	TS: En-Tai Vernietiger
 4272	TS: Bagjanamu
 4273	TS: Ochao Soldaat
-4274	TS: Ochao Magiër
+4274	TS: Ochao MagiÃ«r
 4275	TS: Ochao Beul
 4276	TS: Ochao Generaal
 4280	RX: Setaou Vechter
@@ -841,19 +841,19 @@ Vnum	LocalizedName
 4329	RX: Magma Yeti
 4340	RX: En-Tai Krijger
 4341	RX: En-Tai Soldaat
-4342	RX: En-Tai Druïde
+4342	RX: En-Tai DruÃ¯de
 4343	RX: En-Tai Genezer
 4344	RX: En-Tai Vernietiger
 4345	RX: En-Tai Heerser
 4346	RX: Ochao Genezer
 4347	RX: En-Tai Krijger
 4348	RX: En-Tai Soldaat
-4349	RX: En-Tai Druïde
+4349	RX: En-Tai DruÃ¯de
 4350	RX: En-Tai Genezer
 4351	RX: En-Tai Vernietiger
 4352	RX: Bagjanamu
 4353	RX: Ochao Soldaat
-4354	RX: Ochao Magiër
+4354	RX: Ochao MagiÃ«r
 4355	RX: Ochao Beul
 4356	RX: Ochao Generaal
 4400	TS: Beran-Setaou
@@ -866,13 +866,13 @@ Vnum	LocalizedName
 4413	RX: Jotun Thrym
 4420	W: En-Tai Krijger
 4421	W: En-Tai Soldaat
-4422	W: En-Tai Druïde
+4422	W: En-Tai DruÃ¯de
 4423	W: En-Tai Genezer
 4424	W: En-Tai Vernietiger
 4429	W: Bagjanamu
 4430	W: Gnol Boogschutter
 4431	W: Cycloop Soldaat
-4432	W: Cycloop Magiër
+4432	W: Cycloop MagiÃ«r
 4433	W: Cycloop Beul
 4434	W: Generaal Outis
 4439	W: Polyphemos
@@ -897,7 +897,7 @@ Vnum	LocalizedName
 4470	W: Hangork
 4471	W: Boogje Oger
 4472	W: Knok Oger
-4473	W: Oger Magiër
+4473	W: Oger MagiÃ«r
 4474	W: Generaal Ogg
 4479	W: De Grote Oger
 5001	Piraat Tanaka
@@ -993,12 +993,12 @@ Vnum	LocalizedName
 6209	Draken Beeld
 6301	Ochao Krijger
 6302	Ochao Soldaat
-6303	Ochao Magiër
+6303	Ochao MagiÃ«r
 6304	Ochao Beul
 6305	Ochao Generaal
 6306	Sterke Ochao Krijger
 6307	Sterke Ochao Soldaat
-6308	Sterke Ochao Magiër
+6308	Sterke Ochao MagiÃ«r
 6309	Sterke Ochao Beul
 6310	Sterke Ochao Generaal
 6391	Ochao Heer
@@ -1007,7 +1007,7 @@ Vnum	LocalizedName
 6394	Sterke Ochao Lijfwacht
 6401	En-Tai Krijger
 6402	En-Tai Soldaat
-6403	En-Tai Druïde
+6403	En-Tai DruÃ¯de
 6404	En-Tai Genezer
 6405	En-Tai Wachter
 6406	En-Tai Vernietiger
@@ -1016,7 +1016,7 @@ Vnum	LocalizedName
 6409	Ochao Genezer
 6410	Sterke En-Tai Krijger
 6411	Sterke En-Tai Soldaat
-6412	Sterke En-Tai Druïde
+6412	Sterke En-Tai DruÃ¯de
 6413	Sterke En-Tai Genezer
 6414	Sterke En-Tai Vernieler
 6415	Evenement Beran-Setaou
@@ -1039,14 +1039,14 @@ Vnum	LocalizedName
 6687	Soldaat Ki
 6688	Soldaat Mao
 6689	Soldaat Gong
-6690	Frontlinie Magiër
+6690	Frontlinie MagiÃ«r
 6691	Kao
 6692	Koning Bao (Quest)
 6693	Jin Bing
 6694	Soldaat Ki
 6695	Soldaat Mao
 6696	Soldaat Gong
-6697	Frontlinie Magiër
+6697	Frontlinie MagiÃ«r
 6698	Kao
 6699	Koning Bao
 6700	Helhond
@@ -1139,7 +1139,7 @@ Vnum	LocalizedName
 6805	Gnol Kapitein
 6806	Gnol Soldaat
 6807	Gnol Spion
-6808	Gnol Magiër
+6808	Gnol MagiÃ«r
 6809	Gnol Commandant
 6810	Ahtrin Krijger
 6811	Ahtrin Verkenner
@@ -1491,22 +1491,22 @@ Vnum	LocalizedName
 8509	Esoterisch Oproeper
 8510	Vlam Krijger
 8511	IJs Golem
-8600	¿õ±Í´ëÁ·Àå
-8601	¿õ±Í´ëÁ·Àå
-8602	¹Ğ±³´ëÁÖ±³
-8603	¹Ğ±³´ëÁÖ±³
-8604	¸í»ç±Í¿Õ
-8605	¸í»ç±Í¿Õ
-8606	»ç½Å
-8607	»ç½Å
-8608	±¸¹ÌÈ£
-8609	±¸¹ÌÈ£
-8610	´©··Åõ¹ü±Í
-8611	´©··Åõ¹ü±Í
-8612	¿©¿Õ°Å¹Ì
-8613	¿©¿Õ°Å¹Ì
-8614	°Å´ë»ç¸·°ÅºÏ
-8615	°Å´ë»ç¸·°ÅºÏ
+8600	Â¿ÃµÂ±ÃÂ´Ã«ÃÂ·Ã€Ã¥
+8601	Â¿ÃµÂ±ÃÂ´Ã«ÃÂ·Ã€Ã¥
+8602	Â¹ÃÂ±Â³Â´Ã«ÃÃ–Â±Â³
+8603	Â¹ÃÂ±Â³Â´Ã«ÃÃ–Â±Â³
+8604	Â¸Ã­Â»Ã§Â±ÃÂ¿Ã•
+8605	Â¸Ã­Â»Ã§Â±ÃÂ¿Ã•
+8606	Â»Ã§Â½Ã…
+8607	Â»Ã§Â½Ã…
+8608	Â±Â¸Â¹ÃŒÃˆÂ£
+8609	Â±Â¸Â¹ÃŒÃˆÂ£
+8610	Â´Â©Â·Â·Ã…ÃµÂ¹Ã¼Â±Ã
+8611	Â´Â©Â·Â·Ã…ÃµÂ¹Ã¼Â±Ã
+8612	Â¿Â©Â¿Ã•Â°Ã…Â¹ÃŒ
+8613	Â¿Â©Â¿Ã•Â°Ã…Â¹ÃŒ
+8614	Â°Ã…Â´Ã«Â»Ã§Â¸Â·Â°Ã…ÂºÃ
+8615	Â°Ã…Â´Ã«Â»Ã§Â¸Â·Â°Ã…ÂºÃ
 8616	Billy Loomis
 8617	Jack Torrance
 8618	Chucky
@@ -1580,36 +1580,36 @@ Vnum	LocalizedName
 10034	2_Zin-Grot 10594 7525
 10035	Deon-Zeon 917 5253
 10036	2_Deon-Zeon 7041 4642
-10037	ÀÚ¾çÇö 3809 8233
-10038	½Å¼ö¼º 9752 1330
-10039	º¹Á¤Çö 1917 2900
-10040	Áø³ë¼º 9239 1836
-10041	¹Ú¶óÇö 8316 2154
-10042	ÃµÁ¶¼º 9772 1850
-10043	¼­ÇÑ»ê 3819 2969
-10044	½Å¼ö¼º 10189 1484
-10045	¼­ÇÑ»ê 3819 2969
-10046	½Å¼ö¼º 9774 1501
-10047	½Â·æ°î 2699 6752
-10048	Áø³ë¼º 9679 1994
-10049	½Â·æ°î 2699 6752
-10050	Áø³ë¼º 9256 2012
-10051	¿µºñ»ç¸· 3478 6189
-10052	ÃµÁ¶¼º 9780 1995
-10053	¿µºñ»ç¸· 3478 6189
-10054	ÃµÁ¶¼º 10190 2002
-10055	µµ¿°È­Áö 6011 6874
-10056	¼­ÇÑ»ê 4368 2158
-10057	½Â·æ°î 3355 7558
-10058	¹Ğ±³»ç¿ø 5943 1337
-10059	¼­ÇÑ»ê 0 10496
-10060	¹Ğ±³»ç¿ø 1536 10496
+10037	Ã€ÃšÂ¾Ã§Ã‡Ã¶ 3809 8233
+10038	Â½Ã…Â¼Ã¶Â¼Âº 9752 1330
+10039	ÂºÂ¹ÃÂ¤Ã‡Ã¶ 1917 2900
+10040	ÃÃ¸Â³Ã«Â¼Âº 9239 1836
+10041	Â¹ÃšÂ¶Ã³Ã‡Ã¶ 8316 2154
+10042	ÃƒÂµÃÂ¶Â¼Âº 9772 1850
+10043	Â¼Â­Ã‡Ã‘Â»Ãª 3819 2969
+10044	Â½Ã…Â¼Ã¶Â¼Âº 10189 1484
+10045	Â¼Â­Ã‡Ã‘Â»Ãª 3819 2969
+10046	Â½Ã…Â¼Ã¶Â¼Âº 9774 1501
+10047	Â½Ã‚Â·Ã¦Â°Ã® 2699 6752
+10048	ÃÃ¸Â³Ã«Â¼Âº 9679 1994
+10049	Â½Ã‚Â·Ã¦Â°Ã® 2699 6752
+10050	ÃÃ¸Â³Ã«Â¼Âº 9256 2012
+10051	Â¿ÂµÂºÃ±Â»Ã§Â¸Â· 3478 6189
+10052	ÃƒÂµÃÂ¶Â¼Âº 9780 1995
+10053	Â¿ÂµÂºÃ±Â»Ã§Â¸Â· 3478 6189
+10054	ÃƒÂµÃÂ¶Â¼Âº 10190 2002
+10055	ÂµÂµÂ¿Â°ÃˆÂ­ÃÃ¶ 6011 6874
+10056	Â¼Â­Ã‡Ã‘Â»Ãª 4368 2158
+10057	Â½Ã‚Â·Ã¦Â°Ã® 3355 7558
+10058	Â¹ÃÂ±Â³Â»Ã§Â¿Ã¸ 5943 1337
+10059	Â¼Â­Ã‡Ã‘Â»Ãª 0 10496
+10060	Â¹ÃÂ±Â³Â»Ã§Â¿Ã¸ 1536 10496
 10061	Vuurland 4608 10496
-10062	½Â·æ°î 6144 10496
-10063	±Í¸ñ¸² 3031 266
-10064	Àû±Í¸ñ¸² 11133 534
-10065	½Å±Í¸ñ¸² 7754 10553
-10066	½ÅÀû±Í¸ñ¸² 9915 11195
+10062	Â½Ã‚Â·Ã¦Â°Ã® 6144 10496
+10063	Â±ÃÂ¸Ã±Â¸Â² 3031 266
+10064	Ã€Ã»Â±ÃÂ¸Ã±Â¸Â² 11133 534
+10065	Â½Ã…Â±ÃÂ¸Ã±Â¸Â² 7754 10553
+10066	Â½Ã…Ã€Ã»Â±ÃÂ¸Ã±Â¸Â² 9915 11195
 10067	Apen_Kerker 7752 4477
 10068	Yayang_Gebied 4062 8756
 10069	Apen_Kerker 8520 4477
@@ -1621,21 +1621,21 @@ Vnum	LocalizedName
 10075	Yongbi_Woest. 2879 5407
 10076	Apen_Kerker 1352 7300
 10077	Grot_der_Verbanning 9 120
-10078	½Â·æ°î 2842 8106
+10078	Â½Ã‚Â·Ã¦Â°Ã® 2842 8106
 10079	Grot1 1459 13236
 10080	Grot2 2413 12755
-10081	ÃµÀÇµ¿±¼1Ãş 99 13618
-10082	¿µ¾ÈÀ¾¼º 5028 9998
-10083	ÃµÀÇµ¿±¼1Ãş 1360 14972
-10084	ÃµÀÇµ¿±¼2Ãş 2414 14289
-10085	ÃµÀÇµ¿±¼1Ãş 99 15154
-10086	Á¶¾ÈÀ¾¼º 616 1148
-10087	ÃµÀÇµ¿±¼1Ãş 1360 16508
-10088	ÃµÀÇµ¿±¼2Ãş 2414 15825
-10089	ÃµÀÇµ¿±¼1Ãş 99 16690
-10090	Æò¹«À¾¼º 9609 3188
-10091	ÃµÀÇµ¿±¼1Ãş 1360 18044
-10092	ÃµÀÇµ¿±¼2Ãş 2414 17361
+10081	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 99 13618
+10082	Â¿ÂµÂ¾ÃˆÃ€Â¾Â¼Âº 5028 9998
+10083	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 1360 14972
+10084	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼2ÃƒÃ¾ 2414 14289
+10085	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 99 15154
+10086	ÃÂ¶Â¾ÃˆÃ€Â¾Â¼Âº 616 1148
+10087	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 1360 16508
+10088	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼2ÃƒÃ¾ 2414 15825
+10089	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 99 16690
+10090	Ã†Ã²Â¹Â«Ã€Â¾Â¼Âº 9609 3188
+10091	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 1360 18044
+10092	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼2ÃƒÃ¾ 2414 17361
 10093	Drakenpoort 1731 12205
 10094	Drakenpoort 1733 13743
 10095	Drakenpoort 1728 15277
@@ -1649,7 +1649,7 @@ Vnum	LocalizedName
 10103	Donder 11345 16546
 10104	Donder 11921 16550
 10105	Gautama 12263 16811
-10106	³ì¸²Áö 8168 15050
+10106	Â³Ã¬Â¸Â²ÃÃ¶ 8168 15050
 10107	DongGwang 10629 4767
 10109	BliksemRichel 451 9492
 10110	BliksemPunt 830 9454
@@ -2100,12 +2100,12 @@ Vnum	LocalizedName
 20117	Storm Tijger
 20118	Strijd Leeuw
 20119	Nobel Zwart Paard
-20120	Ã»ÀÇÀü°©È£
-20121	ÁøÀûÀÇÀü°©È£
-20122	È²ÀÇÀü°©È£
-20123	³ìÀÇÀü°©È£
-20124	ÈæÀÇÀü°©È£
-20125	¹éÀÇÀü°©È£
+20120	ÃƒÂ»Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20121	ÃÃ¸Ã€Ã»Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20122	ÃˆÂ²Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20123	Â³Ã¬Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20124	ÃˆÃ¦Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20125	Â¹Ã©Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
 20126	Kerstman
 20127	Jubileum Banier 1
 20128	Jubileum Banier 2
@@ -2122,38 +2122,38 @@ Vnum	LocalizedName
 20138	Ramadan Banier
 20142	Halloween Banier
 20143	Paasbanner
-20201	Àü°©¿ø
-20202	Àü°©¶û
-20203	Àü°©È£
-20204	Àü°©»çÀÚ
-20205	³­ÆøÇÑ Àü°©¿ø
-20206	³­ÆøÇÑ Àü°©¶û
-20207	³­ÆøÇÑ Àü°©È£
-20208	³­ÆøÇÑ Àü°©»çÀÚ
-20209	¿ë¸ÍÇÑ Àü°©¿ø
-20210	¿ë¸ÍÇÑ Àü°©¶û
-20211	¿ë¸ÍÇÑ Àü°©È£
-20212	¿ë¸ÍÇÑ Àü°©»çÀÚ
-20213	Àü°©¼ı¼ø·Ï
-20214	³­ÆøÇÑ Àü°©¼ı¼ø·Ï
-20215	¿ë¸ÍÇÑ Àü°©¼ı¼ø·Ï
-20216	Àü°©¾Ï¼ø·Ï
-20217	³­ÆøÇÑ Àü°©¾Ï¼ø·Ï
-20218	¿ë¸ÍÇÑ Àü°©¾Ï¼ø·Ï
+20201	Ã€Ã¼Â°Â©Â¿Ã¸
+20202	Ã€Ã¼Â°Â©Â¶Ã»
+20203	Ã€Ã¼Â°Â©ÃˆÂ£
+20204	Ã€Ã¼Â°Â©Â»Ã§Ã€Ãš
+20205	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¿Ã¸
+20206	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¶Ã»
+20207	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©ÃˆÂ£
+20208	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â»Ã§Ã€Ãš
+20209	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¿Ã¸
+20210	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¶Ã»
+20211	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©ÃˆÂ£
+20212	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â»Ã§Ã€Ãš
+20213	Ã€Ã¼Â°Â©Â¼Ã½Â¼Ã¸Â·Ã
+20214	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¼Ã½Â¼Ã¸Â·Ã
+20215	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¼Ã½Â¼Ã¸Â·Ã
+20216	Ã€Ã¼Â°Â©Â¾ÃÂ¼Ã¸Â·Ã
+20217	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¾ÃÂ¼Ã¸Â·Ã
+20218	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¾ÃÂ¼Ã¸Â·Ã
 20219	blackpony
-20220	Å©¸®½º¸¶½º ¼ø·Ï
-20221	Àü°©¹é¿õ
-20222	Àü°©ÆÒ´õ
-20223	Àü°©¼®·æÀÚ
-20224	³­ÆøÇÑ Àü°©¼®·æÀÚ
-20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ
-20226	ÈæÀ¯´ÏÄÜ
-20227	¹éÀ¯´ÏÄÜ
-20228	Àü°©¸ÍÁ¶
-20229	³­ÆøÇÑ Àü°©¸ÍÁ¶
-20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶
-20231	Àü°©Èæ¹ü
-20232	Àü°©Ç¥¹ü
+20220	Ã…Â©Â¸Â®Â½ÂºÂ¸Â¶Â½Âº Â¼Ã¸Â·Ã
+20221	Ã€Ã¼Â°Â©Â¹Ã©Â¿Ãµ
+20222	Ã€Ã¼Â°Â©Ã†Ã’Â´Ãµ
+20223	Ã€Ã¼Â°Â©Â¼Â®Â·Ã¦Ã€Ãš
+20224	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¼Â®Â·Ã¦Ã€Ãš
+20225	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¼Â®Â·Ã¦Ã€Ãš
+20226	ÃˆÃ¦Ã€Â¯Â´ÃÃ„Ãœ
+20227	Â¹Ã©Ã€Â¯Â´ÃÃ„Ãœ
+20228	Ã€Ã¼Â°Â©Â¸ÃÃÂ¶
+20229	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¸ÃÃÂ¶
+20230	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¸ÃÃÂ¶
+20231	Ã€Ã¼Â°Â©ÃˆÃ¦Â¹Ã¼
+20232	Ã€Ã¼Â°Â©Ã‡Â¥Â¹Ã¼
 20233	Muffin (Bruine Franje)
 20234	Nugget (Bruine Franje)
 20235	Muffin (Blauwe Franje)
@@ -2270,7 +2270,7 @@ Vnum	LocalizedName
 20393	Gewonde soldaat
 20394	Vuurland Wachter
 20395	IJs Land Beschermer
-20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø
+20396	Ã€Ã»Â¼Ã¶Â»Ã³Â´Ãœ Ã†Ã‡Â¸Ã…Â¿Ã¸
 20397	IJs leeuw
 20398	Arctische Kubus
 20399	Noordelijke Drakenpilaar
@@ -2382,7 +2382,7 @@ Vnum	LocalizedName
 20704	Altaar van Kracht
 20705	Altaar van Welvaart
 20706	Altaar van Verlichting
-20707	Æ÷Å»(°İÀüÁö) 385 385
+20707	Ã†Ã·Ã…Â»(Â°ÃÃ€Ã¼ÃÃ¶) 385 385
 20710	Voorraad Kist (BR)
 20711	Uitrusting Kist (BR)
 20712	Elektrisch Veld
@@ -2431,8 +2431,8 @@ Vnum	LocalizedName
 20850	Mysterieus Altaar
 20851	Premiejag. (Seo Gw. W.)
 20852	Premiejag. (Nam. Gw. K.)
-30000	°³ÀÎ»óÁ¡
-30001	°³ÀÎ»óÁ¡
+30000	Â°Â³Ã€ÃÂ»Ã³ÃÂ¡
+30001	Â°Â³Ã€ÃÂ»Ã³ÃÂ¡
 30002	1001 Nachten
 30003	BBQ Koning
 30004	Schat Jager
@@ -2479,7 +2479,7 @@ Vnum	LocalizedName
 30311	Duistere Jadiet Ader
 30312	Rokerige Jadiet Ader
 30313	Mist Jadiet Ader
-33001	¸ğÇè°¡ÀÇ ÇØ°ñ
+33001	Â¸Ã°Ã‡Ã¨Â°Â¡Ã€Ã‡ Ã‡Ã˜Â°Ã±
 33002	Historicus
 33003	Vastende Inwoner
 33004	Vastende Inwoner

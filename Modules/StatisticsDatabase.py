@@ -2,6 +2,7 @@ from tinydb import TinyDB
 from tinydb.queries import where
 from _websocket import PATH
 from math import sqrt
+from pathlib import Path as OSPath
 
 VALID_TYPES = {
     'BOSS': -1,
@@ -14,7 +15,7 @@ class StatisticsDatabase:
 
 
     def __init__(self):
-        self.database = TinyDB(PATH + '\\Resources\\statistics.db')
+        self.database = TinyDB(OSPath(PATH + '/Resources/statistics.db'))
         # setting short names for faster access
         self.mobs = self.database.table('mobs')
 

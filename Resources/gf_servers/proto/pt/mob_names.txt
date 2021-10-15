@@ -1,5 +1,5 @@
 Vnum	LocalizedName
-101	Cão Selvagem
+101	CÃ£o Selvagem
 102	Lobo
 103	Lobo Alfa
 104	Lobo Azul
@@ -33,7 +33,7 @@ Vnum	LocalizedName
 153	Jug-Hyul
 154	Young-Ji
 155	Li-An
-171	Cão Selvagem Feroz
+171	CÃ£o Selvagem Feroz
 172	Lobo Feroz
 173	Lobo Alfa Feroz
 174	Lobo Azul Feroz
@@ -55,15 +55,15 @@ Vnum	LocalizedName
 301	Soldado Jura de Cristal
 302	Arqueira Jura de Cristal
 303	General Jura de Cristal
-304	Capitã Jura de Cristal
+304	CapitÃ£ Jura de Cristal
 331	Soldado Jura de Jade
 332	Arqueira Jura de Jade
 333	General Jura de Jade
-334	Capitã Jura de Jade
+334	CapitÃ£ Jura de Jade
 351	Soldado Jura de Rubi
 352	Arqueira Jura de Rubi
 353	General Jura de Rubi
-354	Capitã Jura de Rubi
+354	CapitÃ£ Jura de Rubi
 391	Mi-Jung
 392	Eun-Jung
 393	Se-Rang
@@ -73,23 +73,23 @@ Vnum	LocalizedName
 397	Se-Rang Sem Alma
 398	Jin-Hee Sem Alma
 401	Soldado Vento Negro
-402	Maníaco Vento Negro
+402	ManÃ­aco Vento Negro
 403	Arqueiro Vento Negro
 404	Jak-To Vento Negro
 405	To-Su Vento Negro
 406	Gu-Ryung Vento Negro
 431	Soldado Tempestade Negra
-432	Maníaco Tempestade Negra
-433	Arqueiro Trovão
-434	Joh-Hwan Trovão
-435	Kyuk-Jang Trovão
-436	Pho-Hwan Trovão
-451	Soldado Trovão Mau
-452	Maníaco Trovão Mau
-453	Arqueiro Trovão Mau
-454	Joh-Hwan Trovão Mau
-455	Kyuk-Jang Trovão Mau
-456	Pho-Hwan Trovão Mau
+432	ManÃ­aco Tempestade Negra
+433	Arqueiro TrovÃ£o
+434	Joh-Hwan TrovÃ£o
+435	Kyuk-Jang TrovÃ£o
+436	Pho-Hwan TrovÃ£o
+451	Soldado TrovÃ£o Mau
+452	ManÃ­aco TrovÃ£o Mau
+453	Arqueiro TrovÃ£o Mau
+454	Joh-Hwan TrovÃ£o Mau
+455	Kyuk-Jang TrovÃ£o Mau
+456	Pho-Hwan TrovÃ£o Mau
 491	Mahon
 492	Bo
 493	Goo-Pae
@@ -99,14 +99,14 @@ Vnum	LocalizedName
 503	Arqueiro Selvagem
 504	General Selvagem
 531	Soldado Veneno
-532	Maníaco Veneno
+532	ManÃ­aco Veneno
 533	Arqueiro Veneno
 534	Especialista Veneno
 551	Infantaria Selvagem Mau
 552	Sarrafeiro Selvagem Mau
 553	Arqueiro Selvagem Mau
 554	General Selvagem Mau
-591	Capitão Veneno
+591	CapitÃ£o Veneno
 595	Geum-Chul Veneno
 601	Orc
 602	Orc Explorador
@@ -129,93 +129,93 @@ Vnum	LocalizedName
 691	Chefe Orc
 692	Chefe Orc Elite
 693	Chefe Orc Renascido
-701	Fanático Negro
+701	FanÃ¡tico Negro
 702	Arahan Negro
-703	Lutador Arahan Esotérico
-704	Chefe Arahan Esotérico
-705	Executor Esotérico
+703	Lutador Arahan EsotÃ©rico
+704	Chefe Arahan EsotÃ©rico
+705	Executor EsotÃ©rico
 706	Atormentador Negro
 707	Conjurador Negro
-731	Fanático Negro Elite
+731	FanÃ¡tico Negro Elite
 732	Arahan Negro Elite
 733	Lutador Negro Elite
 734	Coronel Negro Elite
 735	Executor Negro Elite
 736	Atormentador Negro Elite
 737	Conjurador Negro Elite
-751	Grande Fanático
+751	Grande FanÃ¡tico
 752	Grande Arahan
 753	Grande Lutador Arahan
 754	Grande Arahan Elite
 755	Grande Executor
 756	Grande Atormentador
 757	Grande Conjurador
-771	Fanático Veneno
+771	FanÃ¡tico Veneno
 772	Arahan Veneno
 773	Lutador Arahan Veneno
 774	Chefe Arahan Veneno
 775	Executor Veneno
 776	Atormentador Veneno
 777	Conjurador Veneno
-791	Líder Negro
+791	LÃ­der Negro
 792	Lider Fantasma Negro
-793	Líder Negro Elite
-794	Líder Fantasma Negro Mau
+793	LÃ­der Negro Elite
+794	LÃ­der Fantasma Negro Mau
 795	Lutador Elite
-796	Lutador Esotérico Elite
-901	Cadáver Fantasma
-902	Cão Infestado
+796	Lutador EsotÃ©rico Elite
+901	CadÃ¡ver Fantasma
+902	CÃ£o Infestado
 903	Homem Infestado
 904	Espadachim Infestado
 905	Lanceiro Infestado
 906	Arqueiro Infestado
-907	Líder Infestado
-931	Cadáver Fantasma Bravo
-932	Cão Infestado Bravo
+907	LÃ­der Infestado
+931	CadÃ¡ver Fantasma Bravo
+932	CÃ£o Infestado Bravo
 933	Homem Infestado Bravo
 934	Lutador Infestado Bravo
 935	Lanceiro Infestado Bravo
 936	Arqueiro Infestado Bravo
-937	Líder Infestado Bravo
+937	LÃ­der Infestado Bravo
 991	Ovo Infestado
 992	Portador de Praga
 993	Portador de Praga Grande
-1001	Soldado Demónio
-1002	Arqueiro Demónio
-1003	Demónio Lanceiro
-1004	Demónio Xamã
-1031	Soldado Demónio Vil
-1032	Arqueiro Demónio Vil
-1033	Demónio Lanceiro Vil
-1034	Demónio Xamã Vil
+1001	Soldado DemÃ³nio
+1002	Arqueiro DemÃ³nio
+1003	DemÃ³nio Lanceiro
+1004	DemÃ³nio XamÃ£
+1031	Soldado DemÃ³nio Vil
+1032	Arqueiro DemÃ³nio Vil
+1033	DemÃ³nio Lanceiro Vil
+1034	DemÃ³nio XamÃ£ Vil
 1035	Fantasma de Rancor
 1036	Fantasma do Caos
-1037	Líder Demónio Vil
+1037	LÃ­der DemÃ³nio Vil
 1038	Caveira Mestre Espada
 1039	Caveira Voadora
 1040	Fantasma Imortal
-1041	Besta Demoníaca
-1061	Soldado Demónio Bruto
-1062	Arqueiro Demónio Bruto
-1063	Demónio Lanceiro Bruto
-1064	Demónio Xamã Bruto
+1041	Besta DemonÃ­aca
+1061	Soldado DemÃ³nio Bruto
+1062	Arqueiro DemÃ³nio Bruto
+1063	DemÃ³nio Lanceiro Bruto
+1064	DemÃ³nio XamÃ£ Bruto
 1065	Fantasma de Rancor Bruto
 1066	Fantasma do Caos Bruto
-1067	Líder Demónio Bruto
+1067	LÃ­der DemÃ³nio Bruto
 1068	Fantasma Mestre Espada
 1069	Caveira Voadora Bruta
 1070	Fantasma Imortal
-1071	Besta Demoníaca
-1091	Rei Demónio
-1092	Rei Demónio Elite
+1071	Besta DemonÃ­aca
+1091	Rei DemÃ³nio
+1092	Rei DemÃ³nio Elite
 1093	Fantasma da Morte
-1094	Rei Demónio Vil Elite
+1094	Rei DemÃ³nio Vil Elite
 1095	Morte Azul
-1096	Áø»ç±Í¿Õ
+1096	ÃÃ¸Â»Ã§Â±ÃÂ¿Ã•
 1101	Gelo Encantado
 1102	Orca do Gelo
 1103	Insecto do Gelo
-1104	Leão do Gelo
+1104	LeÃ£o do Gelo
 1105	Homem do Gelo
 1106	Yeti
 1107	Golem do Gelo
@@ -223,7 +223,7 @@ Vnum	LocalizedName
 1131	Gelo Encantado Negro
 1132	Orca de Gelo Negra
 1133	Insecto de Gelo Negro
-1134	Leão de Gelo Negro
+1134	LeÃ£o de Gelo Negro
 1135	Homem de Gelo Negro
 1136	Yeti Negro
 1137	Golem de Gelo Negro
@@ -236,30 +236,30 @@ Vnum	LocalizedName
 1156	Gigante do Gelo
 1157	Golem do Gelo
 1171	Gelo Encantado Mau
-1172	Orca de Gelo Má
+1172	Orca de Gelo MÃ¡
 1173	Insecto de Gelo Mau
-1174	Leão de Gelo Mau
+1174	LeÃ£o de Gelo Mau
 1175	Homem de Gelo Mau
 1176	Yeti Mau
 1177	Golem de Gelo Mau
 1191	Bruxa de Gelo
 1192	Bruxa de Gelo Suprema
-1301	Soldado Rã de Árvore
-1302	Líder Rã de Árvore
+1301	Soldado RÃ£ de Ãrvore
+1302	LÃ­der RÃ£ de Ãrvore
 1303	Bogeyman
 1304	Tigre Fantasma
-1305	General Rã-Touro
+1305	General RÃ£-Touro
 1306	Tigre Fantasma Elite
 1307	Tigre Fantasma Elite
 1308	Tigre Fantasma Elite
 1309	Tigre Fantasma Elite
 1310	Tigre Fantasma Elite
-1331	Soldado Rã-Árvore Grande
-1332	Líder Rã-Árvore Grande
+1331	Soldado RÃ£-Ãrvore Grande
+1332	LÃ­der RÃ£-Ãrvore Grande
 1333	Grande Bogeyman
 1334	Tigre Fantasma Grande
-1335	General Rã-Touro Má
-1336	General Rã-Touro
+1335	General RÃ£-Touro MÃ¡
+1336	General RÃ£-Touro
 1401	Destruidor
 1402	Guerreiro de Machado
 1403	Guerreiro Milenar
@@ -275,29 +275,29 @@ Vnum	LocalizedName
 1904	Nove Caudas Elite
 1905	Nove Caudas Elite
 1906	Nove Caudas Elite
-2001	Bebé Aranha
+2001	BebÃ© Aranha
 2002	Aranha
 2003	Aranha Vermelha
 2004	Aranha Rubi
 2005	Aranha Soldado
-2031	Bebé Aranha Venenosa
+2031	BebÃ© Aranha Venenosa
 2032	Aranha Mortal
 2033	Aranha Vermelha Venenosa
 2034	Aranha Rubi Venenosa
 2035	Aranha Coronel
 2036	Aranha Coronel Elite
 2037	Aranha General
-2051	Bebé Aranha Venenosa Má
-2052	Aranha Mortal Má
-2053	Aranha Vermelha Má
-2054	Aranha Rubi Venenosa Má
-2055	Aranha Coronel Má
+2051	BebÃ© Aranha Venenosa MÃ¡
+2052	Aranha Mortal MÃ¡
+2053	Aranha Vermelha MÃ¡
+2054	Aranha Rubi Venenosa MÃ¡
+2055	Aranha Coronel MÃ¡
 2061	Aranha Pequena
 2062	Aranha Assassina
 2063	Aranha Vermelha Mortal
 2064	Aranha Rubi Mortal
 2065	Aranha General
-2071	Bebé Aranha Besta Veneno
+2071	BebÃ© Aranha Besta Veneno
 2072	Aranha Besta Mortal
 2073	Aranha Besta Vermelha
 2074	Aranha Rubi Besta Veneno
@@ -306,26 +306,26 @@ Vnum	LocalizedName
 2091	Rainha Aranha
 2092	Aranha Baronesa
 2093	Rainha Aranha Negra
-2094	Aranha Barão
+2094	Aranha BarÃ£o
 2095	Ovo de Aranha
 2101	Raposa do Deserto
 2102	Olho Voador do Deserto
-2103	Rei Escorpião
-2104	Homem Escorpião Jovem
-2105	Arqueiro Escorpião
+2103	Rei EscorpiÃ£o
+2104	Homem EscorpiÃ£o Jovem
+2105	Arqueiro EscorpiÃ£o
 2106	Serpente Guerreiro
 2107	Serpente Arqueiro
 2108	Bandido do Deserto
-2131	Homem Escorpião Veneno
-2132	Arqueiro Escorpião Mau
-2133	Serpente Guerreiro Má
-2134	Serpente Arqueiro Má
+2131	Homem EscorpiÃ£o Veneno
+2132	Arqueiro EscorpiÃ£o Mau
+2133	Serpente Guerreiro MÃ¡
+2134	Serpente Arqueiro MÃ¡
 2135	Bandido do Deserto Mau
 2151	Raposa do Deserto Forte
 2152	Dervixe Forte
-2153	Rei Escorpião Forte
-2154	Homem Escorpião Forte
-2155	Arqueiro Escorpião Forte
+2153	Rei EscorpiÃ£o Forte
+2154	Homem EscorpiÃ£o Forte
+2155	Arqueiro EscorpiÃ£o Forte
 2156	Serpente Guerreiro Forte
 2157	Serpente Arqueiro Forte
 2158	Bandido do Deserto Forte
@@ -343,43 +343,43 @@ Vnum	LocalizedName
 2233	Tigre de Fogo Forte
 2234	Fantasma de Chamas Forte
 2235	Guerreiro Chama Forte
-2291	Dragão Vermelho
-2301	Árvore Fantasma
+2291	DragÃ£o Vermelho
+2301	Ãrvore Fantasma
 2302	Tronco Fantasma
-2303	Dríade
+2303	DrÃ­ade
 2304	Salgueiro Fantasma
-2305	Árvore do Mal
-2306	Árvore Fantasma Gigante
-2307	Lorde Árvore Fantasma
-2311	Árvore Fantasma Rubra
+2305	Ãrvore do Mal
+2306	Ãrvore Fantasma Gigante
+2307	Lorde Ãrvore Fantasma
+2311	Ãrvore Fantasma Rubra
 2312	Tronco Fantasma Rubro
-2313	Dríade Rubra
+2313	DrÃ­ade Rubra
 2314	Salgueiro Fantasma Rubro
-2315	Árvore do Mal Vermelha
+2315	Ãrvore do Mal Vermelha
 2401	Lutador Setaou
-2402	Caçador Setaou
-2403	Mística Setaou
-2404	Líder Setaou
+2402	CaÃ§ador Setaou
+2403	MÃ­stica Setaou
+2404	LÃ­der Setaou
 2411	Soldado Setaou
 2412	Arqueiro Setaou
 2413	Magistrada Setaou
 2414	Comandante Setaou
 2415	Comandante Setaou
-2431	ÃµÀÇº´»ç
-2432	ÃµÀÇ±Ãº´
-2433	ÃµÀÇ¹ı»ç
-2434	ÃµÀÇÀå¼ö
-2451	ÁøÃµÀÇº´»ç
-2452	ÁøÃµÀÇ±Ãº´
-2453	ÁøÃµÀÇ¹ı»ç
-2454	ÁøÃµÀÇÀå¼ö
-2491	Capitão Yonghan
+2431	ÃƒÂµÃ€Ã‡ÂºÂ´Â»Ã§
+2432	ÃƒÂµÃ€Ã‡Â±ÃƒÂºÂ´
+2433	ÃƒÂµÃ€Ã‡Â¹Ã½Â»Ã§
+2434	ÃƒÂµÃ€Ã‡Ã€Ã¥Â¼Ã¶
+2451	ÃÃ¸ÃƒÂµÃ€Ã‡ÂºÂ´Â»Ã§
+2452	ÃÃ¸ÃƒÂµÃ€Ã‡Â±ÃƒÂºÂ´
+2453	ÃÃ¸ÃƒÂµÃ€Ã‡Â¹Ã½Â»Ã§
+2454	ÃÃ¸ÃƒÂµÃ€Ã‡Ã€Ã¥Â¼Ã¶
+2491	CapitÃ£o Yonghan
 2492	General Yonghan
 2493	Beran-Setaou
-2494	Capitão Huashin
+2494	CapitÃ£o Huashin
 2495	General Huashin
-2501	Cadáver Infernal
-2502	Cão Infernal
+2501	CadÃ¡ver Infernal
+2502	CÃ£o Infernal
 2503	Zombie
 2504	Oficial Infernal
 2505	Guarda Infernal
@@ -407,105 +407,105 @@ Vnum	LocalizedName
 2596	Lacaio de Azrael
 2597	Charon
 2598	Azrael
-2600	Lobo do Zodíaco
-2601	Lobo Azul do Zodíaco
-2602	Lykos do Zodíaco
-2603	Arqueiro do Zodíaco
-2604	Javali do Zodíaco
-2605	Javali Rubro do Zodíaco
-2606	Scrofa do Zodíaco
-2607	Mi-Jung do Zodíaco
-2608	Bera do Zodíaco
-2609	Urso do Zodíaco
-2610	Urso Cinza do Zodíaco
-2611	Urso Castanho do Zodíaco
-2612	Eun-Jung do Zodíaco
-2613	Tigris do Zodíaco
-2614	Tigre do Zodíaco
-2615	Tigre Branco do Zodíaco
-2616	Se-Rang do Zodíaco
-2617	Jin-Hee do Zodíaco
-2618	Bebé Aranha do Zodíaco
-2619	Aranha do Zodíaco
-2620	Aranha Rubra do Zodíaco
-2621	Aranha Rubi do Zodíaco
-2622	Aranha Soldado Zodíaco
-2623	Fantasma Chamas Zodíaco
-2624	Tigre Combate do Zodíaco
-2625	Chama do Zodíaco
-2626	Guerreiro Chama Zodíaco
-2627	Rei Chama do Zodíaco
-2628	Rei Chama Negro Zodíaco
-2629	Inf. Selvagem do Zodíaco
-2630	Sar. Selvagem do Zodíaco
-2631	Arq. Selvagem do Zodíaco
-2632	Gen. Selvagem do Zodíaco
-2633	Cap. Veneno do Zodíaco
-2634	Gelo Encantado Zodíaco
-2635	Orca do Gelo do Zodíaco
-2636	Insecto do Gelo Zodíaco
-2637	Leão do Gelo do Zodíaco
-2638	Homem do Gelo do Zodíaco
-2639	Yeti do Zodíaco
-2640	Golem do Gelo do Zodíaco
-2641	Raposa Deserto Zodíaco
-2642	Rei Escorpião do Zodíaco
-2643	Serpente Guerr. Zodíaco
-2644	Serpente Arq. do Zodíaco
-2645	Band. Deserto do Zodíaco
-2646	Sol. Vento Negro Zodíaco
-2647	Man. Vento Negro Zodíaco
-2648	Arq. Vento Negro Zodíaco
-2649	Mahon do Zodíaco
-2650	Bo do Zodíaco
-2651	Goo-Pae do Zodíaco
-2652	Chuong do Zodíaco
-2653	Escorpião Veneno Zodíaco
-2654	Arq. Escorpião Zodíaco
-2655	Dervixe do Zodíaco
-2656	Sold. Rã-Árvore Zodíaco
-2657	Líder Rã-Árvore Zodíaco
-2658	Bogeyman do Zodíaco
-2659	Destruidor do Zodíaco
-2660	Guerr. Machado Zodíaco
-2661	Guerr. Milenar Zodíaco
-2662	Fanático Negro Zodíaco
-2663	Arahan do Zodíaco
-2664	Arahan Esotérico Zodíaco
-2665	Chefe Arahan do Zodíaco
-2666	Executor Negro Zodíaco
-2667	Atorm. Negro do Zodíaco
-2668	Conjurador do Zodíaco
-2669	Orc Elite do Zodíaco
-2670	Orc Expl. Elite Zodíaco
-2671	Orc Lut. Elite Zodíaco
-2672	Orc Mago Elite Zodíaco
-2673	Orc Gen. Elite Zodíaco
-2674	Orc Preto do Zodíaco
-2675	Orc Preto Gig. Zodíaco
-2676	Amazona Rubra do Zodíaco
-2677	Assassina Rubra Zodíaco
-2678	Mago Rubro do Zodíaco
-2679	Executor Rubro Zodíaco
-2680	Guer. Caranguejo Zodíaco
-2681	Art. Escorpião Zodíaco
-2682	Sol. Camarão do Zodíaco
-2683	Eremita Diaból. Zodíaco
-2684	Caranguejo Arm. Zodíaco
-2685	Mordedor Gigante Zodíaco
-2686	Matador Gigante Zodíaco
-2687	Mago do Zodíaco
-2688	Doigante do Zodíaco
-2689	Ogre Executor do Zodíaco
-2690	Ogre Arqueiro do Zodíaco
-2691	Ogre de Luta do Zodíaco
-2692	Ogre Mago do Zodíaco
+2600	Lobo do ZodÃ­aco
+2601	Lobo Azul do ZodÃ­aco
+2602	Lykos do ZodÃ­aco
+2603	Arqueiro do ZodÃ­aco
+2604	Javali do ZodÃ­aco
+2605	Javali Rubro do ZodÃ­aco
+2606	Scrofa do ZodÃ­aco
+2607	Mi-Jung do ZodÃ­aco
+2608	Bera do ZodÃ­aco
+2609	Urso do ZodÃ­aco
+2610	Urso Cinza do ZodÃ­aco
+2611	Urso Castanho do ZodÃ­aco
+2612	Eun-Jung do ZodÃ­aco
+2613	Tigris do ZodÃ­aco
+2614	Tigre do ZodÃ­aco
+2615	Tigre Branco do ZodÃ­aco
+2616	Se-Rang do ZodÃ­aco
+2617	Jin-Hee do ZodÃ­aco
+2618	BebÃ© Aranha do ZodÃ­aco
+2619	Aranha do ZodÃ­aco
+2620	Aranha Rubra do ZodÃ­aco
+2621	Aranha Rubi do ZodÃ­aco
+2622	Aranha Soldado ZodÃ­aco
+2623	Fantasma Chamas ZodÃ­aco
+2624	Tigre Combate do ZodÃ­aco
+2625	Chama do ZodÃ­aco
+2626	Guerreiro Chama ZodÃ­aco
+2627	Rei Chama do ZodÃ­aco
+2628	Rei Chama Negro ZodÃ­aco
+2629	Inf. Selvagem do ZodÃ­aco
+2630	Sar. Selvagem do ZodÃ­aco
+2631	Arq. Selvagem do ZodÃ­aco
+2632	Gen. Selvagem do ZodÃ­aco
+2633	Cap. Veneno do ZodÃ­aco
+2634	Gelo Encantado ZodÃ­aco
+2635	Orca do Gelo do ZodÃ­aco
+2636	Insecto do Gelo ZodÃ­aco
+2637	LeÃ£o do Gelo do ZodÃ­aco
+2638	Homem do Gelo do ZodÃ­aco
+2639	Yeti do ZodÃ­aco
+2640	Golem do Gelo do ZodÃ­aco
+2641	Raposa Deserto ZodÃ­aco
+2642	Rei EscorpiÃ£o do ZodÃ­aco
+2643	Serpente Guerr. ZodÃ­aco
+2644	Serpente Arq. do ZodÃ­aco
+2645	Band. Deserto do ZodÃ­aco
+2646	Sol. Vento Negro ZodÃ­aco
+2647	Man. Vento Negro ZodÃ­aco
+2648	Arq. Vento Negro ZodÃ­aco
+2649	Mahon do ZodÃ­aco
+2650	Bo do ZodÃ­aco
+2651	Goo-Pae do ZodÃ­aco
+2652	Chuong do ZodÃ­aco
+2653	EscorpiÃ£o Veneno ZodÃ­aco
+2654	Arq. EscorpiÃ£o ZodÃ­aco
+2655	Dervixe do ZodÃ­aco
+2656	Sold. RÃ£-Ãrvore ZodÃ­aco
+2657	LÃ­der RÃ£-Ãrvore ZodÃ­aco
+2658	Bogeyman do ZodÃ­aco
+2659	Destruidor do ZodÃ­aco
+2660	Guerr. Machado ZodÃ­aco
+2661	Guerr. Milenar ZodÃ­aco
+2662	FanÃ¡tico Negro ZodÃ­aco
+2663	Arahan do ZodÃ­aco
+2664	Arahan EsotÃ©rico ZodÃ­aco
+2665	Chefe Arahan do ZodÃ­aco
+2666	Executor Negro ZodÃ­aco
+2667	Atorm. Negro do ZodÃ­aco
+2668	Conjurador do ZodÃ­aco
+2669	Orc Elite do ZodÃ­aco
+2670	Orc Expl. Elite ZodÃ­aco
+2671	Orc Lut. Elite ZodÃ­aco
+2672	Orc Mago Elite ZodÃ­aco
+2673	Orc Gen. Elite ZodÃ­aco
+2674	Orc Preto do ZodÃ­aco
+2675	Orc Preto Gig. ZodÃ­aco
+2676	Amazona Rubra do ZodÃ­aco
+2677	Assassina Rubra ZodÃ­aco
+2678	Mago Rubro do ZodÃ­aco
+2679	Executor Rubro ZodÃ­aco
+2680	Guer. Caranguejo ZodÃ­aco
+2681	Art. EscorpiÃ£o ZodÃ­aco
+2682	Sol. CamarÃ£o do ZodÃ­aco
+2683	Eremita DiabÃ³l. ZodÃ­aco
+2684	Caranguejo Arm. ZodÃ­aco
+2685	Mordedor Gigante ZodÃ­aco
+2686	Matador Gigante ZodÃ­aco
+2687	Mago do ZodÃ­aco
+2688	Doigante do ZodÃ­aco
+2689	Ogre Executor do ZodÃ­aco
+2690	Ogre Arqueiro do ZodÃ­aco
+2691	Ogre de Luta do ZodÃ­aco
+2692	Ogre Mago do ZodÃ­aco
 2700	Vargulf
 2701	Soldado Vargulf
 2702	General Vargulf
 2703	Cerberus
 2704	Serpente Cerberus
-2705	Dragão Cerberus
+2705	DragÃ£o Cerberus
 2706	Centauro
 2707	Guerreiro Centauro
 2708	General Centauro
@@ -514,10 +514,10 @@ Vnum	LocalizedName
 2711	General Moloch
 2712	Asa da Morte
 2713	Asa da Morte Doentio
-2714	Asa da Morte Pútrido
-2715	Zéfiro
-2716	Guerreiro Zéfiro
-2717	General Zéfiro
+2714	Asa da Morte PÃºtrido
+2715	ZÃ©firo
+2716	Guerreiro ZÃ©firo
+2717	General ZÃ©firo
 2718	Uruk
 2719	Guerreiro Uruk
 2720	General Uruk
@@ -539,50 +539,50 @@ Vnum	LocalizedName
 2736	Refugiado
 2737	Damage_Trap
 2750	Oficial Zi
-2751	Guardião Zi
+2751	GuardiÃ£o Zi
 2752	General Zi
 2760	Oficial Chou
-2761	Guardião Chou
+2761	GuardiÃ£o Chou
 2762	General Chou
 2770	Oficial Yin
-2771	Guardião Yin
+2771	GuardiÃ£o Yin
 2772	General Yin
 2780	Oficial Mao
-2781	Guardião Mao
+2781	GuardiÃ£o Mao
 2782	General Mao
 2790	Oficial Chen
-2791	Guardião Chen
+2791	GuardiÃ£o Chen
 2792	General Chen
 2800	Oficial Si
-2801	Guardião Si
+2801	GuardiÃ£o Si
 2802	General Si
 2810	Oficial Wu
-2811	Guardião Wu
+2811	GuardiÃ£o Wu
 2812	General Wu
 2820	Oficial Wei
-2821	Guardião Wei
+2821	GuardiÃ£o Wei
 2822	General Wei
 2830	Oficial Shen
-2831	Guardião Shen
+2831	GuardiÃ£o Shen
 2832	General Shen
 2840	Oficial You
-2841	Guardião You
+2841	GuardiÃ£o You
 2842	General You
 2850	Oficial Xu
-2851	Guardião Xu
+2851	GuardiÃ£o Xu
 2852	General Xu
 2860	Oficial Hai
-2861	Guardião Hai
+2861	GuardiÃ£o Hai
 2862	General Hai
 2900	Metin do Rato
 2901	Metin do Boi
 2902	Metin do Tigre
-2903	Metin do Dragão
+2903	Metin do DragÃ£o
 2904	Metin da Serpente
 2905	Metin do Cavalo
 2906	Metin da Cabra
 2907	Metin do Macaco
-2908	Metin do Cão
+2908	Metin do CÃ£o
 3001	Guerreiro Gnoll
 3002	Arqueiro Gnoll
 3003	Defensor Gnoll
@@ -597,45 +597,45 @@ Vnum	LocalizedName
 3105	General Outis
 3190	Arges
 3191	Polyphemos
-3201	Guerreiro Mantícora
-3202	Soldado Mantícora
-3203	Mago Mantícora
-3204	Executor Mantícora
+3201	Guerreiro MantÃ­cora
+3202	Soldado MantÃ­cora
+3203	Mago MantÃ­cora
+3204	Executor MantÃ­cora
 3205	General Cor
 3290	Rakshasa
 3291	Martyaxwar
-3301	Guerreiro Lémure
-3302	Soldado Lémure
-3303	Mago Lémure
-3304	Executor Lémure
-3305	General Lémure
-3390	Príncipe Lémure
-3391	Guarda-Costas Lémure
-3401	Moreia Tritão
-3402	Soldado Tubarão
-3403	Mago Tritão
-3404	Caçador Tritão
-3405	Aterrorizador Tritão
+3301	Guerreiro LÃ©mure
+3302	Soldado LÃ©mure
+3303	Mago LÃ©mure
+3304	Executor LÃ©mure
+3305	General LÃ©mure
+3390	PrÃ­ncipe LÃ©mure
+3391	Guarda-Costas LÃ©mure
+3401	Moreia TritÃ£o
+3402	Soldado TubarÃ£o
+3403	Mago TritÃ£o
+3404	CaÃ§ador TritÃ£o
+3405	Aterrorizador TritÃ£o
 3490	General Kappa
-3491	Tritão
-3501	Ladrão Rubro Amazona
-3502	Ladrão Rubro Assassino
-3503	Ladrão Rubro Mago
-3504	Ladrão Rubro Executor
+3491	TritÃ£o
+3501	LadrÃ£o Rubro Amazona
+3502	LadrÃ£o Rubro Assassino
+3503	LadrÃ£o Rubro Mago
+3504	LadrÃ£o Rubro Executor
 3505	General Negro
-3551	Ladrão Brutal Amazona
-3552	Ladrão Brutal Assassino
-3553	Ladrão Brutal Mago
-3554	Ladrão Brutal Executor
+3551	LadrÃ£o Brutal Amazona
+3552	LadrÃ£o Brutal Assassino
+3553	LadrÃ£o Brutal Mago
+3554	LadrÃ£o Brutal Executor
 3555	General Branco
 3590	Cara de Ossos
 3591	Chefe Rubro
 3595	Cara de Ossos Mau
 3596	Chefe Rubro Brutal
 3601	Guerreiro Caranguejo
-3602	Artilheiro Escorpião
-3603	Soldado Camarão
-3604	Eremita Diabólico
+3602	Artilheiro EscorpiÃ£o
+3603	Soldado CamarÃ£o
+3604	Eremita DiabÃ³lico
 3605	Caranguejo de Armadura
 3690	General Lagosta
 3691	Rei Caranguejo
@@ -643,20 +643,20 @@ Vnum	LocalizedName
 3702	Matador Gigante
 3703	Mago Gigante
 3704	Doigante
-3705	Capitão Ganchos
-3790	Gárgula
+3705	CapitÃ£o Ganchos
+3790	GÃ¡rgula
 3791	Rei Wubba
 3801	Hangorc
 3802	Ogre Archie
 3803	Ogre Briguento
 3804	Ogre Mago
 3805	General Ogg
-3890	Capitão Shruk
+3890	CapitÃ£o Shruk
 3891	O Grande Ogre
-3901	Árvore-Homem
+3901	Ãrvore-Homem
 3902	Eoten
 3903	Skouman
-3904	Capitão Ganchos
+3904	CapitÃ£o Ganchos
 3905	Mu-Shu
 3906	Yah-Ki
 3907	Moghu
@@ -665,12 +665,12 @@ Vnum	LocalizedName
 3910	Skeletos
 3911	Aku-Boku
 3912	Arboretum
-3913	Sicómoro
+3913	SicÃ³moro
 3949	Portal: Novo Continente
 3950	Kappa
 3951	Kappa de Lagoa
 3952	Kappa de Mar Profundo
-3953	Líder Kappa
+3953	LÃ­der Kappa
 3954	Moreia Soldado
 3955	Moreia de Mar Profundo
 3956	Sereia Rainha
@@ -689,67 +689,67 @@ Vnum	LocalizedName
 3973	ProfundezasVN 94 139
 3980	Elemental do Fogo
 3981	Elemental do Gelo
-3982	Elemental dos Relâmpagos
+3982	Elemental dos RelÃ¢mpagos
 3983	Elemental do Vento
 3984	Elemental da Terra
 3985	Elemental das Trevas
-3986	Espírito da Chama
-3987	Espírito do Gelo
-3988	Espírito Elétrico
-3989	Espírito do Ar
-3990	Espírito da Pedra
-3991	Espírito da Sombra
+3986	EspÃ­rito da Chama
+3987	EspÃ­rito do Gelo
+3988	EspÃ­rito ElÃ©trico
+3989	EspÃ­rito do Ar
+3990	EspÃ­rito da Pedra
+3991	EspÃ­rito da Sombra
 3992	Lorde da Queimada
 3993	Lorde do Glaciar
-3994	Lorde dos Trovões
+3994	Lorde dos TrovÃµes
 3995	Lorde da Tempestade
 3996	Lorde da Terra
 3997	Lorde da Noite
-3998	Domínio Elemental
-3999	Saída
+3998	DomÃ­nio Elemental
+3999	SaÃ­da
 4000	Metin do Fogo
 4001	Metin do Gelo
-4002	Metin dos Relâmpagos
+4002	Metin dos RelÃ¢mpagos
 4003	Metin do Vento
 4004	Metin da Terra
 4005	Metin da Noite
-4006	Guardião Elemental
+4006	GuardiÃ£o Elemental
 4019	Hall de Entrada da Torre
 4020	Torre de Sung Mahi
 4021	Selo da Torre
 4022	Portal Templo Serpente
-4023	Mudar de Nível
-4024	Cabeça da Serpente
-4025	Cabeça da Serpente
-4026	Cabeça da Serpente
-4027	Cabeça da Serpente
-4030	Ovo do Dragão Branco
-4101	Guardião Zi Apocalipse
-4102	Guardião Chou Apocalipse
-4103	Guardião Yin Apocalipse
-4104	Guardião Mao Apocalipse
-4105	Guardião Chen Apocalipse
-4106	Guardião Si Apocalipse
-4107	Guardião Wu Apocalipse
-4108	Guardião Wei Apocalipse
-4109	Guardião Shen Apocalipse
-4110	Guardião You Apocalipse
-4111	Guardião Xu Apocalipse
-4112	Guardião Hai Apocalipse
-4121	Guardião Zi Apocalipse
-4122	Guardião Chou Apocalipse
-4123	Guardião Yin Apocalipse
-4124	Guardião Mao Apocalipse
-4125	Guardião Chen Apocalipse
-4126	Guardião Si Apocalipse
-4127	Guardião Wu Apocalipse
-4128	Guardião Wei Apocalipse
-4129	Guardião Shen Apocalipse
-4130	Guardião You Apocalipse
-4131	Guardião Xu Apocalipse
-4132	Guardião Hai Apocalipse
-4141	Metin do Armagedão
-4142	Metin do Juízo Final
+4023	Mudar de NÃ­vel
+4024	CabeÃ§a da Serpente
+4025	CabeÃ§a da Serpente
+4026	CabeÃ§a da Serpente
+4027	CabeÃ§a da Serpente
+4030	Ovo do DragÃ£o Branco
+4101	GuardiÃ£o Zi Apocalipse
+4102	GuardiÃ£o Chou Apocalipse
+4103	GuardiÃ£o Yin Apocalipse
+4104	GuardiÃ£o Mao Apocalipse
+4105	GuardiÃ£o Chen Apocalipse
+4106	GuardiÃ£o Si Apocalipse
+4107	GuardiÃ£o Wu Apocalipse
+4108	GuardiÃ£o Wei Apocalipse
+4109	GuardiÃ£o Shen Apocalipse
+4110	GuardiÃ£o You Apocalipse
+4111	GuardiÃ£o Xu Apocalipse
+4112	GuardiÃ£o Hai Apocalipse
+4121	GuardiÃ£o Zi Apocalipse
+4122	GuardiÃ£o Chou Apocalipse
+4123	GuardiÃ£o Yin Apocalipse
+4124	GuardiÃ£o Mao Apocalipse
+4125	GuardiÃ£o Chen Apocalipse
+4126	GuardiÃ£o Si Apocalipse
+4127	GuardiÃ£o Wu Apocalipse
+4128	GuardiÃ£o Wei Apocalipse
+4129	GuardiÃ£o Shen Apocalipse
+4130	GuardiÃ£o You Apocalipse
+4131	GuardiÃ£o Xu Apocalipse
+4132	GuardiÃ£o Hai Apocalipse
+4141	Metin do ArmagedÃ£o
+4142	Metin do JuÃ­zo Final
 4143	Metin do Cataclismo
 4144	Metin do Apocalipse
 4145	Henkog do Apocalipse
@@ -761,14 +761,14 @@ Vnum	LocalizedName
 4151	Bruxo do Apocalipse
 4152	Bruxo Arcano Apocalipse
 4200	FT: Lutador Setaou
-4201	FT: Caçador Setaou
-4202	FT: Mística Setaou
+4201	FT: CaÃ§ador Setaou
+4202	FT: MÃ­stica Setaou
 4203	FT: Soldado Setaou
 4204	FT: Arqueiro Setaou
 4205	FT: Magistrada Setaou
 4206	FT: Comandante Setaou
-4207	FT: Capitão Yonghan
-4208	FT: Capitão Yonghan
+4207	FT: CapitÃ£o Yonghan
+4208	FT: CapitÃ£o Yonghan
 4209	FT: General Yonghan
 4210	FT: General Yonghan
 4220	FT: Fantasma de Brasas
@@ -780,7 +780,7 @@ Vnum	LocalizedName
 4226	FT: Barba de Brasas
 4227	FT: General de Brasas
 4228	FT: Chefe de Brasas
-4229	FT: Incendiário
+4229	FT: IncendiÃ¡rio
 4240	FT: Cristal da Geada
 4241	FT: Insecto da Geada
 4242	FT: Homem da Geada
@@ -809,14 +809,14 @@ Vnum	LocalizedName
 4275	FT: Executor Ochao
 4276	FT: General Ochao
 4280	DT: Lutador Setaou
-4281	DT: Caçador Setaou
-4282	DT: Mística Setaou
+4281	DT: CaÃ§ador Setaou
+4282	DT: MÃ­stica Setaou
 4283	DT: Soldado Setaou
 4284	DT: Arqueiro Setaou
 4285	DT: Magistrada Setaou
 4286	DT: Comandante Setaou
-4287	DT: Capitão Yonghan
-4288	DT: Capitão Yonghan
+4287	DT: CapitÃ£o Yonghan
+4288	DT: CapitÃ£o Yonghan
 4289	DT: General Yonghan
 4290	DT: General Yonghan
 4300	DT: Fantasma de Brasas
@@ -828,7 +828,7 @@ Vnum	LocalizedName
 4306	DT: Barba de Brasas
 4307	DT: General de Brasas
 4308	DT: Chefe de Brasas
-4309	DT: Incendiário
+4309	DT: IncendiÃ¡rio
 4320	DT: Cristal da Geada
 4321	DT: Insecto da Geada
 4322	DT: Homem da Geada
@@ -882,18 +882,18 @@ Vnum	LocalizedName
 4443	M: Major Infernal
 4444	M: General Infernal
 4449	M: Azrael
-4450	M: Soldado Rã-Árvore Gr.
-4451	M: Líder Rã-Árvore
+4450	M: Soldado RÃ£-Ãrvore Gr.
+4451	M: LÃ­der RÃ£-Ãrvore
 4452	M: Bogeyman
 4453	M: Tigre Fantasma Elite
-4454	M: General Rã-Touro
+4454	M: General RÃ£-Touro
 4459	M: Tigre Fantasma
 4460	M: Fantasma de Brasas
 4461	M: Tigre de Brasas
 4462	M: Chama de Brasas
 4463	M: Guerreiro de Brasas
 4464	M: Cristal de Magma
-4469	M: Idall Guarda Dragão
+4469	M: Idall Guarda DragÃ£o
 4470	M: Hangorc
 4471	M: Ogre Archie
 4472	M: Ogre Briguento
@@ -905,43 +905,43 @@ Vnum	LocalizedName
 5003	Macaco
 5004	Pirata Tanaka
 5101	Soldado Macaco Fraco
-5102	Lançador Macaco Fraco
+5102	LanÃ§ador Macaco Fraco
 5103	Lutador Macaco Fraco
 5104	General Macaco Fraco
 5111	Soldado Macaco
-5112	Lançador Macaco
+5112	LanÃ§ador Macaco
 5113	Lutador Macaco
 5114	General Macaco
 5115	Macaco Pedra
-5116	Líder Macaco
+5116	LÃ­der Macaco
 5121	Soldado Macaco Forte
-5122	Lançador Macaco Forte
+5122	LanÃ§ador Macaco Forte
 5123	Lutador Macaco Forte
 5124	General Macaco Forte
 5125	Macaco Pedra Forte
 5126	Macaco Dourado Forte
-5127	Líder Macaco Forte
+5127	LÃ­der Macaco Forte
 5131	Pequeno Macaco General
-5132	Pequeno Macaco Lançador
+5132	Pequeno Macaco LanÃ§ador
 5133	Pequeno Macaco Lutador
 5134	Pequeno Macaco General
 5141	Macaco Soldado Esperto
-5142	Macaco Lançador Esperto
+5142	Macaco LanÃ§ador Esperto
 5143	Macaco Lutador Esperto
 5144	Macaco General Esperto
 5145	Macaco Pedra Esperto
-5146	Líder Macaco Esperto
+5146	LÃ­der Macaco Esperto
 5151	Macaco Soldado Mau Forte
-5152	Macaco Lançador Mau For.
+5152	Macaco LanÃ§ador Mau For.
 5153	Macaco Lutador Mau Forte
 5154	Macaco General Mau Forte
 5155	Macaco Pedra Mau Forte
 5156	Macaco Dourado Mau Forte
-5157	Macaco Líder Mau Forte
+5157	Macaco LÃ­der Mau Forte
 5161	Macaco Rocha
 5162	Macaco Andante
 5163	Lorde Macaco
-5201	Cão Selvagem
+5201	CÃ£o Selvagem
 5202	Javali Selvagem
 5203	Javali Selvagem Rubro
 5204	Urso
@@ -959,7 +959,7 @@ Vnum	LocalizedName
 6007	Barba de Brasas
 6008	General de Brasas
 6009	Chefe de Brasas
-6051	Incendiário
+6051	IncendiÃ¡rio
 6091	Razador
 6101	Cristal da Geada
 6102	Insecto da Geada
@@ -976,21 +976,21 @@ Vnum	LocalizedName
 6113	Homem de Magma
 6114	Cristal de Magma
 6115	Wyvern de Magma
-6116	Idall Guarda Dragão
+6116	Idall Guarda DragÃ£o
 6117	Lacaio de Idall
-6118	Estátua de Dragão
+6118	EstÃ¡tua de DragÃ£o
 6151	Szel
 6191	Nemere
 6192	Jotun Thrym
-6193	Rainha Dragão Meley
+6193	Rainha DragÃ£o Meley
 6201	Yeti de Magma
 6202	Golem de Magma
 6203	Insecto de Magma
 6204	Homem de Magma
 6205	Cristal de Magma
 6206	Wyvern de Magma
-6207	Idall Guarda Dragão
-6209	Estátua de Dragão
+6207	Idall Guarda DragÃ£o
+6209	EstÃ¡tua de DragÃ£o
 6301	Guerreiro Ochao
 6302	Soldado Ochao
 6303	Mago Ochao
@@ -1009,7 +1009,7 @@ Vnum	LocalizedName
 6402	Soldado En-Tai
 6403	Druida En-Tai
 6404	Curandeiro En-Tai
-6405	Guardião En-Tai
+6405	GuardiÃ£o En-Tai
 6406	Destruidor En-Tai
 6407	Soberano En-Tai
 6408	Bagjanamu
@@ -1023,17 +1023,17 @@ Vnum	LocalizedName
 6416	Nemere de Evento
 6417	Razador de Evento
 6418	Jotun Thrym de Evento
-6419	Dragão Vermelho - Evento
+6419	DragÃ£o Vermelho - Evento
 6420	Guerreiro da Sombra
 6421	Baashido
 6422	Metin da Agonia
-6500	Rei Dragão Akzadur
-6501	Rei Dragão Nafaroth
-6502	Rei Dragão Exedyar
-6503	Rei Dragão Ruilith
+6500	Rei DragÃ£o Akzadur
+6501	Rei DragÃ£o Nafaroth
+6502	Rei DragÃ£o Exedyar
+6503	Rei DragÃ£o Ruilith
 6504	Tyolduran
-6513	Portal do Dragão
-6514	Para o Rei Dragão
+6513	Portal do DragÃ£o
+6514	Para o Rei DragÃ£o
 6515	Sair
 6686	Jin Bing
 6687	Soldado Ki
@@ -1041,7 +1041,7 @@ Vnum	LocalizedName
 6689	Soldado Gong
 6690	Mago de Vanguarda
 6691	Kao
-6692	Rei Bao (Missão)
+6692	Rei Bao (MissÃ£o)
 6693	Jin Bing
 6694	Soldado Ki
 6695	Soldado Mao
@@ -1049,22 +1049,22 @@ Vnum	LocalizedName
 6697	Mago de Vanguarda
 6698	Kao
 6699	Rei Bao
-6700	Cão Infernal
+6700	CÃ£o Infernal
 6701	Troll Soldado
 6702	Troll Guerreiro
 6703	Troll Arqueiro
-6704	Troll Xamã
+6704	Troll XamÃ£
 6705	Natanan
 6706	Argos
 6707	Troll Soldado
 6708	Troll Guerreiro
 6709	Troll Arqueiro
 6710	Fantasma Maltratado
-6711	Cão Infernal
+6711	CÃ£o Infernal
 6712	Troll Soldado
 6713	Troll Guerreiro
 6714	Troll Arqueiro
-6715	Troll Xamã
+6715	Troll XamÃ£
 6716	Natanan
 6717	Argos
 6718	Quag Kovix
@@ -1085,18 +1085,18 @@ Vnum	LocalizedName
 6745	Kappa Trabalhador
 6746	Kappa Soldado
 6747	Kappa Mago
-6748	Kappa Caçador
+6748	Kappa CaÃ§ador
 6749	Kappa Poderoso
-6750	Serpente Escorpião
+6750	Serpente EscorpiÃ£o
 6751	Serpente Trabalhador
 6752	Kappa Serpente
 6753	Serpente Soldado
-6754	Ascético da Serpente
+6754	AscÃ©tico da Serpente
 6755	Serpente Guerr. Poderoso
 6756	Rainha Serpente Nethis
 6757	Pilar da Serpente
 6758	Soldado Corrompido
-6759	Escaramuçador Corrompido
+6759	EscaramuÃ§ador Corrompido
 6760	Guerreiro Corrompido
 6761	Monge Corrompido
 6762	General Corrompido
@@ -1106,7 +1106,7 @@ Vnum	LocalizedName
 6770	Raposa Congelada
 6771	Batedor Congelado
 6772	Guerreiro Congelado
-6773	Caçador Congelado
+6773	CaÃ§ador Congelado
 6774	General Congelado
 6775	Chefe Congelado
 6776	Chefe Guerra Congelado
@@ -1115,10 +1115,10 @@ Vnum	LocalizedName
 6779	Yeti Vento do Norte
 6780	Fantasma Vento do Norte
 6781	Golem Vento do Norte
-6782	Pé-Grande
+6782	PÃ©-Grande
 6783	Chefe Guerra Vento Norte
 6784	Soldado do Abrigo
-6785	Escaramuçador do Abrigo
+6785	EscaramuÃ§ador do Abrigo
 6786	Guerreiro do Abrigo
 6787	Bruxo do Abrigo
 6788	General do Abrigo
@@ -1126,7 +1126,7 @@ Vnum	LocalizedName
 6790	Alastor
 6791	Alastor
 6792	Soldado do Abrigo
-6793	Escaramuçador do Abrigo
+6793	EscaramuÃ§ador do Abrigo
 6794	Guerreiro do Abrigo
 6795	Bruxo do Abrigo
 6796	General do Abrigo
@@ -1136,23 +1136,23 @@ Vnum	LocalizedName
 6802	Gnoll Feiticeiro
 6803	Gnoll Marechal
 6804	Gnoll Mestre
-6805	Gnoll Capitão
+6805	Gnoll CapitÃ£o
 6806	Gnoll Soldado
-6807	Gnoll Espião
+6807	Gnoll EspiÃ£o
 6808	Mago Gnoll
 6809	Gnoll Comandante
 6810	Ahtrin Guerreiro
 6811	Ahtrin Explorador
 6812	Ahtrin Feiticeiro
 6813	Ahtrin Comandante
-6814	Ahtrin Capitão
-6815	Ahtrin Capitão
-6816	Ahtrin Espião
+6814	Ahtrin CapitÃ£o
+6815	Ahtrin CapitÃ£o
+6816	Ahtrin EspiÃ£o
 6817	Ahtrin Bruxo
 6818	Ahtrin Comandante
 6819	Ahtrin Grande Mestre
 6820	Ahtrin Grande Mestre
-6850	Serpente Escorpião
+6850	Serpente EscorpiÃ£o
 6851	Serpente Trabalhador
 6852	Kappa Serpente
 6853	Serpente Soldado
@@ -1160,19 +1160,19 @@ Vnum	LocalizedName
 6855	Serpente Guerr. Poderoso
 6856	Rainha Serpente Nethis
 6860	Jin Espadachim
-6861	Ki Mestre da Lança
-6862	Mao Mestre da Lança
+6861	Ki Mestre da LanÃ§a
+6862	Mao Mestre da LanÃ§a
 6863	Gong Arqueiro
 6864	Kao Espadachim
 6865	Jin Espadachim
-6866	Ki Mestre da Lança
-6867	Mao Mestre da Lança
+6866	Ki Mestre da LanÃ§a
+6867	Mao Mestre da LanÃ§a
 6868	Gong Arqueiro
 6869	Kao Espadachim
 6870	Monge Misterioso
 6871	Monge Misterioso
 6875	Soldado Corrompido
-6876	Escaramuçador Corrompido
+6876	EscaramuÃ§ador Corrompido
 6877	Guerreiro Corrompido
 6878	Monge Corrompido
 6879	General Corrompido
@@ -1181,7 +1181,7 @@ Vnum	LocalizedName
 6882	Raposa Congelada
 6883	Batedor Congelado
 6884	Guerreiro Congelado
-6885	Caçador Congelado
+6885	CaÃ§ador Congelado
 6886	General Congelado
 6887	Chefe Congelado
 6888	Chefe Guerra Congelado
@@ -1190,7 +1190,7 @@ Vnum	LocalizedName
 6891	Yeti Vento do Norte
 6892	Fantasma Vento do Norte
 6893	Golem Vento do Norte
-6894	Pé-Grande
+6894	PÃ©-Grande
 6895	Chefe Guerra Vento Norte
 7001	Macaco Soldado
 7002	Macaco Cavaleiro
@@ -1203,9 +1203,9 @@ Vnum	LocalizedName
 7009	Examinador Tu-Gui
 7010	Comandante Branco Tu-Gui
 7012	Bi-Ma-Gui-An
-7013	Rei Escorpião
-7014	Homem Escorpião Esperto
-7015	Arqueiro Escorpião
+7013	Rei EscorpiÃ£o
+7014	Homem EscorpiÃ£o Esperto
+7015	Arqueiro EscorpiÃ£o
 7016	Serpente Guerreiro
 7017	Serpente Arqueiro
 7018	Bandido do Deserto
@@ -1241,23 +1241,23 @@ Vnum	LocalizedName
 7048	Gigante do Gelo
 7049	Golem do Gelo
 7050	Olho Voador do Deserto
-7051	Rei Escorpião
-7052	Homem Escorpião Jovem
-7053	Arqueiro Escorpião
+7051	Rei EscorpiÃ£o
+7052	Homem EscorpiÃ£o Jovem
+7053	Arqueiro EscorpiÃ£o
 7054	Serpente Guerreiro
 7055	Serpente Arqueiro
 7056	Bandido do Deserto
 7057	Olho Voador do Deserto
-7058	Rei Escorpião
-7059	Homem Escorpião Jovem
-7060	Arqueiro Escorpião
+7058	Rei EscorpiÃ£o
+7059	Homem EscorpiÃ£o Jovem
+7060	Arqueiro EscorpiÃ£o
 7061	Serpente Guerreiro
 7062	Serpente Arqueiro
 7063	Bandido do Deserto
 7064	Olho Voador do Deserto
-7065	Rei Escorpião
-7066	Homem Escorpião Jovem
-7067	Arqueiro Escorpião
+7065	Rei EscorpiÃ£o
+7066	Homem EscorpiÃ£o Jovem
+7067	Arqueiro EscorpiÃ£o
 7068	Serpente Guerreiro
 7069	Serpente Arqueiro
 7070	Bandido do Deserto
@@ -1277,18 +1277,18 @@ Vnum	LocalizedName
 7084	Chama
 7085	Guerreiro Chama
 7086	Tronco Fantasma
-7087	Dríade
+7087	DrÃ­ade
 7088	Salgueiro Fantasma
-7089	Árvore do Mal
+7089	Ãrvore do Mal
 7090	Tronco Fantasma
-7091	Dríade
+7091	DrÃ­ade
 7092	Salgueiro Fantasma
-7093	Árvore do Mal
+7093	Ãrvore do Mal
 7094	Tronco Fantasma
-7095	Dríade
+7095	DrÃ­ade
 7096	Salgueiro Fantasma
-7101	Canhão
-7102	Canhão
+7101	CanhÃ£o
+7102	CanhÃ£o
 7103	Balista de Saraivada
 7104	Balista de Saraivada
 7105	Torre
@@ -1355,7 +1355,7 @@ Vnum	LocalizedName
 7591	Grande Mestre da Torre
 7592	Destruidor da Torre
 7593	Destruidor da Torre
-7594	Pedra Demoníaca da Torre
+7594	Pedra DemonÃ­aca da Torre
 7595	Arqueiro da Torre
 7600	Pedra da Alma da Torre
 7609	Bruxo Mestre da Torre
@@ -1373,10 +1373,10 @@ Vnum	LocalizedName
 8001	Metin da Dor
 8002	Metin do Combate
 8003	Metin da Batalha
-8004	Metin da Ganância
+8004	Metin da GanÃ¢ncia
 8005	Metin Negra
-8006	Metin da Escuridão
-8007	Metin do Ciúme
+8006	Metin da EscuridÃ£o
+8007	Metin do CiÃºme
 8008	Metin da Alma
 8009	Metin da Sombra
 8010	Metin da Dureza
@@ -1398,58 +1398,58 @@ Vnum	LocalizedName
 8026	Metin Tu-Young
 8027	Metin Jeon-Un
 8031	Metin da Montanha
-8032	Metin da Vingança
-8033	Metin da Solidão
-8034	Metin da Arrogância
-8035	Metin da Salvação
-8036	Metin da Traição
+8032	Metin da VinganÃ§a
+8033	Metin da SolidÃ£o
+8034	Metin da ArrogÃ¢ncia
+8035	Metin da SalvaÃ§Ã£o
+8036	Metin da TraiÃ§Ã£o
 8037	Metin do Ressentimento
 8038	Metin da Desforra
 8039	Metin do Orgulho
-8040	Metin da Malevolência
-8041	Metin da Páscoa
-8042	Metin da Páscoa
-8043	Metin da Páscoa
-8044	Metin da Páscoa
-8045	Metin da Páscoa
-8046	Metin da Páscoa
-8047	Metin da Páscoa
-8048	Metin da Páscoa
-8049	Metin da Páscoa
-8050	Metin da Páscoa
+8040	Metin da MalevolÃªncia
+8041	Metin da PÃ¡scoa
+8042	Metin da PÃ¡scoa
+8043	Metin da PÃ¡scoa
+8044	Metin da PÃ¡scoa
+8045	Metin da PÃ¡scoa
+8046	Metin da PÃ¡scoa
+8047	Metin da PÃ¡scoa
+8048	Metin da PÃ¡scoa
+8049	Metin da PÃ¡scoa
+8050	Metin da PÃ¡scoa
 8051	Metin da Melancolia
 8052	Metin da Brasa
 8053	Metin da Vaidade
-8054	Metin da Fúria
+8054	Metin da FÃºria
 8055	Metin da Calamidade
 8056	Metin da Maldade
-8057	Metin Fogo do Purgatório
+8057	Metin Fogo do PurgatÃ³rio
 8058	Metin do Frio
-8059	Metin dos Seres-Árvore
-8060	Metin Abóbora
+8059	Metin dos Seres-Ãrvore
+8060	Metin AbÃ³bora
 8061	Metin das Florestas
-8062	Metin da Perceção (M)
-8063	Metin da Apreciação
+8062	Metin da PerceÃ§Ã£o (M)
+8063	Metin da ApreciaÃ§Ã£o
 8064	Metin da Plenitude
 8065	Metin do Jin
 8066	Metin do Shiho
-8067	Metin da Perceção
+8067	Metin da PerceÃ§Ã£o
 8068	Metin Serpente do Fogo
 8069	Metin Serpente do Gelo
 8070	Metin Serpente do Vento
 8071	Metin Serpente da Terra
-8072	Ovo Dragão Branco (Fác.)
-8073	Ovo Dragão Branco (Dif.)
+8072	Ovo DragÃ£o Branco (FÃ¡c.)
+8073	Ovo DragÃ£o Branco (Dif.)
 8075	Metin Serpente do Tempo
-8076	Metin Serpente do Espaço
+8076	Metin Serpente do EspaÃ§o
 8077	Metin de Gumar
 8101	Metin da Dor
 8102	Metin do Combate
 8103	Metin da Batalha
-8104	Metin da Ganância
+8104	Metin da GanÃ¢ncia
 8105	Metin Negra
-8106	Metin da Escuridão
-8107	Metin do Ciúme
+8106	Metin da EscuridÃ£o
+8107	Metin do CiÃºme
 8108	Metin da Alma
 8109	Metin da Sombra
 8110	Metin da Dureza
@@ -1459,54 +1459,54 @@ Vnum	LocalizedName
 8114	Metin do Assassino
 8115	Metin da Lua
 8120	FT: Metin da Montanha
-8121	FT: Metin da Vingança
-8122	FT: Metin da Solidão
-8123	FT: Metin da Arrogância
+8121	FT: Metin da VinganÃ§a
+8122	FT: Metin da SolidÃ£o
+8123	FT: Metin da ArrogÃ¢ncia
 8124	FT: Metin Fogo Purgat.
 8125	FT: Metin do Frio
-8126	FT: Metin Seres-Árvore
+8126	FT: Metin Seres-Ãrvore
 8127	FT: Metin das Florestas
 8130	DT: Metin da Montanha
-8131	DT: Metin da Vingança
-8132	DT: Metin da Solidão
-8133	DT: Metin da Arrogância
+8131	DT: Metin da VinganÃ§a
+8132	DT: Metin da SolidÃ£o
+8133	DT: Metin da ArrogÃ¢ncia
 8134	DT: Metin Fogo Purgat.
 8135	DT: Metin do Frio
-8136	DT: Metin Seres-Árvore
+8136	DT: Metin Seres-Ãrvore
 8137	DT: Metin das Florestas
 8200	Pedra Metin de Chocolate
 8201	Pedra Metin de Chocolate
-8203	Metin da Iluminação
-8204	Metin da Páscoa
-8205	Metin da Páscoa
-8206	Metin da Páscoa
-8501	Cão Selvagem
+8203	Metin da IluminaÃ§Ã£o
+8204	Metin da PÃ¡scoa
+8205	Metin da PÃ¡scoa
+8206	Metin da PÃ¡scoa
+8501	CÃ£o Selvagem
 8502	Javali
 8503	Urso
 8504	Tigre Branco
 8505	Orc Preto Gigante
-8506	Lider Rã-Árvore
+8506	Lider RÃ£-Ãrvore
 8507	Bandido do Deserto
-8508	Atormentador Esotérico
-8509	Conjurador Esotérico
+8508	Atormentador EsotÃ©rico
+8509	Conjurador EsotÃ©rico
 8510	Guerreiro Chama
 8511	Golem do Gelo
-8600	¿õ±Í´ëÁ·Àå
-8601	¿õ±Í´ëÁ·Àå
-8602	¹Ğ±³´ëÁÖ±³
-8603	¹Ğ±³´ëÁÖ±³
-8604	¸í»ç±Í¿Õ
-8605	¸í»ç±Í¿Õ
-8606	»ç½Å
-8607	»ç½Å
-8608	±¸¹ÌÈ£
-8609	±¸¹ÌÈ£
-8610	´©··Åõ¹ü±Í
-8611	´©··Åõ¹ü±Í
-8612	¿©¿Õ°Å¹Ì
-8613	¿©¿Õ°Å¹Ì
-8614	°Å´ë»ç¸·°ÅºÏ
-8615	°Å´ë»ç¸·°ÅºÏ
+8600	Â¿ÃµÂ±ÃÂ´Ã«ÃÂ·Ã€Ã¥
+8601	Â¿ÃµÂ±ÃÂ´Ã«ÃÂ·Ã€Ã¥
+8602	Â¹ÃÂ±Â³Â´Ã«ÃÃ–Â±Â³
+8603	Â¹ÃÂ±Â³Â´Ã«ÃÃ–Â±Â³
+8604	Â¸Ã­Â»Ã§Â±ÃÂ¿Ã•
+8605	Â¸Ã­Â»Ã§Â±ÃÂ¿Ã•
+8606	Â»Ã§Â½Ã…
+8607	Â»Ã§Â½Ã…
+8608	Â±Â¸Â¹ÃŒÃˆÂ£
+8609	Â±Â¸Â¹ÃŒÃˆÂ£
+8610	Â´Â©Â·Â·Ã…ÃµÂ¹Ã¼Â±Ã
+8611	Â´Â©Â·Â·Ã…ÃµÂ¹Ã¼Â±Ã
+8612	Â¿Â©Â¿Ã•Â°Ã…Â¹ÃŒ
+8613	Â¿Â©Â¿Ã•Â°Ã…Â¹ÃŒ
+8614	Â°Ã…Â´Ã«Â»Ã§Â¸Â·Â°Ã…ÂºÃ
+8615	Â°Ã…Â´Ã«Â»Ã§Â¸Â·Â°Ã…ÂºÃ
 8616	Billy Loomis
 8617	Jack Torrance
 8618	Chucky
@@ -1515,14 +1515,14 @@ Vnum	LocalizedName
 8621	Michael Myers
 8622	Freddy Krueger
 8623	Leatherface
-8625	Posto Avançado dos Troll
-8626	1.º Posto Avançado Quag
-8627	2.º Posto Avançado Quag
+8625	Posto AvanÃ§ado dos Troll
+8626	1.Âº Posto AvanÃ§ado Quag
+8627	2.Âº Posto AvanÃ§ado Quag
 9001	Vendedor de Armas
 9002	Vendedor de Armaduras
 9003	Loja Geral
 9004	Ajudante de Evento
-9005	Guarda do Armazém
+9005	Guarda do ArmazÃ©m
 9006	Idosa
 9007	Vendedor de Armas
 9008	Vendedor de Armaduras
@@ -1530,132 +1530,132 @@ Vnum	LocalizedName
 9010	Loja Geral
 9011	Planeadora de Casamentos
 9012	Teleportador
-9013	Mercador das Ilusões
+9013	Mercador das IlusÃµes
 9014	Mercador
-20470	Estátua da Ilusão
-20471	Estátua do Despertar
-20472	Estátua Fenda Temporal
-20473	Estátua do Armeiro
-20474	Estátua do Ferreiro
+20470	EstÃ¡tua da IlusÃ£o
+20471	EstÃ¡tua do Despertar
+20472	EstÃ¡tua Fenda Temporal
+20473	EstÃ¡tua do Armeiro
+20474	EstÃ¡tua do Ferreiro
 20475	Ferreiro Conj. Sagrado
 20476	Ferreiro Conj. Glorioso
 20477	Ferreiro Conj. Cavalh.
 20478	Ferreiro Conj. Real
 20479	Ferreiro Conj. Majestoso
-20480	Gestora de Negócios
-20481	Gestora de Negócios
-10001	Área_Yayang 4002 8995
-10002	Área_Yongan 4503 9050
-10003	Área_Bokjung 1118 2161
-10004	Área_Joan 876 2131
-10005	Área_Bakra 9064 2214
-10006	Área_Pyungmoo 9372 2188
-10007	Área_Yongan 4188 9560
-10008	Área_Yayang 3179 8332
-10009	Área_Joan 897 1127
-10010	Área_Bokjung 1759 2210
-10011	Área_Pyungmoo 9343 3143
-10012	Área_Bakra 8348 2926
+20480	Gestora de NegÃ³cios
+20481	Gestora de NegÃ³cios
+10001	Ãrea_Yayang 4002 8995
+10002	Ãrea_Yongan 4503 9050
+10003	Ãrea_Bokjung 1118 2161
+10004	Ãrea_Joan 876 2131
+10005	Ãrea_Bakra 9064 2214
+10006	Ãrea_Pyungmoo 9372 2188
+10007	Ãrea_Yongan 4188 9560
+10008	Ãrea_Yayang 3179 8332
+10009	Ãrea_Joan 897 1127
+10010	Ãrea_Bokjung 1759 2210
+10011	Ãrea_Pyungmoo 9343 3143
+10012	Ãrea_Bakra 8348 2926
 10013	Templo_Hwang 5536 1441
 10014	Seungryong 3326 7468
 10015	Deserto_Yongbi 3467 6329
 10016	Kuahlo_Dong 600 4960
 10017	Templo_Hwang 5906 1102
 10018	Torre_Gumsan 2165 7270
-10019	Área_Yayang 3211 9009
+10019	Ãrea_Yayang 3211 9009
 10020	Jungrang 1356 43
-10021	Área_Bokjung 1168 2920
+10021	Ãrea_Bokjung 1168 2920
 10022	Waryong 2219 93
-10023	Área_Bakra 9098 2948
+10023	Ãrea_Bakra 9098 2948
 10024	Imha 2718 130
 10025	Montanha_Sohan 4993 2984
 10026	Lungsam 2887 57
 10027	Lungsam 2866 437
 10028	Bosque_Rubro 11199 708
-10029	Planície_Seca 10590 7262
+10029	PlanÃ­cie_Seca 10590 7262
 10030	Deserto_Yongbi 3519 6223
-10031	Planície_Seca 10590 7262
+10031	PlanÃ­cie_Seca 10590 7262
 10032	Jotunheim 8283 7635
 10033	Gruta_Zin 10594 7525
 10034	Gruta_Zin_2 10594 7525
 10035	Deon-Zeon 917 5253
 10036	Deon-Zeon_2 7041 4642
-10037	ÀÚ¾çÇö 3809 8233
-10038	½Å¼ö¼º 9752 1330
-10039	º¹Á¤Çö 1917 2900
-10040	Áø³ë¼º 9239 1836
-10041	¹Ú¶óÇö 8316 2154
-10042	ÃµÁ¶¼º 9772 1850
-10043	¼­ÇÑ»ê 3819 2969
-10044	½Å¼ö¼º 10189 1484
-10045	¼­ÇÑ»ê 3819 2969
-10046	½Å¼ö¼º 9774 1501
-10047	½Â·æ°î 2699 6752
-10048	Áø³ë¼º 9679 1994
-10049	½Â·æ°î 2699 6752
-10050	Áø³ë¼º 9256 2012
-10051	¿µºñ»ç¸· 3478 6189
-10052	ÃµÁ¶¼º 9780 1995
-10053	¿µºñ»ç¸· 3478 6189
-10054	ÃµÁ¶¼º 10190 2002
-10055	µµ¿°È­Áö 6011 6874
-10056	¼­ÇÑ»ê 4368 2158
-10057	½Â·æ°î 3355 7558
-10058	¹Ğ±³»ç¿ø 5943 1337
-10059	¼­ÇÑ»ê 0 10496
-10060	¹Ğ±³»ç¿ø 1536 10496
+10037	Ã€ÃšÂ¾Ã§Ã‡Ã¶ 3809 8233
+10038	Â½Ã…Â¼Ã¶Â¼Âº 9752 1330
+10039	ÂºÂ¹ÃÂ¤Ã‡Ã¶ 1917 2900
+10040	ÃÃ¸Â³Ã«Â¼Âº 9239 1836
+10041	Â¹ÃšÂ¶Ã³Ã‡Ã¶ 8316 2154
+10042	ÃƒÂµÃÂ¶Â¼Âº 9772 1850
+10043	Â¼Â­Ã‡Ã‘Â»Ãª 3819 2969
+10044	Â½Ã…Â¼Ã¶Â¼Âº 10189 1484
+10045	Â¼Â­Ã‡Ã‘Â»Ãª 3819 2969
+10046	Â½Ã…Â¼Ã¶Â¼Âº 9774 1501
+10047	Â½Ã‚Â·Ã¦Â°Ã® 2699 6752
+10048	ÃÃ¸Â³Ã«Â¼Âº 9679 1994
+10049	Â½Ã‚Â·Ã¦Â°Ã® 2699 6752
+10050	ÃÃ¸Â³Ã«Â¼Âº 9256 2012
+10051	Â¿ÂµÂºÃ±Â»Ã§Â¸Â· 3478 6189
+10052	ÃƒÂµÃÂ¶Â¼Âº 9780 1995
+10053	Â¿ÂµÂºÃ±Â»Ã§Â¸Â· 3478 6189
+10054	ÃƒÂµÃÂ¶Â¼Âº 10190 2002
+10055	ÂµÂµÂ¿Â°ÃˆÂ­ÃÃ¶ 6011 6874
+10056	Â¼Â­Ã‡Ã‘Â»Ãª 4368 2158
+10057	Â½Ã‚Â·Ã¦Â°Ã® 3355 7558
+10058	Â¹ÃÂ±Â³Â»Ã§Â¿Ã¸ 5943 1337
+10059	Â¼Â­Ã‡Ã‘Â»Ãª 0 10496
+10060	Â¹ÃÂ±Â³Â»Ã§Â¿Ã¸ 1536 10496
 10061	Terra_do_Fogo 4608 10496
-10062	½Â·æ°î 6144 10496
-10063	±Í¸ñ¸² 3031 266
-10064	Àû±Í¸ñ¸² 11133 534
-10065	½Å±Í¸ñ¸² 7754 10553
-10066	½ÅÀû±Í¸ñ¸² 9915 11195
+10062	Â½Ã‚Â·Ã¦Â°Ã® 6144 10496
+10063	Â±ÃÂ¸Ã±Â¸Â² 3031 266
+10064	Ã€Ã»Â±ÃÂ¸Ã±Â¸Â² 11133 534
+10065	Â½Ã…Â±ÃÂ¸Ã±Â¸Â² 7754 10553
+10066	Â½Ã…Ã€Ã»Â±ÃÂ¸Ã±Â¸Â² 9915 11195
 10067	Cave_Macacos 7752 4477
-10068	Área_Yayang 4062 8756
+10068	Ãrea_Yayang 4062 8756
 10069	Cave_Macacos 8520 4477
-10070	Área_Bokjung 1611 2130
+10070	Ãrea_Bokjung 1611 2130
 10071	Cave_Macacos 9288 4477
-10072	Área_Bakra 8727 2100
+10072	Ãrea_Bakra 8727 2100
 10073	Deserto_Yongbi 3061 6202
 10074	Cave_Macacos 1352 6532
 10075	Deserto_Yongbi 2879 5407
 10076	Cave_Macacos 1352 7300
 10077	Gruta_das_Almas 9 12078
-10078	½Â·æ°î 2842 8106
+10078	Â½Ã‚Â·Ã¦Â°Ã® 2842 8106
 10079	Gruta1 1459 13236
 10080	Gruta2 2413 12755
-10081	ÃµÀÇµ¿±¼1Ãş 99 13618
-10082	¿µ¾ÈÀ¾¼º 5028 9998
-10083	ÃµÀÇµ¿±¼1Ãş 1360 14972
-10084	ÃµÀÇµ¿±¼2Ãş 2414 14289
-10085	ÃµÀÇµ¿±¼1Ãş 99 15154
-10086	Á¶¾ÈÀ¾¼º 616 1148
-10087	ÃµÀÇµ¿±¼1Ãş 1360 16508
-10088	ÃµÀÇµ¿±¼2Ãş 2414 15825
-10089	ÃµÀÇµ¿±¼1Ãş 99 16690
-10090	Æò¹«À¾¼º 9609 3188
-10091	ÃµÀÇµ¿±¼1Ãş 1360 18044
-10092	ÃµÀÇµ¿±¼2Ãş 2414 17361
-10093	Portão_Dragão 1731 12205
-10094	Portão_Dragão 1733 13743
-10095	Portão_Dragão 1728 15277
-10096	Portão_Dragão 1724 16824
+10081	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 99 13618
+10082	Â¿ÂµÂ¾ÃˆÃ€Â¾Â¼Âº 5028 9998
+10083	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 1360 14972
+10084	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼2ÃƒÃ¾ 2414 14289
+10085	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 99 15154
+10086	ÃÂ¶Â¾ÃˆÃ€Â¾Â¼Âº 616 1148
+10087	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 1360 16508
+10088	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼2ÃƒÃ¾ 2414 15825
+10089	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 99 16690
+10090	Ã†Ã²Â¹Â«Ã€Â¾Â¼Âº 9609 3188
+10091	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼1ÃƒÃ¾ 1360 18044
+10092	ÃƒÂµÃ€Ã‡ÂµÂ¿Â±Â¼2ÃƒÃ¾ 2414 17361
+10093	PortÃ£o_DragÃ£o 1731 12205
+10094	PortÃ£o_DragÃ£o 1733 13743
+10095	PortÃ£o_DragÃ£o 1728 15277
+10096	PortÃ£o_DragÃ£o 1724 16824
 10097	SD2 7040 5235
 10098	SD3 984 5711
 10099	Cabo 11043 17885
 10100	Cabo 10963 16744
 10101	Nephrite 10869 16558
 10102	Cabo 11664 16779
-10103	Trovão 11345 16546
-10104	Trovão 11921 16550
+10103	TrovÃ£o 11345 16546
+10104	TrovÃ£o 11921 16550
 10105	Gautama 12263 16811
-10106	³ì¸²Áö 8168 15050
+10106	Â³Ã¬Â¸Â²ÃÃ¶ 8168 15050
 10107	DongGwang 10629 4767
-10109	CumeadaRelâmpag 451 9492
-10110	CumeRelâmpagos 830 9454
+10109	CumeadaRelÃ¢mpag 451 9492
+10110	CumeRelÃ¢mpagos 830 9454
 10111	CordilheirFogo 1430 9616
 10112	MontesGelo 690 10169
-10113	CumeRelâmpagos 1023 9623
+10113	CumeRelÃ¢mpagos 1023 9623
 10114	MontesGelo 303 10113
 10115	PicoFogo 2117 9447
 10116	CordilheirFogo 1720 9499
@@ -1667,28 +1667,28 @@ Vnum	LocalizedName
 10122	CordilhNegra 3012 9500
 10123	DesertoTerra 3069 10174
 10124	CumeNegro 3685 9551
-10126	Saída 11622 5809
+10126	SaÃ­da 11622 5809
 10127	DongGwang 10551 4881
 10128	SeoGwang 12218 4895
 10129	NamGwang 12780 4411
 10130	SeoGwang 12144 5555
-10131	Nível2 9916 6630
-10132	Nível3 9896 6302
-10133	Nível1 9534 6281
-10134	Nível2 9564 6610
+10131	NÃ­vel2 9916 6630
+10132	NÃ­vel3 9896 6302
+10133	NÃ­vel1 9534 6281
+10134	NÃ­vel2 9564 6610
 10135	Regressar 9338 6287
 10136	Passo-Yilad 303 14147
 10137	AbismNamGwang 13184 4735
-10138	Saída
+10138	SaÃ­da
 10139	Ravina_VN 1106 15997
 10140	PassoYilad 83 14763
-10141	ÁreaEspera 401 477
+10141	ÃreaEspera 401 477
 10142	DesfilAlmas 1851 15786
 10143	Ravina_VN 247 15392
 10201	Sair
 10202	Descida_VN 11590 12181
 10203	Abrigo_VN 11323 13499
-10204	Saída
+10204	SaÃ­da
 10205	. 70 149
 10206	. 295 157
 10207	. 190 149
@@ -1706,7 +1706,7 @@ Vnum	LocalizedName
 10219	. 215 557
 10220	. 698 325
 10221	. 70 149
-10222	CâmaraSecret 11913 12692
+10222	CÃ¢maraSecret 11913 12692
 10223	Regressar 11553 12697
 10224	. 646 65
 10225	. 70 149
@@ -1899,33 +1899,33 @@ Vnum	LocalizedName
 11003	Beleguim Batalha
 11004	Guarda da Cidade
 11005	Beleguim Batalha
-11100	Guardião
+11100	GuardiÃ£o
 11101	Beleguim Batalha
-11102	Guardião
+11102	GuardiÃ£o
 11103	Beleguim Batalha
-11104	Guardião
+11104	GuardiÃ£o
 11105	Beleguim Batalha
-11106	Guardião
+11106	GuardiÃ£o
 11107	Beleguim Batalha
-11108	Guardião
+11108	GuardiÃ£o
 11109	Beleguim Batalha
-11110	Guardião
+11110	GuardiÃ£o
 11111	Beleguim Batalha
-11112	Guardião
+11112	GuardiÃ£o
 11113	Beleguim Batalha
-11114	Guardião
+11114	GuardiÃ£o
 11115	Beleguim Batalha
-11116	Guardião
+11116	GuardiÃ£o
 11117	Beleguim Batalha
-11505	Rã Dourada
+11505	RÃ£ Dourada
 11506	Fogueira
 11507	Fogueira
 11508	Fogueira
 11509	Fogueira
 11510	Fogueira
 12000	Fogueira
-13000	Portão de Madeira
-13001	Portão de Pedra
+13000	PortÃ£o de Madeira
+13001	PortÃ£o de Pedra
 14000	Oficina
 14001	Oficina
 14002	Oficina
@@ -1988,8 +1988,8 @@ Vnum	LocalizedName
 20004	Pedinte
 20005	Yonah
 20006	Mirine
-20007	Guarda do Armazém
-20008	Octávio
+20007	Guarda do ArmazÃ©m
+20008	OctÃ¡vio
 20009	Idoso
 20010	Vendedor Ambulante
 20011	Uriel
@@ -2009,13 +2009,13 @@ Vnum	LocalizedName
 20025	.
 20026	Ji-Ryu
 20027	Gillian
-20028	Irmão de Mirine
-20029	Pónei
+20028	IrmÃ£o de Mirine
+20029	PÃ³nei
 20030	Cavalo
 20031	Pai Natal
-20032	Árvore de Natal
-20033	Árvore de Natal
-20034	Árvore de Natal
+20032	Ãrvore de Natal
+20033	Ãrvore de Natal
+20034	Ãrvore de Natal
 20035	Bandeira
 20036	Bandeira
 20037	Bandeira
@@ -2029,27 +2029,27 @@ Vnum	LocalizedName
 20045	Ferreiro Haneul
 20046	Ourives Seung
 20047	Veio de Diamantes
-20048	Veio de Âmbar
-20049	Veio de Madeira Fóssil
+20048	Veio de Ã‚mbar
+20049	Veio de Madeira FÃ³ssil
 20050	Veio de Cobre
 20051	Veio de Prata
 20052	Veio de Ouro
 20053	Veio de Jade
-20054	Veio de Ébano
+20054	Veio de Ã‰bano
 20055	Monte de Ostras
 20056	Veio de Platina
 20057	Veio de Cristal
 20058	Veio de Ametista
 20059	Veio de Safira
 20060	Alquimista de Diamantes
-20061	Alquimista de Âmbar
+20061	Alquimista de Ã‚mbar
 20062	Alquimista de Madeira
 20063	Alquimista de Cobre
 20064	Alquimista de Prata
 20065	Alquimista de Ouro
 20066	Alquimista de Jade
-20067	Alquimista de Ébano
-20068	Alquimista de Pérolas
+20067	Alquimista de Ã‰bano
+20068	Alquimista de PÃ©rolas
 20069	Alquimista de Platina
 20070	Alquimista de Cristal
 20071	Alquimista de Ametista
@@ -2057,15 +2057,15 @@ Vnum	LocalizedName
 20073	Selo Ancestral
 20074	Mestre de Armas
 20075	Mestre de Armaduras
-20076	Mestre de Acessórios
+20076	Mestre de AcessÃ³rios
 20077	Guarda do Altar
 20078	Guarda do Altar
 20079	Guarda do Altar
-20080	Líder de Treino
+20080	LÃ­der de Treino
 20081	Selo de Passagem Roubado
 20082	Mestre
 20083	Jegal-Tunseok
-20084	Biólogo Chaegirab
+20084	BiÃ³logo Chaegirab
 20085	Jimjunja
 20086	Handu-Up
 20087	Wonda-Rim
@@ -2078,9 +2078,9 @@ Vnum	LocalizedName
 20094	Hong-Hae
 20095	Seon-Hae
 20096	Obelisco
-20097	Portão do Castelo
-20098	Portão do Castelo
-20099	Portão do Castelo
+20097	PortÃ£o do Castelo
+20098	PortÃ£o do Castelo
+20099	PortÃ£o do Castelo
 20101	Cavalo Branco
 20102	Cavalo Castanho
 20103	Cavalo Preto
@@ -2093,87 +2093,87 @@ Vnum	LocalizedName
 20110	Javali Selvagem
 20111	Lobo
 20112	Tigre
-20113	Leão
+20113	LeÃ£o
 20114	white lion
 20115	Javali de Guerra
 20116	Lobo de Combate
 20117	Tigre da Tempestade
-20118	Leão da Batalha
+20118	LeÃ£o da Batalha
 20119	Cavalo Negro Nobre
-20120	Ã»ÀÇÀü°©È£
-20121	ÁøÀûÀÇÀü°©È£
-20122	È²ÀÇÀü°©È£
-20123	³ìÀÇÀü°©È£
-20124	ÈæÀÇÀü°©È£
-20125	¹éÀÇÀü°©È£
+20120	ÃƒÂ»Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20121	ÃÃ¸Ã€Ã»Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20122	ÃˆÂ²Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20123	Â³Ã¬Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20124	ÃˆÃ¦Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
+20125	Â¹Ã©Ã€Ã‡Ã€Ã¼Â°Â©ÃˆÂ£
 20126	Pai Natal
-20127	Estandarte Aniversário 1
-20128	Estandarte Aniversário 2
-20129	Estandarte Aniversário 3
-20130	Estandarte Aniversário 4
-20131	Estandarte Aniversário 5
-20132	Estandarte Aniversário 6
-20133	Estandarte Aniversário 7
+20127	Estandarte AniversÃ¡rio 1
+20128	Estandarte AniversÃ¡rio 2
+20129	Estandarte AniversÃ¡rio 3
+20130	Estandarte AniversÃ¡rio 4
+20131	Estandarte AniversÃ¡rio 5
+20132	Estandarte AniversÃ¡rio 6
+20133	Estandarte AniversÃ¡rio 7
 20134	Estandarte Solar
 20135	Estandarte de Natal
 20139	Estandarte Guild (Roxo)
 20140	Estandarte Guild (Az/Vd)
 20141	Estandarte Guild (Vm/Ou)
-20138	Estandarte de Ramadão
+20138	Estandarte de RamadÃ£o
 20142	Estandarte de Halloween
-20143	Estandarte de Páscoa
-20201	Àü°©¿ø
-20202	Àü°©¶û
-20203	Àü°©È£
-20204	Àü°©»çÀÚ
-20205	³­ÆøÇÑ Àü°©¿ø
-20206	³­ÆøÇÑ Àü°©¶û
-20207	³­ÆøÇÑ Àü°©È£
-20208	³­ÆøÇÑ Àü°©»çÀÚ
-20209	¿ë¸ÍÇÑ Àü°©¿ø
-20210	¿ë¸ÍÇÑ Àü°©¶û
-20211	¿ë¸ÍÇÑ Àü°©È£
-20212	¿ë¸ÍÇÑ Àü°©»çÀÚ
-20213	Àü°©¼ı¼ø·Ï
-20214	³­ÆøÇÑ Àü°©¼ı¼ø·Ï
-20215	¿ë¸ÍÇÑ Àü°©¼ı¼ø·Ï
-20216	Àü°©¾Ï¼ø·Ï
-20217	³­ÆøÇÑ Àü°©¾Ï¼ø·Ï
-20218	¿ë¸ÍÇÑ Àü°©¾Ï¼ø·Ï
+20143	Estandarte de PÃ¡scoa
+20201	Ã€Ã¼Â°Â©Â¿Ã¸
+20202	Ã€Ã¼Â°Â©Â¶Ã»
+20203	Ã€Ã¼Â°Â©ÃˆÂ£
+20204	Ã€Ã¼Â°Â©Â»Ã§Ã€Ãš
+20205	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¿Ã¸
+20206	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¶Ã»
+20207	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©ÃˆÂ£
+20208	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â»Ã§Ã€Ãš
+20209	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¿Ã¸
+20210	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¶Ã»
+20211	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©ÃˆÂ£
+20212	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â»Ã§Ã€Ãš
+20213	Ã€Ã¼Â°Â©Â¼Ã½Â¼Ã¸Â·Ã
+20214	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¼Ã½Â¼Ã¸Â·Ã
+20215	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¼Ã½Â¼Ã¸Â·Ã
+20216	Ã€Ã¼Â°Â©Â¾ÃÂ¼Ã¸Â·Ã
+20217	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¾ÃÂ¼Ã¸Â·Ã
+20218	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¾ÃÂ¼Ã¸Â·Ã
 20219	blackpony
-20220	Å©¸®½º¸¶½º ¼ø·Ï
-20221	Àü°©¹é¿õ
-20222	Àü°©ÆÒ´õ
-20223	Àü°©¼®·æÀÚ
-20224	³­ÆøÇÑ Àü°©¼®·æÀÚ
-20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ
-20226	ÈæÀ¯´ÏÄÜ
-20227	¹éÀ¯´ÏÄÜ
-20228	Àü°©¸ÍÁ¶
-20229	³­ÆøÇÑ Àü°©¸ÍÁ¶
-20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶
-20231	Àü°©Èæ¹ü
-20232	Àü°©Ç¥¹ü
+20220	Ã…Â©Â¸Â®Â½ÂºÂ¸Â¶Â½Âº Â¼Ã¸Â·Ã
+20221	Ã€Ã¼Â°Â©Â¹Ã©Â¿Ãµ
+20222	Ã€Ã¼Â°Â©Ã†Ã’Â´Ãµ
+20223	Ã€Ã¼Â°Â©Â¼Â®Â·Ã¦Ã€Ãš
+20224	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¼Â®Â·Ã¦Ã€Ãš
+20225	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¼Â®Â·Ã¦Ã€Ãš
+20226	ÃˆÃ¦Ã€Â¯Â´ÃÃ„Ãœ
+20227	Â¹Ã©Ã€Â¯Â´ÃÃ„Ãœ
+20228	Ã€Ã¼Â°Â©Â¸ÃÃÂ¶
+20229	Â³Â­Ã†Ã¸Ã‡Ã‘ Ã€Ã¼Â°Â©Â¸ÃÃÂ¶
+20230	Â¿Ã«Â¸ÃÃ‡Ã‘ Ã€Ã¼Â°Â©Â¸ÃÃÂ¶
+20231	Ã€Ã¼Â°Â©ÃˆÃ¦Â¹Ã¼
+20232	Ã€Ã¼Â°Â©Ã‡Â¥Â¹Ã¼
 20233	Muffin (Capote Castanho)
 20234	Nugget (Capote Castanho)
 20235	Muffin (Capote Azul)
 20236	Nugget (Capote Azul)
 20237	Muffin (Capote Verde)
 20238	Nugget (Capote Verde)
-20239	Relâmpago
-20240	Trovão
+20239	RelÃ¢mpago
+20240	TrovÃ£o
 20241	Nugget (Azul Marinho)
 20242	Muffin (Rosa)
 20243	NoNAme
-20244	Dragão de Nirvana
-20245	Dragão de Samsara
+20244	DragÃ£o de Nirvana
+20245	DragÃ£o de Samsara
 20246	Manny
 20247	Ellie
 20248	Camelo de Luta Castanho
 20249	Camelo de Luta Preto
-20250	Réptil da Gruta de Lava
-20251	Réptil da Gruta de Gelo
-20252	Dragão de Magma
+20250	RÃ©ptil da Gruta de Lava
+20251	RÃ©ptil da Gruta de Gelo
+20252	DragÃ£o de Magma
 20253	Appaloosa
 20254	Coelho Branco
 20255	Coelho Lunar
@@ -2204,7 +2204,7 @@ Vnum	LocalizedName
 20303	Professor - Arte do Arco
 20304	Professor - Luta d'Armas
 20305	Professor - Magia Negra
-20306	Professor - Força Dragão
+20306	Professor - ForÃ§a DragÃ£o
 20307	Professor - Energia
 20320	Professor - Luta Corpo
 20321	Professor - Luta Mental
@@ -2212,7 +2212,7 @@ Vnum	LocalizedName
 20323	Professor - Arte do Arco
 20324	Professor - Luta d'Armas
 20325	Professor - Magia Negra
-20326	Professor - Força Dragão
+20326	Professor - ForÃ§a DragÃ£o
 20327	Professor - Energia
 20340	Professor - Luta Corpo
 20341	Professor - Luta Mental
@@ -2220,20 +2220,20 @@ Vnum	LocalizedName
 20343	Professor - Arte do Arco
 20344	Professor - Luta d'Armas
 20345	Professor - Magia Negra
-20346	Professor - Força Dragão
+20346	Professor - ForÃ§a DragÃ£o
 20347	Professor - Energia
 20348	Guarda da Torre
-20349	Rapaz do Estábulo
+20349	Rapaz do EstÃ¡bulo
 20350	Guarda da Caverna
 20351	Guarda da Arena
 20352	Memorial de Hasun
 20353	Memorial de Seul Rong
 20354	Guarda da Cidade
-20355	Capitão
+20355	CapitÃ£o
 20356	Colecionador de Ginseng
 20357	Memorial Weol
 20358	Flores sem nome
-20359	Caixa velha com papéis
+20359	Caixa velha com papÃ©is
 20360	Memorial Wha
 20361	Memorial Su
 20362	Memorial Mok
@@ -2245,7 +2245,7 @@ Vnum	LocalizedName
 20368	Vendedor Ambulante
 20369	Lee Chung
 20370	Soldado Envenenado
-20371	Velha Lápide
+20371	Velha LÃ¡pide
 20372	Tabuleta de Pedra Gasta
 20373	Guarda-Costas
 20374	Guarda
@@ -2258,44 +2258,44 @@ Vnum	LocalizedName
 20381	Confucius
 20382	Flor-Rocha
 20383	Jae-Seon Kim
-20384	Árvore de Natal
+20384	Ãrvore de Natal
 20385	Desfiladeiro de Am-heh
 20386	Estela de Isfet
 20387	Fechadura do Destino
-20388	Portão do Dragão
+20388	PortÃ£o do DragÃ£o
 20389	NoNAme
-20390	Lápide de Taramor
+20390	LÃ¡pide de Taramor
 20391	Erva do Sol
 20392	Soldado Morto
 20393	Soldado Ferido
 20394	Guarda da Terra do Fogo
-20395	Guardião da Terra Gelada
-20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø
-20397	Leão de Gelo
-20398	Cubo Ártico
-20399	Pilar do Dragão do Norte
-20400	Myonghorang o Sábio
-20401	Guarda da Colónia
+20395	GuardiÃ£o da Terra Gelada
+20396	Ã€Ã»Â¼Ã¶Â»Ã³Â´Ãœ Ã†Ã‡Â¸Ã…Â¿Ã¸
+20397	LeÃ£o de Gelo
+20398	Cubo Ãrtico
+20399	Pilar do DragÃ£o do Norte
+20400	Myonghorang o SÃ¡bio
+20401	Guarda da ColÃ³nia
 20402	Guarda do Portal
 20403	Amarok
 20404	Nagual
 20405	Waheela
 20406	NoNAme
 20407	Fenrir
-20408	Guardião do Templo
-20409	Guardião da Floresta
+20408	GuardiÃ£o do Templo
+20409	GuardiÃ£o da Floresta
 20410	Sentinela da Floresta
 20411	Batedor da Floresta
-20412	Guardião-Mor da Floresta
+20412	GuardiÃ£o-Mor da Floresta
 20413	Kawuco
 20414	Andastre
 20415	Portal
-20416	Sam Abóbora
+20416	Sam AbÃ³bora
 20417	Mesa de Okey
-20419	Dolnarr Guarda Dragão
-20420	Cofre do Dragão Dourado
-20421	Jaharr Guarda Dragão
-20422	Ovo de Dragão
+20419	Dolnarr Guarda DragÃ£o
+20420	Cofre do DragÃ£o Dourado
+20421	Jaharr Guarda DragÃ£o
+20422	Ovo de DragÃ£o
 20423	Alquimista Cristal Alma
 20424	Alquimista de Rubi
 20425	Alquimista de Granada
@@ -2304,13 +2304,13 @@ Vnum	LocalizedName
 20428	Alquimista de Turmalina
 20429	Supervisor de Combate
 20430	Cherie
-20431	Mercador de Aniversário
+20431	Mercador de AniversÃ¡rio
 20432	Ovo de Hidra
-20433	Estátua de Guerreiro
+20433	EstÃ¡tua de Guerreiro
 20434	Mastro
-20435	Vestígio de Meley
+20435	VestÃ­gio de Meley
 20436	Roda do Leme
-20437	Madeira de Reparação
+20437	Madeira de ReparaÃ§Ã£o
 20438	Monge Milbon
 20439	Portal Zi
 20440	Portal Chou
@@ -2324,22 +2324,22 @@ Vnum	LocalizedName
 20448	Portal You
 20449	Portal Xu
 20450	Portal Hai
-20451	Mercador do Zodíaco
-20452	Estátua Zi
-20453	Estátua Chou
-20454	Estátua Yin
-20455	Estátua Mao
-20456	Estátua Chen
-20457	Estátua Si
-20458	Estátua Wu
-20459	Estátua Wei
-20460	Estátua Shen
-20461	Estátua You
-20462	Estátua Xu
-20463	Estátua Hai
-20464	Canhão
-20465	Portal do Zodíaco
-20500	Ovo de Dragão
+20451	Mercador do ZodÃ­aco
+20452	EstÃ¡tua Zi
+20453	EstÃ¡tua Chou
+20454	EstÃ¡tua Yin
+20455	EstÃ¡tua Mao
+20456	EstÃ¡tua Chen
+20457	EstÃ¡tua Si
+20458	EstÃ¡tua Wu
+20459	EstÃ¡tua Wei
+20460	EstÃ¡tua Shen
+20461	EstÃ¡tua You
+20462	EstÃ¡tua Xu
+20463	EstÃ¡tua Hai
+20464	CanhÃ£o
+20465	Portal do ZodÃ­aco
+20500	Ovo de DragÃ£o
 20501	Cofre de Gaya
 20502	Tabuleiro de Yut Nori
 20503	Mercador de Gaya
@@ -2348,54 +2348,54 @@ Vnum	LocalizedName
 20506	Apanha o Rei - Tabuleiro
 20510	FT: Fantasma de um Sura
 20511	FT: Desfiladeiro Am-heh
-20512	FT: Lápide de Taramor
+20512	FT: LÃ¡pide de Taramor
 20513	FT: Estela de Isfet
 20514	FT: Fechadura do Destino
-20515	FT: Portão do Dragão
-20516	FT: Leão de Gelo
-20517	FT: Cubo Ártico
-20518	FT: Pilar Dragão Norte
-20519	FT: Guardião Floresta
+20515	FT: PortÃ£o do DragÃ£o
+20516	FT: LeÃ£o de Gelo
+20517	FT: Cubo Ãrtico
+20518	FT: Pilar DragÃ£o Norte
+20519	FT: GuardiÃ£o Floresta
 20520	FT: Sentinela Floresta
 20521	FT: Batedor Floresta
 20522	FT: Guard.-Mor Floresta
 20530	DT: Fantasma de um Sura
 20531	DT: Desfiladeiro Am-heh
-20532	DT: Lápide de Taramor
+20532	DT: LÃ¡pide de Taramor
 20533	DT: Estela de Isfet
 20534	DT: Fechadura do Destino
-20535	DT: Portão do Dragão
-20536	DT: Leão de Gelo
-20537	DT: Cubo Ártico
-20538	DT: Pilar Dragão Norte
-20539	DT: Guardião Floresta
+20535	DT: PortÃ£o do DragÃ£o
+20536	DT: LeÃ£o de Gelo
+20537	DT: Cubo Ãrtico
+20538	DT: Pilar DragÃ£o Norte
+20539	DT: GuardiÃ£o Floresta
 20540	DT: Sentinela Floresta
 20541	DT: Batedor Floresta
 20542	DT: Guard.-Mor Floresta
-20650	Guardião das Medalhas
-20660	Alquimista Jadite Névoa
+20650	GuardiÃ£o das Medalhas
+20660	Alquimista Jadite NÃ©voa
 20661	Alquimista Jadite do Sol
 20662	Alquimista Jadite Negra
 20663	Alquimista Jadite Fumo
-20702	Santuário da Energia
-20703	Santuário da Sorte
-20704	Santuário do Poder
-20705	Santuário da Riqueza
-20706	Santuário da Iluminação
-20707	Æ÷Å»(°İÀüÁö) 385 385
-20710	Cofre de Provisões (BR)
+20702	SantuÃ¡rio da Energia
+20703	SantuÃ¡rio da Sorte
+20704	SantuÃ¡rio do Poder
+20705	SantuÃ¡rio da Riqueza
+20706	SantuÃ¡rio da IluminaÃ§Ã£o
+20707	Ã†Ã·Ã…Â»(Â°ÃÃ€Ã¼ÃÃ¶) 385 385
+20710	Cofre de ProvisÃµes (BR)
 20711	Cofre de Equipamento(BR)
-20712	Campo Elétrico
+20712	Campo ElÃ©trico
 20713	Cofre de Equipamento(BR)
-20714	Cofre Provisões Esp.(BR)
+20714	Cofre ProvisÃµes Esp.(BR)
 20799	Flores
 20800	Ferido
 20802	Protetor de Yohara
 20803	Guarda de Yohara
-20804	Guardião da Serpente
+20804	GuardiÃ£o da Serpente
 20805	Guarda do Vento do Norte
 20806	Guarda Desfilad. Almas
-20807	Estátua da Serpente
+20807	EstÃ¡tua da Serpente
 20808	General Kohan
 20809	Confucius
 20810	Chaegirab
@@ -2403,7 +2403,7 @@ Vnum	LocalizedName
 20812	Almirante Angmur
 20813	Eremita Vento do Norte
 20814	Batedor Perdido
-20815	Guarda Fantasmagórico
+20815	Guarda FantasmagÃ³rico
 20822	Trapaceiro
 20823	Mestre Chi
 20826	Hu-Ahn-So
@@ -2413,128 +2413,128 @@ Vnum	LocalizedName
 20831	Comandante de Yohara
 20832	Almirante Angmur
 20833	Flores Corrompidas
-20834	Santuário
+20834	SantuÃ¡rio
 20835	Inscritora
 20836	Albardeiro
-20837	Saída
+20837	SaÃ­da
 20838	Fase 2
 20839	Fase 3
-20840	Planície de Dong Gwang
-20841	Caçador de Prémios
+20840	PlanÃ­cie de Dong Gwang
+20841	CaÃ§ador de PrÃ©mios
 20842	Ferreiro Aprisionado
-20844	Estátua da Serpente
-20845	Caçador Prémios (Ravina)
-20846	Caçador Prémios (Desfi.)
-20847	Caçador Prémios (Abrigo)
+20844	EstÃ¡tua da Serpente
+20845	CaÃ§ador PrÃ©mios (Ravina)
+20846	CaÃ§ador PrÃ©mios (Desfi.)
+20847	CaÃ§ador PrÃ©mios (Abrigo)
 20848	Ossos Antigos
 20849	Taehwarang
 20850	Altar Misterioso
-20851	Caça-Prémios (TB Seo Gw)
-20852	Caça-Prémios (A. Nam Gw)
-30000	°³ÀÎ»óÁ¡
-30001	°³ÀÎ»óÁ¡
+20851	CaÃ§a-PrÃ©mios (TB Seo Gw)
+20852	CaÃ§a-PrÃ©mios (A. Nam Gw)
+30000	Â°Â³Ã€ÃÂ»Ã³ÃÂ¡
+30001	Â°Â³Ã€ÃÂ»Ã³ÃÂ¡
 30002	1001 Noites
 30003	Rei do Barbecue
-30004	Caçador de Tesouros
+30004	CaÃ§ador de Tesouros
 30005	Chama Frugal
 30006	Negociante de Armas
 30007	Revendedor de Armaduras
 30008	Alquimista
-30101	Estátua de Kud
+30101	EstÃ¡tua de Kud
 30102	Obelisco de Basalto
 30103	Tartaruga de Rocha
 30104	Estaca com Runas
-30111	1. Portão da Perdição
-30112	2. Portão da Perdição
-30113	3. Portão da Perdição
-30114	4. Portão da Perdição
-30115	5. Portão da Perdição
-30116	6. Portão da Perdição
-30117	7. Portão da Perdição
-30118	8. Portão da Perdição
-30119	9. Portão da Perdição
+30111	1. PortÃ£o da PerdiÃ§Ã£o
+30112	2. PortÃ£o da PerdiÃ§Ã£o
+30113	3. PortÃ£o da PerdiÃ§Ã£o
+30114	4. PortÃ£o da PerdiÃ§Ã£o
+30115	5. PortÃ£o da PerdiÃ§Ã£o
+30116	6. PortÃ£o da PerdiÃ§Ã£o
+30117	7. PortÃ£o da PerdiÃ§Ã£o
+30118	8. PortÃ£o da PerdiÃ§Ã£o
+30119	9. PortÃ£o da PerdiÃ§Ã£o
 30120	Saco de Ervas
 30121	Fantasma de um Sura
 30122	Fantasma de um Guerreiro
-30123	Santuário Negro
+30123	SantuÃ¡rio Negro
 30124	Esqueleto de Sura
 30125	Esqueleto de Sura 2
 30126	Esqueleto de Sura 3
 30127	Esqueleto de Sura 4
 30128	Esqueleto de Sura 5
-30129	Coelho da Páscoa
-30130	Lápide
+30129	Coelho da PÃ¡scoa
+30130	LÃ¡pide
 30131	Sr. B
 30132	Sr. B
 30301	Veio de Azurite
 30302	Veio de Rubi
 30303	Veio de Granada
 30304	Veio de Esmeralda
-30305	Veio de Lápis Lazuli
+30305	Veio de LÃ¡pis Lazuli
 30306	Veio de Turmalina
 30307	Summer
 30308	Caixa de Mensagens
-30309	Veio Jadite Névoa (Mis.)
+30309	Veio Jadite NÃ©voa (Mis.)
 30310	Veio de Jadite do Sol
 30311	Veio de Jadite Negra
 30312	Veio de Jadite do Fumo
-30313	Veio de Jadite da Névoa
-33001	¸ğÇè°¡ÀÇ ÇØ°ñ
+30313	Veio de Jadite da NÃ©voa
+33001	Â¸Ã°Ã‡Ã¨Â°Â¡Ã€Ã‡ Ã‡Ã˜Â°Ã±
 33002	Historiador
-33003	Cidadão em Jejum
-33004	Cidadão em Jejum
-33005	Cidadão em Jejum
-33006	Cidadão em Jejum
-33007	Cidadão em Jejum
-33008	Jack Cabeça de Abóbora
+33003	CidadÃ£o em Jejum
+33004	CidadÃ£o em Jejum
+33005	CidadÃ£o em Jejum
+33006	CidadÃ£o em Jejum
+33007	CidadÃ£o em Jejum
+33008	Jack CabeÃ§a de AbÃ³bora
 33009	Altar do Sangue
-34001	Fénix de Fogo
+34001	FÃ©nix de Fogo
 34002	Cria de Rena
-34003	Fénix de Gelo
-34004	Azrael Bebé
+34003	FÃ©nix de Gelo
+34004	Azrael BebÃ©
 34005	Porky
 34006	Rufus
 34007	Khan
 34008	Leonidas
-34009	Azrael Bebé
+34009	Azrael BebÃ©
 34010	Bambi
 34011	Knuud
 34012	Bao Bao
 34013	Mini-Executor Rech.
 34014	Mini-Executor Rech. (O)
 34015	Boney
-34016	Fénix Jade
+34016	FÃ©nix Jade
 34017	Porkie Polar
 34018	Rufus do Gelo
-34019	Khan Árctico
+34019	Khan Ãrctico
 34020	Leonidas da Neve
 34021	Sheldon
 34022	Cooper
-34023	Pantera Bebé
-34024	Leopardo Bebé
-34026	Cabeça de Abóbora
+34023	Pantera BebÃ©
+34024	Leopardo BebÃ©
+34026	CabeÃ§a de AbÃ³bora
 34027	Pequena Vassoura
 34028	Floco de Neve
 34029	Sino de Neve
 34030	Deus do Amor
-34031	Coração Feroz
+34031	CoraÃ§Ã£o Feroz
 34032	Lua Crescente Vermelha
 34033	Lua Crescente Azul
 34034	Ovelha Branca
 34035	Carneiro Azul
 34036	Dragonette
-34037	Dragonette (Herói)
-34039	Huashin Bebé
+34037	Dragonette (HerÃ³i)
+34039	Huashin BebÃ©
 34041	Mini Macaco
-34042	Mini Macaco (Herói)
+34042	Mini Macaco (HerÃ³i)
 34045	Mini Aranha
-34046	Mini Aranha (Herói)
+34046	Mini Aranha (HerÃ³i)
 34047	Prole de Exedyar
 34048	Prole Rara de Exedyar
 34049	Mini Razador
-34050	Mini Razador (Herói)
+34050	Mini Razador (HerÃ³i)
 34053	Mini Nemere
-34054	Mini Nemere (Herói)
+34054	Mini Nemere (HerÃ³i)
 34055	Bruce
 34056	Wayne
 34057	Robin
@@ -2554,15 +2554,15 @@ Vnum	LocalizedName
 34071	Elfo Verde
 34072	Elfo Ajudante
 34073	Mini Azrael
-34074	Mini Azrael (Herói)
+34074	Mini Azrael (HerÃ³i)
 34075	Mini Executor Grd
-34076	Mini Executor Grd(Herói)
+34076	Mini Executor Grd(HerÃ³i)
 34077	Mini Alastor Zangado
 34078	Mini Alastor Despertado
-34080	Baashido Bebé
-34081	Baashido Bebé (Herói)
+34080	Baashido BebÃ©
+34081	Baashido BebÃ© (HerÃ³i)
 34082	Nessie
-34083	Nessie (Herói)
+34083	Nessie (HerÃ³i)
 34084	Donnie
 34085	Frank
 34086	Shiver
@@ -2582,52 +2582,52 @@ Vnum	LocalizedName
 34100	Lycanis Figo
 34101	Lycaninho
 34102	Pequeno Catenaccio
-34103	Pavão Azul-Real
-34104	Pavão Rosa
-34105	Pavão Anil
-34106	Harry Avelã
+34103	PavÃ£o Azul-Real
+34104	PavÃ£o Rosa
+34105	PavÃ£o Anil
+34106	Harry AvelÃ£
 34107	Willy Noz
 34108	Cabo Quebra-Noz
-34109	Camelonhão
+34109	CamelonhÃ£o
 34110	Camelobum
 34111	Camelharia
 34112	Besouro da Geada+
 34113	Besouro da Geada
 34114	Gato das Chamas Vidente
 34115	Gato do Gelo Vidente
-34116	Gato Ardente Três Olhos
+34116	Gato Ardente TrÃªs Olhos
 34117	Gnomo Tomte+ (Vermelho)
 34118	Gnomo Tomte+ (Verde)
 34119	Gnomo Tomte
-34120	Huashin Bebé Vermelho
-34121	Huashin Bebé Branco
+34120	Huashin BebÃ© Vermelho
+34121	Huashin BebÃ© Branco
 34122	Bonsai+
 34123	+Bonsai+
 34124	Elemental do Fogo Pq.
 34125	Elemental do Gelo Pq.
-34126	Elemental Relâmpagos Pq.
+34126	Elemental RelÃ¢mpagos Pq.
 34127	Elemental do Vento Pq.
 34128	Elemental da Terra Pq.
 34129	Elemental das Trevas Pq.
-34130	Amorador Brincalhão
-34131	Amorador Trapalhão
+34130	Amorador BrincalhÃ£o
+34131	Amorador TrapalhÃ£o
 34132	Amorador Pequeno
 34133	Mini Guerreiro Carangue.
 34134	Mini Caranguejo
-34135	Múmia Tremente
-34136	Múmia Oscilante
-34137	Múmia Vacilante
+34135	MÃºmia Tremente
+34136	MÃºmia Oscilante
+34137	MÃºmia Vacilante
 34138	Ent de Natal Verde
 34139	Ent de Natal Nodoso
 34140	Ent de Natal Pequeno
-34141	Anúbis Azul Noturno
-34142	Anúbis Vermelho Sangue
-34143	Anúbis Pequeno
+34141	AnÃºbis Azul Noturno
+34142	AnÃºbis Vermelho Sangue
+34143	AnÃºbis Pequeno
 34145	Orca de Gelo Poderosa
 34146	Orca de Gelo Domesticada
 34147	Leonidas da Neve
 34148	Astrabell
-34149	Fénix de Fogo
+34149	FÃ©nix de Fogo
 60000	Gestor da Guild
 60001	Gestor da Guild
 60002	Gestor da Guild
