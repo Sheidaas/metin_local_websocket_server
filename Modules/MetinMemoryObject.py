@@ -12,6 +12,7 @@ ACTIONS = {'SET_VIDS': 'set_vids',
 class MetinMemoryObject:
 
     def __init__(self):
+        self.encoding = ''
         self.character_status = {
             'Server': '',
             'CurrentChannel': 0,
@@ -64,6 +65,8 @@ class MetinMemoryObject:
         if not self.ValidateReceivedInformation(received_information):
             print('cleaned_information is empty')
             return False
+        else: #if not empty reformat message to UTF8 
+            received_information = self.convertToUTF8(received_information,self.encoding)
 
         if received_information['action'] == ACTIONS['SET_VIDS']:
             self.InstancesList = [instance for instance in received_information['data']]
@@ -152,6 +155,68 @@ class MetinMemoryObject:
 
     def ReturnServerItemList(self, PATH: str, language: str):
         return FileLoader.load_item_list(PATH, language)
-    
+
     def ReturnServerMobList(self, PATH: str, language: str):
         return FileLoader.load_mob_list(PATH, language)
+
+    #####
+    # Converting to UTF 8 Methods
+    #ignoring ints, floats and other numbers in this conversion. only texts of values relevant.
+
+    def convertToUTF8(self,data,enc='1252'):
+        if (isinstance(data,dict)):
+            return self.dictToUtf8(data,enc)
+        elif (isinstance(data,tuple)):
+            return self.tupleToUtf8(data,enc)
+        elif (isinstance(data,list)):
+            return self.listToUtf8(data,enc)
+        elif (isinstance(data,str)):
+            return self.stringToUTF8(data,enc)
+        return data
+
+    def dictToUtf8(self,dic,enc):
+        for key in dic:
+            if (isinstance(dic[key],dict)):
+                dic[key] = self.dictToUtf8(dic[key],enc)
+            elif (isinstance(dic[key],tuple)):
+                dic[key] = self.tupleToUtf8(dic[key],enc)
+            elif (isinstance(dic[key],list)):
+                dic[key] = self.listToUtf8(dic[key],enc)
+            elif (isinstance(dic[key],str)):
+                dic[key] = self.stringToUTF8(dic[key],enc)
+        return dic
+
+    def tupleToUtf8(self,tupl,enc):
+        tupl_new=[]
+        for item in tupl:
+            if(isinstance(item,str)):
+                item=self.stringToUTF8(item,enc)
+            elif(isinstance(item,dict)):
+                item=self.dictToUtf8(item,enc)
+            elif(isinstance(item,list)):
+                item=self.listToUtf8(item,enc)
+            elif(isinstance(item,tuple)):
+                item=self.tupleToUtf8(item,enc)
+            tupl_new.append(item)
+        return tuple(tupl_new)
+
+    def listToUtf8(self,lis,enc):
+        lis_new=[]
+        for item in lis:
+            if(isinstance(item,str)):
+                item=self.stringToUTF8(item,enc)
+            elif(isinstance(item,dict)):
+                item=self.dictToUtf8(item,enc)
+            elif(isinstance(item,list)):
+                item=self.listToUtf8(item,enc)
+            elif(isinstance(item,tuple)):
+                item=self.tupleToUtf8(item,enc)
+            lis_new.append(item)
+        return lis_new
+        
+
+    def stringToUTF8(s,enc): 
+        s=s.decode('cp'+enc)   
+        s=s.encode('utf-8')
+        return s
+

@@ -8,62 +8,62 @@ Vnum	LocalizedName
 107	Szary Alfa Wilk
 108	Dzik
 109	Czerw. Dzik
-110	NiedŸwiedŸ
-111	NiedŸw. Grizzly
-112	Czar. NiedŸw.
-113	Br¹z. NiedŸw.
+110	NiedÂŸwiedÂŸ
+111	NiedÂŸw. Grizzly
+112	Czar. NiedÂŸw.
+113	BrÅ¡z. NiedÂŸw.
 114	Tygrys
-115	Bia³y Tygrys
-131	Przeklêty Wilk
-132	Przeklêty Alfa Wilk
-133	Przeklêty Nieb. Wilk
+115	BiaÅ‚y Tygrys
+131	PrzeklÄ™ty Wilk
+132	PrzeklÄ™ty Alfa Wilk
+133	PrzeklÄ™ty Nieb. Wilk
 134	Przekl. Nieb. Alfa Wilk
-135	Przeklêty Szary Wilk
+135	PrzeklÄ™ty Szary Wilk
 136	Przekl. Szary Alfa Wilk
-137	Przeklêty Dzik
-138	Przeklêty Czerw. Dzik
-139	Przeklêty NiedŸw.
-140	Przekl. NiedŸw. Grizzly
-141	Przeklêty Czar. NiedŸw.
-142	Przeklêty Br¹z. NiedŸw.
-143	Przeklêty Tygrys
-144	Przeklêty Bia³y Tygrys
+137	PrzeklÄ™ty Dzik
+138	PrzeklÄ™ty Czerw. Dzik
+139	PrzeklÄ™ty NiedÂŸw.
+140	Przekl. NiedÂŸw. Grizzly
+141	PrzeklÄ™ty Czar. NiedÂŸw.
+142	PrzeklÄ™ty BrÅ¡z. NiedÂŸw.
+143	PrzeklÄ™ty Tygrys
+144	PrzeklÄ™ty BiaÅ‚y Tygrys
 151	Cung-Mok
 152	Mu-Rang
 153	Jug-Hyul
 154	Young-Ji
 155	Li-An
-171	G³odny Zab³¹kany Pies
-172	G³odny Wilk
-173	G³odny Alfa Wilk
-174	G³odny Nieb. Wilk
-175	G³odny Nieb. Alfa Wilk
-176	G³odny Szary Wilk
-177	G³odny Szary Alfa Wilk
-178	G³odny Dzik
-179	G³odny Czerw. Dzik
-180	G³odny NiedŸw.
-181	G³odny NiedŸw. Grizzly
-182	G³odny Czar. NiedŸw.
-183	G³odny Br¹z. NiedŸw.
-184	G³odny Tygrys
-185	G³odny Bia³y Tygrys
+171	GÅ‚odny ZabÅ‚Å¡kany Pies
+172	GÅ‚odny Wilk
+173	GÅ‚odny Alfa Wilk
+174	GÅ‚odny Nieb. Wilk
+175	GÅ‚odny Nieb. Alfa Wilk
+176	GÅ‚odny Szary Wilk
+177	GÅ‚odny Szary Alfa Wilk
+178	GÅ‚odny Dzik
+179	GÅ‚odny Czerw. Dzik
+180	GÅ‚odny NiedÂŸw.
+181	GÅ‚odny NiedÂŸw. Grizzly
+182	GÅ‚odny Czar. NiedÂŸw.
+183	GÅ‚odny BrÅ¡z. NiedÂŸw.
+184	GÅ‚odny Tygrys
+185	GÅ‚odny BiaÅ‚y Tygrys
 191	Lykos
 192	Scrofa
 193	Bera
 194	Tigris
-301	Zaprzys. ¯o³nierz
-302	Zaprzys. £ucznik
-303	Zaprzys. Genera³
+301	Zaprzys. Å»oÅ‚nierz
+302	Zaprzys. Åucznik
+303	Zaprzys. GeneraÅ‚
 304	Zaprzys. Komandor
-331	Zaprzys. ¯o³nierz
-332	Zaprzys. £ucznik
-333	Zaprzys. Genera³
+331	Zaprzys. Å»oÅ‚nierz
+332	Zaprzys. Åucznik
+333	Zaprzys. GeneraÅ‚
 334	Zaprzys. Komandor
-351	Tchórz. Zaprzys. ¯o³n.
-352	Tchórz. Zaprzys. £ucznik
-353	Tchórz. Zaprzys. Genera³
-354	Tchórz. Zaprzys. Komand.
+351	TchÃ³rz. Zaprzys. Å»oÅ‚n.
+352	TchÃ³rz. Zaprzys. Åucznik
+353	TchÃ³rz. Zaprzys. GeneraÅ‚
+354	TchÃ³rz. Zaprzys. Komand.
 391	Mi-Jung
 392	Eun-Jung
 393	Se-Rang
@@ -72,40 +72,40 @@ Vnum	LocalizedName
 396	Bezduszna Eun-Jung
 397	Bezduszna Se-Rang
 398	Bezduszna Jin-Hee
-401	¯o³nierz Czarn. Wiatru
+401	Å»oÅ‚nierz Czarn. Wiatru
 402	Maniak Czarnego Wiatru
-403	£ucznik Czarnego Wiatru
+403	Åucznik Czarnego Wiatru
 404	Jak-To Czarnego Wiatru
 405	To-Su Czarnego Wiatru
 406	Gu-Ryung Czarnego Wiatru
-431	¯o³nierz Czarn. Burzy
+431	Å»oÅ‚nierz Czarn. Burzy
 432	Maniak Czarn. Burzy
-433	£ucznik Czarn. Burzy
+433	Åucznik Czarn. Burzy
 434	Joh-Hwan Czarn. Burzy
 435	Kyuk-Jan Czarn. Burzy
 436	Pho-Hwan Czarn. Burzy
-451	Z³y Czar. Burz. ¯o³nierz
-452	Z³y Czar. Burz. Maniak
-453	Z³y Czar. Burz. £ucznik
-454	Z³y Czar. Burz. Joh-Hwan
-455	Z³y Czar. Burz.Kyuk-Jang
-456	Z³y Czar. Burz. Pho-Hwan
+451	ZÅ‚y Czar. Burz. Å»oÅ‚nierz
+452	ZÅ‚y Czar. Burz. Maniak
+453	ZÅ‚y Czar. Burz. Åucznik
+454	ZÅ‚y Czar. Burz. Joh-Hwan
+455	ZÅ‚y Czar. Burz.Kyuk-Jang
+456	ZÅ‚y Czar. Burz. Pho-Hwan
 491	Mahon
 492	Bo
 493	Goo-Pae
 494	Chuong
-501	Dziki ¯o³nierz Piechoty
-502	Dziki S³uga
-503	Dziki £ucznik
-504	Dziki Genera³
-531	Best. ¯o³nierz
+501	Dziki Å»oÅ‚nierz Piechoty
+502	Dziki SÅ‚uga
+503	Dziki Åucznik
+504	Dziki GeneraÅ‚
+531	Best. Å»oÅ‚nierz
 532	Best. Maniak
-533	Bestialski £ucznik
+533	Bestialski Åucznik
 534	Best. Specjalista
 551	Silny Dziki Piechur.
-552	Silny Dziki S³uga
-553	Silny Dziki £ucznik
-554	Silny Dziki Genera³
+552	Silny Dziki SÅ‚uga
+553	Silny Dziki Åucznik
+554	Silny Dziki GeneraÅ‚
 591	Best. Kapitan
 595	Best. Guem-Chul
 601	Ork
@@ -116,365 +116,365 @@ Vnum	LocalizedName
 632	Elit. Ork Zwiadowca
 633	Elit. Ork Wojownik
 634	Elit. Ork Czarodziej
-635	Elit. Ork Genera³
+635	Elit. Ork GeneraÅ‚
 636	Czarny Ork
 637	Czarny Ork Zwiadowca
-651	Du¿y £ysy Ork
-652	Du¿y £ysy Ork Zwiadowca
-653	Du¿y £ysy Ork Wojownik
-654	Du¿y £ysy Ork Czarodziej
-655	Du¿y £ysy Ork Genera³
-656	£ysy Czarny Ork
-657	Olbrz. £ysy Czar. Ork
-691	Wódz Orków
-692	Elit. Wódz Orków
-693	Odrodzony Wódz Orków
+651	DuÅ¼y Åysy Ork
+652	DuÅ¼y Åysy Ork Zwiadowca
+653	DuÅ¼y Åysy Ork Wojownik
+654	DuÅ¼y Åysy Ork Czarodziej
+655	DuÅ¼y Åysy Ork GeneraÅ‚
+656	Åysy Czarny Ork
+657	Olbrz. Åysy Czar. Ork
+691	WÃ³dz OrkÃ³w
+692	Elit. WÃ³dz OrkÃ³w
+693	Odrodzony WÃ³dz OrkÃ³w
 701	Ezot. Fanatyk
 702	Ezot. Arahan
 703	Ezot. Wojownik Arahan
-704	Wódz Ezot. Arahan
+704	WÃ³dz Ezot. Arahan
 705	Ezot. Egzekutor
-706	Ezot. Drêczyciel
+706	Ezot. DrÄ™czyciel
 707	Ezot. Przyzywacz
 731	Elit. Ezot. Fanatyk
 732	Elit. Ezot. Arahan
 733	Elit. Ezot. Wojownik
-734	Elit. Ezot. Wódz
+734	Elit. Ezot. WÃ³dz
 735	Elit. Ezot. Egzekutor
-736	Elit. Ezot. Drêczyciel
+736	Elit. Ezot. DrÄ™czyciel
 737	Elit. Ezot. Przyzywacz
 751	Wysoki Fanatyk
 752	Wysoki Arahan
 753	Wysoki Wojownik Arahan
 754	Wysoki Elit. Arahan
-755	Wysoki Œmiercionoœny
-756	Wysoki Drêczyciel
-757	Wysoki Przywo³ywacz
+755	Wysoki ÂŒmiercionoÂœny
+756	Wysoki DrÄ™czyciel
+757	Wysoki PrzywoÅ‚ywacz
 771	Best. Fanatyk
 772	Best. Arahan
 773	Best. Wojow. Arahan
-774	Best. Wódz Arahan
-775	Best. Œmiercionoœny
-776	Best. Drêczyciel
-777	Best. Przywo³ywacz
+774	Best. WÃ³dz Arahan
+775	Best. ÂŒmiercionoÂœny
+776	Best. DrÄ™czyciel
+777	Best. PrzywoÅ‚ywacz
 791	Ezot. Przyw.
 792	Reinkar. Ezot. Przyw.
 793	Elit. Ezot. Przyw.
 794	Elit. Duch Ezot. Przyw.
 795	Elit. Wojownik
 796	Elit. Ezot. Wojownik
-901	Duch Martwego Cia³a
-902	Zara¿ony Pies
-903	Zara¿ony Cz³owiek
-904	Zara¿ony Miecznik
-905	Zara¿ony W³ócznik
-906	Zara¿ony £ucznik
-907	Zara¿ony Przyw.
-931	Z³y Duch Martwego Cia³a
-932	Z³y Zara¿ony Pies
-933	Z³y Zara¿ony Cz³owiek
-934	Z³y Zara¿ony Miecznik
-935	Z³y Zara¿ony W³ócznik
-936	Z³y Zara¿ony £ucznik
-937	Z³y Zara¿ony Przyw.
-991	Zara¿one Jajo
+901	Duch Martwego CiaÅ‚a
+902	ZaraÅ¼ony Pies
+903	ZaraÅ¼ony CzÅ‚owiek
+904	ZaraÅ¼ony Miecznik
+905	ZaraÅ¼ony WÅ‚Ã³cznik
+906	ZaraÅ¼ony Åucznik
+907	ZaraÅ¼ony Przyw.
+931	ZÅ‚y Duch Martwego CiaÅ‚a
+932	ZÅ‚y ZaraÅ¼ony Pies
+933	ZÅ‚y ZaraÅ¼ony CzÅ‚owiek
+934	ZÅ‚y ZaraÅ¼ony Miecznik
+935	ZÅ‚y ZaraÅ¼ony WÅ‚Ã³cznik
+936	ZÅ‚y ZaraÅ¼ony Åucznik
+937	ZÅ‚y ZaraÅ¼ony Przyw.
+991	ZaraÅ¼one Jajo
 992	Nosiciel Plagi
 993	Olbrzymi Nosiciel Plagi
-1001	Demon ¯o³nierz
-1002	Demon £ucznik
-1003	Demon W³ócznik
+1001	Demon Å»oÅ‚nierz
+1002	Demon Åucznik
+1003	Demon WÅ‚Ã³cznik
 1004	Demon Szaman
-1031	Pod³y Demon ¯o³nierz
-1032	Pod³y Demon £ucznik
-1033	Pod³y Demon W³ócznik
-1034	Pod³y Demon Szaman
-1035	Duch ¯alu
+1031	PodÅ‚y Demon Å»oÅ‚nierz
+1032	PodÅ‚y Demon Åucznik
+1033	PodÅ‚y Demon WÅ‚Ã³cznik
+1034	PodÅ‚y Demon Szaman
+1035	Duch Å»alu
 1036	Duch Chaosu
-1037	Pod³y Demon Przyw.
+1037	PodÅ‚y Demon Przyw.
 1038	Mistrz Czaszk. Miecza
-1039	Lataj¹ca Czaszka
-1040	Nieœm. Duch
+1039	LatajÅ¡ca Czaszka
+1040	NieÂœm. Duch
 1041	Demoniczna Bestia
-1061	Brutalny Demon ¯o³nierz
-1062	Brutalny Demon £ucznik
-1063	Brutalny Demon W³ócznik
+1061	Brutalny Demon Å»oÅ‚nierz
+1062	Brutalny Demon Åucznik
+1063	Brutalny Demon WÅ‚Ã³cznik
 1064	Brutalny Demon Szaman
-1065	Brutalny Duch ¯alu
+1065	Brutalny Duch Å»alu
 1066	Brutalny Duch Chaosu
 1067	Brutalny Demon Przyw.
 1068	Duchowy Mistrz Miecza
 1069	Brutalna Lataj. Czaszka
-1070	Nieœm. Duch
+1070	NieÂœm. Duch
 1071	Demoniczna Bestia
-1091	Król Demonów
-1092	Elit. Król Demonów
-1093	Umar³y Rozpruwacz
-1094	Elit. Pod³y Król Demonów
-1095	Niebieska Œmieræ
-1096	Áø»ç±Í¿Õ
-1101	Zaczarowany Lód
+1091	KrÃ³l DemonÃ³w
+1092	Elit. KrÃ³l DemonÃ³w
+1093	UmarÅ‚y Rozpruwacz
+1094	Elit. PodÅ‚y KrÃ³l DemonÃ³w
+1095	Niebieska ÂŒmierÄ‡
+1096	ÃÅ™Å¥Ã§Ä…ÃÅ¼Å
+1101	Zaczarowany LÃ³d
 1102	Lodowy Wieloryb Zab.
 1103	Lodowy Robak
 1104	Lodowy Lew
-1105	MroŸny Lodowy Cz³owiek
+1105	MroÂŸny Lodowy CzÅ‚owiek
 1106	Yeti
 1107	Lodowy Golem
 1108	Lodowy Golem
-1131	Podziemny Kawa³ Lodu
-1132	Podziemny Lodowy Zabójca
+1131	Podziemny KawaÅ‚ Lodu
+1132	Podziemny Lodowy ZabÃ³jca
 1133	Podziemny Lodowy Robak
 1134	Podziemny Lodowy Lew
-1135	Podziemny Lod. Cz³owiek
+1135	Podziemny Lod. CzÅ‚owiek
 1136	Podziemne Yeti
 1137	Podziemny Lodowy Golem
 1138	Podziemny Lodowy Golem
-1151	Lodowy Diabe³
+1151	Lodowy DiabeÅ‚
 1152	Rogaty Zab. Wieloryb
 1153	Lodowy Robak
 1154	Seol-Gu
-1155	Lodowy Cz³owiek
+1155	Lodowy CzÅ‚owiek
 1156	Lodowy Gigant
 1157	Lodowy Golem
-1171	Wredny Zaczarowany Lód
+1171	Wredny Zaczarowany LÃ³d
 1172	Wredny Lod. Wielor. Zab.
 1173	Wredny Lodowy Robak
 1174	Wredny Lodowy Lew
-1175	Wredny Lodowy Cz³owiek
+1175	Wredny Lodowy CzÅ‚owiek
 1176	Wredny Yeti
 1177	Wredny Lodowy Golem
-1191	Lodowa WiedŸma
-1192	Silna Lodowa WiedŸma
-1301	Drzewny ¯abi ¯o³nierz
-1302	Drzewny ¯abi Przyw.
-1303	Straszyd³o
-1304	Zjawa ¯ó³t. Tygrysa
-1305	Ropuszy Genera³
-1306	Elit. Zjawa ¯ó³t. Tygr.
-1307	Elit. Zjawa ¯ó³t. Tygr.
-1308	Elit. Zjawa ¯ó³t. Tygr.
-1309	Elit. Zjawa ¯ó³t. Tygr.
-1310	Elit. Zjawa ¯ó³t. Tygr.
-1331	Du¿y Drzewny ¯abi ¯o³n.
-1332	Du¿y Drzewny ¯abi Przyw.
-1333	Du¿e Straszyd³o
-1334	Du¿a Zjawa ¯ó³t. Tygr.
-1335	Z³y Ropuszy Genera³
-1336	Ropuszy Genera³
+1191	Lodowa WiedÂŸma
+1192	Silna Lodowa WiedÂŸma
+1301	Drzewny Å»abi Å»oÅ‚nierz
+1302	Drzewny Å»abi Przyw.
+1303	StraszydÅ‚o
+1304	Zjawa Å»Ã³Å‚t. Tygrysa
+1305	Ropuszy GeneraÅ‚
+1306	Elit. Zjawa Å»Ã³Å‚t. Tygr.
+1307	Elit. Zjawa Å»Ã³Å‚t. Tygr.
+1308	Elit. Zjawa Å»Ã³Å‚t. Tygr.
+1309	Elit. Zjawa Å»Ã³Å‚t. Tygr.
+1310	Elit. Zjawa Å»Ã³Å‚t. Tygr.
+1331	DuÅ¼y Drzewny Å»abi Å»oÅ‚n.
+1332	DuÅ¼y Drzewny Å»abi Przyw.
+1333	DuÅ¼e StraszydÅ‚o
+1334	DuÅ¼a Zjawa Å»Ã³Å‚t. Tygr.
+1335	ZÅ‚y Ropuszy GeneraÅ‚
+1336	Ropuszy GeneraÅ‚
 1401	Niszczyciel
 1402	Wojownik z Toporem
-1403	Tysiêczny Wojownik
+1403	TysiÄ™czny Wojownik
 1501	Skalny Golem
 1502	Kamienny Golem
 1503	Olbrzymi Skalny Golem
 1601	Ogr Wojownik
-1602	Ogr RzeŸnik
+1602	Ogr RzeÂŸnik
 1603	Ogr Szaleniec
-1901	Dziewiêæ Ogonów
-1902	Elit. Dziewiêæ Ogonów
-1903	Elit. Dziewiêæ Ogonów
-1904	Elit. Dziewiêæ Ogonów
-1905	Elit. Dziewiêæ Ogonów
-1906	Elit. Dziewiêæ Ogonów
-2001	M³ody Paj¹k
-2002	Truj¹cy Paj¹k
-2003	Czerw. Truj¹cy Paj¹k
-2004	Szpon. Paj¹k
-2005	Paj¹k ¯o³nierz
-2031	M³ody Truj¹cy Paj¹k
-2032	Œmiert. Truj¹cy Paj¹k
-2033	Z³y Czerw. Truj. Paj¹k
-2034	Szpon. Truj¹cy Paj¹k
-2035	Truj¹cy Paj¹k ¯o³nierz
-2036	Elit. Truj. Paj¹k ¯o³n.
-2037	Truj¹cy Paj¹k ¯o³nierz
-2051	Pod³y M³ody Truj. Paj¹k
-2052	Pod³y Œm. Truj. Paj¹k
-2053	Pod³y Czerw. Truj. Paj.
-2054	Pod³y Szpon. Truj. Paj¹k
-2055	Pod³y Truj. Paj¹k ¯o³n.
-2061	Ma³y Truj¹cy Paj¹k
-2062	Œmiert. Truj¹cy Paj¹k
-2063	Czerw. Œmier. Truj. Paj.
-2064	Szpon. Truj¹cy Paj¹k
-2065	Truj¹cy Paj¹k ¯o³nierz
-2071	Best. M³ody Truj. Paj¹k
-2072	Best. Œmiert. Truj. Paj.
+1901	DziewiÄ™Ä‡ OgonÃ³w
+1902	Elit. DziewiÄ™Ä‡ OgonÃ³w
+1903	Elit. DziewiÄ™Ä‡ OgonÃ³w
+1904	Elit. DziewiÄ™Ä‡ OgonÃ³w
+1905	Elit. DziewiÄ™Ä‡ OgonÃ³w
+1906	Elit. DziewiÄ™Ä‡ OgonÃ³w
+2001	MÅ‚ody PajÅ¡k
+2002	TrujÅ¡cy PajÅ¡k
+2003	Czerw. TrujÅ¡cy PajÅ¡k
+2004	Szpon. PajÅ¡k
+2005	PajÅ¡k Å»oÅ‚nierz
+2031	MÅ‚ody TrujÅ¡cy PajÅ¡k
+2032	ÂŒmiert. TrujÅ¡cy PajÅ¡k
+2033	ZÅ‚y Czerw. Truj. PajÅ¡k
+2034	Szpon. TrujÅ¡cy PajÅ¡k
+2035	TrujÅ¡cy PajÅ¡k Å»oÅ‚nierz
+2036	Elit. Truj. PajÅ¡k Å»oÅ‚n.
+2037	TrujÅ¡cy PajÅ¡k Å»oÅ‚nierz
+2051	PodÅ‚y MÅ‚ody Truj. PajÅ¡k
+2052	PodÅ‚y ÂŒm. Truj. PajÅ¡k
+2053	PodÅ‚y Czerw. Truj. Paj.
+2054	PodÅ‚y Szpon. Truj. PajÅ¡k
+2055	PodÅ‚y Truj. PajÅ¡k Å»oÅ‚n.
+2061	MaÅ‚y TrujÅ¡cy PajÅ¡k
+2062	ÂŒmiert. TrujÅ¡cy PajÅ¡k
+2063	Czerw. ÂŒmier. Truj. Paj.
+2064	Szpon. TrujÅ¡cy PajÅ¡k
+2065	TrujÅ¡cy PajÅ¡k Å»oÅ‚nierz
+2071	Best. MÅ‚ody Truj. PajÅ¡k
+2072	Best. ÂŒmiert. Truj. Paj.
 2073	Best. Czerw. Truj. Paj.
 2074	Best. Szpon. Truj. Paj.
-2075	Best. Truj. Paj¹k ¯o³n.
-2076	Best. Silny Truj. Paj¹k
-2091	Królowa Paj¹ków
-2092	Baronówna Paj¹ków
-2093	Elit. Królowa Paj¹ków
-2094	Król Paj¹ków
-2095	Pajêcze Jajo
+2075	Best. Truj. PajÅ¡k Å»oÅ‚n.
+2076	Best. Silny Truj. PajÅ¡k
+2091	KrÃ³lowa PajÅ¡kÃ³w
+2092	BaronÃ³wna PajÅ¡kÃ³w
+2093	Elit. KrÃ³lowa PajÅ¡kÃ³w
+2094	KrÃ³l PajÅ¡kÃ³w
+2095	PajÄ™cze Jajo
 2101	Pustynny Lis
 2102	Pustynne Lataj. Oko
-2103	Król Skorpion
-2104	M³ody Cz³owiek Skorpion
-2105	Skorpion £ucznik
-2106	Wê¿owy Miecznik
-2107	Wê¿owy £ucznik
+2103	KrÃ³l Skorpion
+2104	MÅ‚ody CzÅ‚owiek Skorpion
+2105	Skorpion Åucznik
+2106	WÄ™Å¼owy Miecznik
+2107	WÄ™Å¼owy Åucznik
 2108	Pustynny Zawadiaka
-2131	Best. Cz³owiek Skorpion
-2132	Skorpion £ucznik
-2133	Wê¿owy Miecznik
-2134	Wê¿owy £ucznik
+2131	Best. CzÅ‚owiek Skorpion
+2132	Skorpion Åucznik
+2133	WÄ™Å¼owy Miecznik
+2134	WÄ™Å¼owy Åucznik
 2135	Pustynny Zawadiaka
 2151	Silny Pustynny Lis
 2152	Silny Derwisz
-2153	Silny Król Skorpion
-2154	Silny Cz³owiek Skorpion
-2155	Silny Skorpion £ucznik
-2156	Silny Wê¿owy Miecznik
-2157	Silny Wê¿owy £ucznik
+2153	Silny KrÃ³l Skorpion
+2154	Silny CzÅ‚owiek Skorpion
+2155	Silny Skorpion Åucznik
+2156	Silny WÄ™Å¼owy Miecznik
+2157	Silny WÄ™Å¼owy Åucznik
 2158	Silny Pustynny Zawadiaka
-2191	Olbrzymi ¯ó³w
-2192	Elit. Olbrzymi ¯ó³w
-2201	S³uga Walcz¹cego Tygr.
+2191	Olbrzymi Å»Ã³Å‚w
+2192	Elit. Olbrzymi Å»Ã³Å‚w
+2201	SÅ‚uga WalczÅ¡cego Tygr.
 2202	Ognisty Duch
-2203	Walcz¹cy Tygrys
-2204	P³omieñ
+2203	WalczÅ¡cy Tygrys
+2204	PÅ‚omieÅ„
 2205	Ognisty Wojownik
-2206	Ognisty Król
-2207	Elit. Ognisty Król
-2231	Silny S³uga Walcz. Tygr.
+2206	Ognisty KrÃ³l
+2207	Elit. Ognisty KrÃ³l
+2231	Silny SÅ‚uga Walcz. Tygr.
 2232	Silny Ognisty Duch
-2233	Silny Walcz¹cy Tygrys
-2234	Silny P³omieñ
+2233	Silny WalczÅ¡cy Tygrys
+2234	Silny PÅ‚omieÅ„
 2235	Silny Ognisty Wojownik
 2291	Czerwony Smok
-2301	Drzewo Duchów
-2302	Pniak Drzewa Duchów
+2301	Drzewo DuchÃ³w
+2302	Pniak Drzewa DuchÃ³w
 2303	Driada
 2304	Duch Wierzby
-2305	Z³e Drzewo
-2306	Olbrzymie Drzewo Duchów
-2307	W³adca Drzewa Duchów
-2311	Czerwone Drzewo Duchów
-2312	Cz. Pniak Drzewa Duchów
+2305	ZÅ‚e Drzewo
+2306	Olbrzymie Drzewo DuchÃ³w
+2307	WÅ‚adca Drzewa DuchÃ³w
+2311	Czerwone Drzewo DuchÃ³w
+2312	Cz. Pniak Drzewa DuchÃ³w
 2313	Czerwona Driada
 2314	Czerw. Duch Wierzby
-2315	Czerwone Z³e Drzewo
+2315	Czerwone ZÅ‚e Drzewo
 2401	Wojownik Setaou
-2402	£owca Setaou
+2402	Åowca Setaou
 2403	Mistyk Setaou
 2404	Lider Setaou
-2411	¯o³nierz Setaou
-2412	£ucznik Setaou
+2411	Å»oÅ‚nierz Setaou
+2412	Åucznik Setaou
 2413	Magistrat Setaou
 2414	Komendant Setaou
 2415	Komendant Setaou
-2431	ÃµÀÇº´»ç
-2432	ÃµÀÇ±Ãº´
-2433	ÃµÀÇ¹ı»ç
-2434	ÃµÀÇÀå¼ö
-2451	ÁøÃµÀÇº´»ç
-2452	ÁøÃµÀÇ±Ãº´
-2453	ÁøÃµÀÇ¹ı»ç
-2454	ÁøÃµÀÇÀå¼ö
-2491	Dowódca Yonghan
-2492	Genera³ Yonghan
+2431	Ä‚Ä¾Å”Ã‡ÅŸÂ´Å¥Ã§
+2432	Ä‚Ä¾Å”Ã‡Ä…Ä‚ÅŸÂ´
+2433	Ä‚Ä¾Å”Ã‡Å¡Ã½Å¥Ã§
+2434	Ä‚Ä¾Å”Ã‡Å”ÄºÅºÃ¶
+2451	ÃÅ™Ä‚Ä¾Å”Ã‡ÅŸÂ´Å¥Ã§
+2452	ÃÅ™Ä‚Ä¾Å”Ã‡Ä…Ä‚ÅŸÂ´
+2453	ÃÅ™Ä‚Ä¾Å”Ã‡Å¡Ã½Å¥Ã§
+2454	ÃÅ™Ä‚Ä¾Å”Ã‡Å”ÄºÅºÃ¶
+2491	DowÃ³dca Yonghan
+2492	GeneraÅ‚ Yonghan
 2493	Beran-Setaou
-2494	Dowódca Huashin
-2495	Genera³ Huashin
+2494	DowÃ³dca Huashin
+2495	GeneraÅ‚ Huashin
 2501	Piekielna Meduza
 2502	Piekielny Pies
 2503	Zombie
 2504	Piekielny Oficer
-2505	Piekielny Stró¿
-2506	Dwug³owy Strzelec
+2505	Piekielny StrÃ³Å¼
+2506	DwugÅ‚owy Strzelec
 2507	Piekielny Kleszcz
 2508	Piekielny Wojownik
 2509	Piekielny Strzelec
-2510	Piekielny W³ócznik
-2511	Piekielny Kap³an
+2510	Piekielny WÅ‚Ã³cznik
+2511	Piekielny KapÅ‚an
 2512	Piekielny Major
-2513	Piekielny RzeŸnik
-2514	Piekielny Genera³
-2541	Z³y Piekielny Wojownik
-2542	Z³y Piekielny Strzelec
-2543	Z³y Piekielny W³ócznik
-2544	Z³y Piekielny Kap³an
-2545	Z³y Piekielny Major
-2546	Z³y Piekielny RzeŸnik
-2547	Z³y Piekielny Genera³
+2513	Piekielny RzeÂŸnik
+2514	Piekielny GeneraÅ‚
+2541	ZÅ‚y Piekielny Wojownik
+2542	ZÅ‚y Piekielny Strzelec
+2543	ZÅ‚y Piekielny WÅ‚Ã³cznik
+2544	ZÅ‚y Piekielny KapÅ‚an
+2545	ZÅ‚y Piekielny Major
+2546	ZÅ‚y Piekielny RzeÂŸnik
+2547	ZÅ‚y Piekielny GeneraÅ‚
 2591	Tartar
 2592	Piekielny Bastard
 2593	Piekielny Bastard
 2594	Piekielny Bastard
 2595	Ereb
-2596	Mot³och Azraela
+2596	MotÅ‚och Azraela
 2597	Charon
 2598	Azrael
 2600	Wilk Zodiaku
 2601	Niebieski Wilk Zodiaku
 2602	Lykos Zodiaku
-2603	£ucznik Zodiaku
+2603	Åucznik Zodiaku
 2604	Dzik Zodiaku
 2605	Czerwony Dzik Zodiaku
 2606	Scrofa Zodiaku
 2607	Mi-Jung Zodiaku
 2608	Bera Zodiaku
-2609	NiedŸwiedŸ Zodiaku
-2610	NiedŸw. Grizzly Zodiaku
-2611	Br¹z. NiedŸw. Zodiaku
+2609	NiedÂŸwiedÂŸ Zodiaku
+2610	NiedÂŸw. Grizzly Zodiaku
+2611	BrÅ¡z. NiedÂŸw. Zodiaku
 2612	Eun-Jung Zodiaku
 2613	Tigris Zodiaku
 2614	Tygrys Zodiaku
 2615	Tygrys Zodiaku
 2616	Se-Rang Zodiaku
 2617	Jin-Hee Zodiaku
-2618	M³ody Paj¹k Zodiaku
-2619	Truj¹cy Paj¹k Zodiaku
-2620	Czerw. Tr. Paj¹k Zodiaku
-2621	Szpon. Paj¹ka Zodiaku
-2622	Paj¹k ¯o³nierz Zodiaku
+2618	MÅ‚ody PajÅ¡k Zodiaku
+2619	TrujÅ¡cy PajÅ¡k Zodiaku
+2620	Czerw. Tr. PajÅ¡k Zodiaku
+2621	Szpon. PajÅ¡ka Zodiaku
+2622	PajÅ¡k Å»oÅ‚nierz Zodiaku
 2623	Ognisty Duch Zodiaku
-2624	Walcz¹cy Tygrys Zodiaku
-2625	Ogieñ Zodiaku
+2624	WalczÅ¡cy Tygrys Zodiaku
+2625	OgieÅ„ Zodiaku
 2626	Ognisty Wojownik Zodiaku
-2627	Ognisty Król Zodiaku
-2628	Elit. Ogn. Król Zodiaku
-2629	Dziki ¯. Piech. Zodiaku
-2630	Dziki S³uga Zodiaku
-2631	Dziki £ucznik Zodiaku
+2627	Ognisty KrÃ³l Zodiaku
+2628	Elit. Ogn. KrÃ³l Zodiaku
+2629	Dziki Å». Piech. Zodiaku
+2630	Dziki SÅ‚uga Zodiaku
+2631	Dziki Åucznik Zodiaku
 2632	Dziki General Zodiaku
 2633	Brutalny Kapitan Zodiaku
-2634	Zaczarowany Lód Zodiaku
+2634	Zaczarowany LÃ³d Zodiaku
 2635	Lod. Wiel. Zab. Zodiaku
 2636	Lodowy Robak Zodiaku
 2637	Lodowy Lew Zodiaku
-2638	MroŸ. Lod. Cz³. Zodiaku
+2638	MroÂŸ. Lod. CzÅ‚. Zodiaku
 2639	Yeti Zodiaku
 2640	Lodowy Golem Zodiaku
 2641	Pustynny Lis Zodiaku
-2642	Król Skorpion Zodiaku
-2643	Wê¿owy Miecznik Zodiaku
-2644	Wê¿owy £ucznik Zodiaku
+2642	KrÃ³l Skorpion Zodiaku
+2643	WÄ™Å¼owy Miecznik Zodiaku
+2644	WÄ™Å¼owy Åucznik Zodiaku
 2645	Pusty. Zawadiaka Zodiaku
-2646	¯o³. Czar. Wiat. Zodiaku
+2646	Å»oÅ‚. Czar. Wiat. Zodiaku
 2647	Maniak Cz. Wiat. Zodiaku
-2648	£ucz. Cz. Wiat. Zodiaku
+2648	Åucz. Cz. Wiat. Zodiaku
 2649	Mahon Zodiaku
 2650	Bo Zodiaku
 2651	Goo-Pae Zodiaku
 2652	Chuong Zodiaku
-2653	Best. Cz³. Skor. Zodiaku
-2654	Skorpion £ucznik Zodiaku
+2653	Best. CzÅ‚. Skor. Zodiaku
+2654	Skorpion Åucznik Zodiaku
 2655	Derwisz Zodiaku
-2656	D. ¯abi ¯o³nierz Zodiaku
-2657	D. ¯abi Przyw. Zodiaku
-2658	Straszyd³o Zodiaku
+2656	D. Å»abi Å»oÅ‚nierz Zodiaku
+2657	D. Å»abi Przyw. Zodiaku
+2658	StraszydÅ‚o Zodiaku
 2659	Niszczyciel Zodiaku
 2660	Wojow. z Toporem Zodiaku
-2661	Tysiêczny Wojow. Zodiaku
+2661	TysiÄ™czny Wojow. Zodiaku
 2662	Ezot. Fanatyk Zodiaku
 2663	Arahan Zodiaku
 2664	Ezot. Wojownik Zodiaku
 2665	W. Ezot. Arahan Zodiaku
 2666	Mroczny Kat Zodiaku
-2667	Ezot. Drêczyciel Zodiaku
+2667	Ezot. DrÄ™czyciel Zodiaku
 2668	Przyzywacz Zodiaku
 2669	Elit. Ork Zodiaku
 2670	Elit. Ork Zwiad. Zodiaku
@@ -488,8 +488,8 @@ Vnum	LocalizedName
 2678	Czerwony Mag Zodiaku
 2679	Czerwony Kat Zodiaku
 2680	Krab Wojow. Zodiaku
-2681	Kleszczo-£ucznik Zodiaku
-2682	¯o³nierz Shrimp Zodiaku
+2681	Kleszczo-Åucznik Zodiaku
+2682	Å»oÅ‚nierz Shrimp Zodiaku
 2683	Diab. Pustelnik Zodiaku
 2684	Krab Pancerny Zodiaku
 2685	Gigant. Zgryzacz Zodiaku
@@ -497,160 +497,160 @@ Vnum	LocalizedName
 2687	Mag Zodiaku
 2688	Dwigant Zodiaku
 2689	Ogr Kat Zodiaku
-2690	Ogr £ucznik Zodiaku
+2690	Ogr Åucznik Zodiaku
 2691	Ogr Bojowy Zodiaku
 2692	Ogr Mag Zodiaku
 2700	Vargulf
-2701	¯o³nierz Vargulf
-2702	Genera³ Vargulf
+2701	Å»oÅ‚nierz Vargulf
+2702	GeneraÅ‚ Vargulf
 2703	Kerberos
-2704	W¹¿ Kerberos
+2704	WÅ¡Å¼ Kerberos
 2705	Smok Kerberos
 2706	Kentauros
 2707	Wojownik Kentauros
-2708	Genera³ Kentauros
+2708	GeneraÅ‚ Kentauros
 2709	Moloch
 2710	Wojownik Moloch
-2711	Genera³ Moloch
-2712	Skrzyd³a Œmierci
-2713	Fatalne Skrzyd³a Œmierci
-2714	Zgni³e Skrzyd³a Œmierci
+2711	GeneraÅ‚ Moloch
+2712	SkrzydÅ‚a ÂŒmierci
+2713	Fatalne SkrzydÅ‚a ÂŒmierci
+2714	ZgniÅ‚e SkrzydÅ‚a ÂŒmierci
 2715	Zephyr
 2716	Wojownik Zephyr
-2717	Genera³owa Zephyr
+2717	GeneraÅ‚owa Zephyr
 2718	Uruk
 2719	Wojownik Uruk
-2720	Genera³ Uruk
+2720	GeneraÅ‚ Uruk
 2721	Fantilla
 2722	Wojownik Fantilla
-2723	Genera³ Fantilla
+2723	GeneraÅ‚ Fantilla
 2724	Spartaner
-2725	¯o³nierz Spartaner
-2726	Genera³ Spartaner
-2727	Koœciany Gladiator
-2728	¯o³nierz Gladiator Koœci
-2729	Genera³ Gladiator Koœci
+2725	Å»oÅ‚nierz Spartaner
+2726	GeneraÅ‚ Spartaner
+2727	KoÂœciany Gladiator
+2728	Å»oÅ‚nierz Gladiator KoÂœci
+2729	GeneraÅ‚ Gladiator KoÂœci
 2730	Skarabeusz Sagittarius
 2731	Skarabeusz Gigantus
 2732	Skarabeusz Virgo
-2733	¯elazny Strzelec
-2734	¯elazny Wojownik
-2735	¯elazny Genera³
+2733	Å»elazny Strzelec
+2734	Å»elazny Wojownik
+2735	Å»elazny GeneraÅ‚
 2736	Zbieg
 2737	Damage_Trap
 2750	Oficer Zi
-2751	Stra¿nik Zi
-2752	Genera³ Zi
+2751	StraÅ¼nik Zi
+2752	GeneraÅ‚ Zi
 2760	Oficer Chou
-2761	Stra¿nik Chou
-2762	Genera³ Chou
+2761	StraÅ¼nik Chou
+2762	GeneraÅ‚ Chou
 2770	Oficer Yin
-2771	Stra¿nik Yin
-2772	Genera³ Yin
+2771	StraÅ¼nik Yin
+2772	GeneraÅ‚ Yin
 2780	Oficer Mao
-2781	Stra¿niczka Mao
-2782	Genera³ Mao
+2781	StraÅ¼niczka Mao
+2782	GeneraÅ‚ Mao
 2790	Oficer Chen
-2791	Stra¿nik Chen
-2792	Genera³ Chen
+2791	StraÅ¼nik Chen
+2792	GeneraÅ‚ Chen
 2800	Oficer Si
-2801	Stra¿niczka Si
-2802	Genera³ Si
+2801	StraÅ¼niczka Si
+2802	GeneraÅ‚ Si
 2810	Oficer Wu
-2811	Stra¿nik Wu
-2812	Genera³ Wu
+2811	StraÅ¼nik Wu
+2812	GeneraÅ‚ Wu
 2820	Oficer Wei
-2821	Stra¿nik Wei
-2822	Genera³ Wei
+2821	StraÅ¼nik Wei
+2822	GeneraÅ‚ Wei
 2830	Oficer Shen
-2831	Stra¿nik Shen
-2832	Genera³ Shen
+2831	StraÅ¼nik Shen
+2832	GeneraÅ‚ Shen
 2840	Oficer Yu
-2841	Stra¿nik Yu
-2842	Genera³ Yu
+2841	StraÅ¼nik Yu
+2842	GeneraÅ‚ Yu
 2850	Oficer Xu
-2851	Stra¿nik Xu
-2852	Genera³ Xu
+2851	StraÅ¼nik Xu
+2852	GeneraÅ‚ Xu
 2860	Oficer Rekin
-2861	Stra¿nik Rekin
-2862	Genera³ Rekin
+2861	StraÅ¼nik Rekin
+2862	GeneraÅ‚ Rekin
 2900	Metin Szczura
-2901	Metin Bawo³a
+2901	Metin BawoÅ‚a
 2902	Metin Tygrysa
 2903	Metin Smoka
-2904	Metin Wê¿a
+2904	Metin WÄ™Å¼a
 2905	Metin Konia
 2906	Metin Kozy
-2907	Metin Ma³py
+2907	Metin MaÅ‚py
 2908	Metin Psa
 3001	Gnoll Wojownik
-3002	Gnoll £ucznik
-3003	Gnoll Obroñca
+3002	Gnoll Åucznik
+3003	Gnoll ObroÅ„ca
 3004	Gnoll Mag
-3005	Gnoll Genera³
+3005	Gnoll GeneraÅ‚
 3090	Gnoll Lord
-3091	G³ówny Gnoll Stra¿nik
+3091	GÅ‚Ã³wny Gnoll StraÅ¼nik
 3101	Jednooki Zabijaka
-3102	Cyklop ¯o³nierz
+3102	Cyklop Å»oÅ‚nierz
 3103	Cyklop Mag
 3104	Cyklop Kat
-3105	Genera³ Outis
+3105	GeneraÅ‚ Outis
 3190	Arges
 3191	Polifem
 3201	Mantykora Wojownik
-3202	Mantykora ¯o³nierz
+3202	Mantykora Å»oÅ‚nierz
 3203	Mantykora Mag
 3204	Mantykora Kat
-3205	Genera³ Kor
+3205	GeneraÅ‚ Kor
 3290	Rakszas
 3291	Martyaxwar
 3301	Lemur Wojownik
-3302	Lemur ¯o³nierz
+3302	Lemur Å»oÅ‚nierz
 3303	Lemur Mag
 3304	Lemur Kat
-3305	Lemur Genera³
+3305	Lemur GeneraÅ‚
 3390	Lemur Hrabia
-3391	Stra¿ Przyboczna Lemur
-3401	Trytoñska Murena
-3402	¯o³nierz Shark
-3403	Trytoñski Mag
-3404	Trytoñski £owca
-3405	Trytoñski Rozpruwacz
-3490	Genera³ Kappa
+3391	StraÅ¼ Przyboczna Lemur
+3401	TrytoÅ„ska Murena
+3402	Å»oÅ‚nierz Shark
+3403	TrytoÅ„ski Mag
+3404	TrytoÅ„ski Åowca
+3405	TrytoÅ„ski Rozpruwacz
+3490	GeneraÅ‚ Kappa
 3491	Tryton
 3501	Czerwona Amazonka
 3502	Czerwony Asasyn
 3503	Czerwony Mag
 3504	Czerwony Kat
-3505	Czarny Genera³
+3505	Czarny GeneraÅ‚
 3551	Brutalna Czerw. Amazonka
 3552	Brutalny Czerw. Asasyn
 3553	Brutalny Czerw. Mag
 3554	Brutalny Czerw. Kat
-3555	Bia³y Genera³
+3555	BiaÅ‚y GeneraÅ‚
 3590	Trupia Twarz
-3591	Czerwony Wódz
+3591	Czerwony WÃ³dz
 3595	Brutalna Trupia Twarz
-3596	Brutalny Czerwony Wódz
+3596	Brutalny Czerwony WÃ³dz
 3601	Krab Wojownik
-3602	Kleszczo-£ucznik
-3603	¯o³nierz Shrimp
+3602	Kleszczo-Åucznik
+3603	Å»oÅ‚nierz Shrimp
 3604	Diabelski Pustelnik
 3605	Krab Pancerny
-3690	Genera³ Lobster
-3691	Król Krabbs
+3690	GeneraÅ‚ Lobster
+3691	KrÃ³l Krabbs
 3701	Gigantyczny Zgryzacz
 3702	Gigant Oprawca
 3703	Gigant Mag
 3704	Dwigant
 3705	Kapitan Haak
 3790	Gargulec
-3791	Król Wobba
+3791	KrÃ³l Wobba
 3801	Katogr
-3802	Ogr £ucznik
+3802	Ogr Åucznik
 3803	Ogr Bojowy
 3804	Ogr Mag
-3805	Genera³ Ogg
+3805	GeneraÅ‚ Ogg
 3890	Kapitan Shrack
 3891	Ogr Maximus
 3901	Wierzbolud
@@ -661,7 +661,7 @@ Vnum	LocalizedName
 3906	Yah-Ki
 3907	Moghu
 3908	Carnifex
-3909	Genera³ Albus
+3909	GeneraÅ‚ Albus
 3910	Szkieletor
 3911	Aku-Boku
 3912	Arboretum
@@ -669,14 +669,14 @@ Vnum	LocalizedName
 3949	Portal: nowy kontynent
 3950	Kappa
 3951	Kappa Laguny
-3952	Kappa G³êbiny
-3953	Kappa Przywódca
-3954	Murena ¯o³nierz
-3955	Murena Wojownik G³êbin
-3956	Królowa Syren
-3957	Wyl¹g Hydry
-3958	Wyl¹g Hydry
-3959	Wyl¹g Hydry
+3952	Kappa GÅ‚Ä™biny
+3953	Kappa PrzywÃ³dca
+3954	Murena Å»oÅ‚nierz
+3955	Murena Wojownik GÅ‚Ä™bin
+3956	KrÃ³lowa Syren
+3957	WylÅ¡g Hydry
+3958	WylÅ¡g Hydry
+3959	WylÅ¡g Hydry
 3960	Hydra
 3961	Hydra
 3962	Hydra
@@ -684,119 +684,119 @@ Vnum	LocalizedName
 3964	Hydra
 3965	Skarb Hydry
 3970	
-3971	Kryszta³ P³n. Wiatru
-3972	G³êbie_P³n.W. 415 136
-3973	G³êbie_P³n.W. 94 139
-3980	¯ywio³ak Ognia
-3981	¯ywio³ak Lodu
-3982	¯ywio³ak B³yskawicy
-3983	¯ywio³ak Wiatru
-3984	¯ywio³ak Ziemi
-3985	¯ywio³ak Mroku
-3986	Duch ¯aru
+3971	KrysztaÅ‚ PÅ‚n. Wiatru
+3972	GÅ‚Ä™bie_PÅ‚n.W. 415 136
+3973	GÅ‚Ä™bie_PÅ‚n.W. 94 139
+3980	Å»ywioÅ‚ak Ognia
+3981	Å»ywioÅ‚ak Lodu
+3982	Å»ywioÅ‚ak BÅ‚yskawicy
+3983	Å»ywioÅ‚ak Wiatru
+3984	Å»ywioÅ‚ak Ziemi
+3985	Å»ywioÅ‚ak Mroku
+3986	Duch Å»aru
 3987	Duch Mrozu
 3988	Duch Elektro
 3989	Duch Powietrza
 3990	Duch Kamienia
-3991	Duch Pó³mroku
-3992	W³adca P³omieni
-3993	W³adca Lodowca
-3994	W³adca Grzmotu
-3995	W³adca Wichury
-3996	W³adca Ziemi
-3997	W³adca Nocy
-3998	Królestwo ¯ywio³ów
-3999	Wyjœcie
+3991	Duch PÃ³Å‚mroku
+3992	WÅ‚adca PÅ‚omieni
+3993	WÅ‚adca Lodowca
+3994	WÅ‚adca Grzmotu
+3995	WÅ‚adca Wichury
+3996	WÅ‚adca Ziemi
+3997	WÅ‚adca Nocy
+3998	KrÃ³lestwo Å»ywioÅ‚Ã³w
+3999	WyjÂœcie
 4000	Metin Ognia
 4001	Metin Lodu
-4002	Metin B³yskawicy
+4002	Metin BÅ‚yskawicy
 4003	Metin Wiatru
 4004	Metin Ziemi
 4005	Metin Nocy
-4006	Stró¿ ¯ywio³ów
-4019	Wejœcie Piekielnej Wie¿y
-4020	Piek. Wie¿a Sunga Mahi
-4021	Pieczêæ Piekielnej Wie¿y
-4022	Portal Œwi¹tyni Wê¿y
+4006	StrÃ³Å¼ Å»ywioÅ‚Ã³w
+4019	WejÂœcie Piekielnej WieÅ¼y
+4020	Piek. WieÅ¼a Sunga Mahi
+4021	PieczÄ™Ä‡ Piekielnej WieÅ¼y
+4022	Portal ÂŒwiÅ¡tyni WÄ™Å¼y
 4023	Zmiana poziomu
-4024	G³owa Wê¿a
-4025	G³owa Wê¿a
-4026	G³owa Wê¿a
-4027	G³owa Wê¿a
-4030	Bia³e Jajo Smoka
-4101	Stra¿nik Apokalipsy Zi
-4102	Stra¿nik Apokalipsy Chou
-4103	Stra¿nik Apokalipsy Yin
-4104	Stra¿nik Apokalipsy Mao
-4105	Stra¿nik Apokalipsy Chen
-4106	Stra¿nik Apokalipsy Si
-4107	Stra¿nik Apokalipsy Wu
-4108	Stra¿nik Apokalipsy Wei
-4109	Stra¿nik Apokalipsy Shen
-4110	Stra¿nik Apokalipsy Yu
-4111	Stra¿nik Apokalipsy Xu
-4112	Stra¿nik Apokalipsy Hai
-4121	Stra¿nik Apokalipsy Zi
-4122	Stra¿nik Apokalipsy Chou
-4123	Stra¿nik Apokalipsy Yin
-4124	Stra¿nik Apokalipsy Mao
-4125	Stra¿nik Apokalipsy Chen
-4126	Stra¿nik Apokalipsy Si
-4127	Stra¿nik Apokalipsy Wu
-4128	Stra¿nik Apokalipsy Wei
-4129	Stra¿nik Apokalipsy Shen
-4130	Stra¿nik Apokalipsy Yu
-4131	Stra¿nik Apokalipsy Xu
-4132	Stra¿nik Apokalipsy Hai
-4141	Metin Zag³ady
-4142	Metin S¹du Ostatecznego
-4143	Metin Potêpienia
+4024	GÅ‚owa WÄ™Å¼a
+4025	GÅ‚owa WÄ™Å¼a
+4026	GÅ‚owa WÄ™Å¼a
+4027	GÅ‚owa WÄ™Å¼a
+4030	BiaÅ‚e Jajo Smoka
+4101	StraÅ¼nik Apokalipsy Zi
+4102	StraÅ¼nik Apokalipsy Chou
+4103	StraÅ¼nik Apokalipsy Yin
+4104	StraÅ¼nik Apokalipsy Mao
+4105	StraÅ¼nik Apokalipsy Chen
+4106	StraÅ¼nik Apokalipsy Si
+4107	StraÅ¼nik Apokalipsy Wu
+4108	StraÅ¼nik Apokalipsy Wei
+4109	StraÅ¼nik Apokalipsy Shen
+4110	StraÅ¼nik Apokalipsy Yu
+4111	StraÅ¼nik Apokalipsy Xu
+4112	StraÅ¼nik Apokalipsy Hai
+4121	StraÅ¼nik Apokalipsy Zi
+4122	StraÅ¼nik Apokalipsy Chou
+4123	StraÅ¼nik Apokalipsy Yin
+4124	StraÅ¼nik Apokalipsy Mao
+4125	StraÅ¼nik Apokalipsy Chen
+4126	StraÅ¼nik Apokalipsy Si
+4127	StraÅ¼nik Apokalipsy Wu
+4128	StraÅ¼nik Apokalipsy Wei
+4129	StraÅ¼nik Apokalipsy Shen
+4130	StraÅ¼nik Apokalipsy Yu
+4131	StraÅ¼nik Apokalipsy Xu
+4132	StraÅ¼nik Apokalipsy Hai
+4141	Metin ZagÅ‚ady
+4142	Metin SÅ¡du Ostatecznego
+4143	Metin PotÄ™pienia
 4144	Metin Apokalipsy
 4145	Katogr Apokalipsy
 4146	Tajny Katogr Apokalipsy
 4147	Kappa Apokalipsy
-4148	Kappa G³êbiny Apokalipsy
+4148	Kappa GÅ‚Ä™biny Apokalipsy
 4149	Chuong Apokalipsy
 4150	Tajny Chuong Apokalipsy
 4151	Mag Apokalipsy
 4152	Tajny Mag Apokalipsy
 4200	SZC: Wojownik Setaou
-4201	SZC: £owca Setaou
+4201	SZC: Åowca Setaou
 4202	SZC: Mistyk Setaou
-4203	SZC: ¯o³nierz Setaou
-4204	SZC: £ucznik Setaou
+4203	SZC: Å»oÅ‚nierz Setaou
+4204	SZC: Åucznik Setaou
 4205	SZC: Magistrat Setaou
 4206	SZC: Komendant Setaou
 4207	SZC: Kapitan Yonghan
 4208	SZC: Kapitan Yonghan
-4209	SZC: Genera³ Yonghan
-4210	SZC: Genera³ Yonghan
-4220	SZC: Ognisty Duch ¯aru
-4221	SZC: Ognisty Tygrys ¯aru
-4222	SZC: P³omieñ ¯aru
-4223	SZC: Og. Wojownik ¯aru
-4224	SZC: Ognisty Król ¯aru
-4225	SZC: Ognisty Troll ¯aru
-4226	SZC: Ognista Broda ¯aru
-4227	SZC: Og. Genera³ ¯aru
-4228	SZC: Ognisty Ksi¹¿ê ¯aru
+4209	SZC: GeneraÅ‚ Yonghan
+4210	SZC: GeneraÅ‚ Yonghan
+4220	SZC: Ognisty Duch Å»aru
+4221	SZC: Ognisty Tygrys Å»aru
+4222	SZC: PÅ‚omieÅ„ Å»aru
+4223	SZC: Og. Wojownik Å»aru
+4224	SZC: Ognisty KrÃ³l Å»aru
+4225	SZC: Ognisty Troll Å»aru
+4226	SZC: Ognista Broda Å»aru
+4227	SZC: Og. GeneraÅ‚ Å»aru
+4228	SZC: Ognisty KsiÅ¡Å¼Ä™ Å»aru
 4229	SZC: Ignator
-4240	SZC: Kryszta³ Mrozu
-4241	SZC: MroŸny Robak
-4242	SZC: MroŸny Cz³owiek
-4243	SZC: MroŸny Yeti
-4244	SZC: MroŸny Golem
-4245	SZC: MroŸny Troll
-4246	SZC: MroŸna Broda
-4247	SZC: MroŸny Genera³
-4248	SZC: MroŸny Ksi¹¿ê
+4240	SZC: KrysztaÅ‚ Mrozu
+4241	SZC: MroÂŸny Robak
+4242	SZC: MroÂŸny CzÅ‚owiek
+4243	SZC: MroÂŸny Yeti
+4244	SZC: MroÂŸny Golem
+4245	SZC: MroÂŸny Troll
+4246	SZC: MroÂŸna Broda
+4247	SZC: MroÂŸny GeneraÅ‚
+4248	SZC: MroÂŸny KsiÅ¡Å¼Ä™
 4249	SZC: Magmowy Yeti
 4260	SZC: Wojownik En-Tai
 4261	SZC: Bojownik En-Tai
 4262	SZC: Druid En-Tai
 4263	SZC: Uzdrowiciel En-Tai
 4264	SZC: Niszczyciel En-Tai
-4265	SZC: W³adca En-Tai
+4265	SZC: WÅ‚adca En-Tai
 4266	SZC: Uzdrowiciel Ochao
 4267	SZC: Wojownik En-Tai
 4268	SZC: Bojownik En-Tai
@@ -804,47 +804,47 @@ Vnum	LocalizedName
 4270	SZC: Uzdrowiciel En-Tai
 4271	SZC: Niszczyciel En-Tai
 4272	SZC: Bagjanamu
-4273	SZC: ¯o³nierz Ochao
+4273	SZC: Å»oÅ‚nierz Ochao
 4274	SZC: Mag Ochao
 4275	SZC: Kat Ochao
-4276	SZC: Genera³ Ochao
+4276	SZC: GeneraÅ‚ Ochao
 4280	PB: Wojownik Setaou
-4281	PB: £owca Setaou
+4281	PB: Åowca Setaou
 4282	PB: Mistyk Setaou
-4283	PB: ¯o³nierz Setaou
-4284	PB: £ucznik Setaou
+4283	PB: Å»oÅ‚nierz Setaou
+4284	PB: Åucznik Setaou
 4285	PB: Magistrat Setaou
 4286	PB: Komendant Setaou
 4287	PB: Kapitan Yonghan
 4288	PB: Kapitan Yonghan
-4289	PB: Genera³ Yonghan
-4290	PB: Genera³ Yonghan
-4300	PB: Ognisty Duch ¯aru
-4301	PB: Ognisty Tygrys ¯aru
-4302	PB: P³omieñ ¯aru
-4303	PB: Og. Wojownik ¯aru
-4304	PB: Ognisty Król ¯aru
-4305	PB: Ognisty Troll ¯aru
-4306	PB: Ognista Broda ¯aru
-4307	PB: Og. Genera³ ¯aru
-4308	PB: Ognisty Ksi¹¿ê ¯aru
+4289	PB: GeneraÅ‚ Yonghan
+4290	PB: GeneraÅ‚ Yonghan
+4300	PB: Ognisty Duch Å»aru
+4301	PB: Ognisty Tygrys Å»aru
+4302	PB: PÅ‚omieÅ„ Å»aru
+4303	PB: Og. Wojownik Å»aru
+4304	PB: Ognisty KrÃ³l Å»aru
+4305	PB: Ognisty Troll Å»aru
+4306	PB: Ognista Broda Å»aru
+4307	PB: Og. GeneraÅ‚ Å»aru
+4308	PB: Ognisty KsiÅ¡Å¼Ä™ Å»aru
 4309	PB: Ignator
-4320	PB: Kryszta³ Mrozu
-4321	PB: MroŸny Robak
-4322	PB: MroŸny Cz³owiek
-4323	PB: MroŸny Yeti
-4324	PB: MroŸny Golem
-4325	PB: MroŸny Troll
-4326	PB: MroŸna Broda
-4327	PB: MroŸny Genera³
-4328	PB: MroŸny Ksi¹¿ê
+4320	PB: KrysztaÅ‚ Mrozu
+4321	PB: MroÂŸny Robak
+4322	PB: MroÂŸny CzÅ‚owiek
+4323	PB: MroÂŸny Yeti
+4324	PB: MroÂŸny Golem
+4325	PB: MroÂŸny Troll
+4326	PB: MroÂŸna Broda
+4327	PB: MroÂŸny GeneraÅ‚
+4328	PB: MroÂŸny KsiÅ¡Å¼Ä™
 4329	PB: Magmowy Yeti
 4340	PB: Wojownik En-Tai
 4341	PB: Bojownik En-Tai
 4342	PB: Druid En-Tai
 4343	PB: Uzdrowiciel En-Tai
 4344	PB: Niszczyciel En-Tai
-4345	PB: W³adca En-Tai
+4345	PB: WÅ‚adca En-Tai
 4346	PB: Uzdrowiciel Ochao
 4347	PB: Wojownik En-Tai
 4348	PB: Bojownik En-Tai
@@ -852,10 +852,10 @@ Vnum	LocalizedName
 4350	PB: Uzdrowiciel En-Tai
 4351	PB: Niszczyciel En-Tai
 4352	PB: Bagjanamu
-4353	PB: ¯o³nierz Ochao
+4353	PB: Å»oÅ‚nierz Ochao
 4354	PB: Mag Ochao
 4355	PB: Kat Ochao
-4356	PB: Genera³ Ochao
+4356	PB: GeneraÅ‚ Ochao
 4400	SZC: Beran-Setaou
 4401	SZC: Razador
 4402	SZC: Nemere
@@ -864,154 +864,154 @@ Vnum	LocalizedName
 4411	PB: Razador
 4412	PB: Nemere
 4413	PB: Jotun Thrym
-4420	BŒ: Wojownik En-Tai
-4421	BŒ: Bojownik En-Tai
-4422	BŒ: Druid En-Tai
-4423	BŒ: Uzdrowiciel En-Tai
-4424	BŒ: Niszczyciel En-Tai
-4429	BŒ: Bagjanamu
-4430	BŒ: Gnoll £ucznik
-4431	BŒ: Cyklop ¯o³nierz
-4432	BŒ: Cyklop Mag
-4433	BŒ: Cyklop Kat
-4434	BŒ: Genera³ Outis
-4439	BŒ: Polifem
-4440	BŒ: Piekielny Strzelec
-4441	BŒ: Piekielny W³ócznik
-4442	BŒ: Piekielny Kap³an
-4443	BŒ: Piekielny Major
-4444	BŒ: Piekielny Genera³
-4449	BŒ: Azrael
-4450	BŒ: Drzewny ¯abi ¯o³.
-4451	BŒ: Drzewny ¯abi Przyw.
-4452	BŒ: Straszyd³o
-4453	BŒ: Elit. Zj. ¯. Tygrysa
-4454	BŒ: Ropuszy Genera³
-4459	BŒ: Zjawa ¯ó³t. Tygrysa
-4460	BŒ: Ognisty Duch ¯aru
-4461	BŒ: Ognisty Tygrys ¯aru
-4462	BŒ: P³omieñ ¯aru
-4463	BŒ:Ognisty Wojownik ¯aru
-4464	BŒ: Magmowy Kryszta³
-4469	BŒ:Stra¿nik Smoków Idall
-4470	BŒ: Katogr
-4471	BŒ: Ogr £ucznik
-4472	BŒ: Ogr Bojowy
-4473	BŒ: Ogr Mag
-4474	BŒ: Genera³ Ogg
-4479	BŒ: Ogr Maximus
+4420	BÂŒ: Wojownik En-Tai
+4421	BÂŒ: Bojownik En-Tai
+4422	BÂŒ: Druid En-Tai
+4423	BÂŒ: Uzdrowiciel En-Tai
+4424	BÂŒ: Niszczyciel En-Tai
+4429	BÂŒ: Bagjanamu
+4430	BÂŒ: Gnoll Åucznik
+4431	BÂŒ: Cyklop Å»oÅ‚nierz
+4432	BÂŒ: Cyklop Mag
+4433	BÂŒ: Cyklop Kat
+4434	BÂŒ: GeneraÅ‚ Outis
+4439	BÂŒ: Polifem
+4440	BÂŒ: Piekielny Strzelec
+4441	BÂŒ: Piekielny WÅ‚Ã³cznik
+4442	BÂŒ: Piekielny KapÅ‚an
+4443	BÂŒ: Piekielny Major
+4444	BÂŒ: Piekielny GeneraÅ‚
+4449	BÂŒ: Azrael
+4450	BÂŒ: Drzewny Å»abi Å»oÅ‚.
+4451	BÂŒ: Drzewny Å»abi Przyw.
+4452	BÂŒ: StraszydÅ‚o
+4453	BÂŒ: Elit. Zj. Å». Tygrysa
+4454	BÂŒ: Ropuszy GeneraÅ‚
+4459	BÂŒ: Zjawa Å»Ã³Å‚t. Tygrysa
+4460	BÂŒ: Ognisty Duch Å»aru
+4461	BÂŒ: Ognisty Tygrys Å»aru
+4462	BÂŒ: PÅ‚omieÅ„ Å»aru
+4463	BÂŒ:Ognisty Wojownik Å»aru
+4464	BÂŒ: Magmowy KrysztaÅ‚
+4469	BÂŒ:StraÅ¼nik SmokÃ³w Idall
+4470	BÂŒ: Katogr
+4471	BÂŒ: Ogr Åucznik
+4472	BÂŒ: Ogr Bojowy
+4473	BÂŒ: Ogr Mag
+4474	BÂŒ: GeneraÅ‚ Ogg
+4479	BÂŒ: Ogr Maximus
 5001	Pirat Tanaka
 5002	Hae-Tae
-5003	Ma³pa
+5003	MaÅ‚pa
 5004	Pirat Tanaka
-5101	S³aby Ma³pi ¯o³nierz
-5102	S³aby Ma³pi Miotacz
-5103	S³aby Ma³pi Wojownik
-5104	S³aby Ma³pi Genera³
-5111	Ma³pi ¯o³nierz
-5112	Ma³pi Miotacz
-5113	Ma³pi Wojownik
-5114	Ma³pi Genera³
-5115	Kamienna Ma³pa
-5116	Przyw. Ma³p
-5121	Silny Ma³pi ¯o³nierz
-5122	Silny Ma³pi Miotacz
-5123	Silny Ma³pi Wojownik
-5124	Silny Ma³pi Genera³
-5125	Silna Kamienna Ma³pa
-5126	Silna Z³ota Ma³pa
-5127	Silny Przyw. Ma³p
-5131	M¹dry M. Ma³pi ¯o³nierz
-5132	M¹dry M. Ma³pi Miotacz
-5133	M¹dry M. Ma³pi Wojownik
-5134	M¹dry M. Ma³pi Genera³
-5141	M¹dry Ma³pi ¯o³nierz
-5142	M¹dry Ma³pi Miotacz
-5143	M¹dry Ma³pi Wojownik
-5144	M¹dry Ma³pi Genera³
-5145	M¹dra Kam. Ma³pa
-5146	M¹dry Ma³pi Przyw.
-5151	Z³y Sil. Ma³pi ¯o³nierz
-5152	Z³y Silny Ma³pi Miotacz
-5153	Z³y Sil. Ma³pi Wojownik
-5154	Z³y Silny Ma³pi Genera³
-5155	Z³a Silna Kam. Ma³pa
-5156	Z³a Silna Z³ota Ma³pa
-5157	Z³y Silny Ma³pi Przyw.
-5161	Skalista Ma³pa
-5162	Chodz¹ca Ma³pa
-5163	Lord Ma³p
+5101	SÅ‚aby MaÅ‚pi Å»oÅ‚nierz
+5102	SÅ‚aby MaÅ‚pi Miotacz
+5103	SÅ‚aby MaÅ‚pi Wojownik
+5104	SÅ‚aby MaÅ‚pi GeneraÅ‚
+5111	MaÅ‚pi Å»oÅ‚nierz
+5112	MaÅ‚pi Miotacz
+5113	MaÅ‚pi Wojownik
+5114	MaÅ‚pi GeneraÅ‚
+5115	Kamienna MaÅ‚pa
+5116	Przyw. MaÅ‚p
+5121	Silny MaÅ‚pi Å»oÅ‚nierz
+5122	Silny MaÅ‚pi Miotacz
+5123	Silny MaÅ‚pi Wojownik
+5124	Silny MaÅ‚pi GeneraÅ‚
+5125	Silna Kamienna MaÅ‚pa
+5126	Silna ZÅ‚ota MaÅ‚pa
+5127	Silny Przyw. MaÅ‚p
+5131	MÅ¡dry M. MaÅ‚pi Å»oÅ‚nierz
+5132	MÅ¡dry M. MaÅ‚pi Miotacz
+5133	MÅ¡dry M. MaÅ‚pi Wojownik
+5134	MÅ¡dry M. MaÅ‚pi GeneraÅ‚
+5141	MÅ¡dry MaÅ‚pi Å»oÅ‚nierz
+5142	MÅ¡dry MaÅ‚pi Miotacz
+5143	MÅ¡dry MaÅ‚pi Wojownik
+5144	MÅ¡dry MaÅ‚pi GeneraÅ‚
+5145	MÅ¡dra Kam. MaÅ‚pa
+5146	MÅ¡dry MaÅ‚pi Przyw.
+5151	ZÅ‚y Sil. MaÅ‚pi Å»oÅ‚nierz
+5152	ZÅ‚y Silny MaÅ‚pi Miotacz
+5153	ZÅ‚y Sil. MaÅ‚pi Wojownik
+5154	ZÅ‚y Silny MaÅ‚pi GeneraÅ‚
+5155	ZÅ‚a Silna Kam. MaÅ‚pa
+5156	ZÅ‚a Silna ZÅ‚ota MaÅ‚pa
+5157	ZÅ‚y Silny MaÅ‚pi Przyw.
+5161	Skalista MaÅ‚pa
+5162	ChodzÅ¡ca MaÅ‚pa
+5163	Lord MaÅ‚p
 5201	Dziki Pies
 5202	Dzik
 5203	Czerwony Dzik
-5204	NiedŸwiedŸ
-5205	Br¹zowy NiedŸwiedŸ
-5206	NiedŸwiedŸ Czarny
-5207	G³odny Br¹z. NiedŸwiedŸ
+5204	NiedÂŸwiedÂŸ
+5205	BrÅ¡zowy NiedÂŸwiedÂŸ
+5206	NiedÂŸwiedÂŸ Czarny
+5207	GÅ‚odny BrÅ¡z. NiedÂŸwiedÂŸ
 5208	Tygrys
-5209	Bia³y Tygrys
-6001	Ognisty Duch ¯aru
-6002	Ognisty Tygrys ¯aru
-6003	P³omieñ ¯aru
-6004	Ognisty Wojownik ¯aru
-6005	Ognisty Król ¯aru
-6006	Ognisty Troll ¯aru
-6007	Ognista Broda ¯aru
-6008	Ognisty Genera³ ¯aru
-6009	Ognisty Ksi¹¿ê ¯aru
+5209	BiaÅ‚y Tygrys
+6001	Ognisty Duch Å»aru
+6002	Ognisty Tygrys Å»aru
+6003	PÅ‚omieÅ„ Å»aru
+6004	Ognisty Wojownik Å»aru
+6005	Ognisty KrÃ³l Å»aru
+6006	Ognisty Troll Å»aru
+6007	Ognista Broda Å»aru
+6008	Ognisty GeneraÅ‚ Å»aru
+6009	Ognisty KsiÅ¡Å¼Ä™ Å»aru
 6051	Ignator
 6091	Razador
-6101	Kryszta³ Mrozu
-6102	MroŸny Robak
-6103	MroŸny Cz³owiek
-6104	MroŸny Yeti
-6105	MroŸny Golem
-6106	MroŸny Troll
-6107	MroŸna Broda
-6108	MroŸny Genera³
-6109	MroŸny Ksi¹¿ê
+6101	KrysztaÅ‚ Mrozu
+6102	MroÂŸny Robak
+6103	MroÂŸny CzÅ‚owiek
+6104	MroÂŸny Yeti
+6105	MroÂŸny Golem
+6106	MroÂŸny Troll
+6107	MroÂŸna Broda
+6108	MroÂŸny GeneraÅ‚
+6109	MroÂŸny KsiÅ¡Å¼Ä™
 6110	Magmowy Yeti
 6111	Magmowy Golem
 6112	Magmowy Insekt
-6113	Cz³owiek-Magma
-6114	Magmowy Kryszta³
+6113	CzÅ‚owiek-Magma
+6114	Magmowy KrysztaÅ‚
 6115	Magmowy Wiwern
-6116	Smoczy Stra¿nik Idall
-6117	S³ugus Idalla
+6116	Smoczy StraÅ¼nik Idall
+6117	SÅ‚ugus Idalla
 6118	Smocze Statuy
 6151	Szel
 6191	Nemere
 6192	Jotun Thrym
-6193	Królowa Smoków Meley
+6193	KrÃ³lowa SmokÃ³w Meley
 6201	Magmowy Yeti
 6202	Magmowy Golem
 6203	Magmowy Insekt
-6204	Cz³owiek-Magma
-6205	Magmowy Kryszta³
+6204	CzÅ‚owiek-Magma
+6205	Magmowy KrysztaÅ‚
 6206	Magmowy Wiwern
-6207	Stra¿nik Smoków Idall
+6207	StraÅ¼nik SmokÃ³w Idall
 6209	Smocze Statuy
 6301	Wojownik Ochao
-6302	¯o³nierz Ochao
+6302	Å»oÅ‚nierz Ochao
 6303	Mag Ochao
 6304	Kat Ochao
-6305	Genera³ Ochao
+6305	GeneraÅ‚ Ochao
 6306	Silny Wojownik Ochao
-6307	Silny ¯o³nierz Ochao
+6307	Silny Å»oÅ‚nierz Ochao
 6308	Silny Mag Ochao
 6309	Silny Kat Ochao
-6310	Silny Genera³ Ochao
-6391	Ksi¹¿ê Ochao
+6310	Silny GeneraÅ‚ Ochao
+6391	KsiÅ¡Å¼Ä™ Ochao
 6392	Goryl Ochao
-6393	Silny Ksi¹¿ê Ochao
+6393	Silny KsiÅ¡Å¼Ä™ Ochao
 6394	Silny Goryl Ochao
 6401	Wojownik En-Tai
 6402	Bojownik En-Tai
 6403	Druid En-Tai
 6404	Uzdrowiciel En-Tai
-6405	Stra¿nik En-Tai
+6405	StraÅ¼nik En-Tai
 6406	Niszczyciel En-Tai
-6407	W³adca En-Tai
+6407	WÅ‚adca En-Tai
 6408	Bagjanamu
 6409	Uzdrowiciel Ochao
 6410	Silny Wojownik En-Tai
@@ -1027,41 +1027,41 @@ Vnum	LocalizedName
 6420	Wojownik Cieni
 6421	Baashido
 6422	Metin Agonii
-6500	Król Smoków Akzadur
-6501	Król Smoków Nafaroth
-6502	Król Smoków Exedyar
-6503	Król Smoków Ruilith
+6500	KrÃ³l SmokÃ³w Akzadur
+6501	KrÃ³l SmokÃ³w Nafaroth
+6502	KrÃ³l SmokÃ³w Exedyar
+6503	KrÃ³l SmokÃ³w Ruilith
 6504	Tyolduran
 6513	Smoczy Portal
-6514	Do Króla Smoków
-6515	Wyjœcie
+6514	Do KrÃ³la SmokÃ³w
+6515	WyjÂœcie
 6686	Jin Bing
-6687	¯o³nierz Ki
-6688	¯o³nierz Mao
-6689	¯o³nierz Gong
+6687	Å»oÅ‚nierz Ki
+6688	Å»oÅ‚nierz Mao
+6689	Å»oÅ‚nierz Gong
 6690	Mag Frontowy
 6691	Kao
-6692	Król Bao (misja)
+6692	KrÃ³l Bao (misja)
 6693	Jin Bing
-6694	¯o³nierz Ki
-6695	¯o³nierz Mao
-6696	¯o³nierz Gong
+6694	Å»oÅ‚nierz Ki
+6695	Å»oÅ‚nierz Mao
+6696	Å»oÅ‚nierz Gong
 6697	Mag Frontowy
 6698	Kao
-6699	Król Bao
+6699	KrÃ³l Bao
 6700	Piekielny Pies
-6701	Troll ¯o³nierz
+6701	Troll Å»oÅ‚nierz
 6702	Troll Wojownik
 6703	Troll Strzelec
 6704	Troll Szamanka
 6705	Natanan
 6706	Argos
-6707	Troll ¯o³nierz
+6707	Troll Å»oÅ‚nierz
 6708	Troll Wojownik
 6709	Troll Strzelec
-6710	Drêczony Duch
+6710	DrÄ™czony Duch
 6711	Piekielny Pies
-6712	Troll ¯o³nierz
+6712	Troll Å»oÅ‚nierz
 6713	Troll Wojownik
 6714	Troll Strzelec
 6715	Troll Szamanka
@@ -1081,63 +1081,63 @@ Vnum	LocalizedName
 6729	Myr Czarodziej
 6730	Myr Weteran
 6731	Myr Prymus
-6744	Kappa ¯o³nierz
+6744	Kappa Å»oÅ‚nierz
 6745	Kappa Robotnik
-6746	Kappa ¯o³nierz
+6746	Kappa Å»oÅ‚nierz
 6747	Kappa Czarodziej
-6748	Kappa £owca
-6749	Potê¿ny Kappa
-6750	Skorpion Wê¿owy
-6751	Robotnik Wê¿owy
-6752	Kappa Wê¿owy
-6753	¯o³nierz Wê¿owy
-6754	Wê¿owa Ascetka
-6755	Potê¿ny Wojownik Wê¿owy
-6756	Królowa Wê¿y Nethis
-6757	Kolumna Wê¿y
-6758	Ska¿ony ¯o³nierz
-6759	Ska¿ony Zadziora
-6760	Ska¿ony Wojownik
-6761	Ska¿ony Mnich
-6762	Ska¿ony Genera³
-6763	Ska¿ony Wódz
-6764	Ska¿ony Wódz Wojenny
-6765	Potê¿ny Wojownik Wê¿owy
-6770	Zamarzniêty Lis
-6771	Zamarzniêty Zwiadowca
-6772	Zamarzniêty Wojownik
-6773	Zamarzniêty £owca
-6774	Zamarzniêty Genera³
-6775	Zamarzniêty Wódz
-6776	Zamarzniêty Wódz Wojenny
-6777	Opêtany MroŸny Jeleñ
-6778	Opêtany Œnie¿ny Leopard
-6779	Yeti P³n. Wiatru
-6780	Duch P³n. Wiatru
-6781	Golem P³n. Wiatru
+6748	Kappa Åowca
+6749	PotÄ™Å¼ny Kappa
+6750	Skorpion WÄ™Å¼owy
+6751	Robotnik WÄ™Å¼owy
+6752	Kappa WÄ™Å¼owy
+6753	Å»oÅ‚nierz WÄ™Å¼owy
+6754	WÄ™Å¼owa Ascetka
+6755	PotÄ™Å¼ny Wojownik WÄ™Å¼owy
+6756	KrÃ³lowa WÄ™Å¼y Nethis
+6757	Kolumna WÄ™Å¼y
+6758	SkaÅ¼ony Å»oÅ‚nierz
+6759	SkaÅ¼ony Zadziora
+6760	SkaÅ¼ony Wojownik
+6761	SkaÅ¼ony Mnich
+6762	SkaÅ¼ony GeneraÅ‚
+6763	SkaÅ¼ony WÃ³dz
+6764	SkaÅ¼ony WÃ³dz Wojenny
+6765	PotÄ™Å¼ny Wojownik WÄ™Å¼owy
+6770	ZamarzniÄ™ty Lis
+6771	ZamarzniÄ™ty Zwiadowca
+6772	ZamarzniÄ™ty Wojownik
+6773	ZamarzniÄ™ty Åowca
+6774	ZamarzniÄ™ty GeneraÅ‚
+6775	ZamarzniÄ™ty WÃ³dz
+6776	ZamarzniÄ™ty WÃ³dz Wojenny
+6777	OpÄ™tany MroÂŸny JeleÅ„
+6778	OpÄ™tany ÂŒnieÅ¼ny Leopard
+6779	Yeti PÅ‚n. Wiatru
+6780	Duch PÅ‚n. Wiatru
+6781	Golem PÅ‚n. Wiatru
 6782	Wielka Stopa
-6783	Wódz Wojenny P³n. Wiatru
-6784	¯o³nierz Schron. P³n. W.
-6785	Zadziora Schron. P³n. W.
-6786	Wojownik Schron. P³n. W.
-6787	Czarownik Sch. P³n. W.
-6788	Genera³ Schron. P³n. W.
-6789	Wódz Wojenny Schronienia
+6783	WÃ³dz Wojenny PÅ‚n. Wiatru
+6784	Å»oÅ‚nierz Schron. PÅ‚n. W.
+6785	Zadziora Schron. PÅ‚n. W.
+6786	Wojownik Schron. PÅ‚n. W.
+6787	Czarownik Sch. PÅ‚n. W.
+6788	GeneraÅ‚ Schron. PÅ‚n. W.
+6789	WÃ³dz Wojenny Schronienia
 6790	Alastor
 6791	Alastor
-6792	¯o³nierz Schron. P³n. W.
-6793	Zadziora Schron. P³n. W.
-6794	Wojownik Schron. P³n. W.
-6795	Czarownik Sch. P³n. W.
-6796	Genera³ Schron. P³n. W.
-6797	Wódz Wojenny Schronienia
+6792	Å»oÅ‚nierz Schron. PÅ‚n. W.
+6793	Zadziora Schron. PÅ‚n. W.
+6794	Wojownik Schron. PÅ‚n. W.
+6795	Czarownik Sch. PÅ‚n. W.
+6796	GeneraÅ‚ Schron. PÅ‚n. W.
+6797	WÃ³dz Wojenny Schronienia
 6800	Gnoll Wojownik
 6801	Gnoll Zwiadowca
 6802	Czarodziej Gnoll
-6803	Gnoll Marsza³ek
+6803	Gnoll MarszaÅ‚ek
 6804	Mistrz Gnolli
 6805	Gnoll Kapitan
-6806	Gnoll ¯o³nierz
+6806	Gnoll Å»oÅ‚nierz
 6807	Gnoll Szpieg
 6808	Gnoll Mag
 6809	Komendant Gnoll
@@ -1148,68 +1148,68 @@ Vnum	LocalizedName
 6814	Ahtrin Kapitan
 6815	Ahtrin Kapitan
 6816	Ahtrin Szpieg
-6817	Ahtrin WiedŸmin
+6817	Ahtrin WiedÂŸmin
 6818	Ahtrin Komendant
 6819	Ahtrin Wielki Mistrz
 6820	Ahtrin Wielki Mistrz
-6850	Skorpion Wê¿owy
-6851	Robotnik Wê¿owy
-6852	Kappa Wê¿owy
-6853	¯o³nierz Wê¿owy
-6854	RzeŸnik Wê¿owy
-6855	Potê¿ny Wojownik Wê¿owy
-6856	Królowa Wê¿y Nethis
+6850	Skorpion WÄ™Å¼owy
+6851	Robotnik WÄ™Å¼owy
+6852	Kappa WÄ™Å¼owy
+6853	Å»oÅ‚nierz WÄ™Å¼owy
+6854	RzeÂŸnik WÄ™Å¼owy
+6855	PotÄ™Å¼ny Wojownik WÄ™Å¼owy
+6856	KrÃ³lowa WÄ™Å¼y Nethis
 6860	Mistrz Miecza Jin
-6861	Mistrz W³óczni Ki
-6862	Mistrz W³óczni Mao
-6863	£ucznik Gong
+6861	Mistrz WÅ‚Ã³czni Ki
+6862	Mistrz WÅ‚Ã³czni Mao
+6863	Åucznik Gong
 6864	Mistrz Miecza Kao
 6865	Mistrz Miecza Jin
-6866	Mistrz W³óczni Ki
-6867	Mistrz W³óczni Mao
-6868	£ucznik Gong
+6866	Mistrz WÅ‚Ã³czni Ki
+6867	Mistrz WÅ‚Ã³czni Mao
+6868	Åucznik Gong
 6869	Mistrz Miecza Kao
 6870	Tajemniczy Mnich
 6871	Tajemniczy Mnich
-6875	Ska¿ony ¯o³nierz
-6876	Ska¿ony Zadziora
-6877	Ska¿ony Wojownik
-6878	Ska¿ony Mnich
-6879	Ska¿ony Genera³
-6880	Ska¿ony Wódz
-6881	Ska¿ony Wódz Wojenny
-6882	Zamarzniêty Lis
-6883	Zamarzniêty Zwiadowca
-6884	Zamarzniêty Wojownik
-6885	Zamarzniêty £owca
-6886	Zamarzniêty Genera³
-6887	Zamarzniêty Wódz
-6888	Zamarzniêty Wódz Wojenny
-6889	Opêtany MroŸny Jeleñ
-6890	Opêtany Œnie¿ny Leopard
-6891	Yeti P³n. Wiatru
-6892	Duch P³n. Wiatru
-6893	Golem P³n. Wiatru
+6875	SkaÅ¼ony Å»oÅ‚nierz
+6876	SkaÅ¼ony Zadziora
+6877	SkaÅ¼ony Wojownik
+6878	SkaÅ¼ony Mnich
+6879	SkaÅ¼ony GeneraÅ‚
+6880	SkaÅ¼ony WÃ³dz
+6881	SkaÅ¼ony WÃ³dz Wojenny
+6882	ZamarzniÄ™ty Lis
+6883	ZamarzniÄ™ty Zwiadowca
+6884	ZamarzniÄ™ty Wojownik
+6885	ZamarzniÄ™ty Åowca
+6886	ZamarzniÄ™ty GeneraÅ‚
+6887	ZamarzniÄ™ty WÃ³dz
+6888	ZamarzniÄ™ty WÃ³dz Wojenny
+6889	OpÄ™tany MroÂŸny JeleÅ„
+6890	OpÄ™tany ÂŒnieÅ¼ny Leopard
+6891	Yeti PÅ‚n. Wiatru
+6892	Duch PÅ‚n. Wiatru
+6893	Golem PÅ‚n. Wiatru
 6894	Wielka Stopa
-6895	Wódz Wojenny P³n. Wiatru
-7001	Goryli ¯o³nierz
-7002	Goryli JeŸdziec
-7003	Gimu Ma³pi ¯o³nierz
-7004	Ma³pi Dowódca
+6895	WÃ³dz Wojenny PÅ‚n. Wiatru
+7001	Goryli Å»oÅ‚nierz
+7002	Goryli JeÂŸdziec
+7003	Gimu MaÅ‚pi Å»oÅ‚nierz
+7004	MaÅ‚pi DowÃ³dca
 7005	Kam. Goryl
-7006	Z³oty Goryl
-7007	Goryl Genera³
+7006	ZÅ‚oty Goryl
+7007	Goryl GeneraÅ‚
 7008	Robotnik Tu-Gui
-7009	¯o³nierz Tu-Gui
-7010	Bia³y Komandor Tu-Gui
+7009	Å»oÅ‚nierz Tu-Gui
+7010	BiaÅ‚y Komandor Tu-Gui
 7012	Bi-Ma-Gui-An
-7013	Król Skorpion
-7014	M¹dry Cz³owiek Skorpion
-7015	Skorpion £ucznik
-7016	Wê¿owy Wojownik Miecza
-7017	Wê¿owy £ucznik
+7013	KrÃ³l Skorpion
+7014	MÅ¡dry CzÅ‚owiek Skorpion
+7015	Skorpion Åucznik
+7016	WÄ™Å¼owy Wojownik Miecza
+7017	WÄ™Å¼owy Åucznik
 7018	Pustynny Zawadiaka
-7019	¯o³nierz Tu-ji
+7019	Å»oÅ‚nierz Tu-ji
 7020	Hwa-ryung
 7021	Tu-Ji Bum
 7022	Cham-Ma
@@ -1219,79 +1219,79 @@ Vnum	LocalizedName
 7026	Juk-Mok
 7027	Hwaryu Juk
 7028	Czarny Juk-Guimok
-7029	Lodowy Diabe³
+7029	Lodowy DiabeÅ‚
 7030	Rogaty Zab. Wieloryb
 7031	Lodowy Robak
 7032	Seol-Gu
-7033	Lodowy Cz³owiek
+7033	Lodowy CzÅ‚owiek
 7034	Lodowy Gigant
 7035	Lodowy Golem
-7036	Lodowy Diabe³
+7036	Lodowy DiabeÅ‚
 7037	Rogaty Zab. Wieloryb
 7038	Lodowy Robak
 7039	Seol-Gu
-7040	Lodowy Cz³owiek
+7040	Lodowy CzÅ‚owiek
 7041	Lodowy Gigant
 7042	Lodowy Golem
-7043	Lodowy Diabe³
+7043	Lodowy DiabeÅ‚
 7044	Rogaty Zab. Wieloryb
 7045	Lodowy Robak
 7046	Seol-Gu
-7047	Lodowy Cz³owiek
+7047	Lodowy CzÅ‚owiek
 7048	Lodowy Gigant
 7049	Lodowy Golem
 7050	Pustynne Lataj. Oko
-7051	Król Skorpion
-7052	M³ody Cz³owiek Skorpion
-7053	Skorpion £ucznik
-7054	Wê¿owy Miecznik
-7055	Wê¿owy £ucznik
+7051	KrÃ³l Skorpion
+7052	MÅ‚ody CzÅ‚owiek Skorpion
+7053	Skorpion Åucznik
+7054	WÄ™Å¼owy Miecznik
+7055	WÄ™Å¼owy Åucznik
 7056	Pustynny Zawadiaka
 7057	Pustynne Lataj. Oko
-7058	Król Skorpion
-7059	M³ody Cz³owiek Skorpion
-7060	Skorpion £ucznik
-7061	Wê¿owy Miecznik
-7062	Wê¿owy £ucznik
+7058	KrÃ³l Skorpion
+7059	MÅ‚ody CzÅ‚owiek Skorpion
+7060	Skorpion Åucznik
+7061	WÄ™Å¼owy Miecznik
+7062	WÄ™Å¼owy Åucznik
 7063	Pustynny Zawadiaka
 7064	Pustynne Lataj. Oko
-7065	Król Skorpion
-7066	M³ody Cz³owiek Skorpion
-7067	Skorpion £ucznik
-7068	Wê¿owy Miecznik
-7069	Wê¿owy £ucznik
+7065	KrÃ³l Skorpion
+7066	MÅ‚ody CzÅ‚owiek Skorpion
+7067	Skorpion Åucznik
+7068	WÄ™Å¼owy Miecznik
+7069	WÄ™Å¼owy Åucznik
 7070	Pustynny Zawadiaka
-7071	S³uga Walcz¹cego Tygr.
-7072	Duch P³omienia
-7073	Walcz¹ce Tygrysy
-7074	Ogieñ
+7071	SÅ‚uga WalczÅ¡cego Tygr.
+7072	Duch PÅ‚omienia
+7073	WalczÅ¡ce Tygrysy
+7074	OgieÅ„
 7075	Ognisty Wojownik
-7076	S³uga Walcz¹cego Tygr.
-7077	Duch P³omienia
-7078	Walcz¹ce Tygrysy
-7079	Ogieñ
+7076	SÅ‚uga WalczÅ¡cego Tygr.
+7077	Duch PÅ‚omienia
+7078	WalczÅ¡ce Tygrysy
+7079	OgieÅ„
 7080	Ognisty Wojownik
-7081	S³uga Walcz¹cego Tygr.
-7082	Duch P³omienia
-7083	Walcz¹ce Tygrysy
-7084	Ogieñ
+7081	SÅ‚uga WalczÅ¡cego Tygr.
+7082	Duch PÅ‚omienia
+7083	WalczÅ¡ce Tygrysy
+7084	OgieÅ„
 7085	Ognisty Wojownik
-7086	Pniak Drzewa Duchów
+7086	Pniak Drzewa DuchÃ³w
 7087	Driada
 7088	Duch Wierzby
-7089	Z³e Drzewo
-7090	Pniak Drzewa Duchów
+7089	ZÅ‚e Drzewo
+7090	Pniak Drzewa DuchÃ³w
 7091	Driada
 7092	Duch Wierzby
-7093	Z³e Drzewo
-7094	Pniak Drzewa Duchów
+7093	ZÅ‚e Drzewo
+7094	Pniak Drzewa DuchÃ³w
 7095	Driada
 7096	Duch Wierzby
-7101	Dzia³o
-7102	Dzia³o
-7103	Katapulta Strza³
-7104	Katapulta Strza³
-7105	Wie¿a
+7101	DziaÅ‚o
+7102	DziaÅ‚o
+7103	Katapulta StrzaÅ‚
+7104	Katapulta StrzaÅ‚
+7105	WieÅ¼a
 7106	Palenisko
 7107	Palenisko
 7108	Palenisko
@@ -1304,109 +1304,109 @@ Vnum	LocalizedName
 7115	Charly
 7116	Nini
 7117	Zulu
-7118	Ma³piszon Deka
-7119	Ma³piszon Oba
-7120	Król Keung
+7118	MaÅ‚piszon Deka
+7119	MaÅ‚piszon Oba
+7120	KrÃ³l Keung
 7121	Kiros
 7122	Manchu
 7123	Sgok
 7124	Indrik
-7550	Wilk Piekielnej Wie¿y
-7551	Zbir Piekielnej Wie¿y
-7552	Berserk Piekielnej Wie¿y
-7553	WiedŸmin Piek. Wie¿y
-7554	RzeŸnik Piekielnej Wie¿y
-7555	Wó¿bit Piekielnej Wie¿y
-7556	Wielki Mistrz P. Wie¿y
-7557	Wilk Piekielnej Wie¿y
-7558	Zbir Piekielnej Wie¿y
-7559	Berserk Piekielnej Wie¿y
-7560	WiedŸmin Piek. Wie¿y
-7561	RzeŸnik Piekielnej Wie¿y
-7562	Wó¿bit Piekielnej Wie¿y
-7563	Wielki Mistrz P. Wie¿y
-7564	Wilk Piekielnej Wie¿y
-7565	Zbir Piekielnej Wie¿y
-7566	Berserk Piekielnej Wie¿y
-7567	WiedŸmin Piek. Wie¿y
-7568	RzeŸnik Piekielnej Wie¿y
-7569	Wó¿bit Piekielnej Wie¿y
-7570	Wielki Mistrz P. Wie¿y
-7571	Wilk Piekielnej Wie¿y
-7572	Zbir Piekielnej Wie¿y
-7573	Berserk Piekielnej Wie¿y
-7574	WiedŸmin Piek. Wie¿y
-7575	RzeŸnik Piekielnej Wie¿y
-7576	Wó¿bit Piekielnej Wie¿y
-7577	Wielki Mistrz P. Wie¿y
-7578	Wilk Piekielnej Wie¿y
-7579	Zbir Piekielnej Wie¿y
-7580	Berserk Piekielnej Wie¿y
-7581	WiedŸmin Piek. Wie¿y
-7582	RzeŸnik Piekielnej Wie¿y
-7583	Wó¿bit Piekielnej Wie¿y
-7584	Wielki Mistrz P. Wie¿y
-7585	Wilk Piekielnej Wie¿y
-7586	Zbir Piekielnej Wie¿y
-7587	Berserk Piekielnej Wie¿y
-7588	WiedŸmin Piek. Wie¿y
-7589	RzeŸnik Piekielnej Wie¿y
-7590	Wó¿bit Piekielnej Wie¿y
-7591	Wielki Mistrz P. Wie¿y
-7592	Niszczyciel P. Wie¿y
-7593	Niszczyciel P. Wie¿y
-7594	Demon. Kamieñ P. Wie¿y
-7595	£ucznika P. Wie¿y
-7600	Kamieñ Duchowy P. Wie¿y
-7609	Czarnoksiê¿nik P. Wie¿y
-7610	Ksi¹¿ê Piekielnej Wie¿y
-7611	Ksi¹¿ê Piekielnej Wie¿y
-7612	Ksi¹¿ê Œmierci P. Wie¿y
-7613	Ksi¹¿ê Œmierci P. Wie¿y
-7614	Czarnoksiê¿nik P. Wie¿y
-7615	Wilk Piekielnej Wie¿y
-7616	Zbir Piekielnej Wie¿y
-7617	RzeŸnik Piekielnej Wie¿y
-7618	RzeŸnik Piekielnej Wie¿y
-7619	Berserk Piekielnej Wie¿y
-7620	WiedŸmin Piek. Wie¿y
+7550	Wilk Piekielnej WieÅ¼y
+7551	Zbir Piekielnej WieÅ¼y
+7552	Berserk Piekielnej WieÅ¼y
+7553	WiedÂŸmin Piek. WieÅ¼y
+7554	RzeÂŸnik Piekielnej WieÅ¼y
+7555	WÃ³Å¼bit Piekielnej WieÅ¼y
+7556	Wielki Mistrz P. WieÅ¼y
+7557	Wilk Piekielnej WieÅ¼y
+7558	Zbir Piekielnej WieÅ¼y
+7559	Berserk Piekielnej WieÅ¼y
+7560	WiedÂŸmin Piek. WieÅ¼y
+7561	RzeÂŸnik Piekielnej WieÅ¼y
+7562	WÃ³Å¼bit Piekielnej WieÅ¼y
+7563	Wielki Mistrz P. WieÅ¼y
+7564	Wilk Piekielnej WieÅ¼y
+7565	Zbir Piekielnej WieÅ¼y
+7566	Berserk Piekielnej WieÅ¼y
+7567	WiedÂŸmin Piek. WieÅ¼y
+7568	RzeÂŸnik Piekielnej WieÅ¼y
+7569	WÃ³Å¼bit Piekielnej WieÅ¼y
+7570	Wielki Mistrz P. WieÅ¼y
+7571	Wilk Piekielnej WieÅ¼y
+7572	Zbir Piekielnej WieÅ¼y
+7573	Berserk Piekielnej WieÅ¼y
+7574	WiedÂŸmin Piek. WieÅ¼y
+7575	RzeÂŸnik Piekielnej WieÅ¼y
+7576	WÃ³Å¼bit Piekielnej WieÅ¼y
+7577	Wielki Mistrz P. WieÅ¼y
+7578	Wilk Piekielnej WieÅ¼y
+7579	Zbir Piekielnej WieÅ¼y
+7580	Berserk Piekielnej WieÅ¼y
+7581	WiedÂŸmin Piek. WieÅ¼y
+7582	RzeÂŸnik Piekielnej WieÅ¼y
+7583	WÃ³Å¼bit Piekielnej WieÅ¼y
+7584	Wielki Mistrz P. WieÅ¼y
+7585	Wilk Piekielnej WieÅ¼y
+7586	Zbir Piekielnej WieÅ¼y
+7587	Berserk Piekielnej WieÅ¼y
+7588	WiedÂŸmin Piek. WieÅ¼y
+7589	RzeÂŸnik Piekielnej WieÅ¼y
+7590	WÃ³Å¼bit Piekielnej WieÅ¼y
+7591	Wielki Mistrz P. WieÅ¼y
+7592	Niszczyciel P. WieÅ¼y
+7593	Niszczyciel P. WieÅ¼y
+7594	Demon. KamieÅ„ P. WieÅ¼y
+7595	Åucznika P. WieÅ¼y
+7600	KamieÅ„ Duchowy P. WieÅ¼y
+7609	CzarnoksiÄ™Å¼nik P. WieÅ¼y
+7610	KsiÅ¡Å¼Ä™ Piekielnej WieÅ¼y
+7611	KsiÅ¡Å¼Ä™ Piekielnej WieÅ¼y
+7612	KsiÅ¡Å¼Ä™ ÂŒmierci P. WieÅ¼y
+7613	KsiÅ¡Å¼Ä™ ÂŒmierci P. WieÅ¼y
+7614	CzarnoksiÄ™Å¼nik P. WieÅ¼y
+7615	Wilk Piekielnej WieÅ¼y
+7616	Zbir Piekielnej WieÅ¼y
+7617	RzeÂŸnik Piekielnej WieÅ¼y
+7618	RzeÂŸnik Piekielnej WieÅ¼y
+7619	Berserk Piekielnej WieÅ¼y
+7620	WiedÂŸmin Piek. WieÅ¼y
 8001	Metin Cierpienia
 8002	Metin Walki
 8003	Metin Bitwy
-8004	Metin Chciwoœci
+8004	Metin ChciwoÂœci
 8005	Metin Czerni
-8006	Metin Ciemnoœci
-8007	Metin Zazdroœci
+8006	Metin CiemnoÂœci
+8007	Metin ZazdroÂœci
 8008	Metin Duszy
 8009	Metin Cienia
-8010	Metin Twardoœci
-8011	Metin Diab³a
+8010	Metin TwardoÂœci
+8011	Metin DiabÅ‚a
 8012	Metin Upadku
-8013	Metin Œmierci
+8013	Metin ÂŒmierci
 8014	Metin Morderstwa
-8015	Metin Twardoœci
-8016	Metin Diab³a
+8015	Metin TwardoÂœci
+8016	Metin DiabÅ‚a
 8017	Metin Upadku
-8018	Metin Œmierci
+8018	Metin ÂŒmierci
 8019	Metin Morderstwa
-8020	Kamieñ Shinsoo
-8021	Kamieñ Jinno
-8022	Kamieñ Chunjo
-8023	Kamieñ Imperialny
+8020	KamieÅ„ Shinsoo
+8021	KamieÅ„ Jinno
+8022	KamieÅ„ Chunjo
+8023	KamieÅ„ Imperialny
 8024	Metin Pung-Ma
 8025	Metin Ma-An
 8026	Metin Tu-Young
 8027	Metin Jeon-Un
-8031	Metin Góry
+8031	Metin GÃ³ry
 8032	Metin Zemsty
-8033	Metin Samotnoœci
+8033	Metin SamotnoÂœci
 8034	Metin Pychy
 8035	Metin Zbawienia
 8036	Metin Zdrady
 8037	Metin Rozgoryczenia
 8038	Metin Odwetu
 8039	Metin Dumy
-8040	Metin Zawiœci
+8040	Metin ZawiÂœci
 8041	Wielkanocny Metin
 8042	Wielkanocny Metin
 8043	Wielkanocny Metin
@@ -1418,117 +1418,117 @@ Vnum	LocalizedName
 8049	Wielkanocny Metin
 8050	Wielkanocny Metin
 8051	Metin Mroku
-8052	Metin ¯aru
-8053	Metin Pró¿noœci
+8052	Metin Å»aru
+8053	Metin PrÃ³Å¼noÂœci
 8054	Metin Gniewu
-8055	Metin Nieszczêœcia
-8056	Metin Pod³oœci
+8055	Metin NieszczÄ™Âœcia
+8056	Metin PodÅ‚oÂœci
 8057	Metin Purgatorium
-8058	Metin Ch³odu
-8059	Metin Drzewnych Stworzeñ
+8058	Metin ChÅ‚odu
+8059	Metin Drzewnych StworzeÅ„
 8060	Dyniowy Metin
 8061	Metin Lasu
-8062	Metin Œwiadomoœæ (misja)
+8062	Metin ÂŒwiadomoÂœÄ‡ (misja)
 8063	Metin Szacunku
-8064	Metin Uwa¿noœci
+8064	Metin UwaÅ¼noÂœci
 8065	Metin Jin
 8066	Metin Shiho
-8067	Metin Œwiadomoœæ
-8068	Metin Wê¿owy Ognia
-8069	Metin Wê¿owy Lodu
-8070	Metin Wê¿owy Wiatru
-8071	Metin Wê¿owy Ziemi
-8072	Bia³e Jajo Smoka (s³aby)
-8073	Bia³e Jajo Smoka (silny)
-8075	Metin Wê¿owy Czasu
-8076	Metin Wê¿owy Przestrzeni
+8067	Metin ÂŒwiadomoÂœÄ‡
+8068	Metin WÄ™Å¼owy Ognia
+8069	Metin WÄ™Å¼owy Lodu
+8070	Metin WÄ™Å¼owy Wiatru
+8071	Metin WÄ™Å¼owy Ziemi
+8072	BiaÅ‚e Jajo Smoka (sÅ‚aby)
+8073	BiaÅ‚e Jajo Smoka (silny)
+8075	Metin WÄ™Å¼owy Czasu
+8076	Metin WÄ™Å¼owy Przestrzeni
 8077	Metin z Gumar
 8101	Metin Cierpienia
 8102	Metin Walki
 8103	Metin Bitwy
-8104	Metin Chciwoœci
+8104	Metin ChciwoÂœci
 8105	Metin Czerni
-8106	Metin Ciemnoœci
-8107	Metin Zazdroœci
+8106	Metin CiemnoÂœci
+8107	Metin ZazdroÂœci
 8108	Metin Duszy
 8109	Metin Cienia
-8110	Metin Twardoœci
-8111	Metin Diab³a
+8110	Metin TwardoÂœci
+8111	Metin DiabÅ‚a
 8112	Metin Upadku
-8113	Metin Œmierci
+8113	Metin ÂŒmierci
 8114	Metin Morderstwa
-8115	Metin Ksiê¿yca
-8120	SZC: Metin Góry
+8115	Metin KsiÄ™Å¼yca
+8120	SZC: Metin GÃ³ry
 8121	SZC: Metin Zemsty
-8122	SZC: Metin Samotnoœci
+8122	SZC: Metin SamotnoÂœci
 8123	SZC: Metin Pychy
 8124	SZC: Metin Purgatorium
-8125	SZC: Metin Ch³odu
-8126	SZC: Metin Drz. Stworzeñ
+8125	SZC: Metin ChÅ‚odu
+8126	SZC: Metin Drz. StworzeÅ„
 8127	SZC: Metin Lasu
-8130	PB: Metin Góry
+8130	PB: Metin GÃ³ry
 8131	PB : Metin Zemsty
-8132	PB: Metin Samotnoœci
+8132	PB: Metin SamotnoÂœci
 8133	PB: Metin Pychy
 8134	PB: Metin Purgatorium
-8135	PB: Metin Ch³odu
-8136	PB: Metin Drz. Stworzeñ
+8135	PB: Metin ChÅ‚odu
+8136	PB: Metin Drz. StworzeÅ„
 8137	PB: Metin Lasu
-8200	Czekoladowy Kamieñ Metin
-8201	Czekoladowy Kamieñ Metin
-8203	Metin Olœnienia
+8200	Czekoladowy KamieÅ„ Metin
+8201	Czekoladowy KamieÅ„ Metin
+8203	Metin OlÂœnienia
 8204	Wielkanocny Metin
 8205	Wielkanocny Metin
 8206	Wielkanocny Metin
 8501	Dziki Pies
 8502	Dzik
-8503	NiedŸwiedŸ
-8504	Bia³y Tygrys
+8503	NiedÂŸwiedÂŸ
+8504	BiaÅ‚y Tygrys
 8505	Czar. Olbrzymi Ork
-8506	Drzewny ¯abi Przyw.
+8506	Drzewny Å»abi Przyw.
 8507	Pustynny Zawadiaka
-8508	Ezot. Drêczyciel
+8508	Ezot. DrÄ™czyciel
 8509	Ezot. Przyzywacz
 8510	Ognisty Wojownik
 8511	Lodowy Golem
-8600	¿õ±Í´ëÁ·Àå
-8601	¿õ±Í´ëÁ·Àå
-8602	¹Ğ±³´ëÁÖ±³
-8603	¹Ğ±³´ëÁÖ±³
-8604	¸í»ç±Í¿Õ
-8605	¸í»ç±Í¿Õ
-8606	»ç½Å
-8607	»ç½Å
-8608	±¸¹ÌÈ£
-8609	±¸¹ÌÈ£
-8610	´©··Åõ¹ü±Í
-8611	´©··Åõ¹ü±Í
-8612	¿©¿Õ°Å¹Ì
-8613	¿©¿Õ°Å¹Ì
-8614	°Å´ë»ç¸·°ÅºÏ
-8615	°Å´ë»ç¸·°ÅºÏ
+8600	Å¼Å‘Ä…ÃÂ´Ã«ÃË‡Å”Äº
+8601	Å¼Å‘Ä…ÃÂ´Ã«ÃË‡Å”Äº
+8602	Å¡ÄÄ…Å‚Â´Ã«ÃÃ–Ä…Å‚
+8603	Å¡ÄÄ…Å‚Â´Ã«ÃÃ–Ä…Å‚
+8604	Â¸Ã­Å¥Ã§Ä…ÃÅ¼Å
+8605	Â¸Ã­Å¥Ã§Ä…ÃÅ¼Å
+8606	Å¥Ã§ËÄ¹
+8607	Å¥Ã§ËÄ¹
+8608	Ä…Â¸Å¡ÄšÄŒÅ
+8609	Ä…Â¸Å¡ÄšÄŒÅ
+8610	Â´Å Ë‡Ë‡Ä¹Å‘Å¡Ã¼Ä…Ã
+8611	Â´Å Ë‡Ë‡Ä¹Å‘Å¡Ã¼Ä…Ã
+8612	Å¼Å Å¼ÅÂ°Ä¹Å¡Äš
+8613	Å¼Å Å¼ÅÂ°Ä¹Å¡Äš
+8614	Â°Ä¹Â´Ã«Å¥Ã§Â¸Ë‡Â°Ä¹ÅŸÄ
+8615	Â°Ä¹Â´Ã«Å¥Ã§Â¸Ë‡Â°Ä¹ÅŸÄ
 8616	Billy Loomis
 8617	Jack Torrance
 8618	Chucky
 8619	Zep Hindle
 8620	Jason
 8621	Michael Myers
-8622	Freddy Krüger
-8623	Skórzana Twarz
+8622	Freddy KrÃ¼ger
+8623	SkÃ³rzana Twarz
 8625	Posterunek Trolli
 8626	1. Posterunek Myr
 8627	2. Posterunek Myr
-9001	Handlarz Broni¹
+9001	Handlarz BroniÅ¡
 9002	Handlarz Zbrojami
-9003	Handlarka Ró¿noœci
-9004	Pomocnik Zdarzeñ
+9003	Handlarka RÃ³Å¼noÂœci
+9004	Pomocnik ZdarzeÅ„
 9005	Dozorca
 9006	Starsza Pani
-9007	Handlarz Broni¹
+9007	Handlarz BroniÅ¡
 9008	Handlarz Zbrojami
 9009	Rybak
 9010	Helen Z Magazynu
-9011	Hana Org. Œlubów
+9011	Hana Org. ÂŒlubÃ³w
 9012	Teleporter
 9013	Handlarka Iluzji
 9014	Handlarka
@@ -1537,10 +1537,10 @@ Vnum	LocalizedName
 20472	Statua Szczeliny Czasu
 20473	Statua Fabryki Broni
 20474	Statua Kowala Zbroi
-20475	Œwiêty Kowal Zestawu
-20476	Okaza³y Kowal Zestawu
+20475	ÂŒwiÄ™ty Kowal Zestawu
+20476	OkazaÅ‚y Kowal Zestawu
 20477	Rycerski Kowal Zestawu
-20478	Ksi¹¿êcy Kowal Zestawu
+20478	KsiÅ¡Å¼Ä™cy Kowal Zestawu
 20479	Majest. Kowal Zestawu
 20480	Dyspozytorka Handlowa
 20481	Dyspozytorka Handlowa
@@ -1556,107 +1556,107 @@ Vnum	LocalizedName
 10010	Obszar_Bokjun 1759 2210
 10011	Obszar_Pyungmo 9343 3143
 10012	Obszar_Bakra 8348 2926
-10013	Œwi¹t._Hwang 5536 1441
+10013	ÂŒwiÅ¡t._Hwang 5536 1441
 10014	Seungryong 3326 7468
 10015	Pust._Yongbi 3467 6329
 10016	Kuahlo_Dong 600 4960
-10017	Œwi¹t._Hwang 5906 1102
-10018	Wie¿a_Gumsan 2165 7270
+10017	ÂŒwiÅ¡t._Hwang 5906 1102
+10018	WieÅ¼a_Gumsan 2165 7270
 10019	Obszar_Yayang 3211 9009
 10020	Jungrang 1356 43
 10021	Obszar_Bokjun 1168 2920
 10022	Waryong 2219 93
 10023	Obszar_Bakra 9098 2948
 10024	Imha 2718 130
-10025	Góra_Sohan 4993 2984
+10025	GÃ³ra_Sohan 4993 2984
 10026	Lungsam 2887 57
 10027	Lungsam 2866 437
 10028	Czerw._Las 11199 708
-10029	Wê¿owe_Pole 10590 7262
+10029	WÄ™Å¼owe_Pole 10590 7262
 10030	Pust._Yongbi 3519 6223
-10031	Wê¿owe_Pole 10590 7262
-10032	KrainaGigantów 8283 7635
+10031	WÄ™Å¼owe_Pole 10590 7262
+10032	KrainaGigantÃ³w 8283 7635
 10033	Zin-Grotto 10594 7525
 10034	2_Zin-Grotto 10594 7525
 10035	Deon-Zeon 917 5253
 10036	2_Deon-Zeon 7041 4642
-10037	ÀÚ¾çÇö 3809 8233
-10038	½Å¼ö¼º 9752 1330
-10039	º¹Á¤Çö 1917 2900
-10040	Áø³ë¼º 9239 1836
-10041	¹Ú¶óÇö 8316 2154
-10042	ÃµÁ¶¼º 9772 1850
-10043	¼­ÇÑ»ê 3819 2969
-10044	½Å¼ö¼º 10189 1484
-10045	¼­ÇÑ»ê 3819 2969
-10046	½Å¼ö¼º 9774 1501
-10047	½Â·æ°î 2699 6752
-10048	Áø³ë¼º 9679 1994
-10049	½Â·æ°î 2699 6752
-10050	Áø³ë¼º 9256 2012
-10051	¿µºñ»ç¸· 3478 6189
-10052	ÃµÁ¶¼º 9780 1995
-10053	¿µºñ»ç¸· 3478 6189
-10054	ÃµÁ¶¼º 10190 2002
-10055	µµ¿°È­Áö 6011 6874
-10056	¼­ÇÑ»ê 4368 2158
-10057	½Â·æ°î 3355 7558
-10058	¹Ğ±³»ç¿ø 5943 1337
-10059	¼­ÇÑ»ê 0 10496
-10060	¹Ğ±³»ç¿ø 1536 10496
+10037	Å”ÃšÅ¾Ã§Ã‡Ã¶ 3809 8233
+10038	ËÄ¹ÅºÃ¶ÅºÅŸ 9752 1330
+10039	ÅŸÅ¡ÃÂ¤Ã‡Ã¶ 1917 2900
+10040	ÃÅ™Å‚Ã«ÅºÅŸ 9239 1836
+10041	Å¡ÃšÅ›Ã³Ã‡Ã¶ 8316 2154
+10042	Ä‚Ä¾ÃÅ›ÅºÅŸ 9772 1850
+10043	ÅºÂ­Ã‡ÅƒÅ¥Ä™ 3819 2969
+10044	ËÄ¹ÅºÃ¶ÅºÅŸ 10189 1484
+10045	ÅºÂ­Ã‡ÅƒÅ¥Ä™ 3819 2969
+10046	ËÄ¹ÅºÃ¶ÅºÅŸ 9774 1501
+10047	ËÃ‚Ë‡Ä‡Â°Ã® 2699 6752
+10048	ÃÅ™Å‚Ã«ÅºÅŸ 9679 1994
+10049	ËÃ‚Ë‡Ä‡Â°Ã® 2699 6752
+10050	ÃÅ™Å‚Ã«ÅºÅŸ 9256 2012
+10051	Å¼Ä¾ÅŸÅ„Å¥Ã§Â¸Ë‡ 3478 6189
+10052	Ä‚Ä¾ÃÅ›ÅºÅŸ 9780 1995
+10053	Å¼Ä¾ÅŸÅ„Å¥Ã§Â¸Ë‡ 3478 6189
+10054	Ä‚Ä¾ÃÅ›ÅºÅŸ 10190 2002
+10055	Ä¾Ä¾Å¼Â°ÄŒÂ­ÃÃ¶ 6011 6874
+10056	ÅºÂ­Ã‡ÅƒÅ¥Ä™ 4368 2158
+10057	ËÃ‚Ë‡Ä‡Â°Ã® 3355 7558
+10058	Å¡ÄÄ…Å‚Å¥Ã§Å¼Å™ 5943 1337
+10059	ÅºÂ­Ã‡ÅƒÅ¥Ä™ 0 10496
+10060	Å¡ÄÄ…Å‚Å¥Ã§Å¼Å™ 1536 10496
 10061	Ognista_Ziemia 4608 10496
-10062	½Â·æ°î 6144 10496
-10063	±Í¸ñ¸² 3031 266
-10064	Àû±Í¸ñ¸² 11133 534
-10065	½Å±Í¸ñ¸² 7754 10553
-10066	½ÅÀû±Í¸ñ¸² 9915 11195
-10067	Loch_Ma³p 7752 4477
+10062	ËÃ‚Ë‡Ä‡Â°Ã® 6144 10496
+10063	Ä…ÃÂ¸Å„Â¸Ë› 3031 266
+10064	Å”Å±Ä…ÃÂ¸Å„Â¸Ë› 11133 534
+10065	ËÄ¹Ä…ÃÂ¸Å„Â¸Ë› 7754 10553
+10066	ËÄ¹Å”Å±Ä…ÃÂ¸Å„Â¸Ë› 9915 11195
+10067	Loch_MaÅ‚p 7752 4477
 10068	Obszar_Yayang 4062 8756
-10069	Loch_Ma³p 8520 4477
+10069	Loch_MaÅ‚p 8520 4477
 10070	Obszar_Bokjung 1611 2130
-10071	Loch_Ma³p 9288 4477
+10071	Loch_MaÅ‚p 9288 4477
 10072	Obszar_Bakra 8727 2100
 10073	Pust._Yongbi 3061 6202
-10074	Loch_Ma³p 1352 6532
+10074	Loch_MaÅ‚p 1352 6532
 10075	Pust._Yongbi 2879 5407
-10076	Loch_Ma³p 1352 7300
-10077	Grota_Wygnañców 9 12078
-10078	½Â·æ°î 2842 8106
+10076	Loch_MaÅ‚p 1352 7300
+10077	Grota_WygnaÅ„cÃ³w 9 12078
+10078	ËÃ‚Ë‡Ä‡Â°Ã® 2842 8106
 10079	Grota1 1459 13236
 10080	Grota2 2413 12755
-10081	ÃµÀÇµ¿±¼1Ãş 99 13618
-10082	¿µ¾ÈÀ¾¼º 5028 9998
-10083	ÃµÀÇµ¿±¼1Ãş 1360 14972
-10084	ÃµÀÇµ¿±¼2Ãş 2414 14289
-10085	ÃµÀÇµ¿±¼1Ãş 99 15154
-10086	Á¶¾ÈÀ¾¼º 616 1148
-10087	ÃµÀÇµ¿±¼1Ãş 1360 16508
-10088	ÃµÀÇµ¿±¼2Ãş 2414 15825
-10089	ÃµÀÇµ¿±¼1Ãş 99 16690
-10090	Æò¹«À¾¼º 9609 3188
-10091	ÃµÀÇµ¿±¼1Ãş 1360 18044
-10092	ÃµÀÇµ¿±¼2Ãş 2414 17361
+10081	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº1Ä‚Å£ 99 13618
+10082	Å¼Ä¾Å¾ÄŒÅ”Å¾ÅºÅŸ 5028 9998
+10083	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº1Ä‚Å£ 1360 14972
+10084	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº2Ä‚Å£ 2414 14289
+10085	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº1Ä‚Å£ 99 15154
+10086	ÃÅ›Å¾ÄŒÅ”Å¾ÅºÅŸ 616 1148
+10087	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº1Ä‚Å£ 1360 16508
+10088	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº2Ä‚Å£ 2414 15825
+10089	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº1Ä‚Å£ 99 16690
+10090	Ä†ÅˆÅ¡Å¤Å”Å¾ÅºÅŸ 9609 3188
+10091	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº1Ä‚Å£ 1360 18044
+10092	Ä‚Ä¾Å”Ã‡Ä¾Å¼Ä…Åº2Ä‚Å£ 2414 17361
 10093	Smocza_Brama 1731 12205
 10094	Smocza_Brama 1733 13743
 10095	Smocza_Brama 1728 15277
 10096	Smocza_Brama 1724 16824
 10097	SD2 7040 5235
 10098	SD3 984 5711
-10099	Przyl¹dek 11043 17885
-10100	Przyl¹dek 10963 16744
+10099	PrzylÅ¡dek 11043 17885
+10100	PrzylÅ¡dek 10963 16744
 10101	Nefr.Zatoka 10869 16558
-10102	Przyl¹dek 11664 16779
-10103	GromisteGóry 11345 16546
-10104	Grom.Góry 11921 16550
+10102	PrzylÅ¡dek 11664 16779
+10103	GromisteGÃ³ry 11345 16546
+10104	Grom.GÃ³ry 11921 16550
 10105	Gautama 12263 16811
-10106	³ì¸²Áö 8168 15050
+10106	Å‚Ä›Â¸Ë›ÃÃ¶ 8168 15050
 10107	Dongan 10629 4767
-10109	Turniob³ysk 451 9492
-10110	Szczytob³ysk 830 9454
+10109	TurniobÅ‚ysk 451 9492
+10110	SzczytobÅ‚ysk 830 9454
 10111	Ognioturnia 1430 9616
-10112	Lodogóry 690 10169
-10113	Szczytob³ysk 1023 9623
-10114	Lodogóry 303 10113
+10112	LodogÃ³ry 690 10169
+10113	SzczytobÅ‚ysk 1023 9623
+10114	LodogÃ³ry 303 10113
 10115	Ognioszczyt 2117 9447
 10116	Ognioturnia 1720 9499
 10117	Wyspowiatr 1973 10159
@@ -1667,7 +1667,7 @@ Vnum	LocalizedName
 10122	Turniomrok 3012 9500
 10123	Ziemiopust 3069 10174
 10124	Szczytomrok 3685 9551
-10126	Wyjœcie 11622 5809
+10126	WyjÂœcie 11622 5809
 10127	Dongan 10551 4881
 10128	Seoganland 12218 4895
 10129	Namgan 12780 4411
@@ -1676,19 +1676,19 @@ Vnum	LocalizedName
 10132	Poziom3 9896 6302
 10133	Poziom1 9534 6281
 10134	Poziom2 9564 6610
-10135	Wróæ 9338 6287
-10136	Prze³êcz_Yilad 303 14147
+10135	WrÃ³Ä‡ 9338 6287
+10136	PrzeÅ‚Ä™cz_Yilad 303 14147
 10137	Namgan 13184 4735
-10138	Wyjœcie
-10139	W¹wóz_P³n.W. 1106 15997
-10140	Prze³êcz_Yilad 83 14763
+10138	WyjÂœcie
+10139	WÅ¡wÃ³z_PÅ‚n.W. 1106 15997
+10140	PrzeÅ‚Ä™cz_Yilad 83 14763
 10141	Poczekalnia 401 477
 10142	Rozpad.Dusz 1851 15786
-10143	W¹wóz_P³n.W. 247 15392
-10201	WyjdŸ
-10202	Zej.P³n.W. 11590 12181
-10203	Sch.P³n.W. 11323 13499
-10204	Wyjœcie
+10143	WÅ¡wÃ³z_PÅ‚n.W. 247 15392
+10201	WyjdÂŸ
+10202	Zej.PÅ‚n.W. 11590 12181
+10203	Sch.PÅ‚n.W. 11323 13499
+10204	WyjÂœcie
 10205	. 70 149
 10206	. 295 157
 10207	. 190 149
@@ -1707,7 +1707,7 @@ Vnum	LocalizedName
 10220	. 698 325
 10221	. 70 149
 10222	Taj.Komnata 11913 12692
-10223	Wróæ 11553 12697
+10223	WrÃ³Ä‡ 11553 12697
 10224	. 646 65
 10225	. 70 149
 10501	. 345 361
@@ -1893,36 +1893,36 @@ Vnum	LocalizedName
 10982	. 297 175
 10983	. 582 385
 10984	. 609 553
-11000	Stra¿nik Wioski
+11000	StraÅ¼nik Wioski
 11001	Egzekutor Bitewny
-11002	Stra¿nik Wioski
+11002	StraÅ¼nik Wioski
 11003	Egzekutor Bitewny
-11004	Stra¿nik Wioski
+11004	StraÅ¼nik Wioski
 11005	Egzekutor Bitewny
-11100	Stra¿nik Wioski
+11100	StraÅ¼nik Wioski
 11101	Egzekutor Bitewny
-11102	Stra¿nik Wioski
+11102	StraÅ¼nik Wioski
 11103	Egzekutor Bitewny
-11104	Stra¿nik Wioski
+11104	StraÅ¼nik Wioski
 11105	Egzekutor Bitewny
-11106	Stra¿nik Wioski
+11106	StraÅ¼nik Wioski
 11107	Egzekutor Bitewny
-11108	Stra¿nik Wioski
+11108	StraÅ¼nik Wioski
 11109	Egzekutor Bitewny
-11110	Stra¿nik Wioski
+11110	StraÅ¼nik Wioski
 11111	Egzekutor Bitewny
-11112	Stra¿nik Wioski
+11112	StraÅ¼nik Wioski
 11113	Egzekutor Bitewny
-11114	Stra¿nik Wioski
+11114	StraÅ¼nik Wioski
 11115	Egzekutor Bitewny
-11116	Stra¿nik Wioski
+11116	StraÅ¼nik Wioski
 11117	Egzekutor Bitewny
-11505	Z³ota ¯aba
-11506	Ogniak Œwietlisty
-11507	Ogniak Œwietlisty
-11508	Ogniak Œwietlisty
-11509	Ogniak Œwietlisty
-11510	Ogniak Œwietlisty
+11505	ZÅ‚ota Å»aba
+11506	Ogniak ÂŒwietlisty
+11507	Ogniak ÂŒwietlisty
+11508	Ogniak ÂŒwietlisty
+11509	Ogniak ÂŒwietlisty
+11510	Ogniak ÂŒwietlisty
 12000	Ognisko Obozowe
 13000	Drewniana Brama
 13001	Kamienna Brama
@@ -1936,36 +1936,36 @@ Vnum	LocalizedName
 14007	Warsztat
 14008	Warsztat
 14009	Warsztat
-14010	O³tarz
-14011	O³tarz
-14012	O³tarz
-14013	O³tarz
-14014	O³tarz
-14015	O³tarz
-14016	O³tarz
-14017	O³tarz
-14018	O³tarz
-14019	O³tarz
-14020	Kwatera Dowództwa
-14021	Kwatera Dowództwa
-14022	Kwatera Dowództwa
-14023	Kwatera Dowództwa
-14024	Kwatera Dowództwa
-14025	Kwatera Dowództwa
-14026	Kwatera Dowództwa
-14027	Kwatera Dowództwa
-14028	Kwatera Dowództwa
-14029	Kwatera Dowództwa
-14030	Obóz Treningowy
-14031	Obóz Treningowy
-14032	Obóz Treningowy
-14033	Obóz Treningowy
-14034	Obóz Treningowy
-14035	Obóz Treningowy
-14036	Obóz Treningowy
-14037	Obóz Treningowy
-14038	Obóz Treningowy
-14039	Obóz Treningowy
+14010	OÅ‚tarz
+14011	OÅ‚tarz
+14012	OÅ‚tarz
+14013	OÅ‚tarz
+14014	OÅ‚tarz
+14015	OÅ‚tarz
+14016	OÅ‚tarz
+14017	OÅ‚tarz
+14018	OÅ‚tarz
+14019	OÅ‚tarz
+14020	Kwatera DowÃ³dztwa
+14021	Kwatera DowÃ³dztwa
+14022	Kwatera DowÃ³dztwa
+14023	Kwatera DowÃ³dztwa
+14024	Kwatera DowÃ³dztwa
+14025	Kwatera DowÃ³dztwa
+14026	Kwatera DowÃ³dztwa
+14027	Kwatera DowÃ³dztwa
+14028	Kwatera DowÃ³dztwa
+14029	Kwatera DowÃ³dztwa
+14030	ObÃ³z Treningowy
+14031	ObÃ³z Treningowy
+14032	ObÃ³z Treningowy
+14033	ObÃ³z Treningowy
+14034	ObÃ³z Treningowy
+14035	ObÃ³z Treningowy
+14036	ObÃ³z Treningowy
+14037	ObÃ³z Treningowy
+14038	ObÃ³z Treningowy
+14039	ObÃ³z Treningowy
 14040	Piec
 14041	Piec
 14042	Piec
@@ -1985,13 +1985,13 @@ Vnum	LocalizedName
 20001	Alchemik
 20002	Aranyo
 20003	Ah-Yu
-20004	¯ebrak
+20004	Å»ebrak
 20005	Yonah
 20006	Mirine
 20007	Dozorca
 20008	Octavio
 20009	Staruszek
-20010	Domokr¹¿ca
+20010	DomokrÅ¡Å¼ca
 20011	Uriel
 20012	Yu-Rang
 20013	Rybak
@@ -2011,58 +2011,58 @@ Vnum	LocalizedName
 20027	Gillian
 20028	Brat Mirine
 20029	Kucyk
-20030	Koñ
-20031	Œwiêty Miko³aj
-20032	Œwi¹teczna Choinka
-20033	Œwi¹teczna Choinka
-20034	Œwi¹teczna Choinka
+20030	KoÅ„
+20031	ÂŒwiÄ™ty MikoÅ‚aj
+20032	ÂŒwiÅ¡teczna Choinka
+20033	ÂŒwiÅ¡teczna Choinka
+20034	ÂŒwiÅ¡teczna Choinka
 20035	Flaga
 20036	Flaga
 20037	Flaga
 20038	..
 20039	.
-20040	Agent L¹dowy
-20041	NiepokaŸny Pieszy
-20042	Wêdruj¹cy Domokr¹¿ca
+20040	Agent LÅ¡dowy
+20041	NiepokaÂŸny Pieszy
+20042	WÄ™drujÅ¡cy DomokrÅ¡Å¼ca
 20043	.
-20044	Stanley-Broñmistrz
+20044	Stanley-BroÅ„mistrz
 20045	Kowal Zbroi
 20046	Jubiler
-20047	¯y³a Diamentu
-20048	¯y³a Bursztynu
-20049	¯y³a Skamienia³. Drzewa
-20050	¯y³a Miedzi
-20051	¯y³a Srebra
-20052	¯y³a Z³ota
-20053	¯y³a Jadeitu
-20054	¯y³a Ebonitu
+20047	Å»yÅ‚a Diamentu
+20048	Å»yÅ‚a Bursztynu
+20049	Å»yÅ‚a SkamieniaÅ‚. Drzewa
+20050	Å»yÅ‚a Miedzi
+20051	Å»yÅ‚a Srebra
+20052	Å»yÅ‚a ZÅ‚ota
+20053	Å»yÅ‚a Jadeitu
+20054	Å»yÅ‚a Ebonitu
 20055	Sterta Muszli
-20056	¯y³a Bia³ego Z³ota
-20057	¯y³a Kryszta³u
-20058	¯y³a Ametystu
-20059	¯y³a Niebiañskich £ez
+20056	Å»yÅ‚a BiaÅ‚ego ZÅ‚ota
+20057	Å»yÅ‚a KrysztaÅ‚u
+20058	Å»yÅ‚a Ametystu
+20059	Å»yÅ‚a NiebiaÅ„skich Åez
 20060	Diamentowy Alchemik
 20061	Bursztynowy Alchemik
 20062	Drewniany Alch. Kopalny
 20063	Miedziany Alchemik
 20064	Srebrny Alchemik
-20065	Z³oty Alchem.
+20065	ZÅ‚oty Alchem.
 20066	Jadeitowy Alchemik
 20067	Earl-Ebonitowy Alchemik
-20068	Shellby-Per³owy Alchemik
-20069	Alchemik Bia³ego Z³ota
-20070	Kryszta³owy Alchemik
+20068	Shellby-PerÅ‚owy Alchemik
+20069	Alchemik BiaÅ‚ego ZÅ‚ota
+20070	KrysztaÅ‚owy Alchemik
 20071	Ametystowy Alchemik
-20072	Alchemik Nieb. £ez
-20073	Staro¿ytna Pieczêæ
-20074	Broñmistrz Wie¿y Demon.
-20075	Kowal Zbroi Wie¿y
-20076	Jubiler Wie¿y Demonów
-20077	Stra¿nik O³tarza
-20078	Stra¿nik O³tarza
-20079	Stra¿nik O³tarza
+20072	Alchemik Nieb. Åez
+20073	StaroÅ¼ytna PieczÄ™Ä‡
+20074	BroÅ„mistrz WieÅ¼y Demon.
+20075	Kowal Zbroi WieÅ¼y
+20076	Jubiler WieÅ¼y DemonÃ³w
+20077	StraÅ¼nik OÅ‚tarza
+20078	StraÅ¼nik OÅ‚tarza
+20079	StraÅ¼nik OÅ‚tarza
 20080	Przyw. Treningu
-20081	Skradz. Pieczêæ Przejœc.
+20081	Skradz. PieczÄ™Ä‡ PrzejÂœc.
 20082	Mistrz
 20083	Jegal-Tunseok
 20084	Biolog Chaegirab
@@ -2081,15 +2081,15 @@ Vnum	LocalizedName
 20097	Brama Zamku
 20098	Brama Zamku
 20099	Brama Zamku
-20101	Bia³y Koñ
-20102	Br¹z. Koñ
-20103	Czar. Koñ
-20104	Bia³y Koñ
-20105	Br¹z. Koñ
-20106	Czar. Koñ
-20107	Bia³y Koñ
-20108	Br¹z. Koñ
-20109	Czar. Koñ
+20101	BiaÅ‚y KoÅ„
+20102	BrÅ¡z. KoÅ„
+20103	Czar. KoÅ„
+20104	BiaÅ‚y KoÅ„
+20105	BrÅ¡z. KoÅ„
+20106	Czar. KoÅ„
+20107	BiaÅ‚y KoÅ„
+20108	BrÅ¡z. KoÅ„
+20109	Czar. KoÅ„
 20110	Dzik
 20111	Wilk
 20112	Tygrys
@@ -2097,16 +2097,16 @@ Vnum	LocalizedName
 20114	white lion
 20115	Dzik Wojenny
 20116	Wilk Wojenny
-20117	Szar¿uj¹cy Tygrys
+20117	SzarÅ¼ujÅ¡cy Tygrys
 20118	Waleczny Lew
-20119	Elit. Czarny Koñ
-20120	Ã»ÀÇÀü°©È£
-20121	ÁøÀûÀÇÀü°©È£
-20122	È²ÀÇÀü°©È£
-20123	³ìÀÇÀü°©È£
-20124	ÈæÀÇÀü°©È£
-20125	¹éÀÇÀü°©È£
-20126	Œwiêty Miko³aj
+20119	Elit. Czarny KoÅ„
+20120	Ä‚Å¥Å”Ã‡Å”Ã¼Â°Å ÄŒÅ
+20121	ÃÅ™Å”Å±Å”Ã‡Å”Ã¼Â°Å ÄŒÅ
+20122	ÄŒË›Å”Ã‡Å”Ã¼Â°Å ÄŒÅ
+20123	Å‚Ä›Å”Ã‡Å”Ã¼Â°Å ÄŒÅ
+20124	ÄŒÄ‡Å”Ã‡Å”Ã¼Â°Å ÄŒÅ
+20125	Å¡Ã©Å”Ã‡Å”Ã¼Â°Å ÄŒÅ
+20126	ÂŒwiÄ™ty MikoÅ‚aj
 20127	Sztandar Jubileuszowy 1
 20128	Sztandar Jubileuszowy 2
 20129	Sztandar Jubileuszowy 3
@@ -2114,126 +2114,126 @@ Vnum	LocalizedName
 20131	Sztandar Jubileuszowy 5
 20132	Sztandar Jubileuszowy 6
 20133	Sztandar Jubileuszowy 7
-20134	Sztandar S³oñca
-20135	Bo¿onarodz. Sztandar
+20134	Sztandar SÅ‚oÅ„ca
+20135	BoÅ¼onarodz. Sztandar
 20139	Sztandar gildii (fiol.)
 20140	Sztandar gil. (ni./zie.)
-20141	Sztandar gil. (cze./z³.)
+20141	Sztandar gil. (cze./zÅ‚.)
 20138	Sztandar Ramadanu
 20142	Halloweenowy Sztandar
 20143	Sztandar Wielkanocny
-20201	Àü°©¿ø
-20202	Àü°©¶û
-20203	Àü°©È£
-20204	Àü°©»çÀÚ
-20205	³­ÆøÇÑ Àü°©¿ø
-20206	³­ÆøÇÑ Àü°©¶û
-20207	³­ÆøÇÑ Àü°©È£
-20208	³­ÆøÇÑ Àü°©»çÀÚ
-20209	¿ë¸ÍÇÑ Àü°©¿ø
-20210	¿ë¸ÍÇÑ Àü°©¶û
-20211	¿ë¸ÍÇÑ Àü°©È£
-20212	¿ë¸ÍÇÑ Àü°©»çÀÚ
-20213	Àü°©¼ı¼ø·Ï
-20214	³­ÆøÇÑ Àü°©¼ı¼ø·Ï
-20215	¿ë¸ÍÇÑ Àü°©¼ı¼ø·Ï
-20216	Àü°©¾Ï¼ø·Ï
-20217	³­ÆøÇÑ Àü°©¾Ï¼ø·Ï
-20218	¿ë¸ÍÇÑ Àü°©¾Ï¼ø·Ï
+20201	Å”Ã¼Â°Å Å¼Å™
+20202	Å”Ã¼Â°Å Å›Å±
+20203	Å”Ã¼Â°Å ÄŒÅ
+20204	Å”Ã¼Â°Å Å¥Ã§Å”Ãš
+20205	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å Å¼Å™
+20206	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å Å›Å±
+20207	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å ÄŒÅ
+20208	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å Å¥Ã§Å”Ãš
+20209	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å Å¼Å™
+20210	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å Å›Å±
+20211	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å ÄŒÅ
+20212	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å Å¥Ã§Å”Ãš
+20213	Å”Ã¼Â°Å ÅºÃ½ÅºÅ™Ë‡Ä
+20214	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å ÅºÃ½ÅºÅ™Ë‡Ä
+20215	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å ÅºÃ½ÅºÅ™Ë‡Ä
+20216	Å”Ã¼Â°Å Å¾ÄÅºÅ™Ë‡Ä
+20217	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å Å¾ÄÅºÅ™Ë‡Ä
+20218	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å Å¾ÄÅºÅ™Ë‡Ä
 20219	blackpony
-20220	Å©¸®½º¸¶½º ¼ø·Ï
-20221	Àü°©¹é¿õ
-20222	Àü°©ÆÒ´õ
-20223	Àü°©¼®·æÀÚ
-20224	³­ÆøÇÑ Àü°©¼®·æÀÚ
-20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ
-20226	ÈæÀ¯´ÏÄÜ
-20227	¹éÀ¯´ÏÄÜ
-20228	Àü°©¸ÍÁ¶
-20229	³­ÆøÇÑ Àü°©¸ÍÁ¶
-20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶
-20231	Àü°©Èæ¹ü
-20232	Àü°©Ç¥¹ü
-20233	Muffin (br¹zowe dodatki)
-20234	Nugget (br¹zowe dodatki)
+20220	Ä¹Å Â¸Å½ËÅŸÂ¸Å›ËÅŸ ÅºÅ™Ë‡Ä
+20221	Å”Ã¼Â°Å Å¡Ã©Å¼Å‘
+20222	Å”Ã¼Â°Å Ä†Å‡Â´Å‘
+20223	Å”Ã¼Â°Å ÅºÅ½Ë‡Ä‡Å”Ãš
+20224	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å ÅºÅ½Ë‡Ä‡Å”Ãš
+20225	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å ÅºÅ½Ë‡Ä‡Å”Ãš
+20226	ÄŒÄ‡Å”Å»Â´ÄÃ„Ãœ
+20227	Å¡Ã©Å”Å»Â´ÄÃ„Ãœ
+20228	Å”Ã¼Â°Å Â¸ÃÃÅ›
+20229	Å‚Â­Ä†Å™Ã‡Åƒ Å”Ã¼Â°Å Â¸ÃÃÅ›
+20230	Å¼Ã«Â¸ÃÃ‡Åƒ Å”Ã¼Â°Å Â¸ÃÃÅ›
+20231	Å”Ã¼Â°Å ÄŒÄ‡Å¡Ã¼
+20232	Å”Ã¼Â°Å Ã‡Ä½Å¡Ã¼
+20233	Muffin (brÅ¡zowe dodatki)
+20234	Nugget (brÅ¡zowe dodatki)
 20235	Muffin (nieb. dodatki)
 20236	Nugget (nieb. dodatki)
 20237	Muffin (zielone dodatki)
 20238	Nugget (zielone dodatki)
-20239	B³yskawiczny
+20239	BÅ‚yskawiczny
 20240	Profesorek
 20241	Nugget (granatowy)
-20242	Muffin (ró¿owy)
+20242	Muffin (rÃ³Å¼owy)
 20243	NoNAme
 20244	Smok Nirwana
 20245	Smok Samsara
 20246	Manni
 20247	Manu
-20248	Br¹zowy Tulu Bojowy
+20248	BrÅ¡zowy Tulu Bojowy
 20249	Czarny Tulu Bojowy
 20250	Jaszczurka Lawy
 20251	Jaszczurka Lodu
 20252	Smok Magmy
 20253	Appaloosa
-20254	Bia³y Królik
-20255	Ksiê¿ycowy Królik
+20254	BiaÅ‚y KrÃ³lik
+20255	KsiÄ™Å¼ycowy KrÃ³lik
 20257	Bernie
 20258	Blue Barry
-20259	Cerber (z³oty)
+20259	Cerber (zÅ‚oty)
 20260	Cerber (srebrny)
 20261	Spektralny Rumak
 20262	Rumak Nocturnus
-20263	Nocne Skrzyd³a
-20264	Mroczne Skrzyd³a
-20265	Mrok Ksiê¿yca
+20263	Nocne SkrzydÅ‚a
+20264	Mroczne SkrzydÅ‚a
+20265	Mrok KsiÄ™Å¼yca
 20266	Srebrna Gwiazda
-20267	Z³oty Byk Bojowy
+20267	ZÅ‚oty Byk Bojowy
 20268	Srebrny Byk Bojowy
-20269	Bia³y Sfinks
+20269	BiaÅ‚y Sfinks
 20270	Kamienny Sfinks
 20271	Lodowy Kruk
 20272	Nocny Kruk
-20273	Bia³a Zimowa Lama
-20274	Br¹zowa Zimowa Lama
+20273	BiaÅ‚a Zimowa Lama
+20274	BrÅ¡zowa Zimowa Lama
 20275	Alastor
-20276	Poœpieszny Królik (ró¿.)
-20277	Poœpieszny Królik (nie.)
-20300	Trener Mocy Cia³a
+20276	PoÂœpieszny KrÃ³lik (rÃ³Å¼.)
+20277	PoÂœpieszny KrÃ³lik (nie.)
+20300	Trener Mocy CiaÅ‚a
 20301	Trener Mocy Duchowej
 20302	Trener Mocy Ostrza
-20303	Trener Mocy £uku
+20303	Trener Mocy Åuku
 20304	Trener Mocy Broni
 20305	Trener Mocy Czarn. Magii
 20306	Trener Mocy Smoka
 20307	Trener Mocy Leczenia
-20320	Trener Mocy Cia³a
+20320	Trener Mocy CiaÅ‚a
 20321	Trener Mocy Duchowej
 20322	Trener Mocy Ostrza
-20323	Trener Mocy £uku
+20323	Trener Mocy Åuku
 20324	Trener Mocy Broni
 20325	Trener Mocy Czarn. Magii
 20326	Trener Mocy Smoka
 20327	Trener Mocy Leczenia
-20340	Trener Mocy Cia³a
+20340	Trener Mocy CiaÅ‚a
 20341	Trener Mocy Duchowej
 20342	Trener Mocy Ostrza
-20343	Trener Mocy £uku
+20343	Trener Mocy Åuku
 20344	Trener Mocy Broni
 20345	Trener Mocy Czarn. Magii
 20346	Trener Mocy Smoka
 20347	Trener Mocy Leczenia
-20348	Stra¿nik Wie¿y Demonów
+20348	StraÅ¼nik WieÅ¼y DemonÃ³w
 20349	Stajenny
-20350	Stra¿nik Legowiska
-20351	Stra¿nik Dworski
+20350	StraÅ¼nik Legowiska
+20351	StraÅ¼nik Dworski
 20352	Kam. Pomnik Hasuna
 20353	Kam. Pomnik Seul Ronga
-20354	Stra¿nik Miejski
+20354	StraÅ¼nik Miejski
 20355	Kapitan
 20356	Kolekcjoner Ginseng
 20357	Pomnik Woela
 20358	Bezimienne Kwiaty
-20359	Stare Pud³o Z Papierami
+20359	Stare PudÅ‚o Z Papierami
 20360	Pomnik Wha
 20361	Pomnik Su
 20362	Pomnik Moka
@@ -2241,62 +2241,62 @@ Vnum	LocalizedName
 20364	Nakajima
 20365	Pomnik To
 20366	Sa-Soe
-20367	Stra¿nik Katakumb
-20368	Domokr¹¿ca
+20367	StraÅ¼nik Katakumb
+20368	DomokrÅ¡Å¼ca
 20369	Lee Chung
-20370	Zatruty ¯o³nierz
+20370	Zatruty Å»oÅ‚nierz
 20371	Stary Nagrobek
-20372	Zwietrza³a P³yta
+20372	ZwietrzaÅ‚a PÅ‚yta
 20373	Gwardia Ochronna
-20374	Stra¿nik
+20374	StraÅ¼nik
 20375	Drewniana Barykada
 20376	Kim Rim
 20377	Yak-Hwan
-20378	Admira³ Angmur
-20379	Ranny ¯o³nierz
+20378	AdmiraÅ‚ Angmur
+20379	Ranny Å»oÅ‚nierz
 20380	Yon-I-Walker
 20381	Konfucjusz
 20382	Skalny Kwiat
 20383	Jae-Seon Kim
-20384	Œwi¹teczna Choinka
+20384	ÂŒwiÅ¡teczna Choinka
 20385	Gardziel Am-heha
 20386	Stela Isfet
 20387	Zamek Losu
 20388	Smocza Brama
 20389	NoNAme
 20390	Nagrobek Taramora
-20391	S³oneczne Zio³o
-20392	Poleg³y ¯o³nierz
-20393	Ranny ¯o³nierz
-20394	Stra¿nik Ziemi Ognistej
-20395	Stra¿nik Lodowej Ziemi
-20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø
+20391	SÅ‚oneczne ZioÅ‚o
+20392	PolegÅ‚y Å»oÅ‚nierz
+20393	Ranny Å»oÅ‚nierz
+20394	StraÅ¼nik Ziemi Ognistej
+20395	StraÅ¼nik Lodowej Ziemi
+20396	Å”Å±ÅºÃ¶Å¥Ã³Â´Ãœ Ä†Ã‡Â¸Ä¹Å¼Å™
 20397	Lodowy Lew
 20398	Arktyczna Kostka
-20399	Kolumna Smoka Pó³nocy
-20400	Mêdrzec Myonghorang
-20401	Stra¿nik Kolonii
-20402	Stra¿nik Portalu
+20399	Kolumna Smoka PÃ³Å‚nocy
+20400	MÄ™drzec Myonghorang
+20401	StraÅ¼nik Kolonii
+20402	StraÅ¼nik Portalu
 20403	Amarok
 20404	Nagual
 20405	Waheela
 20406	NoNAme
 20407	Fenrir
-20408	Stra¿nik Œwi¹tyni
-20409	Stra¿nik Lasu
+20408	StraÅ¼nik ÂŒwiÅ¡tyni
+20409	StraÅ¼nik Lasu
 20410	Zwiadowca Lasu
 20411	Badacz Lasu
-20412	Przywódca Stra¿. Lasu
+20412	PrzywÃ³dca StraÅ¼. Lasu
 20413	Kawuco
 20414	Andastra
 20415	Portal
 20416	Sam Pumpkin
-20417	Stó³ do Okeya
-20419	Stra¿nik Smoków Dolnarr
-20420	Z³ota Smocza Skrzynia
-20421	Stra¿nik Smoków Jaharr
+20417	StÃ³Å‚ do Okeya
+20419	StraÅ¼nik SmokÃ³w Dolnarr
+20420	ZÅ‚ota Smocza Skrzynia
+20421	StraÅ¼nik SmokÃ³w Jaharr
 20422	Jajo Smoka
-20423	Alchemik Kryszta³u Duszy
+20423	Alchemik KrysztaÅ‚u Duszy
 20424	Alchemik Rubinu
 20425	Alchemik Granatu
 20426	Alchemik Szmaragdu
@@ -2308,9 +2308,9 @@ Vnum	LocalizedName
 20432	Jajo Hydry
 20433	Statua Wojownika
 20434	Maszt
-20435	Œlad Meley
-20436	Ko³o Sterowe
-20437	Drewno na Naprawê
+20435	ÂŒlad Meley
+20436	KoÅ‚o Sterowe
+20437	Drewno na NaprawÄ™
 20438	Mnich Milbon
 20439	Portal Zi
 20440	Portal Chou
@@ -2337,15 +2337,15 @@ Vnum	LocalizedName
 20461	Statua Yu
 20462	Statua Xu
 20463	Statua Haia
-20464	Dzia³o
+20464	DziaÅ‚o
 20465	Portal Zodiaku
 20500	Jajo Smoka
 20501	Skrzynia Gaya
-20502	Stó³ do Yutnori
+20502	StÃ³Å‚ do Yutnori
 20503	Handlarz Gaya
 20504	Sklep Gaya
-20505	Pa³eczki Yut
-20506	Stó³ do Schwytaj Króla
+20505	PaÅ‚eczki Yut
+20506	StÃ³Å‚ do Schwytaj KrÃ³la
 20510	SZC: Duch Sura
 20511	SZC: Gardziel Am-heha
 20512	SZC: Nagrobek Taramora
@@ -2354,11 +2354,11 @@ Vnum	LocalizedName
 20515	SZC: Smocza Brama
 20516	SZC: Lodowy Lew
 20517	SZC: Arktyczna Kostka
-20518	SZC: Kolumna Smoka P³n.
-20519	SZC: Stra¿nik Lasu
+20518	SZC: Kolumna Smoka PÅ‚n.
+20519	SZC: StraÅ¼nik Lasu
 20520	SZC: Zwiadowca Lasu
 20521	SZC: Badacza Lasu
-20522	SZC: Przywódca St. Lasu
+20522	SZC: PrzywÃ³dca St. Lasu
 20530	PB: Duch Sura
 20531	PB: Gardziel Am-heha
 20532	PB: Nagrobek Taramora
@@ -2367,154 +2367,154 @@ Vnum	LocalizedName
 20535	PB: Smocza Brama
 20536	PB: Lodowy Lew
 20537	PB: Arktyczna Kostka
-20538	PB: Kolumna Smoka P³n.
-20539	PB: Stra¿nik Lasu
+20538	PB: Kolumna Smoka PÅ‚n.
+20539	PB: StraÅ¼nik Lasu
 20540	PB: Zwiadowca Lasu
 20541	PB: Badacza Lasu
-20542	PB: Przywódca St. Lasu
-20650	Stró¿ Medali
-20660	Alchemik Jadeitu Mg³y
-20661	Alchemik Jadeitu S³oñca
+20542	PB: PrzywÃ³dca St. Lasu
+20650	StrÃ³Å¼ Medali
+20660	Alchemik Jadeitu MgÅ‚y
+20661	Alchemik Jadeitu SÅ‚oÅ„ca
 20662	Alchemik Jadeitu Nocy
 20663	Alchemik Jadeitu Dymu
 20702	Relikwiarz Energii
-20703	Relikwiarz Szczêœcia
+20703	Relikwiarz SzczÄ™Âœcia
 20704	Relikwiarz Mocy
-20705	Relikwiarz Skarbów
-20706	Relikwiarz Olœnienia
-20707	Æ÷Å»(°İÀüÁö) 385 385
+20705	Relikwiarz SkarbÃ³w
+20706	Relikwiarz OlÂœnienia
+20707	Ä†Ã·Ä¹Å¥(Â°ÃÅ”Ã¼ÃÃ¶) 385 385
 20710	Skrzynka Zaopatrz. (BR)
-20711	Skrzynka Wyposa¿enia(BR)
+20711	Skrzynka WyposaÅ¼enia(BR)
 20712	Pole Elektryczne
-20713	Skrzynka Wyposa¿enia(BR)
+20713	Skrzynka WyposaÅ¼enia(BR)
 20714	Specjalna Skrzynka (BR)
 20799	Kwiaty
 20800	Ranny
-20802	Stra¿nik z Yohara
+20802	StraÅ¼nik z Yohara
 20803	Wartownik z Yohara
-20804	Stra¿nik Wê¿y
-20805	Stra¿nik P³n. Wiatru
-20806	Stra¿nik Rozpad. Dusz
-20807	Statua Wê¿y
-20808	Genera³ Kohan
+20804	StraÅ¼nik WÄ™Å¼y
+20805	StraÅ¼nik PÅ‚n. Wiatru
+20806	StraÅ¼nik Rozpad. Dusz
+20807	Statua WÄ™Å¼y
+20808	GeneraÅ‚ Kohan
 20809	Konfucjusz
 20810	Chaegirab
 20811	Kim Rim
-20812	Admira³ Angmur
-20813	Pustelnik P³n. Wiatru
+20812	AdmiraÅ‚ Angmur
+20813	Pustelnik PÅ‚n. Wiatru
 20814	Zagubiony Zwiadowca
-20815	Upiorny Stra¿nik
+20815	Upiorny StraÅ¼nik
 20822	Oszust
 20823	Mistrz Chi
 20826	Huahn-So
-20828	Kowal Skór
-20829	Kowal Œwi¹tyni Wê¿y
+20828	Kowal SkÃ³r
+20829	Kowal ÂŒwiÅ¡tyni WÄ™Å¼y
 20830	Oddelegowany Komendant
 20831	Komandor z Yohara
-20832	Admira³ Angmur
-20833	Ska¿one Kwiaty
+20832	AdmiraÅ‚ Angmur
+20833	SkaÅ¼one Kwiaty
 20834	Relikwiarz
 20835	Inskryptorka
 20836	Halabardnik
-20837	Wyjœcie
+20837	WyjÂœcie
 20838	Odcinek 2
 20839	Odcinek 3
 20840	Dongan
-20841	£owca G³ów
-20842	Uwiêziony Kowal
-20844	Statua Wê¿y
-20845	£owca G³ów (W¹w.P³n.W.)
-20846	£owca G³ów (Roz.P³n.W.)
-20847	£owca G³ów (Schron.)
-20848	Stare Koœci
+20841	Åowca GÅ‚Ã³w
+20842	UwiÄ™ziony Kowal
+20844	Statua WÄ™Å¼y
+20845	Åowca GÅ‚Ã³w (WÅ¡w.PÅ‚n.W.)
+20846	Åowca GÅ‚Ã³w (Roz.PÅ‚n.W.)
+20847	Åowca GÅ‚Ã³w (Schron.)
+20848	Stare KoÂœci
 20849	Taehwarang
-20850	Tajemniczy O³tarz
-20851	£owca G³ów (Seoganland)
-20852	£owca G³ów (Namgan)
-30000	°³ÀÎ»óÁ¡
-30001	°³ÀÎ»óÁ¡
-30002	Tysi¹c i Jedna Noc
+20850	Tajemniczy OÅ‚tarz
+20851	Åowca GÅ‚Ã³w (Seoganland)
+20852	Åowca GÅ‚Ã³w (Namgan)
+30000	Â°Å‚Å”ÃÅ¥Ã³ÃÄ„
+30001	Â°Å‚Å”ÃÅ¥Ã³ÃÄ„
+30002	TysiÅ¡c i Jedna Noc
 30003	Mistrz Grillowania
-30004	Poszukiwacz Skarbów
-30005	P³omyk Oszczêdnoœci
-30006	Handlarz Broni¹
-30007	Sklep ze Zbroj¹
+30004	Poszukiwacz SkarbÃ³w
+30005	PÅ‚omyk OszczÄ™dnoÂœci
+30006	Handlarz BroniÅ¡
+30007	Sklep ze ZbrojÅ¡
 30008	Alchemik
 30101	Statua Kuda
 30102	Bazaltowy Obelisk
-30103	¯ó³wia Ska³a
+30103	Å»Ã³Å‚wia SkaÅ‚a
 30104	Runiczny Pal
-30111	1. Wrota Potêpienia
-30112	2. Wrota Potêpienia
-30113	3. Wrota Potêpienia
-30114	4. Wrota Potêpienia
-30115	5. Wrota Potêpienia
-30116	6. Wrota Potêpienia
-30117	7. Wrota Potêpienia
-30118	8. Wrota Potêpienia
-30119	9. Wrota Potêpienia
-30120	Sakiewka na Zio³a
+30111	1. Wrota PotÄ™pienia
+30112	2. Wrota PotÄ™pienia
+30113	3. Wrota PotÄ™pienia
+30114	4. Wrota PotÄ™pienia
+30115	5. Wrota PotÄ™pienia
+30116	6. Wrota PotÄ™pienia
+30117	7. Wrota PotÄ™pienia
+30118	8. Wrota PotÄ™pienia
+30119	9. Wrota PotÄ™pienia
+30120	Sakiewka na ZioÅ‚a
 30121	Duch Sura
 30122	Duch Wojownika
-30123	Mroczny O³tarz
+30123	Mroczny OÅ‚tarz
 30124	Szkielet-Sura 1
 30125	Szkielet-Sura 2
 30126	Szkielet-Sura 3
 30127	Szkielet-Sura 4
 30128	Szkielet-Sura 5
-30129	Zaj¹c wielkanocny
+30129	ZajÅ¡c wielkanocny
 30130	Nagrobek
 30131	Pan Kicaj
 30132	Pan Kicaj
-30301	¯y³a Kryszta³u Duszy
-30302	¯y³a Rubinu
-30303	¯y³a Granatu
-30304	¯y³a Szmaragdu
-30305	¯y³a Szafiru
-30306	¯y³a Rudy Turmalinu
+30301	Å»yÅ‚a KrysztaÅ‚u Duszy
+30302	Å»yÅ‚a Rubinu
+30303	Å»yÅ‚a Granatu
+30304	Å»yÅ‚a Szmaragdu
+30305	Å»yÅ‚a Szafiru
+30306	Å»yÅ‚a Rudy Turmalinu
 30307	Summer
 30308	Skrzynka Pocztowa
-30309	¯y³a Jadeitu Mg³y(misja)
-30310	¯y³a Jadeitu S³oñca
-30311	¯y³a Jadeitu Nocy
-30312	¯y³a Jadeitu Dymu
-30313	¯y³a Jadeitu Mg³y
-33001	¸ğÇè°¡ÀÇ ÇØ°ñ
+30309	Å»yÅ‚a Jadeitu MgÅ‚y(misja)
+30310	Å»yÅ‚a Jadeitu SÅ‚oÅ„ca
+30311	Å»yÅ‚a Jadeitu Nocy
+30312	Å»yÅ‚a Jadeitu Dymu
+30313	Å»yÅ‚a Jadeitu MgÅ‚y
+33001	Â¸Ä‘Ã‡ÄÂ°Ä„Å”Ã‡ Ã‡Å˜Â°Å„
 33002	Historyk
-33003	Poszcz¹cy Mieszkaniec
-33004	Poszcz¹cy Mieszkaniec
-33005	Poszcz¹cy Mieszkaniec
-33006	Poszcz¹cy Mieszkaniec
-33007	Poszcz¹cy Mieszkaniec
+33003	PoszczÅ¡cy Mieszkaniec
+33004	PoszczÅ¡cy Mieszkaniec
+33005	PoszczÅ¡cy Mieszkaniec
+33006	PoszczÅ¡cy Mieszkaniec
+33007	PoszczÅ¡cy Mieszkaniec
 33008	Jack Pumpkin
-33009	O³tarz Krwi
+33009	OÅ‚tarz Krwi
 34001	Ognisty Feniks
 34002	Reniferek
 34003	Lodowy Feniks
-34004	Azraeluœ
-34005	Boczuœ
+34004	AzraeluÂœ
+34005	BoczuÂœ
 34006	Rufus
 34007	Khan
 34008	Leonidas
-34009	Azraeluœ
+34009	AzraeluÂœ
 34010	Bambi
 34011	Knuud
 34012	Bao Bao
 34013	Grubiutki Kat
-34014	Grubiutki Kat (z³oty)
+34014	Grubiutki Kat (zÅ‚oty)
 34015	Kostek
 34016	Feniks Jadeitu
-34017	Polarny Boczuœ
-34018	MroŸny Rufus
+34017	Polarny BoczuÂœ
+34018	MroÂŸny Rufus
 34019	Arktyczny Khan
-34020	Œnie¿ny Leonidas
+34020	ÂŒnieÅ¼ny Leonidas
 34021	Sheldon
 34022	Cooper
 34023	Panterka
 34024	Leopardzik
-34026	Dyniowa G³ówka
-34027	Ma³a Miote³ka
-34028	P³atek Œniegu
+34026	Dyniowa GÅ‚Ã³wka
+34027	MaÅ‚a MioteÅ‚ka
+34028	PÅ‚atek ÂŒniegu
 34029	Dzwoneczek
 34030	Cupido
 34031	Gniewne Serce
@@ -2522,19 +2522,19 @@ Vnum	LocalizedName
 34033	Niebieski Sierp
 34034	Owieczka Ola
 34035	Baran Bartek
-34036	Ma³y Smok
-34037	Ma³y Smok (bohater)
+34036	MaÅ‚y Smok
+34037	MaÅ‚y Smok (bohater)
 34039	Huashinek
-34041	Ma³y Ma³piszon
-34042	Ma³y Ma³piszon (bohater)
-34045	Ma³y Paj¹k
-34046	Ma³y Paj¹k (bohater)
-34047	Wyl¹g Exedyara
-34048	Rzadki Wyl¹g Exedyara
-34049	Ma³y Razador
-34050	Ma³y Razador (bohater)
-34053	Ma³y Nemere
-34054	Ma³y Nemere (bohater)
+34041	MaÅ‚y MaÅ‚piszon
+34042	MaÅ‚y MaÅ‚piszon (bohater)
+34045	MaÅ‚y PajÅ¡k
+34046	MaÅ‚y PajÅ¡k (bohater)
+34047	WylÅ¡g Exedyara
+34048	Rzadki WylÅ¡g Exedyara
+34049	MaÅ‚y Razador
+34050	MaÅ‚y Razador (bohater)
+34053	MaÅ‚y Nemere
+34054	MaÅ‚y Nemere (bohater)
 34055	Bruce
 34056	Wayne
 34057	Robin
@@ -2542,14 +2542,14 @@ Vnum	LocalizedName
 34059	Walentynka
 34060	Walentyn
 34061	Walentynka
-34062	Ksiê¿y. Latarnia (pom.)
-34063	Ksiê¿y. Latarnia (nieb.)
-34064	Ma³a Meley
-34065	Ma³a Meley
+34062	KsiÄ™Å¼y. Latarnia (pom.)
+34063	KsiÄ™Å¼y. Latarnia (nieb.)
+34064	MaÅ‚a Meley
+34065	MaÅ‚a Meley
 34066	Bonsai
 34067	Pani Jiangshi+
 34068	Pan Jiangshi+
-34069	Ma³y Jiangshi
+34069	MaÅ‚y Jiangshi
 34070	Czerwony Elf
 34071	Zielony Elf
 34072	Pomocny Elf
@@ -2559,8 +2559,8 @@ Vnum	LocalizedName
 34076	Gruby Mini Kat (Bohater)
 34077	Gniewny Mini Alastor
 34078	Przebudzony Mini Alastor
-34080	Baashidoœ
-34081	Baashidoœ (Bohater)
+34080	BaashidoÂœ
+34081	BaashidoÂœ (Bohater)
 34082	Nessie
 34083	Nessie (Bohater)
 34084	Donnie
@@ -2581,54 +2581,54 @@ Vnum	LocalizedName
 34099	Chaotika
 34100	Lycandowski
 34101	Lycaninho
-34102	Ma³y Catenaccio
-34103	B³êkitny B³yszcz¹cy Paw
-34104	Ró¿owy B³yszcz¹cy Paw
+34102	MaÅ‚y Catenaccio
+34103	BÅ‚Ä™kitny BÅ‚yszczÅ¡cy Paw
+34104	RÃ³Å¼owy BÅ‚yszczÅ¡cy Paw
 34105	Granatowy Paw
 34106	Franiu Fistaszek
 34107	Stefek Orzeszek
-34108	Kapral Roz³upek
+34108	Kapral RozÅ‚upek
 34109	Wielzooka
-34110	Wieldzia³o
+34110	WieldziaÅ‚o
 34111	Wielmata
-34112	MroŸny Chrz¹szcz+
-34113	MroŸny Chrz¹szcz
-34114	Wszystkowidz¹. Kot Ognia
-34115	Wszystkowidz¹cy Kot Lodu
+34112	MroÂŸny ChrzÅ¡szcz+
+34113	MroÂŸny ChrzÅ¡szcz
+34114	WszystkowidzÅ¡. Kot Ognia
+34115	WszystkowidzÅ¡cy Kot Lodu
 34116	Trzyoki Kot Ognia
 34117	Skrzat Nosek+ (czerw.)
 34118	Skrzat Nosek+ (ziel.)
 34119	Skrzat Nosek
-34120	Czerwony Ma³y Huashin
-34121	Bia³y Ma³y Huashin
+34120	Czerwony MaÅ‚y Huashin
+34121	BiaÅ‚y MaÅ‚y Huashin
 34122	Bonsai+
 34123	+Bonsai+
-34124	Ma³y ¯ywio³ak Ognia
-34125	Ma³y ¯ywio³ak Lodu
-34126	Ma³y ¯ywio³ak B³yskawicy
-34127	Ma³y ¯ywio³ak Wiatru
-34128	Ma³y ¯ywio³ak Ziemi
-34129	Ma³y ¯ywio³ak Mroku
-34130	Weso³y Pos³aniec Mi³oœci
-34131	Ospa³y Pos³aniec Mi³oœci
-34132	Ma³y Pos³aniec Mi³oœci
+34124	MaÅ‚y Å»ywioÅ‚ak Ognia
+34125	MaÅ‚y Å»ywioÅ‚ak Lodu
+34126	MaÅ‚y Å»ywioÅ‚ak BÅ‚yskawicy
+34127	MaÅ‚y Å»ywioÅ‚ak Wiatru
+34128	MaÅ‚y Å»ywioÅ‚ak Ziemi
+34129	MaÅ‚y Å»ywioÅ‚ak Mroku
+34130	WesoÅ‚y PosÅ‚aniec MiÅ‚oÂœci
+34131	OspaÅ‚y PosÅ‚aniec MiÅ‚oÂœci
+34132	MaÅ‚y PosÅ‚aniec MiÅ‚oÂœci
 34133	Mini Krab Wojownik
 34134	Mini Krab
 34135	Mumia Szamotka
 34136	Mumia Kiwaczek
-34137	Mumia Potrz¹ska
-34138	Zielony Œwi¹teczny Ent
-34139	Sêkaty Œwi¹teczny Ent
-34140	Ma³y Œwi¹teczny Ent
+34137	Mumia PotrzÅ¡ska
+34138	Zielony ÂŒwiÅ¡teczny Ent
+34139	SÄ™katy ÂŒwiÅ¡teczny Ent
+34140	MaÅ‚y ÂŒwiÅ¡teczny Ent
 34141	Niebieski Anubis
 34142	Czerwony Anubis
-34143	Ma³y Anubis
-34145	Potê¿. Lod. Wielor. Zab.
+34143	MaÅ‚y Anubis
+34145	PotÄ™Å¼. Lod. Wielor. Zab.
 34146	Oswoj. Lod. Wielor. Zab.
-34147	Œnie¿ny Leonidas
+34147	ÂŒnieÅ¼ny Leonidas
 34148	Astrabell
 34149	Ognisty Feniks
-60000	Zarz¹dca gildii
-60001	Zarz¹dca gildii
-60002	Zarz¹dca gildii
+60000	ZarzÅ¡dca gildii
+60001	ZarzÅ¡dca gildii
+60002	ZarzÅ¡dca gildii
 60003	Theowahdan
