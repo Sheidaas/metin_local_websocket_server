@@ -219,6 +219,7 @@ class MetinMemoryObject:
         
 
     def stringToUTF8(self,s, enc):
-        s = codecs.encode(s,encoding='utf-8')
+        s = codecs.encode(s, encoding=str(enc))
+        s = s.decode('utf-8')
         return s
 
