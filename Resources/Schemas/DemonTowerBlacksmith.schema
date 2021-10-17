@@ -1,8 +1,5 @@
 {
-	"REQUIREMENTS": {
-		"lvl": 40
-    "NAME": "Going to DT to kill Ripper"
-  },
+    "NAME": "Going to DT to kill Ripper",
 	"REQUIREMENTS": {
 		"LVL": 40
 	},
@@ -25,11 +22,10 @@
 			"ACTIONS": [{
 					"name": "Going to metin",
 					"function_args": [
-						[19004, 69011]
+						[20500, 68600]
 					],
 					"function": "MoveToPosition",
 					"requirements": {
-						"IS_ON_POSITION": [19004, 69011]
 					}
 				},
 				{
@@ -56,7 +52,7 @@
 		},
 		"3": {
 			"ACTIONS": [{
-				"name": "Clearing floor with king",
+				"name": "Clearing floor",
 				"function_args": [
 					[17688, 19619]
 				],
@@ -68,7 +64,7 @@
 		},
 		"4": {
 			"ACTIONS": [{
-				"name": "Clearing floor with metins",
+				"name": "Clearing floor",
 				"function_args": [
 					[39123, 65131]
 				],
@@ -92,7 +88,6 @@
 		},
 		"6": {
 			"ACTIONS": [{
-			    "name": "Clearing blacksmith floor",
 					"function_args": [
 						[41000, 20000]
 					],
@@ -100,57 +95,19 @@
 					"requirements": {}
 				},
 				{
-				    "name": "Upgrading item",
 					"function_args": [
-						"OPTION.ITEMS_TO_UPGRADE"
+						"OPTION.ITEEMS_TO_UPGRADE"
 					],
 					"function": "UpgradeItemInDemonTower",
 					"requirements": {}
 				},
 				{
-				    "name": "Going to seventh floor",
 					"function_args": [
-						[]],
+					],
 					"function": "GoToSeventhFloor",
 					"requirements": {}
 				}
 			]
-		},
-		"7": {
-			"ACTIONS": [{
-			    "name": "Searching map",
-				"function_args": [
-					[61017, 66483]
-				],
-				"function": "FindMapInDT",
-				"requirements": {
-					"IS_NEAR_POSITION": [60961, 42600, 25000]
-				}
-			}]
-		},
-		"8": {
-			"name": "Searching for a key",
-			"ACTIONS": [{
-				"function_args": [
-					[60961, 42600]
-				],
-				"function": "OpenASealInMonument",
-				"requirements": {
-					"IS_NEAR_POSITION": [61127, 17160, 25000]
-				}
-			}]
-		},
-		"9": {
-			"name": "Killing Ripper",
-			"ACTIONS": [{
-				"function_args": [
-					[61127, 17160]
-				],
-				"function": "ClearFloor",
-				"requirements": {
-					"IS_IN_MAP": ["metin2_map_milgyo"]
-				}
-			}]
 		}
 	}
 }
