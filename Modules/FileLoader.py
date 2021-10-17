@@ -2,7 +2,7 @@ import simplejson as json
 
 def load_item_list(path, language='en', server='gf_servers'):
     items = {}
-    real_path = path + '\\' + 'Resources\\' + server + '\\proto\\' + language + '\\' + 'item_names.txt'
+    real_path = path + '\\' + 'Resources\\' + server + '\\' + language + '\\' + 'item_names.txt'
     with open(real_path, 'r') as file:
         data = file.readlines()
         for line in data:
@@ -24,7 +24,7 @@ def load_item_list(path, language='en', server='gf_servers'):
 
 def load_mob_list(path, language='en', server='gf_servers'):
     mobs = {}
-    real_path = path + '\\' + 'Resources\\' + server + '\\proto\\' + language + '\\' + 'mob_names.txt'
+    real_path = path + '\\' + 'Resources\\' + server + '\\' + language + '\\' + 'mob_names.txt'
     with open(real_path, 'r') as file:
         data = file.readlines()
         for line in data:

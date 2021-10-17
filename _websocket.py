@@ -67,6 +67,13 @@ class WebsocketServer:
                 return client
         return None
 
+    def remove_client_by_id_and_list(self, client_list: list, client_id: int):
+        for client in client_list:
+            if client['id'] == client_id:
+                client_list.remove(client)
+                return True
+        return False
+
     def remove_memory_object_by_client_id(self, client_id):
         for memory_object in self.metin_memory_objects:
             if memory_object['client_id'] == client_id:
@@ -81,11 +88,11 @@ class WebsocketServer:
         return None
 
     def is_client_new(self, client):
-        if client in self.all_clients:
+        if client['id'] in [_client['id'] for _client in self.all_clients]:
             return self.all_clients
-        elif client in self.metin_clients:
+        elif client['id'] in [_client['id'] for _client in self.metin_clients]:
             return self.metin_clients
-        elif client in self.frontend_clients:
+        elif client['id'] in [_client['id'] for _client in self.frontend_clients]:
             return self.frontend_clients
         else:
             return False
@@ -99,7 +106,7 @@ class WebsocketServer:
         client_list = self.is_client_new(client)
         if not client_list:
             return
-        client_list.remove(client)
+        self.remove_client_by_id_and_list(client_list, client['id'])
         self.remove_memory_object_by_client_id(client['id'])
         return
     
@@ -191,10 +198,6 @@ class WebsocketServer:
         if client_list == self.all_clients:
 
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['set_role']:
-                #print('This is a set_role message')
-                #print(type(cleared_message['data']['message']))
-
-
                 if cleared_message['data']['message'] == 'metin2_client':
                     print('New metin2 client joined')
                     client_list.remove(client)
@@ -205,19 +208,21 @@ class WebsocketServer:
                 elif cleared_message['data']['message'] == 'frontend_client':
                     print('New frontend client joined')
                     client_list.remove(client)
-                    self.frontend_clients.append(client)
+                    front_client = {
+                        'id': client['id'],
+                        'handler': client['handler'],
+                        'address': client['address'],
+                        'options': {
+                            'language': 'en',
+                            'save_mob_locations_to_db': False,
+                        }
+                    }
+                    self.frontend_clients.append(front_client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
-                    return
-                
-                else:
-                    #print('This is else')
-                    server.send_message(client, json.dumps(PACKETS_PATTERNS['unknow_request']))
                     return
 
         elif client_list == self.metin_clients:
-
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['information']:
-
                 received_information = {
                     'action': cleared_message['data']['action'],
                     'data': cleared_message['data']['message']
@@ -268,9 +273,14 @@ class WebsocketServer:
                         server.send_message(client, json.dumps(message))
                 
                 if cleared_message['data']['action'] == ACTIONS['GET_FULL_INSTANCES_LIST']:
+                    from Modules.StatisticsDatabase import statDB
+                    client = self.get_client_by_id_and_list(self.frontend_clients, client['id'])
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         instances_list = memory_object['object'].InstancesList
+                        if client['options']['save_mob_locations_to_db']:
+                            statDB.AddNewMobData(instances_list, memory_object['object'].character_status['CurrentMap'])
+
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': instances_list, 'action': ACTIONS['GET_FULL_INSTANCES_LIST']}}
                         server.send_message(client, json.dumps(message))
 
@@ -283,10 +293,11 @@ class WebsocketServer:
 
                 if cleared_message['data']['action'] == ACTIONS['GET_FULL_SERVER_STATUS']:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    client = self.get_client_by_id_and_list(self.frontend_clients, client['id'])
                     if memory_object is not None:
                         server_info = {
-                            'Items': memory_object['object'].ReturnServerItemList(PATH),
-                            'Mobs': memory_object['object'].ReturnServerMobList(PATH)
+                            'Items': memory_object['object'].ReturnServerItemList(PATH, client['options']['language']),
+                            'Mobs': memory_object['object'].ReturnServerMobList(PATH, client['options']['language'])
                         }
                         #print('sended server')
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
@@ -311,17 +322,19 @@ class WebsocketServer:
 
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
-            elif cleared_message['type'] ==  RECEIVED_PACKETS_PATTERNS_TYPES['update']:
+            elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update']:
                 client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
+
+
                 #print(cleared_message)   
-                if cleared_message['data']['module'] == 'FarmBot':
-                    for module_key in cleared_message['data']['message']:
-                        if module_key == 'Path':
-                            for point in cleared_message['data']['message']['Path']:
-                                if not len(point) == 3:
-                                    return
+                #if cleared_message['data']['module'] == 'FarmBot':
+                #     for module_key in cleared_message['data']['message']:
+                #        if module_key == 'Path':
+                #            for point in cleared_message['data']['message']['Path']:
+                #                if not len(point) == 3:
+                #                    return
                                 #point[2] = point[2].encode('utf-8')
 
 
@@ -363,8 +376,6 @@ class WebsocketServer:
                     schema['NEEDED_OPTIONS'] = cleared_message['data']['needed_options']
                     message = {'type': RECEIVED_PACKETS_PATTERNS_TYPES['update_request'], 'data':{'message': schema, 'action': ACTIONS['SET_NEW_SCHEMA']}}
                     server.send_message(client_to_send, json.dumps(message))
-
-
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)

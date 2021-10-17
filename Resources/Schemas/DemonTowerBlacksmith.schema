@@ -108,42 +108,6 @@
 					"requirements": {}
 				}
 			]
-		},
-		"7": {
-			"ACTIONS": [{
-			    "name": "Searching map",
-				"function_args": [
-					[61017, 66483]
-				],
-				"function": "FindMapInDT",
-				"requirements": {
-					"IS_NEAR_POSITION": [60961, 42600, 25000]
-				}
-			}]
-		},
-		"8": {
-			"name": "Searching for a key",
-			"ACTIONS": [{
-				"function_args": [
-					[60961, 42600]
-				],
-				"function": "OpenASealInMonument",
-				"requirements": {
-					"IS_NEAR_POSITION": [61127, 17160, 25000]
-				}
-			}]
-		},
-		"9": {
-			"name": "Killing Ripper",
-			"ACTIONS": [{
-				"function_args": [
-					[61127, 17160]
-				],
-				"function": "ClearFloor",
-				"requirements": {
-					"IS_IN_MAP": ["metin2_map_milgyo"]
-				}
-			}]
 		}
 	}
 }

@@ -21,8 +21,9 @@ class StatisticsDatabase:
     def AddNewMobData(self, InstancesList, current_map):
         # {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
         parsed_mobs = []
+        valid_types = [VALID_TYPES[value] for value in VALID_TYPES.keys()]
         for instance in InstancesList:
-            if instance['type'] in [VALID_TYPES[value] for value in VALID_TYPES.keys()]:
+            if instance['type'] in valid_types:
                 parsed_mobs.append({'id': instance['id'], 'map': current_map, 'location': [instance['x'], instance['y']]})
         self.mobs.insert_multiple(parsed_mobs)
 
