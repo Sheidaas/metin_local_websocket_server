@@ -3,6 +3,7 @@ from tinydb.queries import where
 from _websocket import PATH
 from math import sqrt
 
+# Valid Type Numbers for mobs. Ignoring NPCs and Ores and other instances.
 VALID_TYPES = {
     'BOSS': -1,
     'MONSTER': 0,
@@ -10,7 +11,6 @@ VALID_TYPES = {
 }
 class StatisticsDatabase:
 
-    #Valid Type Numbers for mobs. Ignoring NPCs and Ores and other instances.
 
 
     def __init__(self):

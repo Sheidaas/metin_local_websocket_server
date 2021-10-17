@@ -1,5 +1,8 @@
 {
-    "NAME": "Going to DT to kill Ripper",
+	"REQUIREMENTS": {
+		"lvl": 40
+    "NAME": "Going to DT to kill Ripper"
+  },
 	"REQUIREMENTS": {
 		"LVL": 40
 	},
@@ -22,10 +25,11 @@
 			"ACTIONS": [{
 					"name": "Going to metin",
 					"function_args": [
-						[20500, 68600]
+						[19004, 69011]
 					],
 					"function": "MoveToPosition",
 					"requirements": {
+						"IS_ON_POSITION": [19004, 69011]
 					}
 				},
 				{
@@ -52,7 +56,7 @@
 		},
 		"3": {
 			"ACTIONS": [{
-				"name": "Clearing floor",
+				"name": "Clearing floor with king",
 				"function_args": [
 					[17688, 19619]
 				],
@@ -64,7 +68,7 @@
 		},
 		"4": {
 			"ACTIONS": [{
-				"name": "Clearing floor",
+				"name": "Clearing floor with metins",
 				"function_args": [
 					[39123, 65131]
 				],
@@ -88,6 +92,7 @@
 		},
 		"6": {
 			"ACTIONS": [{
+			    "name": "Clearing blacksmith floor",
 					"function_args": [
 						[41000, 20000]
 					],
@@ -95,15 +100,17 @@
 					"requirements": {}
 				},
 				{
+				    "name": "Upgrading item",
 					"function_args": [
-						"OPTION.ITEEMS_TO_UPGRADE"
+						"OPTION.ITEMS_TO_UPGRADE"
 					],
 					"function": "UpgradeItemInDemonTower",
 					"requirements": {}
 				},
 				{
+				    "name": "Going to seventh floor",
 					"function_args": [
-					],
+						[]],
 					"function": "GoToSeventhFloor",
 					"requirements": {}
 				}

@@ -66,9 +66,7 @@ class MetinMemoryObject:
             return False
 
         if received_information['action'] == ACTIONS['SET_VIDS']:
-            self.InstancesList = [None] * len(received_information['data'])
-            for instance in range(len(received_information['data'])):
-                self.InstancesList[instance] = received_information['data'][instance]
+            self.InstancesList = [instance for instance in received_information['data']]
             return True
 
         if received_information['action'] == ACTIONS['SET_CHARACTER_STATUS']:
