@@ -199,6 +199,14 @@ class WebsocketServer:
                     print('New metin2 client joined')
                     client_list.remove(client)
                     self.metin_clients.append(client)
+                    memory_object = self.get_memory_object_by_client_id(client['id'])
+                    if memory_object is None:
+                        memory_object = {
+                            'client_id': client['id'],
+                            'object': MetinMemoryObject(),
+                        }
+                        memory_object['object'].encoding = cleared_message['data']['data']
+                        self.metin_memory_objects.append(memory_object)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
                 

@@ -12,6 +12,7 @@ ACTIONS = {'SET_VIDS': 'set_vids',
 class MetinMemoryObject:
 
     def __init__(self):
+        self.encoding = ''
         self.character_status = {
             'Server': '',
             'CurrentChannel': 0,
