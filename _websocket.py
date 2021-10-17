@@ -32,7 +32,7 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
-DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema', 'options', 'needed_options']
+DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema', 'options', 'needed_options', 'data']
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
@@ -196,7 +196,7 @@ class WebsocketServer:
             return
 
         if client_list == self.all_clients:
-
+            print(cleared_message)
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['set_role']:
                 if cleared_message['data']['message'] == 'metin2_client':
                     print('New metin2 client joined')

@@ -1,4 +1,5 @@
 from . import FileLoader
+import codecs
 instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
 data_valid_keys = ['message', 'action']
 
@@ -65,8 +66,10 @@ class MetinMemoryObject:
         if not self.ValidateReceivedInformation(received_information):
             print('cleaned_information is empty')
             return False
-        else: #if not empty reformat message to UTF8 
-            received_information = self.convertToUTF8(received_information,self.encoding)
+
+        #if not empty reformat message to UTF8
+        received_information = self.convertToUTF8(received_information, self.encoding)
+        print(received_information)
 
         if received_information['action'] == ACTIONS['SET_VIDS']:
             self.InstancesList = [instance for instance in received_information['data']]
@@ -215,8 +218,7 @@ class MetinMemoryObject:
         return lis_new
         
 
-    def stringToUTF8(s,enc): 
-        s=s.decode('cp'+enc)   
-        s=s.encode('utf-8')
+    def stringToUTF8(self,s, enc):
+        s = codecs.encode(s,encoding='utf-8')
         return s
 
