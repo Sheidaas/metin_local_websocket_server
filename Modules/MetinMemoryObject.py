@@ -69,8 +69,6 @@ class MetinMemoryObject:
 
         #if not empty reformat message to UTF8
         received_information = self.convertToUTF8(received_information, self.encoding)
-        print(received_information)
-
         if received_information['action'] == ACTIONS['SET_VIDS']:
             self.InstancesList = [instance for instance in received_information['data']]
             return True

@@ -1,6 +1,11 @@
-import logging, os, pkg_resources, sys, subprocess
+import logging
+import os
+import pkg_resources
+import sys
+import subprocess
 from Modules.MetinMemoryObject import MetinMemoryObject
 import Modules.FileLoader as FileLoader
+import websocket_server
 
 PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 
@@ -32,7 +37,10 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
-DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema', 'options', 'needed_options', 'data']
+DATA_GOOD_KEYS = ['message', 'action', 'memory', 'client_id', 'module', 'schema',
+                  'options', 'needed_options', 'language']
+
+
 ACTION_GOOD_KEYS = ['append', 'remove']
 MEMORY_GOOD_KEYS = ['metin_memory_object']
 
@@ -49,9 +57,10 @@ ACTIONS = {
     'SET_NEW_SCHEMA': 'SET_NEW_SCHEMA'
 }
 
+
 class WebsocketServer:
 
-    def __init__(self, host, port):
+    def __init__(self, host: str, port: int):
         self.all_clients = []
 
         self.metin_clients = []
@@ -61,17 +70,28 @@ class WebsocketServer:
 
         self.server = websocket_server.WebsocketServer(port, host=host, loglevel=logging.INFO)
 
-    def get_client_by_id_and_list(self, client_list, client_id):
-        for client in client_list:
+    def get_client_by_id(self, client_id: int):
+        for client in self.metin_clients:
             if client['id'] == client_id:
                 return client
+
+        for client in self.frontend_clients:
+            if client['id'] == client_id:
+                return client
+
         return None
 
-    def remove_client_by_id_and_list(self, client_list: list, client_id: int):
-        for client in client_list:
+    def remove_client_by_id(self, client_id: int):
+        for client in self.metin_clients:
             if client['id'] == client_id:
-                client_list.remove(client)
+                self.metin_clients.remove(client)
                 return True
+
+        for client in self.frontend_clients:
+            if client['id'] == client_id:
+                self.frontend_clients.remove(client)
+                return True
+
         return False
 
     def remove_memory_object_by_client_id(self, client_id):
@@ -94,24 +114,22 @@ class WebsocketServer:
             return self.metin_clients
         elif client['id'] in [_client['id'] for _client in self.frontend_clients]:
             return self.frontend_clients
-        else:
-            return False
+        return False
 
     def new_client(self, client, server):
         self.all_clients.append(client)
-        #print('New client joined')
         server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
 
     def client_left(self, client, server):
         client_list = self.is_client_new(client)
         if not client_list:
             return
-        self.remove_client_by_id_and_list(client_list, client['id'])
+        self.remove_client_by_id(client['id'])
         self.remove_memory_object_by_client_id(client['id'])
         return
-    
-    def ValidateMessage(self, message):
-        #print(message)
+
+    @staticmethod
+    def validate_message(message):
         try:
             json_message = json.loads(message)
         except:
@@ -135,7 +153,8 @@ class WebsocketServer:
 
             if message_key == 'type':
                 if json_message[message_key] not in RECEIVED_PACKETS_PATTERNS_TYPES.keys():
-                    print(str(json_message[message_key]) +  'is not there ' + str(RECEIVED_PACKETS_PATTERNS_TYPES.keys()))
+                    print(str(json_message[message_key]) + 'is not there '
+                          + str(RECEIVED_PACKETS_PATTERNS_TYPES.keys()))
                     return False
 
             if message_key == 'data':
@@ -150,12 +169,12 @@ class WebsocketServer:
 
             if message_key == 'action':
                 if json_message[message_key] not in ACTION_GOOD_KEYS:
-                    print(str(json_message[message_key]) + ' is not there ' + ACTION_GOOD_KEYS)
+                    print(str(json_message[message_key]) + ' is not there ' + str(ACTION_GOOD_KEYS))
                     return False 
             
             if message_key == 'memory':
                 if json_message[message_key] not in MEMORY_GOOD_KEYS:
-                    print(str(json_message[message_key]) + ' is not there ' + MEMORY_GOOD_KEYS)
+                    print(str(json_message[message_key]) + ' is not there ' + str(MEMORY_GOOD_KEYS))
                     return False            
 
         #print(json_message['data'].keys())
@@ -174,15 +193,11 @@ class WebsocketServer:
             except KeyError:
                 return False     
 
-
         return json_message
 
     def message_received(self, client, server, message):
-        #print(message)
-        cleared_message = self.ValidateMessage(message)
-        #print(cleared_message)
+        cleared_message = self.validate_message(message)
         if not cleared_message:
-            #print(message)
             server.send_message(client, json.dumps(PACKETS_PATTERNS['unknow_request']))
             return
 
@@ -196,7 +211,6 @@ class WebsocketServer:
             return
 
         if client_list == self.all_clients:
-            print(cleared_message)
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['set_role']:
                 if cleared_message['data']['message'] == 'metin2_client':
                     print('New metin2 client joined')
@@ -208,7 +222,7 @@ class WebsocketServer:
                             'client_id': client['id'],
                             'object': MetinMemoryObject(),
                         }
-                        memory_object['object'].encoding = cleared_message['data']['data']
+                        memory_object['object'].encoding = cleared_message['data']['language']
                         self.metin_memory_objects.append(memory_object)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
@@ -282,7 +296,7 @@ class WebsocketServer:
                 
                 if cleared_message['data']['action'] == ACTIONS['GET_FULL_INSTANCES_LIST']:
                     from Modules.StatisticsDatabase import statDB
-                    client = self.get_client_by_id_and_list(self.frontend_clients, client['id'])
+                    client = self.get_client_by_id(client['id'])
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         instances_list = memory_object['object'].InstancesList
@@ -296,23 +310,23 @@ class WebsocketServer:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     if memory_object is not None:
                         hack_status = memory_object['object'].hack_options
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': hack_status, 'action': ACTIONS['GET_FULL_HACK_STATUS']}}
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'],
+                                   'data': {'message': hack_status, 'action': ACTIONS['GET_FULL_HACK_STATUS']}}
                         server.send_message(client, json.dumps(message))
 
                 if cleared_message['data']['action'] == ACTIONS['GET_FULL_SERVER_STATUS']:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
-                    client = self.get_client_by_id_and_list(self.frontend_clients, client['id'])
+                    client = self.get_client_by_id(client['id'])
                     if memory_object is not None:
                         server_info = {
                             'Items': memory_object['object'].ReturnServerItemList(PATH, client['options']['language']),
                             'Mobs': memory_object['object'].ReturnServerMobList(PATH, client['options']['language'])
                         }
-                        #print('sended server')
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
                         server.send_message(client, json.dumps(message))  
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
-                client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
+                client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
                 
@@ -331,26 +345,14 @@ class WebsocketServer:
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update']:
-                client_to_send = self.get_client_by_id_and_list(self.metin_clients, cleared_message['data']['client_id'])
+                client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
-
-
-                #print(cleared_message)   
-                #if cleared_message['data']['module'] == 'FarmBot':
-                #     for module_key in cleared_message['data']['message']:
-                #        if module_key == 'Path':
-                #            for point in cleared_message['data']['message']['Path']:
-                #                if not len(point) == 3:
-                #                    return
-                                #point[2] = point[2].encode('utf-8')
-
-
 
                 server.send_message(client_to_send, json.dumps(cleared_message))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update_request']:
-                client_to_send = self.get_client_by_id_and_list(self.metin_clients, int(cleared_message['data']['message']))
+                client_to_send = self.get_client_by_id(int(cleared_message['data']['message']))
                 if client_to_send is None:
                     return
 
