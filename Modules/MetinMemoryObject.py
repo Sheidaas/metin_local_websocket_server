@@ -1,4 +1,5 @@
 from . import FileLoader
+import codecs
 instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
 data_valid_keys = ['message', 'action']
 
@@ -57,24 +58,19 @@ class MetinMemoryObject:
             'ActionBot': {},
             'ChannelSwitcher': {}}
         self.InstancesList = []
-        self.Equipment = {}
-        self.Inventory = []
-        self.PickupFilter = []
+        self.Equipment = {}  # Items worn
+        self.Inventory = []  # Items in inventory
+        self.PickupFilter = []  # List with item's id to pickup
 
     def OnReceiveInformation(self, received_information):
-        from .StatisticsDatabase import statDB
-        #print(received_information)
         if not self.ValidateReceivedInformation(received_information):
             print('cleaned_information is empty')
             return False
 
+        #if not empty reformat message to UTF8
+        received_information = self.convertToUTF8(received_information, self.encoding)
         if received_information['action'] == ACTIONS['SET_VIDS']:
-            self.InstancesList = [None] * len(received_information['data'])
-            for instance in range(len(received_information['data'])):
-                self.InstancesList[instance] = received_information['data'][instance]
-
-            statDB.AddNewMobData(self.InstancesList, self.character_status['CurrentMap'])
-            #print(statDB.ReturnMobLocation(101))
+            self.InstancesList = [instance for instance in received_information['data']]
             return True
 
         if received_information['action'] == ACTIONS['SET_CHARACTER_STATUS']:
@@ -90,17 +86,15 @@ class MetinMemoryObject:
         if received_information['action'] == ACTIONS['SET_INVENTORY_STATUS']:
             self.Inventory = received_information['data']['Inventory']
             self.Equipment = received_information['data']['Equipment']
-            #print(self.Inventory)
             return True
 
         if received_information['action'] == ACTIONS['SET_PICKUP_FILTER']:
-            #print(received_information)
             self.PickupFilter = received_information['data']
             return True
 
     def ValidateReceivedInformation(self, received_information):
-        #print(received_information)
-        if received_information['action'] == 'set_vids':
+
+        if received_information['action'] == ACTIONS['SET_VIDS']:
             if not type(received_information['data']) == list:
                 print('Data[message] is not a list!')
                 return False
@@ -122,7 +116,7 @@ class MetinMemoryObject:
                         print('mob has wrong data')
                         return False
 
-        elif received_information['action'] == 'set_character_status':
+        elif received_information['action'] == ACTIONS['SET_CHARACTER_STATUS']:
             #print(type(received_information['data']))
             if not type(received_information['data']) == dict:
                 print('data is not dict')
@@ -148,7 +142,7 @@ class MetinMemoryObject:
                             print('tuples have different types')
                             return False
 
-        elif received_information['action'] == 'set_hack_status':
+        elif received_information['action'] == ACTIONS['SET_HACK_STATUS']:
             if not type(received_information['data']) == dict:
                 print('data is not dict')
                 return False
@@ -157,13 +151,13 @@ class MetinMemoryObject:
                 if message_key not in self.hack_options.keys():
                     print(message_key, ' is not in hack options')
                     return False
-            
-            
 
         return True
 
-    def ReturnServerItemList(self, PATH):
-        return FileLoader.load_item_list(PATH)
-    
-    def ReturnServerMobList(self, PATH):
-        return FileLoader.load_mob_list(PATH)
+
+    def ReturnServerItemList(self, PATH: str, language: str):
+        return FileLoader.load_item_list(PATH, language)
+
+    def ReturnServerMobList(self, PATH: str, language: str):
+        return FileLoader.load_mob_list(PATH, language)
+

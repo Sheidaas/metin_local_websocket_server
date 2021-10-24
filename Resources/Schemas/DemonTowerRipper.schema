@@ -1,6 +1,10 @@
 {
 	"REQUIREMENTS": {
 		"lvl": 40
+    "NAME": "Going to DT to kill Ripper"
+  },
+	"REQUIREMENTS": {
+		"LVL": 40
 	},
 	"NEEDED_OPTIONS": {
 		"ITEMS_TO_UPGRADE": []
@@ -52,7 +56,7 @@
 		},
 		"3": {
 			"ACTIONS": [{
-				"name": "Clearing floor",
+				"name": "Clearing floor with king",
 				"function_args": [
 					[17688, 19619]
 				],
@@ -64,7 +68,7 @@
 		},
 		"4": {
 			"ACTIONS": [{
-				"name": "Clearing floor",
+				"name": "Clearing floor with metins",
 				"function_args": [
 					[39123, 65131]
 				],
@@ -88,6 +92,7 @@
 		},
 		"6": {
 			"ACTIONS": [{
+			    "name": "Clearing blacksmith floor",
 					"function_args": [
 						[41000, 20000]
 					],
@@ -95,24 +100,25 @@
 					"requirements": {}
 				},
 				{
+				    "name": "Upgrading item",
 					"function_args": [
 						"OPTION.ITEMS_TO_UPGRADE"
 					],
-					"function": "UpgradeItemInDeamonTower",
+					"function": "UpgradeItemInDemonTower",
 					"requirements": {}
 				},
 				{
+				    "name": "Going to seventh floor",
 					"function_args": [
-						[]
-					],
+						[]],
 					"function": "GoToSeventhFloor",
 					"requirements": {}
 				}
 			]
 		},
 		"7": {
-			"name": "Searching map",
 			"ACTIONS": [{
+			    "name": "Searching map",
 				"function_args": [
 					[61017, 66483]
 				],
