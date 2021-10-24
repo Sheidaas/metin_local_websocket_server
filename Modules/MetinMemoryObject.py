@@ -154,70 +154,10 @@ class MetinMemoryObject:
 
         return True
 
+
     def ReturnServerItemList(self, PATH: str, language: str):
         return FileLoader.load_item_list(PATH, language)
 
     def ReturnServerMobList(self, PATH: str, language: str):
         return FileLoader.load_mob_list(PATH, language)
-
-    #####
-    # Converting to UTF 8 Methods
-    #ignoring ints, floats and other numbers in this conversion. only texts of values relevant.
-
-    def convertToUTF8(self,data,enc='1252'):
-        if (isinstance(data,dict)):
-            return self.dictToUtf8(data,enc)
-        elif (isinstance(data,tuple)):
-            return self.tupleToUtf8(data,enc)
-        elif (isinstance(data,list)):
-            return self.listToUtf8(data,enc)
-        elif (isinstance(data,str)):
-            return self.stringToUTF8(data,enc)
-        return data
-
-    def dictToUtf8(self,dic,enc):
-        for key in dic:
-            if (isinstance(dic[key],dict)):
-                dic[key] = self.dictToUtf8(dic[key],enc)
-            elif (isinstance(dic[key],tuple)):
-                dic[key] = self.tupleToUtf8(dic[key],enc)
-            elif (isinstance(dic[key],list)):
-                dic[key] = self.listToUtf8(dic[key],enc)
-            elif (isinstance(dic[key],str)):
-                dic[key] = self.stringToUTF8(dic[key],enc)
-        return dic
-
-    def tupleToUtf8(self,tupl,enc):
-        tupl_new=[]
-        for item in tupl:
-            if(isinstance(item,str)):
-                item=self.stringToUTF8(item,enc)
-            elif(isinstance(item,dict)):
-                item=self.dictToUtf8(item,enc)
-            elif(isinstance(item,list)):
-                item=self.listToUtf8(item,enc)
-            elif(isinstance(item,tuple)):
-                item=self.tupleToUtf8(item,enc)
-            tupl_new.append(item)
-        return tuple(tupl_new)
-
-    def listToUtf8(self,lis,enc):
-        lis_new=[]
-        for item in lis:
-            if(isinstance(item,str)):
-                item=self.stringToUTF8(item,enc)
-            elif(isinstance(item,dict)):
-                item=self.dictToUtf8(item,enc)
-            elif(isinstance(item,list)):
-                item=self.listToUtf8(item,enc)
-            elif(isinstance(item,tuple)):
-                item=self.tupleToUtf8(item,enc)
-            lis_new.append(item)
-        return lis_new
-        
-
-    def stringToUTF8(self,s, enc):
-        s = codecs.encode(s, encoding=str(enc))
-        s = s.decode('utf-8')
-        return s
 
