@@ -6,6 +6,7 @@ import subprocess
 from Modules.MetinMemoryObject import MetinMemoryObject
 import Modules.FileLoader as FileLoader
 import websocket_server
+import simplejson as json
 
 PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 
@@ -15,8 +16,9 @@ PACKETS_PATTERNS_TYPES = {
     'hearthbeat': 'hearthbeat',
     'result': 'result',
     'information': 'information',
-    'update_state': 'update_state'
-    }
+    'update_state': 'update_state',
+    'update_frontend_client': 'update_frontend_client'
+}
 
 PACKETS_PATTERNS = {
     'unknow_request': {'type': PACKETS_PATTERNS_TYPES['unknow'], 'data': {'message': 'unknow'}},
@@ -34,6 +36,7 @@ RECEIVED_PACKETS_PATTERNS_TYPES = {
     'information': 'information',
     'update': 'update',
     'update_request': 'update_request',
+    'update_frontend_client': 'update_frontend_client'
 }
 
 PACKET_GOOD_KEYS = ['type', 'data']
@@ -54,7 +57,8 @@ ACTIONS = {
     'SET_INVENTORY_STATUS': 'SET_INVENTORY_STATUS',
     'GET_PICKUP_FILTER': 'GET_PICKUP_FILTER',
     'SET_PICKUP_FILTER': 'SET_PICKUP_FILTER',
-    'SET_NEW_SCHEMA': 'SET_NEW_SCHEMA'
+    'SET_NEW_SCHEMA': 'SET_NEW_SCHEMA',
+    'CHANGE_FRONTEND_LANGUAGE': 'CHANGE_FRONTEND_LANGUAGE',
 }
 
 
@@ -94,14 +98,26 @@ class WebsocketServer:
 
         return False
 
-    def remove_memory_object_by_client_id(self, client_id):
+    def create_new_metin_memory_object(self, metin_client_id: int, encoding: str):
+        memory_object = self.get_memory_object_by_client_id(metin_client_id)
+        if memory_object is None:
+            memory_object = {
+                'client_id': metin_client_id,
+                'object': MetinMemoryObject(),
+            }
+            memory_object['object'].encoding = encoding
+            self.metin_memory_objects.append(memory_object)
+            return True
+        return False
+
+    def remove_memory_object_by_client_id(self, client_id: int):
         for memory_object in self.metin_memory_objects:
             if memory_object['client_id'] == client_id:
                 self.metin_memory_objects.remove(memory_object)
                 return True
         return False 
 
-    def get_memory_object_by_client_id(self, client_id):
+    def get_memory_object_by_client_id(self, client_id: int):
         for memory_object in self.metin_memory_objects:
             if memory_object['client_id'] == client_id:
                 return memory_object
@@ -132,8 +148,9 @@ class WebsocketServer:
     def validate_message(message):
         try:
             json_message = json.loads(message)
-        except:
-            print('This is not a json message, validate message')
+        except Exception as e:
+            print(e)
+            print('This is not a json message')
             return False
         
         if type(json_message) == list:
@@ -211,19 +228,13 @@ class WebsocketServer:
             return
 
         if client_list == self.all_clients:
+
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['set_role']:
                 if cleared_message['data']['message'] == 'metin2_client':
                     print('New metin2 client joined')
                     client_list.remove(client)
                     self.metin_clients.append(client)
-                    memory_object = self.get_memory_object_by_client_id(client['id'])
-                    if memory_object is None:
-                        memory_object = {
-                            'client_id': client['id'],
-                            'object': MetinMemoryObject(),
-                        }
-                        memory_object['object'].encoding = cleared_message['data']['language']
-                        self.metin_memory_objects.append(memory_object)
+                    self.create_new_metin_memory_object(client['id'], cleared_message['data']['language'])
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
                 
@@ -237,8 +248,7 @@ class WebsocketServer:
                         'options': {
                             'language': 'en',
                             'save_mob_locations_to_db': False,
-                        }
-                    }
+                        }}
                     self.frontend_clients.append(front_client)
                     server.send_message(client, json.dumps(PACKETS_PATTERNS['result_confirmed']))
                     return
@@ -264,7 +274,7 @@ class WebsocketServer:
                 return
 
         elif client_list == self.frontend_clients:
-            #print(str(cleared_message))
+
             if cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['information']:
 
                 if cleared_message['data']['action'] == ACTIONS['GET_ALL_CONNECTED_METIN_CLIENTS']:
@@ -317,6 +327,7 @@ class WebsocketServer:
                 if cleared_message['data']['action'] == ACTIONS['GET_FULL_SERVER_STATUS']:
                     memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
                     client = self.get_client_by_id(client['id'])
+                    client['options']['language'] = cleared_message['data']['language'].lower()
                     if memory_object is not None:
                         server_info = {
                             'Items': memory_object['object'].ReturnServerItemList(PATH, client['options']['language']),
@@ -386,6 +397,11 @@ class WebsocketServer:
                     schema['NEEDED_OPTIONS'] = cleared_message['data']['needed_options']
                     message = {'type': RECEIVED_PACKETS_PATTERNS_TYPES['update_request'], 'data':{'message': schema, 'action': ACTIONS['SET_NEW_SCHEMA']}}
                     server.send_message(client_to_send, json.dumps(message))
+
+
+
+
+
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)

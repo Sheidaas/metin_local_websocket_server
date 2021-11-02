@@ -1,6 +1,5 @@
 from . import FileLoader
-import codecs
-instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int}
+instance_valid_keys = {'id': int, 'x': int, 'y': int, 'type': int, 'vid': int, 'name': str}
 data_valid_keys = ['message', 'action']
 
 ACTIONS = {'SET_VIDS': 'set_vids',
@@ -15,6 +14,7 @@ class MetinMemoryObject:
     def __init__(self):
         self.encoding = ''
         self.character_status = {
+            'vid': 0,
             'Server': '',
             'CurrentChannel': 0,
             'Position': [0, 0],
@@ -56,7 +56,9 @@ class MetinMemoryObject:
             'FarmBot': {},
             'Settings': {},
             'ActionBot': {},
-            'ChannelSwitcher': {}}
+            'FishBot': {},
+            'ChannelSwitcher': {},
+            'FileHandler': {}}
         self.InstancesList = []
         self.Equipment = {}  # Items worn
         self.Inventory = []  # Items in inventory
@@ -67,8 +69,6 @@ class MetinMemoryObject:
             print('cleaned_information is empty')
             return False
 
-        #if not empty reformat message to UTF8
-        received_information = self.convertToUTF8(received_information, self.encoding)
         if received_information['action'] == ACTIONS['SET_VIDS']:
             self.InstancesList = [instance for instance in received_information['data']]
             return True
@@ -153,7 +153,6 @@ class MetinMemoryObject:
                     return False
 
         return True
-
 
     def ReturnServerItemList(self, PATH: str, language: str):
         return FileLoader.load_item_list(PATH, language)
