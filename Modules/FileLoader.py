@@ -46,6 +46,50 @@ def load_mob_list(path, language='en', server='gf_servers'):
                 continue
     return mobs
 
+def load_skill_names(path, language='en', server='gf_servers'):
+    skills = {}
+    real_path = OSPath(path + '/' + 'Resources/' + server + '/' + language + '/' + 'skill_names.txt')
+    with open(real_path, encoding='utf_8') as file:
+        data = file.readlines()
+        for line in data:
+            word = line.split()
+            item_id = word[0]
+            item_name = ''
+            for name in range(1, len(word)):
+                if name == len(word)-1:
+                    item_name += str(word[name])
+                else:
+                    item_name += str(word[name]) + ' '
+            try:
+                skills[int(item_id)] = {
+                    'name': item_name
+                }
+            except ValueError:
+                continue
+    return skills
+
+def load_item_icon(path):
+    skills = {}
+    real_path = OSPath(path + '/' + 'Resources/item_icons.txt')
+    with open(real_path, encoding='utf_8') as file:
+        data = file.readlines()
+        for line in data:
+            word = line.split()
+            item_id = word[0]
+            item_name = ''
+            for name in range(1, len(word)):
+                if name == len(word)-1:
+                    item_name += str(word[name])
+                else:
+                    item_name += str(word[name]) + ' '
+            try:
+                skills[int(item_id)] = {
+                    'name': item_name
+                }
+            except ValueError:
+                continue
+    return skills
+
 def load_schema_by_name(path, schema_name):
     real_path = OSPath(path + '/' + 'Resources/Schemas/' + schema_name + '.schema')
     try:

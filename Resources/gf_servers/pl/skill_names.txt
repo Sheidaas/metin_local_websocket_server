@@ -1,0 +1,107 @@
+ID LocalizedName
+1 Trzystronne Cięcie
+2 Wir Miecza
+3 Berserk
+4 Aura Miecza
+5 Szarża
+6 Wola Życia
+16 Duchowe Uderzenie
+17 Walnięcie
+18 Tąpnięcie
+19 Silne Ciało
+20 Uderzenie Miecza
+21 Krąg Mieczy
+31 Zasadzka
+32 Szybki Atak
+33 Wirujący Sztylet
+34 Krycie Się
+35 Trująca Chmura
+36 Wolno działająca trucizna
+46 Powtarzalny Strzał
+47 Deszcz Strzał
+48 Ognista Strzała
+49 Bezszelestny Chód
+50 Trująca Strzała
+51 Iskrzące Uderzenie
+61 Uderzenie Palcem
+62 Smoczy Wir
+63 Czarowane Ostrze
+64 Strach
+65 Czarowana Zbroja
+66 Rozproszenie Magii
+76 Mroczne Uderzenie
+77 Ogniste Uderzenie
+78 Ognisty Duch
+79 Mroczna Ochrona
+80 Duchowy Cios
+81 Mroczna Sfera
+91 Latający Talizman
+92 Strzelający Smok
+93 Smoczy Skowyt
+94 Błogosławieństwo
+95 Odbicie
+96 Pomoc Smoka
+106 Rzut Piorunem
+107 Przywołanie Błyskawicy
+108 Burzowy Szpon
+109 Leczenie
+110 Zwinność
+111 Atak+
+121 Dowodzenie
+122 Kombinacja
+123 Łowienie
+124 Górnictwo
+125 Tworzenie Przedmiotu
+126 Język Shinsoo
+127 Język Chunjo
+128 Język Jinno
+129 Polimorfia
+130 Jeździectwo
+131 Przywołaj Konia
+132 Auto Atak
+133 Charyzma
+134 Inspiracja
+137 Cięcie z Siodła
+138 Stąpnięcie Konia
+139 Fala Mocy
+140 Grad Strzał
+151 Smocze Oczy
+152 Krew Boga Smoków
+153 Błogosławieństwo Boga Smoków
+154 Święta Zbroja
+155 Akceleracja
+156 Furia Boga Smoków
+157 Magiczna Pomoc
+170 Rozedrzeć
+171 Wilczy Dech
+172 Wilczy Skok
+173 Wilczy Pazur
+174 Dusza Purpurowego Wilka
+175 Dusza Wilka Indygo
+176 Trzęsienie
+177 Światło Gwiazd
+178 Strzał Wichury
+179 Piekielny Cios
+180 Fala Śmierci
+181 Meteor
+182 Tarcza Eteru
+183 Burza Szponów
+221 Riposta: Wir Miecza
+222 Riposta: Zasadzka
+223 Riposta: Uderzenie Palcem
+224 Riposta: Strzelający Smok
+225 Riposta: Duchowe Uderzenie
+226 Riposta: Ognista Strzała
+227 Riposta: Mroczne Uderzenie
+228 Riposta: Przywołanie Błyskawicy
+229 Riposta: Wilczy Dech
+236 Dopalacz: Wir Miecza
+237 Dopalacz: Zasadzka
+238 Dopalacz: Uderzenie Palcem
+239 Dopalacz: Strzelający Smok
+240 Dopalacz: Duchowe Uderzenie
+241 Dopalacz: Ognista Strzała
+242 Dopalacz: Mroczne Uderzenie
+243 Dopalacz: Przywołanie Błyskawicy
+244 Dopalacz: Wilczy Dech
+246 Precyzja

@@ -1,0 +1,107 @@
+ID LocalizedName
+1 Incizie Triplă
+2 Vârtejul Sabiei
+3 Iureş
+4 Aura Sabiei
+5 Izbitură
+6 Puterea Vieţii
+16 Atacul Spiritului
+17 Zdrobire
+18 Zdruncinare
+19 Corp Rezistent
+20 Atacul Sabiei
+21 Sfera Sabiei
+31 Ambuscadă
+32 Atac fulger
+33 Pumnal Rulant
+34 Camuflaj
+35 Nor Otrăvitor
+36 Otravă Subtilă
+46 Foc Repetat
+47 Ploaie de Săgeţi
+48 Săgeată de Foc
+49 Mers de Fulg
+50 Săgeată Otrăvită
+51 Scânteie
+61 Lovitura Degetului
+62 Vârtejul Dragonului
+63 Tăiş Vrăjit
+64 Teamă
+65 Armură Vrăjită
+66 Risipirea Magiei
+76 Lovitură Întunecată
+77 Lovitura Focului
+78 Spiritul Flăcării
+79 Protecţie Întunecată
+80 Lovitura Spiritului
+81 Sferă Întunecată
+91 Talisman Zburător
+92 Aruncarea Dragonului
+93 Răgetul Dragonului
+94 Binecuvântare
+95 Reflexie
+96 Ajutorul Dragonului
+106 Aruncarea Fulgerului
+107 Chemarea Fulgerului
+108 Gheara Fulgerului
+109 Leac
+110 Accelerare
+111 Atac Forţat
+121 Conducere
+122 Combo
+123 Pescuit
+124 Minerit
+125 Crearea Obiectelor
+126 Shinsoo
+127 Chunjo
+128 Jinno
+129 Transformare
+130 Calarit
+131 Cheamă Calul.
+132 Atacă automat
+133 Carisma
+134 Inspiraţie
+137 Lupta Calare
+138 Zdruncinare
+139 Atac in Valuri
+140 Rafala de Sageti
+151 Ochi de Dragon
+152 Sângele Zeului Dragon
+153 Binecuvântarea Zeului Dragon
+154 Armură Sfântă
+155 Accelerare
+156 Furia Zeului Dragon
+157 Ajutor Fermecat
+170 Sfâşie
+171 Suflul Lupului
+172 Săritura Lupului
+173 Dinţii Lupului
+174 Sufletul Lupului Roşu
+175 Sufletul Lupului Indigo
+176 Cutremur
+177 Lumină Astrală
+178 Furtună Aprigă
+179 Chinul Iadului
+180 Val Ucigaş
+181 Meteorit
+182 Abis
+183 Furtună Iute
+221 Respingere Vârtejul Sabiei
+222 Respingere Ambuscadă
+223 Respingere Lovitura Degetului
+224 Respingere Aruncarea Dragonului
+225 Respingere Atacul Spiritului
+226 Respingere Sageată de Foc
+227 Respingere Lovitură Întunecată
+228 Respingere Chemarea Fulgerului
+229 Respingere Suflul Lupului
+236 Ajutor Vârtejul Sabiei
+237 Ajutor Ambuscadă
+238 Ajutor Lovitura Degetului
+239 Ajutor Aruncarea Dragonului
+240 Ajutor Atacul Spiritului
+241 Ajutor Sageată de Foc
+242 Ajutor Lovitură Întunecată
+243 Ajutor Chemarea Fulgerului
+244 Ajutor Suflul Lupului
+246 Precizie

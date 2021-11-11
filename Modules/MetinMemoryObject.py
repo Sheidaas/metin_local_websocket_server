@@ -58,10 +58,13 @@ class MetinMemoryObject:
             'ActionBot': {},
             'FishBot': {},
             'ChannelSwitcher': {},
-            'FileHandler': {}}
+            'FileHandler': {},
+            'InstanceInteractions': {}}
         self.InstancesList = []
         self.Equipment = {}  # Items worn
         self.Inventory = []  # Items in inventory
+        self.free_inventory_slots = 0
+        self.max_inventory_slots = 0
         self.PickupFilter = []  # List with item's id to pickup
 
     def OnReceiveInformation(self, received_information):
@@ -86,6 +89,8 @@ class MetinMemoryObject:
         if received_information['action'] == ACTIONS['SET_INVENTORY_STATUS']:
             self.Inventory = received_information['data']['Inventory']
             self.Equipment = received_information['data']['Equipment']
+            self.free_inventory_slots = received_information['data']['FreeSlots']
+            self.max_inventory_slots = received_information['data']['MaxInventorySize']
             return True
 
         if received_information['action'] == ACTIONS['SET_PICKUP_FILTER']:
@@ -160,3 +165,8 @@ class MetinMemoryObject:
     def ReturnServerMobList(self, PATH: str, language: str):
         return FileLoader.load_mob_list(PATH, language)
 
+    def ReturnServerSkillList(self, PATH: str, language: str):
+        return FileLoader.load_skill_names(PATH, language)
+
+    def ReturnItemIconsNames(self, PATH: str):
+        return FileLoader.load_item_icon(PATH)

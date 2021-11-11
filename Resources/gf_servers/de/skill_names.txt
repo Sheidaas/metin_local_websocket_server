@@ -1,0 +1,107 @@
+ID LocalizedName
+1 Dreiwege-Schnitt
+2 Schwertwirbel
+3 Kampfrausch
+4 Aura des Schwertes
+5 Sausen
+6 Lebenswille
+16 Durchschlag
+17 Heftiges Schlagen
+18 Stampfer
+19 Starker Körper
+20 Schwertschlag
+21 Schwertzirkel
+31 Hinterhalt
+32 Blitzangriff
+33 Degenwirbel
+34 Tarnung
+35 Giftwolke
+36 Schleichendes Gift
+46 Wiederholter Schuss
+47 Pfeilregen
+48 Feuerpfeil
+49 Federschreiten
+50 Giftpfeil
+51 Funkenschlag
+61 Fingerschlag
+62 Drachenwirbel
+63 Verzauberte Klinge
+64 Furcht
+65 Verzauberte Rüstung
+66 Zauber aufheben
+76 Dunkler Schlag
+77 Flammenschlag
+78 Geist der Flamme
+79 Dunkler Schutz
+80 Geisterschlag
+81 Dunkler Stein
+91 Fliegender Talisman
+92 Drachenschießen
+93 Drachengebrüll
+94 Segen
+95 Reflektieren
+96 Hilfe des Drachen
+106 Blitzwurf
+107 Blitz heraufbeschwören
+108 Blitzkralle
+109 Kurieren
+110 Schnelligkeit
+111 Angriff+
+121 Führung
+122 Combo
+123 Angeln
+124 Bergbau
+125 Herstellung von Gegenständen
+126 Shinsoo
+127 Chunjo
+128 Jinno
+129 Verwandlung
+130 Reiten
+131 Pferd rufen
+132 Automatisch angreifen
+133 Charisma
+134 Inspiration
+137 Kampf vom Pferderücken
+138 Pferdestampfer
+139 Kraftwelle
+140 Pfeilhagel
+151 Drachenaugen
+152 Blut des Drachengotts
+153 Segnung des Drachengotts
+154 Heilige Rüstung
+155 Beschleunigung
+156 Wut des Drachengottes
+157 Zauberhilfe
+170 Zerreißen
+171 Atem des Wolfes
+172 Wolfssprung
+173 Wolfsklaue
+174 Purpurwolfseele
+175 Indigowolfseele
+176 Erdbeben
+177 Lichtsterne
+178 Sturmschuss
+179 Höllenstoß
+180 Todeswelle
+181 Meteor
+182 Ätherschild
+183 Klauensturm
+221 Schwertwirbel-Konter
+222 Hinterhalt-Konter
+223 Fingerschlag-Konter
+224 Drachenschießen-Konter
+225 Durchschlag-Konter
+226 Feuerpfeil-Konter
+227 Dunkler Schlag-Konter
+228 Blitz heraufbeschwören-Konter
+229 Atem des Wolfes-Konter
+236 Schwertwirbel-Boost
+237 Hinterhalt-Boost
+238 Fingerschlag-Boost
+239 Drachenschießen-Boost
+240 Durchschlag-Boost
+241 Feuerpfeil-Boost
+242 Dunkler Schlag-Boost
+243 Blitz heraufbeschwören-Boost
+244 Atem des Wolfes-Boost
+246 Präzision

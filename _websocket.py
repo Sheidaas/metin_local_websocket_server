@@ -5,8 +5,6 @@ import sys
 import subprocess
 from Modules.MetinMemoryObject import MetinMemoryObject
 import Modules.FileLoader as FileLoader
-import websocket_server
-import simplejson as json
 
 PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 
@@ -331,7 +329,9 @@ class WebsocketServer:
                     if memory_object is not None:
                         server_info = {
                             'Items': memory_object['object'].ReturnServerItemList(PATH, client['options']['language']),
-                            'Mobs': memory_object['object'].ReturnServerMobList(PATH, client['options']['language'])
+                            'Mobs': memory_object['object'].ReturnServerMobList(PATH, client['options']['language']),
+                            'Skills': memory_object['object'].ReturnServerSkillList(PATH, client['options']['language']),
+                            'ItemIcons': memory_object['object'].ReturnItemIconsNames(PATH)
                         }
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
                         server.send_message(client, json.dumps(message))  
@@ -376,6 +376,8 @@ class WebsocketServer:
                         inventory = {
                             'Inventory': memory_object['object'].Inventory,
                             'Equipment': memory_object['object'].Equipment,
+                            'FreeSlots': memory_object['object'].free_inventory_slots,
+                            'MaxInventorySize': memory_object['object'].max_inventory_slots,
                         }
                         #print(inventory)
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': ACTIONS['SET_INVENTORY_STATUS']}}
@@ -430,7 +432,7 @@ def check_installed_packages():
 def main():
     check_installed_packages()
 
-    server = WebsocketServer('127.0.0.1', 13254)
+    server = WebsocketServer(host='127.0.0.1', port=13254)
     server.run_server()
 
 

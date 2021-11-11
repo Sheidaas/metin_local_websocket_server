@@ -11,7 +11,7 @@ Vnum	LocalizedName
 110	Niedwied
 111	Niedw. Grizzly
 112	Czar. Niedw.
-113	Bršz. Niedw.
+113	Brąz. Niedw.
 114	Tygrys
 115	Biały Tygrys
 131	Przeklęty Wilk
@@ -25,7 +25,7 @@ Vnum	LocalizedName
 139	Przeklęty Niedw.
 140	Przekl. Niedw. Grizzly
 141	Przeklęty Czar. Niedw.
-142	Przeklęty Bršz. Niedw.
+142	Przeklęty Brąz. Niedw.
 143	Przeklęty Tygrys
 144	Przeklęty Biały Tygrys
 151	Cung-Mok
@@ -33,7 +33,7 @@ Vnum	LocalizedName
 153	Jug-Hyul
 154	Young-Ji
 155	Li-An
-171	Głodny Zabłškany Pies
+171	Głodny Zabłąkany Pies
 172	Głodny Wilk
 173	Głodny Alfa Wilk
 174	Głodny Nieb. Wilk
@@ -45,7 +45,7 @@ Vnum	LocalizedName
 180	Głodny Niedw.
 181	Głodny Niedw. Grizzly
 182	Głodny Czar. Niedw.
-183	Głodny Bršz. Niedw.
+183	Głodny Brąz. Niedw.
 184	Głodny Tygrys
 185	Głodny Biały Tygrys
 191	Lykos
@@ -192,7 +192,7 @@ Vnum	LocalizedName
 1036	Duch Chaosu
 1037	Podły Demon Przyw.
 1038	Mistrz Czaszk. Miecza
-1039	Latajšca Czaszka
+1039	Latająca Czaszka
 1040	Niem. Duch
 1041	Demoniczna Bestia
 1061	Brutalny Demon Żołnierz
@@ -275,38 +275,38 @@ Vnum	LocalizedName
 1904	Elit. Dziewięć Ogonów
 1905	Elit. Dziewięć Ogonów
 1906	Elit. Dziewięć Ogonów
-2001	Młody Pajšk
-2002	Trujšcy Pajšk
-2003	Czerw. Trujšcy Pajšk
-2004	Szpon. Pajšk
-2005	Pajšk Żołnierz
-2031	Młody Trujšcy Pajšk
-2032	miert. Trujšcy Pajšk
-2033	Zły Czerw. Truj. Pajšk
-2034	Szpon. Trujšcy Pajšk
-2035	Trujšcy Pajšk Żołnierz
-2036	Elit. Truj. Pajšk Żołn.
-2037	Trujšcy Pajšk Żołnierz
-2051	Podły Młody Truj. Pajšk
-2052	Podły m. Truj. Pajšk
+2001	Młody Pająk
+2002	Trujący Pająk
+2003	Czerw. Trujący Pająk
+2004	Szpon. Pająk
+2005	Pająk Żołnierz
+2031	Młody Trujący Pająk
+2032	miert. Trujący Pająk
+2033	Zły Czerw. Truj. Pająk
+2034	Szpon. Trujący Pająk
+2035	Trujący Pająk Żołnierz
+2036	Elit. Truj. Pająk Żołn.
+2037	Trujący Pająk Żołnierz
+2051	Podły Młody Truj. Pająk
+2052	Podły m. Truj. Pająk
 2053	Podły Czerw. Truj. Paj.
-2054	Podły Szpon. Truj. Pajšk
-2055	Podły Truj. Pajšk Żołn.
-2061	Mały Trujšcy Pajšk
-2062	miert. Trujšcy Pajšk
+2054	Podły Szpon. Truj. Pająk
+2055	Podły Truj. Pająk Żołn.
+2061	Mały Trujący Pająk
+2062	miert. Trujący Pająk
 2063	Czerw. mier. Truj. Paj.
-2064	Szpon. Trujšcy Pajšk
-2065	Trujšcy Pajšk Żołnierz
-2071	Best. Młody Truj. Pajšk
+2064	Szpon. Trujący Pająk
+2065	Trujący Pająk Żołnierz
+2071	Best. Młody Truj. Pająk
 2072	Best. miert. Truj. Paj.
 2073	Best. Czerw. Truj. Paj.
 2074	Best. Szpon. Truj. Paj.
-2075	Best. Truj. Pajšk Żołn.
-2076	Best. Silny Truj. Pajšk
-2091	Królowa Pajšków
-2092	Baronówna Pajšków
-2093	Elit. Królowa Pajšków
-2094	Król Pajšków
+2075	Best. Truj. Pająk Żołn.
+2076	Best. Silny Truj. Pająk
+2091	Królowa Pająków
+2092	Baronówna Pająków
+2093	Elit. Królowa Pająków
+2094	Król Pająków
 2095	Pajęcze Jajo
 2101	Pustynny Lis
 2102	Pustynne Lataj. Oko
@@ -331,16 +331,16 @@ Vnum	LocalizedName
 2158	Silny Pustynny Zawadiaka
 2191	Olbrzymi Żółw
 2192	Elit. Olbrzymi Żółw
-2201	Sługa Walczšcego Tygr.
+2201	Sługa Walczącego Tygr.
 2202	Ognisty Duch
-2203	Walczšcy Tygrys
+2203	Walczący Tygrys
 2204	Płomień
 2205	Ognisty Wojownik
 2206	Ognisty Król
 2207	Elit. Ognisty Król
 2231	Silny Sługa Walcz. Tygr.
 2232	Silny Ognisty Duch
-2233	Silny Walczšcy Tygrys
+2233	Silny Walczący Tygrys
 2234	Silny Płomień
 2235	Silny Ognisty Wojownik
 2291	Czerwony Smok
@@ -367,11 +367,11 @@ Vnum	LocalizedName
 2415	Komendant Setaou
 2431	ĂľŔÇş´ťç
 2432	ĂľŔÇąĂş´
-2433	ĂľŔÇšýťç
+2433	ĂľŔÇąýťç
 2434	ĂľŔÇŔĺźö
 2451	ÁřĂľŔÇş´ťç
 2452	ÁřĂľŔÇąĂş´
-2453	ÁřĂľŔÇšýťç
+2453	ÁřĂľŔÇąýťç
 2454	ÁřĂľŔÇŔĺźö
 2491	Dowódca Yonghan
 2492	Generał Yonghan
@@ -418,20 +418,20 @@ Vnum	LocalizedName
 2608	Bera Zodiaku
 2609	Niedwied Zodiaku
 2610	Niedw. Grizzly Zodiaku
-2611	Bršz. Niedw. Zodiaku
+2611	Brąz. Niedw. Zodiaku
 2612	Eun-Jung Zodiaku
 2613	Tigris Zodiaku
 2614	Tygrys Zodiaku
 2615	Tygrys Zodiaku
 2616	Se-Rang Zodiaku
 2617	Jin-Hee Zodiaku
-2618	Młody Pajšk Zodiaku
-2619	Trujšcy Pajšk Zodiaku
-2620	Czerw. Tr. Pajšk Zodiaku
-2621	Szpon. Pajška Zodiaku
-2622	Pajšk Żołnierz Zodiaku
+2618	Młody Pająk Zodiaku
+2619	Trujący Pająk Zodiaku
+2620	Czerw. Tr. Pająk Zodiaku
+2621	Szpon. Pająka Zodiaku
+2622	Pająk Żołnierz Zodiaku
 2623	Ognisty Duch Zodiaku
-2624	Walczšcy Tygrys Zodiaku
+2624	Walczący Tygrys Zodiaku
 2625	Ogień Zodiaku
 2626	Ognisty Wojownik Zodiaku
 2627	Ognisty Król Zodiaku
@@ -504,7 +504,7 @@ Vnum	LocalizedName
 2701	Żołnierz Vargulf
 2702	Generał Vargulf
 2703	Kerberos
-2704	Wšż Kerberos
+2704	Wąż Kerberos
 2705	Smok Kerberos
 2706	Kentauros
 2707	Wojownik Kentauros
@@ -674,9 +674,9 @@ Vnum	LocalizedName
 3954	Murena Żołnierz
 3955	Murena Wojownik Głębin
 3956	Królowa Syren
-3957	Wylšg Hydry
-3958	Wylšg Hydry
-3959	Wylšg Hydry
+3957	Wyląg Hydry
+3958	Wyląg Hydry
+3959	Wyląg Hydry
 3960	Hydra
 3961	Hydra
 3962	Hydra
@@ -717,7 +717,7 @@ Vnum	LocalizedName
 4019	Wejcie Piekielnej Wieży
 4020	Piek. Wieża Sunga Mahi
 4021	Pieczęć Piekielnej Wieży
-4022	Portal wištyni Węży
+4022	Portal wiątyni Węży
 4023	Zmiana poziomu
 4024	Głowa Węża
 4025	Głowa Węża
@@ -749,7 +749,7 @@ Vnum	LocalizedName
 4131	Strażnik Apokalipsy Xu
 4132	Strażnik Apokalipsy Hai
 4141	Metin Zagłady
-4142	Metin Sšdu Ostatecznego
+4142	Metin Sądu Ostatecznego
 4143	Metin Potępienia
 4144	Metin Apokalipsy
 4145	Katogr Apokalipsy
@@ -779,7 +779,7 @@ Vnum	LocalizedName
 4225	SZC: Ognisty Troll Żaru
 4226	SZC: Ognista Broda Żaru
 4227	SZC: Og. Generał Żaru
-4228	SZC: Ognisty Ksišżę Żaru
+4228	SZC: Ognisty Książę Żaru
 4229	SZC: Ignator
 4240	SZC: Kryształ Mrozu
 4241	SZC: Mrony Robak
@@ -789,7 +789,7 @@ Vnum	LocalizedName
 4245	SZC: Mrony Troll
 4246	SZC: Mrona Broda
 4247	SZC: Mrony Generał
-4248	SZC: Mrony Ksišżę
+4248	SZC: Mrony Książę
 4249	SZC: Magmowy Yeti
 4260	SZC: Wojownik En-Tai
 4261	SZC: Bojownik En-Tai
@@ -827,7 +827,7 @@ Vnum	LocalizedName
 4305	PB: Ognisty Troll Żaru
 4306	PB: Ognista Broda Żaru
 4307	PB: Og. Generał Żaru
-4308	PB: Ognisty Ksišżę Żaru
+4308	PB: Ognisty Książę Żaru
 4309	PB: Ignator
 4320	PB: Kryształ Mrozu
 4321	PB: Mrony Robak
@@ -837,7 +837,7 @@ Vnum	LocalizedName
 4325	PB: Mrony Troll
 4326	PB: Mrona Broda
 4327	PB: Mrony Generał
-4328	PB: Mrony Ksišżę
+4328	PB: Mrony Książę
 4329	PB: Magmowy Yeti
 4340	PB: Wojownik En-Tai
 4341	PB: Bojownik En-Tai
@@ -921,16 +921,16 @@ Vnum	LocalizedName
 5125	Silna Kamienna Małpa
 5126	Silna Złota Małpa
 5127	Silny Przyw. Małp
-5131	Mšdry M. Małpi Żołnierz
-5132	Mšdry M. Małpi Miotacz
-5133	Mšdry M. Małpi Wojownik
-5134	Mšdry M. Małpi Generał
-5141	Mšdry Małpi Żołnierz
-5142	Mšdry Małpi Miotacz
-5143	Mšdry Małpi Wojownik
-5144	Mšdry Małpi Generał
-5145	Mšdra Kam. Małpa
-5146	Mšdry Małpi Przyw.
+5131	Mądry M. Małpi Żołnierz
+5132	Mądry M. Małpi Miotacz
+5133	Mądry M. Małpi Wojownik
+5134	Mądry M. Małpi Generał
+5141	Mądry Małpi Żołnierz
+5142	Mądry Małpi Miotacz
+5143	Mądry Małpi Wojownik
+5144	Mądry Małpi Generał
+5145	Mądra Kam. Małpa
+5146	Mądry Małpi Przyw.
 5151	Zły Sil. Małpi Żołnierz
 5152	Zły Silny Małpi Miotacz
 5153	Zły Sil. Małpi Wojownik
@@ -939,15 +939,15 @@ Vnum	LocalizedName
 5156	Zła Silna Złota Małpa
 5157	Zły Silny Małpi Przyw.
 5161	Skalista Małpa
-5162	Chodzšca Małpa
+5162	Chodząca Małpa
 5163	Lord Małp
 5201	Dziki Pies
 5202	Dzik
 5203	Czerwony Dzik
 5204	Niedwied
-5205	Bršzowy Niedwied
+5205	Brązowy Niedwied
 5206	Niedwied Czarny
-5207	Głodny Bršz. Niedwied
+5207	Głodny Brąz. Niedwied
 5208	Tygrys
 5209	Biały Tygrys
 6001	Ognisty Duch Żaru
@@ -958,7 +958,7 @@ Vnum	LocalizedName
 6006	Ognisty Troll Żaru
 6007	Ognista Broda Żaru
 6008	Ognisty Generał Żaru
-6009	Ognisty Ksišżę Żaru
+6009	Ognisty Książę Żaru
 6051	Ignator
 6091	Razador
 6101	Kryształ Mrozu
@@ -969,7 +969,7 @@ Vnum	LocalizedName
 6106	Mrony Troll
 6107	Mrona Broda
 6108	Mrony Generał
-6109	Mrony Ksišżę
+6109	Mrony Książę
 6110	Magmowy Yeti
 6111	Magmowy Golem
 6112	Magmowy Insekt
@@ -1001,9 +1001,9 @@ Vnum	LocalizedName
 6308	Silny Mag Ochao
 6309	Silny Kat Ochao
 6310	Silny Generał Ochao
-6391	Ksišżę Ochao
+6391	Książę Ochao
 6392	Goryl Ochao
-6393	Silny Ksišżę Ochao
+6393	Silny Książę Ochao
 6394	Silny Goryl Ochao
 6401	Wojownik En-Tai
 6402	Bojownik En-Tai
@@ -1204,7 +1204,7 @@ Vnum	LocalizedName
 7010	Biały Komandor Tu-Gui
 7012	Bi-Ma-Gui-An
 7013	Król Skorpion
-7014	Mšdry Człowiek Skorpion
+7014	Mądry Człowiek Skorpion
 7015	Skorpion Łucznik
 7016	Wężowy Wojownik Miecza
 7017	Wężowy Łucznik
@@ -1261,19 +1261,19 @@ Vnum	LocalizedName
 7068	Wężowy Miecznik
 7069	Wężowy Łucznik
 7070	Pustynny Zawadiaka
-7071	Sługa Walczšcego Tygr.
+7071	Sługa Walczącego Tygr.
 7072	Duch Płomienia
-7073	Walczšce Tygrysy
+7073	Walczące Tygrysy
 7074	Ogień
 7075	Ognisty Wojownik
-7076	Sługa Walczšcego Tygr.
+7076	Sługa Walczącego Tygr.
 7077	Duch Płomienia
-7078	Walczšce Tygrysy
+7078	Walczące Tygrysy
 7079	Ogień
 7080	Ognisty Wojownik
-7081	Sługa Walczšcego Tygr.
+7081	Sługa Walczącego Tygr.
 7082	Duch Płomienia
-7083	Walczšce Tygrysy
+7083	Walczące Tygrysy
 7084	Ogień
 7085	Ognisty Wojownik
 7086	Pniak Drzewa Duchów
@@ -1359,10 +1359,10 @@ Vnum	LocalizedName
 7595	Łucznika P. Wieży
 7600	Kamień Duchowy P. Wieży
 7609	Czarnoksiężnik P. Wieży
-7610	Ksišżę Piekielnej Wieży
-7611	Ksišżę Piekielnej Wieży
-7612	Ksišżę mierci P. Wieży
-7613	Ksišżę mierci P. Wieży
+7610	Książę Piekielnej Wieży
+7611	Książę Piekielnej Wieży
+7612	Książę mierci P. Wieży
+7613	Książę mierci P. Wieży
 7614	Czarnoksiężnik P. Wieży
 7615	Wilk Piekielnej Wieży
 7616	Zbir Piekielnej Wieży
@@ -1493,18 +1493,18 @@ Vnum	LocalizedName
 8511	Lodowy Golem
 8600	żőąÍ´ëÁˇŔĺ
 8601	żőąÍ´ëÁˇŔĺ
-8602	šĐął´ëÁÖął
-8603	šĐął´ëÁÖął
+8602	ąĐął´ëÁÖął
+8603	ąĐął´ëÁÖął
 8604	¸íťçąÍżŐ
 8605	¸íťçąÍżŐ
 8606	ťç˝Ĺ
 8607	ťç˝Ĺ
-8608	ą¸šĚČŁ
-8609	ą¸šĚČŁ
-8610	´ŠˇˇĹőšüąÍ
-8611	´ŠˇˇĹőšüąÍ
-8612	żŠżŐ°ĹšĚ
-8613	żŠżŐ°ĹšĚ
+8608	ą¸ąĚČŁ
+8609	ą¸ąĚČŁ
+8610	´ąˇˇĹőąüąÍ
+8611	´ąˇˇĹőąüąÍ
+8612	żążŐ°ĹąĚ
+8613	żążŐ°ĹąĚ
 8614	°Ĺ´ëťç¸ˇ°ĹşĎ
 8615	°Ĺ´ëťç¸ˇ°ĹşĎ
 8616	Billy Loomis
@@ -1518,13 +1518,13 @@ Vnum	LocalizedName
 8625	Posterunek Trolli
 8626	1. Posterunek Myr
 8627	2. Posterunek Myr
-9001	Handlarz Broniš
+9001	Handlarz Bronią
 9002	Handlarz Zbrojami
 9003	Handlarka Różnoci
 9004	Pomocnik Zdarzeń
 9005	Dozorca
 9006	Starsza Pani
-9007	Handlarz Broniš
+9007	Handlarz Bronią
 9008	Handlarz Zbrojami
 9009	Rybak
 9010	Helen Z Magazynu
@@ -1540,7 +1540,7 @@ Vnum	LocalizedName
 20475	więty Kowal Zestawu
 20476	Okazały Kowal Zestawu
 20477	Rycerski Kowal Zestawu
-20478	Ksišżęcy Kowal Zestawu
+20478	Książęcy Kowal Zestawu
 20479	Majest. Kowal Zestawu
 20480	Dyspozytorka Handlowa
 20481	Dyspozytorka Handlowa
@@ -1556,11 +1556,11 @@ Vnum	LocalizedName
 10010	Obszar_Bokjun 1759 2210
 10011	Obszar_Pyungmo 9343 3143
 10012	Obszar_Bakra 8348 2926
-10013	wišt._Hwang 5536 1441
+10013	wiąt._Hwang 5536 1441
 10014	Seungryong 3326 7468
 10015	Pust._Yongbi 3467 6329
 10016	Kuahlo_Dong 600 4960
-10017	wišt._Hwang 5906 1102
+10017	wiąt._Hwang 5906 1102
 10018	Wieża_Gumsan 2165 7270
 10019	Obszar_Yayang 3211 9009
 10020	Jungrang 1356 43
@@ -1582,9 +1582,9 @@ Vnum	LocalizedName
 10036	2_Deon-Zeon 7041 4642
 10037	ŔÚžçÇö 3809 8233
 10038	˝Ĺźöźş 9752 1330
-10039	şšÁ¤Çö 1917 2900
+10039	şąÁ¤Çö 1917 2900
 10040	Ářłëźş 9239 1836
-10041	šÚśóÇö 8316 2154
+10041	ąÚśóÇö 8316 2154
 10042	ĂľÁśźş 9772 1850
 10043	ź­ÇŃťę 3819 2969
 10044	˝Ĺźöźş 10189 1484
@@ -1601,9 +1601,9 @@ Vnum	LocalizedName
 10055	ľľż°Č­Áö 6011 6874
 10056	ź­ÇŃťę 4368 2158
 10057	˝Âˇć°î 3355 7558
-10058	šĐąłťçżř 5943 1337
+10058	ąĐąłťçżř 5943 1337
 10059	ź­ÇŃťę 0 10496
-10060	šĐąłťçżř 1536 10496
+10060	ąĐąłťçżř 1536 10496
 10061	Ognista_Ziemia 4608 10496
 10062	˝Âˇć°î 6144 10496
 10063	ąÍ¸ń¸˛ 3031 266
@@ -1633,7 +1633,7 @@ Vnum	LocalizedName
 10087	ĂľŔÇľżąź1Ăţ 1360 16508
 10088	ĂľŔÇľżąź2Ăţ 2414 15825
 10089	ĂľŔÇľżąź1Ăţ 99 16690
-10090	ĆňšŤŔžźş 9609 3188
+10090	ĆňąŤŔžźş 9609 3188
 10091	ĂľŔÇľżąź1Ăţ 1360 18044
 10092	ĂľŔÇľżąź2Ăţ 2414 17361
 10093	Smocza_Brama 1731 12205
@@ -1642,10 +1642,10 @@ Vnum	LocalizedName
 10096	Smocza_Brama 1724 16824
 10097	SD2 7040 5235
 10098	SD3 984 5711
-10099	Przylšdek 11043 17885
-10100	Przylšdek 10963 16744
+10099	Przylądek 11043 17885
+10100	Przylądek 10963 16744
 10101	Nefr.Zatoka 10869 16558
-10102	Przylšdek 11664 16779
+10102	Przylądek 11664 16779
 10103	GromisteGóry 11345 16546
 10104	Grom.Góry 11921 16550
 10105	Gautama 12263 16811
@@ -1680,11 +1680,11 @@ Vnum	LocalizedName
 10136	Przełęcz_Yilad 303 14147
 10137	Namgan 13184 4735
 10138	Wyjcie
-10139	Wšwóz_Płn.W. 1106 15997
+10139	Wąwóz_Płn.W. 1106 15997
 10140	Przełęcz_Yilad 83 14763
 10141	Poczekalnia 401 477
 10142	Rozpad.Dusz 1851 15786
-10143	Wšwóz_Płn.W. 247 15392
+10143	Wąwóz_Płn.W. 247 15392
 10201	Wyjd
 10202	Zej.Płn.W. 11590 12181
 10203	Sch.Płn.W. 11323 13499
@@ -1991,7 +1991,7 @@ Vnum	LocalizedName
 20007	Dozorca
 20008	Octavio
 20009	Staruszek
-20010	Domokršżca
+20010	Domokrążca
 20011	Uriel
 20012	Yu-Rang
 20013	Rybak
@@ -2013,17 +2013,17 @@ Vnum	LocalizedName
 20029	Kucyk
 20030	Koń
 20031	więty Mikołaj
-20032	wišteczna Choinka
-20033	wišteczna Choinka
-20034	wišteczna Choinka
+20032	wiąteczna Choinka
+20033	wiąteczna Choinka
+20034	wiąteczna Choinka
 20035	Flaga
 20036	Flaga
 20037	Flaga
 20038	..
 20039	.
-20040	Agent Lšdowy
+20040	Agent Lądowy
 20041	Niepokany Pieszy
-20042	Wędrujšcy Domokršżca
+20042	Wędrujący Domokrążca
 20043	.
 20044	Stanley-Brońmistrz
 20045	Kowal Zbroi
@@ -2082,13 +2082,13 @@ Vnum	LocalizedName
 20098	Brama Zamku
 20099	Brama Zamku
 20101	Biały Koń
-20102	Bršz. Koń
+20102	Brąz. Koń
 20103	Czar. Koń
 20104	Biały Koń
-20105	Bršz. Koń
+20105	Brąz. Koń
 20106	Czar. Koń
 20107	Biały Koń
-20108	Bršz. Koń
+20108	Brąz. Koń
 20109	Czar. Koń
 20110	Dzik
 20111	Wilk
@@ -2097,15 +2097,15 @@ Vnum	LocalizedName
 20114	white lion
 20115	Dzik Wojenny
 20116	Wilk Wojenny
-20117	Szarżujšcy Tygrys
+20117	Szarżujący Tygrys
 20118	Waleczny Lew
 20119	Elit. Czarny Koń
-20120	ĂťŔÇŔü°ŠČŁ
-20121	ÁřŔűŔÇŔü°ŠČŁ
-20122	Č˛ŔÇŔü°ŠČŁ
-20123	łěŔÇŔü°ŠČŁ
-20124	ČćŔÇŔü°ŠČŁ
-20125	šéŔÇŔü°ŠČŁ
+20120	ĂťŔÇŔü°ąČŁ
+20121	ÁřŔűŔÇŔü°ąČŁ
+20122	Č˛ŔÇŔü°ąČŁ
+20123	łěŔÇŔü°ąČŁ
+20124	ČćŔÇŔü°ąČŁ
+20125	ąéŔÇŔü°ąČŁ
 20126	więty Mikołaj
 20127	Sztandar Jubileuszowy 1
 20128	Sztandar Jubileuszowy 2
@@ -2122,40 +2122,40 @@ Vnum	LocalizedName
 20138	Sztandar Ramadanu
 20142	Halloweenowy Sztandar
 20143	Sztandar Wielkanocny
-20201	Ŕü°Šżř
-20202	Ŕü°Šśű
-20203	Ŕü°ŠČŁ
-20204	Ŕü°ŠťçŔÚ
-20205	ł­ĆřÇŃ Ŕü°Šżř
-20206	ł­ĆřÇŃ Ŕü°Šśű
-20207	ł­ĆřÇŃ Ŕü°ŠČŁ
-20208	ł­ĆřÇŃ Ŕü°ŠťçŔÚ
-20209	żë¸ÍÇŃ Ŕü°Šżř
-20210	żë¸ÍÇŃ Ŕü°Šśű
-20211	żë¸ÍÇŃ Ŕü°ŠČŁ
-20212	żë¸ÍÇŃ Ŕü°ŠťçŔÚ
-20213	Ŕü°ŠźýźřˇĎ
-20214	ł­ĆřÇŃ Ŕü°ŠźýźřˇĎ
-20215	żë¸ÍÇŃ Ŕü°ŠźýźřˇĎ
-20216	Ŕü°ŠžĎźřˇĎ
-20217	ł­ĆřÇŃ Ŕü°ŠžĎźřˇĎ
-20218	żë¸ÍÇŃ Ŕü°ŠžĎźřˇĎ
+20201	Ŕü°ążř
+20202	Ŕü°ąśű
+20203	Ŕü°ąČŁ
+20204	Ŕü°ąťçŔÚ
+20205	ł­ĆřÇŃ Ŕü°ążř
+20206	ł­ĆřÇŃ Ŕü°ąśű
+20207	ł­ĆřÇŃ Ŕü°ąČŁ
+20208	ł­ĆřÇŃ Ŕü°ąťçŔÚ
+20209	żë¸ÍÇŃ Ŕü°ążř
+20210	żë¸ÍÇŃ Ŕü°ąśű
+20211	żë¸ÍÇŃ Ŕü°ąČŁ
+20212	żë¸ÍÇŃ Ŕü°ąťçŔÚ
+20213	Ŕü°ąźýźřˇĎ
+20214	ł­ĆřÇŃ Ŕü°ąźýźřˇĎ
+20215	żë¸ÍÇŃ Ŕü°ąźýźřˇĎ
+20216	Ŕü°ąžĎźřˇĎ
+20217	ł­ĆřÇŃ Ŕü°ąžĎźřˇĎ
+20218	żë¸ÍÇŃ Ŕü°ąžĎźřˇĎ
 20219	blackpony
-20220	ĹŠ¸Ž˝ş¸ś˝ş źřˇĎ
-20221	Ŕü°Ššéżő
-20222	Ŕü°ŠĆŇ´ő
-20223	Ŕü°ŠźŽˇćŔÚ
-20224	ł­ĆřÇŃ Ŕü°ŠźŽˇćŔÚ
-20225	żë¸ÍÇŃ Ŕü°ŠźŽˇćŔÚ
+20220	Ĺą¸Ž˝ş¸ś˝ş źřˇĎ
+20221	Ŕü°ąąéżő
+20222	Ŕü°ąĆŇ´ő
+20223	Ŕü°ąźŽˇćŔÚ
+20224	ł­ĆřÇŃ Ŕü°ąźŽˇćŔÚ
+20225	żë¸ÍÇŃ Ŕü°ąźŽˇćŔÚ
 20226	ČćŔŻ´ĎÄÜ
-20227	šéŔŻ´ĎÄÜ
-20228	Ŕü°Š¸ÍÁś
-20229	ł­ĆřÇŃ Ŕü°Š¸ÍÁś
-20230	żë¸ÍÇŃ Ŕü°Š¸ÍÁś
-20231	Ŕü°ŠČćšü
-20232	Ŕü°ŠÇĽšü
-20233	Muffin (bršzowe dodatki)
-20234	Nugget (bršzowe dodatki)
+20227	ąéŔŻ´ĎÄÜ
+20228	Ŕü°ą¸ÍÁś
+20229	ł­ĆřÇŃ Ŕü°ą¸ÍÁś
+20230	żë¸ÍÇŃ Ŕü°ą¸ÍÁś
+20231	Ŕü°ąČćąü
+20232	Ŕü°ąÇĽąü
+20233	Muffin (brązowe dodatki)
+20234	Nugget (brązowe dodatki)
 20235	Muffin (nieb. dodatki)
 20236	Nugget (nieb. dodatki)
 20237	Muffin (zielone dodatki)
@@ -2169,7 +2169,7 @@ Vnum	LocalizedName
 20245	Smok Samsara
 20246	Manni
 20247	Manu
-20248	Bršzowy Tulu Bojowy
+20248	Brązowy Tulu Bojowy
 20249	Czarny Tulu Bojowy
 20250	Jaszczurka Lawy
 20251	Jaszczurka Lodu
@@ -2194,7 +2194,7 @@ Vnum	LocalizedName
 20271	Lodowy Kruk
 20272	Nocny Kruk
 20273	Biała Zimowa Lama
-20274	Bršzowa Zimowa Lama
+20274	Brązowa Zimowa Lama
 20275	Alastor
 20276	Popieszny Królik (róż.)
 20277	Popieszny Królik (nie.)
@@ -2242,7 +2242,7 @@ Vnum	LocalizedName
 20365	Pomnik To
 20366	Sa-Soe
 20367	Strażnik Katakumb
-20368	Domokršżca
+20368	Domokrążca
 20369	Lee Chung
 20370	Zatruty Żołnierz
 20371	Stary Nagrobek
@@ -2258,7 +2258,7 @@ Vnum	LocalizedName
 20381	Konfucjusz
 20382	Skalny Kwiat
 20383	Jae-Seon Kim
-20384	wišteczna Choinka
+20384	wiąteczna Choinka
 20385	Gardziel Am-heha
 20386	Stela Isfet
 20387	Zamek Losu
@@ -2282,7 +2282,7 @@ Vnum	LocalizedName
 20405	Waheela
 20406	NoNAme
 20407	Fenrir
-20408	Strażnik wištyni
+20408	Strażnik wiątyni
 20409	Strażnik Lasu
 20410	Zwiadowca Lasu
 20411	Badacz Lasu
@@ -2408,7 +2408,7 @@ Vnum	LocalizedName
 20823	Mistrz Chi
 20826	Huahn-So
 20828	Kowal Skór
-20829	Kowal wištyni Węży
+20829	Kowal wiątyni Węży
 20830	Oddelegowany Komendant
 20831	Komandor z Yohara
 20832	Admirał Angmur
@@ -2423,7 +2423,7 @@ Vnum	LocalizedName
 20841	Łowca Głów
 20842	Uwięziony Kowal
 20844	Statua Węży
-20845	Łowca Głów (Wšw.Płn.W.)
+20845	Łowca Głów (Wąw.Płn.W.)
 20846	Łowca Głów (Roz.Płn.W.)
 20847	Łowca Głów (Schron.)
 20848	Stare Koci
@@ -2433,12 +2433,12 @@ Vnum	LocalizedName
 20852	Łowca Głów (Namgan)
 30000	°łŔÎťóÁĄ
 30001	°łŔÎťóÁĄ
-30002	Tysišc i Jedna Noc
+30002	Tysiąc i Jedna Noc
 30003	Mistrz Grillowania
 30004	Poszukiwacz Skarbów
 30005	Płomyk Oszczędnoci
-30006	Handlarz Broniš
-30007	Sklep ze Zbrojš
+30006	Handlarz Bronią
+30007	Sklep ze Zbroją
 30008	Alchemik
 30101	Statua Kuda
 30102	Bazaltowy Obelisk
@@ -2462,7 +2462,7 @@ Vnum	LocalizedName
 30126	Szkielet-Sura 3
 30127	Szkielet-Sura 4
 30128	Szkielet-Sura 5
-30129	Zajšc wielkanocny
+30129	Zając wielkanocny
 30130	Nagrobek
 30131	Pan Kicaj
 30132	Pan Kicaj
@@ -2481,11 +2481,11 @@ Vnum	LocalizedName
 30313	Żyła Jadeitu Mgły
 33001	¸đÇč°ĄŔÇ ÇŘ°ń
 33002	Historyk
-33003	Poszczšcy Mieszkaniec
-33004	Poszczšcy Mieszkaniec
-33005	Poszczšcy Mieszkaniec
-33006	Poszczšcy Mieszkaniec
-33007	Poszczšcy Mieszkaniec
+33003	Poszczący Mieszkaniec
+33004	Poszczący Mieszkaniec
+33005	Poszczący Mieszkaniec
+33006	Poszczący Mieszkaniec
+33007	Poszczący Mieszkaniec
 33008	Jack Pumpkin
 33009	Ołtarz Krwi
 34001	Ognisty Feniks
@@ -2527,10 +2527,10 @@ Vnum	LocalizedName
 34039	Huashinek
 34041	Mały Małpiszon
 34042	Mały Małpiszon (bohater)
-34045	Mały Pajšk
-34046	Mały Pajšk (bohater)
-34047	Wylšg Exedyara
-34048	Rzadki Wylšg Exedyara
+34045	Mały Pająk
+34046	Mały Pająk (bohater)
+34047	Wyląg Exedyara
+34048	Rzadki Wyląg Exedyara
 34049	Mały Razador
 34050	Mały Razador (bohater)
 34053	Mały Nemere
@@ -2582,8 +2582,8 @@ Vnum	LocalizedName
 34100	Lycandowski
 34101	Lycaninho
 34102	Mały Catenaccio
-34103	Błękitny Błyszczšcy Paw
-34104	Różowy Błyszczšcy Paw
+34103	Błękitny Błyszczący Paw
+34104	Różowy Błyszczący Paw
 34105	Granatowy Paw
 34106	Franiu Fistaszek
 34107	Stefek Orzeszek
@@ -2591,10 +2591,10 @@ Vnum	LocalizedName
 34109	Wielzooka
 34110	Wieldziało
 34111	Wielmata
-34112	Mrony Chrzšszcz+
-34113	Mrony Chrzšszcz
-34114	Wszystkowidzš. Kot Ognia
-34115	Wszystkowidzšcy Kot Lodu
+34112	Mrony Chrząszcz+
+34113	Mrony Chrząszcz
+34114	Wszystkowidzą. Kot Ognia
+34115	Wszystkowidzący Kot Lodu
 34116	Trzyoki Kot Ognia
 34117	Skrzat Nosek+ (czerw.)
 34118	Skrzat Nosek+ (ziel.)
@@ -2616,10 +2616,10 @@ Vnum	LocalizedName
 34134	Mini Krab
 34135	Mumia Szamotka
 34136	Mumia Kiwaczek
-34137	Mumia Potrzšska
-34138	Zielony wišteczny Ent
-34139	Sękaty wišteczny Ent
-34140	Mały wišteczny Ent
+34137	Mumia Potrząska
+34138	Zielony wiąteczny Ent
+34139	Sękaty wiąteczny Ent
+34140	Mały wiąteczny Ent
 34141	Niebieski Anubis
 34142	Czerwony Anubis
 34143	Mały Anubis
@@ -2628,7 +2628,7 @@ Vnum	LocalizedName
 34147	nieżny Leonidas
 34148	Astrabell
 34149	Ognisty Feniks
-60000	Zarzšdca gildii
-60001	Zarzšdca gildii
-60002	Zarzšdca gildii
+60000	Zarządca gildii
+60001	Zarządca gildii
+60002	Zarządca gildii
 60003	Theowahdan

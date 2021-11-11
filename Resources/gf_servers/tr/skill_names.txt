@@ -1,0 +1,107 @@
+ID LocalizedName
+1 Üç yönlü kesme
+2 Kılıç çevirme
+3 Öfke
+4 Hava kılıcı
+5 Hamle
+6 Yaşama isteği
+16 Ruh vuruşu
+17 Şiddetli vuruş
+18 Güçlü vuruş
+19 Güçlü beden
+20 Kılıç darbesi
+21 Kılıç çemberi
+31 Suikast
+32 Hızlı saldırı
+33 Bıçak çevirme
+34 Kamuflaj
+35 Zehirli bulut
+36 Sinsi zehir
+46 Tekrarlanan atış
+47 Ok yağmuru
+48 Ateşli ok
+49 Hafif adım
+50 Zehirli ok
+51 Kıvılcım vuruşu
+61 Parmak darbesi
+62 Ejderha dönüşü
+63 Büyülü keskinlik
+64 Dehşet
+65 Büyülü zırh
+66 Büyü çözme
+76 Karanlık vuruş
+77 Alev vuruşu
+78 Ateş hayaleti
+79 Karanlık koruma
+80 Hayalet vuruşu
+81 Karanlık taş
+91 Uçan tılsım
+92 Ejderha atışı
+93 Ejderha kükremesi
+94 Kutsama
+95 Yansıtma
+96 Ejderha yardımı
+106 Şimşek atma
+107 Şimşek çağırma
+108 Şimşek pençesi
+109 Şifa
+110 Çabukluk
+111 Saldırı +
+121 Liderlik
+122 Kombo
+123 Balıkçılık
+124 Madencilik
+125 Nesne Yaratma
+126 Shinsoo Lisanı
+127 Chunjo Lisanı
+128 Jinno Lisanı
+129 Dönüşüm
+130 Binicilik
+131 At Çağırma
+132 Otomatik olarak saldır
+133 Karizma
+134 İlham
+137 At Üzerinde Savaş
+138 At çiftesi
+139 Güç Dalgası
+140 Ok Sağanağı
+151 Ejderha Gözleri
+152 Ejderha Tanrısı Kanı
+153 Ejderha Tanrısı Kutsaması
+154 Kutsal Zırh
+155 Hızlandırma
+156 Ejderha Tanrısı Öfkesi
+157 Büyü Desteği
+170 Yırtma
+171 Kurt nefesi
+172 Kurt atlayışı
+173 Kurt pençesi
+174 Kırmızı kurt ruhu
+175 Çivit kurt ruhu
+176 Deprem
+177 Işık yıldızı
+178 Saldırı ateşi
+179 Ateş darbesi
+180 Ölüm dalgası
+181 Meteor
+182 Eter kalkanı
+183 Pençe atağı
+221 Kılıç Çevirme Misillemesi
+222 Suikast Misillemesi
+223 Parmak Darbesi Misillemesi
+224 Ejderha Atışı Misillemesi
+225 Ruh Vuruşu Misillemesi
+226 Ateşli Ok Misillemesi
+227 Karanlık Vuruş Misillemesi
+228 Şimşek Çağırma Misillemesi
+229 Kurt Nefesi Misillemesi
+236 Kılıç Çevirme Güçlendirmesi
+237 Suikast Güçlendirmesi
+238 Parmak Darbesi Güçlendirmesi
+239 Ejderha Atışı Güçlendirmesi
+240 Ruh Vuruşu Güçlendirmesi
+241 Ateşli Ok Güçlendirmesi
+242 Karanlık Vuruş Güçlendirmesi
+243 Şimşek Çağırma Güçlendirmesi
+244 Kurt Nefesi Güçlendirmesi
+246 Tamlık
