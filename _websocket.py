@@ -62,7 +62,7 @@ ACTIONS = {
 
 class WebsocketServer:
 
-    def __init__(self, host: str, port: int):
+    def __init__(self):
         self.all_clients = []
 
         self.metin_clients = []
@@ -70,7 +70,7 @@ class WebsocketServer:
 
         self.frontend_clients = []
 
-        self.server = websocket_server.WebsocketServer(port, host=host, loglevel=logging.INFO)
+        self.server = websocket_server.WebsocketServer('127.0.0.1', 13254, loglevel=logging.INFO)
 
     def get_client_by_id(self, client_id: int):
         for client in self.metin_clients:
@@ -432,7 +432,7 @@ def check_installed_packages():
 def main():
     check_installed_packages()
 
-    server = WebsocketServer(host='127.0.0.1', port=13254)
+    server = WebsocketServer()
     server.run_server()
 
 
