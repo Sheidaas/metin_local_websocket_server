@@ -1,4 +1,3 @@
-import simplejson as json
 from pathlib import Path as OSPath
 
 def load_item_list(path, language='en', server='gf_servers'):
@@ -91,6 +90,7 @@ def load_item_icon(path):
     return skills
 
 def load_schema_by_name(path, schema_name):
+    import simplejson as json
     real_path = OSPath(path + '/' + 'Resources/Schemas/' + schema_name + '.schema')
     try:
         with open(real_path, encoding='utf_8') as file:

@@ -59,7 +59,8 @@ class MetinMemoryObject:
             'FishBot': {},
             'ChannelSwitcher': {},
             'FileHandler': {},
-            'InstanceInteractions': {}}
+            'InstanceInteractions': {},
+            'Protector': {}}
         self.InstancesList = []
         self.Equipment = {}  # Items worn
         self.Inventory = []  # Items in inventory

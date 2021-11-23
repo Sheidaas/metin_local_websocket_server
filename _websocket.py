@@ -70,7 +70,7 @@ class WebsocketServer:
 
         self.frontend_clients = []
 
-        self.server = websocket_server.WebsocketServer('127.0.0.1', 13254, loglevel=logging.INFO)
+        self.server = websocket_server.WebsocketServer( '127.0.0.1', 13254, loglevel=logging.INFO)
 
     def get_client_by_id(self, client_id: int):
         for client in self.metin_clients:
@@ -290,9 +290,10 @@ class WebsocketServer:
                                 'player_max_experience': memory_object['object'].character_status['MaxExperience'],
                                 'player_curr_map': memory_object['object'].character_status['CurrentMap'],
                                 })
-                            message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': ACTIONS['GET_ALL_CONNECTED_METIN_CLIENTS']}}
-                            
-                            server.send_message(client, json.dumps(message))
+
+                    message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': ACTIONS['GET_ALL_CONNECTED_METIN_CLIENTS']}}
+
+                    server.send_message(client, json.dumps(message))
 
                 if cleared_message['data']['action'] == ACTIONS['GET_FULL_CHARACTER_STATUS']:
                     
@@ -340,19 +341,7 @@ class WebsocketServer:
                 client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
-                
-                for action in cleared_message['data']['message']:
-                    for action_key in action.keys():
-                        if type(action[action_key]) == str:
-                            action[action_key] = action[action_key].encode('utf-8')
-                        
-                        if action_key == 'function_args':
-                            for req in range(len(action['function_args'])):
-                                if type(action['function_args'][req]) == str:
-                                    #print(action['function_args'][req])
-                                    action['function_args'][req] = action['function_args'][req].encode('utf-8')           
-                    
-
+                print(client_to_send)
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update']:
