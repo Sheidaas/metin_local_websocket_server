@@ -57,6 +57,7 @@ ACTIONS = {
     'SET_PICKUP_FILTER': 'SET_PICKUP_FILTER',
     'SET_NEW_SCHEMA': 'SET_NEW_SCHEMA',
     'CHANGE_FRONTEND_LANGUAGE': 'CHANGE_FRONTEND_LANGUAGE',
+    'GET_SCANNED_SHOPS': 'GET_SCANNED_SHOPS',
 }
 
 
@@ -335,13 +336,22 @@ class WebsocketServer:
                             'ItemIcons': memory_object['object'].ReturnItemIconsNames(PATH)
                         }
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
-                        server.send_message(client, json.dumps(message))  
+                        server.send_message(client, json.dumps(message))
+
+                if cleared_message['data']['action'] == ACTIONS['GET_SCANNED_SHOPS']:
+                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    if memory_object is not None:
+                        scanned_shops = {
+                            'ScannedShops': memory_object['object'].ScannedShops
+                        }
+                        memory_object['object'].ScannedShops = []
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': scanned_shops, 'action': ACTIONS['GET_SCANNED_SHOPS']}}
+                        server.send_message(client, json.dumps(message))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
                 client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
-                print(client_to_send)
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update']:
@@ -368,8 +378,9 @@ class WebsocketServer:
                             'FreeSlots': memory_object['object'].free_inventory_slots,
                             'MaxInventorySize': memory_object['object'].max_inventory_slots,
                         }
-                        #print(inventory)
-                        message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': inventory, 'action': ACTIONS['SET_INVENTORY_STATUS']}}
+
+                        message = {'type': PACKETS_PATTERNS_TYPES['information'],
+                                   'data': {'message': inventory, 'action': ACTIONS['SET_INVENTORY_STATUS']}}
                         server.send_message(client, json.dumps(message))  
 
                 elif cleared_message['data']['action'] == ACTIONS['GET_PICKUP_FILTER']:

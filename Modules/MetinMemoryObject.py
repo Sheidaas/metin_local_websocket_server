@@ -7,6 +7,7 @@ ACTIONS = {'SET_VIDS': 'set_vids',
            'SET_HACK_STATUS': 'set_hack_status',
            'SET_INVENTORY_STATUS': 'set_inventory_status',
            'SET_PICKUP_FILTER': 'set_pickup_filter',
+           'APPEND_SHOP_SEARCH': 'append_shop_search',
            }
 
 class MetinMemoryObject:
@@ -67,6 +68,7 @@ class MetinMemoryObject:
         self.free_inventory_slots = 0
         self.max_inventory_slots = 0
         self.PickupFilter = []  # List with item's id to pickup
+        self.ScannedShops = []
 
     def OnReceiveInformation(self, received_information):
         if not self.ValidateReceivedInformation(received_information):
@@ -98,8 +100,13 @@ class MetinMemoryObject:
             self.PickupFilter = received_information['data']
             return True
 
-    def ValidateReceivedInformation(self, received_information):
+        if received_information['action'] == ACTIONS['APPEND_SHOP_SEARCH']:
+            self.ScannedShops.append(received_information['data']['Shop'])
+            return True
 
+
+
+    def ValidateReceivedInformation(self, received_information):
         if received_information['action'] == ACTIONS['SET_VIDS']:
             if not type(received_information['data']) == list:
                 print('Data[message] is not a list!')
