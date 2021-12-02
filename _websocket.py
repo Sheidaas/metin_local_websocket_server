@@ -339,7 +339,7 @@ class WebsocketServer:
                         server.send_message(client, json.dumps(message))
 
                 if cleared_message['data']['action'] == ACTIONS['GET_SCANNED_SHOPS']:
-                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['message'])
+                    memory_object = self.get_memory_object_by_client_id(cleared_message['data']['client_id'])
                     if memory_object is not None:
                         scanned_shops = {
                             'ScannedShops': memory_object['object'].ScannedShops
