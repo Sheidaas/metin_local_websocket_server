@@ -101,6 +101,7 @@ class MetinMemoryObject:
             return True
 
         if received_information['action'] == ACTIONS['APPEND_SHOP_SEARCH']:
+
             self.ScannedShops.append(received_information['data']['Shop'])
             return True
 

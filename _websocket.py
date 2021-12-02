@@ -344,9 +344,10 @@ class WebsocketServer:
                         scanned_shops = {
                             'ScannedShops': memory_object['object'].ScannedShops
                         }
-                        memory_object['object'].ScannedShops = []
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': scanned_shops, 'action': ACTIONS['GET_SCANNED_SHOPS']}}
                         server.send_message(client, json.dumps(message))
+                        memory_object['object'].ScannedShops = []
+
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
                 client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
