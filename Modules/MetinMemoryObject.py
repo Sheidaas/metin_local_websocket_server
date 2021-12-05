@@ -50,7 +50,8 @@ class MetinMemoryObject:
             'Dexterity': 0,
             'IsMountingHorse': 0,
             'DefGrade': 0,
-            'Skills': {}}
+            'Skills': {},
+            'Race': ''}
         self.hack_options = {
             'WaitHack': {},
             'SkillBot': {},
@@ -179,3 +180,6 @@ class MetinMemoryObject:
 
     def ReturnItemIconsNames(self, PATH: str):
         return FileLoader.load_item_icon(PATH)
+
+    def ReturnItemTypes(self, PATH: str, language: str):
+        return FileLoader.load_item_type(PATH, language)

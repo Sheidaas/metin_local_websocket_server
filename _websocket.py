@@ -290,6 +290,7 @@ class WebsocketServer:
                                 'player_experience': memory_object['object'].character_status['Experience'],
                                 'player_max_experience': memory_object['object'].character_status['MaxExperience'],
                                 'player_curr_map': memory_object['object'].character_status['CurrentMap'],
+                                'player_curr_race': memory_object['object'].character_status['Race']
                                 })
 
                     message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': clients, 'action': ACTIONS['GET_ALL_CONNECTED_METIN_CLIENTS']}}
@@ -333,7 +334,8 @@ class WebsocketServer:
                             'Items': memory_object['object'].ReturnServerItemList(PATH, client['options']['language']),
                             'Mobs': memory_object['object'].ReturnServerMobList(PATH, client['options']['language']),
                             'Skills': memory_object['object'].ReturnServerSkillList(PATH, client['options']['language']),
-                            'ItemIcons': memory_object['object'].ReturnItemIconsNames(PATH)
+                            'ItemIcons': memory_object['object'].ReturnItemIconsNames(PATH),
+                            'ItemTypes': memory_object['object'].ReturnItemTypes(PATH, client['options']['language'])
                         }
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
                         server.send_message(client, json.dumps(message))
@@ -347,7 +349,6 @@ class WebsocketServer:
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': scanned_shops, 'action': ACTIONS['GET_SCANNED_SHOPS']}}
                         server.send_message(client, json.dumps(message))
                         memory_object['object'].ScannedShops = []
-
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['actions']:
                 client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
