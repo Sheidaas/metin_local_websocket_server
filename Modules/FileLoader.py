@@ -1,4 +1,5 @@
 from pathlib import Path as OSPath
+import csv
 
 def load_item_list(path, language='en', server='gf_servers'):
     items = {}
@@ -111,6 +112,19 @@ def load_item_type(path, language='en', server='gf_servers'):
                 continue
     return type
 
+def load_item_data(path, language='en', server='gf_servers'):
+    item_data = {}
+    rows = ('ID', 'Type', 'Icon', 'Name')
+    real_path = OSPath(path + '/' + 'Resources/' + server + '/' + language + '/' + 'all_data.txt')
+    with open(real_path, encoding='utf_8') as file:
+        csvReader = csv.DictReader(file, rows)
+        for _rows in csvReader:
+            item_data[_rows['ID']] = {'type': _rows['Type'], 'icon': _rows['Icon'], 'name': _rows['Name']}
+
+    return item_data
+
+
+
 def load_schema_by_name(path, schema_name):
     import simplejson as json
     real_path = OSPath(path + '/' + 'Resources/Schemas/' + schema_name + '.schema')
@@ -121,3 +135,4 @@ def load_schema_by_name(path, schema_name):
         print(e)
         return False
     return data
+

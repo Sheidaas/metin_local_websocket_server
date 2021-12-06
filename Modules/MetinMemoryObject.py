@@ -183,3 +183,6 @@ class MetinMemoryObject:
 
     def ReturnItemTypes(self, PATH: str, language: str):
         return FileLoader.load_item_type(PATH, language)
+
+    def ReturnItemData(self, PATH: str, language: str):
+        return FileLoader.load_item_data(PATH, language)

@@ -335,7 +335,8 @@ class WebsocketServer:
                             'Mobs': memory_object['object'].ReturnServerMobList(PATH, client['options']['language']),
                             'Skills': memory_object['object'].ReturnServerSkillList(PATH, client['options']['language']),
                             'ItemIcons': memory_object['object'].ReturnItemIconsNames(PATH),
-                            'ItemTypes': memory_object['object'].ReturnItemTypes(PATH, client['options']['language'])
+                            'ItemTypes': memory_object['object'].ReturnItemTypes(PATH, client['options']['language']),
+                            'ItemData': memory_object['object'].ReturnItemData(PATH, client['options']['language']),
                         }
                         message = {'type': PACKETS_PATTERNS_TYPES['information'], 'data': {'message': server_info, 'action': ACTIONS['GET_FULL_SERVER_STATUS']}}
                         server.send_message(client, json.dumps(message))
