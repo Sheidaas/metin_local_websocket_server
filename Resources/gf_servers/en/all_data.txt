@@ -1,4 +1,4 @@
-ID Type Icon Name
+ID,Type,Icon,Name
 1,9,money,Yang
 10,1,00010,Sword+0
 11,1,00010,Sword+1
@@ -6831,7 +6831,7 @@ ID Type Icon Name
 31253,23,31253,Gnoll Master Chest
 31254,23,31254,Ahtrin Master Chest
 31255,23,31255,Gold Threaded Chest
-31256,23,boss_box,Labyrinth Chest
+31256 23 boss_box Labyrinth Chest
 31257,5,31257,Serpent Design
 31258,5,31259,Serpent Silk
 31259,5,31258,Northwind Anvil
@@ -8453,32 +8453,32 @@ ID Type Icon Name
 50057,6,30036,Herb of Easy Monkeys
 50058,6,50058,Herb of Normal Monkeys
 50059,6,50059,Herb of Hard Monkeys
-50060,3,book_44,Horse Riding Manual
+50060 3 book_44 Horse Riding Manual
 50061,3,50061,Horse Taming Manual
 50062,3,27995,Riding Manual
 50067,3,50067,Scroll of Evolution
 50068,3,50068,Scroll of Mutation
-50070,23,boss_box,Chief Orc's Box
-50071,23,boss_box,Esoteric Leader's Box
-50072,23,boss_box,Ghost Leader's Box
-50073,23,boss_box,Queen Spider Box
-50074,23,boss_box,Giant Spider Box
-50075,23,boss_box,Giant Plague Carrier Box
-50076,23,boss_box,Desert Tortoise Chest
-50077,23,boss_box,Nine Tails' Chest
-50078,23,boss_box,Yellow Tiger's Chest
-50079,23,boss_box,Flame King's Chest
-50080,23,boss_box,Red Dragon's Chest
-50081,23,boss_box,Demon King's Chest
-50082,23,boss_box,Grim Reaper's Chest
-50083,23,boss_box,Riding Permit
+50070 23 boss_box Chief Orc's Box
+50071 23 boss_box Esoteric Leader's Box
+50072 23 boss_box Ghost Leader's Box
+50073 23 boss_box Queen Spider Box
+50074 23 boss_box Giant Spider Box
+50075 23 boss_box Giant Plague Carrier Box
+50076 23 boss_box Desert Tortoise Chest
+50077 23 boss_box Nine Tails' Chest
+50078 23 boss_box Yellow Tiger's Chest
+50079 23 boss_box Flame King's Chest
+50080 23 boss_box Red Dragon's Chest
+50081 23 boss_box Demon King's Chest
+50082 23 boss_box Grim Reaper's Chest
+50083 23 boss_box Riding Permit
 50084,16,50084,Key Stone
 50085,3,50085,Seed
 50086,3,50086,Moon Cake
 50087,3,50087,Mung Bean Rice Cake
 50088,3,50088,Mugwort Rice Cake
 50089,16,50089,Key Stone
-50090,23,boss_box,Box of Fox nine o' Tails
+50090 23 boss_box Box of Fox nine o' Tails
 50091,3,50091,Goldfish Sushi
 50092,3,50092,Carp Sushi
 50093,3,50093,Salmon Sushi
@@ -8502,7 +8502,7 @@ ID Type Icon Name
 50114,23,50114,Blue Ebony Box
 50115,23,50115,Crimson Ebony Box
 50116,5,50116,Weapon Exchange Token
-50117,23,boss_box,Jewellery Box
+50117 23 boss_box Jewellery Box
 50118,23,50110,Drachen-Schatztruhe
 50119,23,50110,Metinstein-Beutel
 50120,23,30300,Iron Casket
@@ -8554,7 +8554,7 @@ ID Type Icon Name
 50181,18,50181,Basket with Easter Eggs
 50182,23,50182,Blessing Chest
 50183,3,50183,Sweets
-50186,23,boss_box,Azrael's Chest
+50186 23 boss_box Azrael's Chest
 50187,23,50187,Apprentice Chest I
 50188,23,50187,Apprentice Chest II
 50189,23,50187,Apprentice Chest III
@@ -8578,7 +8578,7 @@ ID Type Icon Name
 50249,23,50217,Chest of Triumph
 50252,23,50255,Cor Draconis
 50253,23,50253,Purpurne Blattgold-Kiste
-50254,23,boss_box,Chest of Darkness
+50254 23 boss_box Chest of Darkness
 50255,23,50255,Cor Draconis (Rough)
 50256,23,50256,Cor Draconis (Cut)
 50257,23,50257,Cor Draconis (Rare)
@@ -8618,23 +8618,23 @@ ID Type Icon Name
 50297,23,50006,Box of Boosts
 50298,23,50006,Crate of Wards
 50299,23,50006,Crate of Boosts
-50300,17,book_01,Skill Book
-50301,3,book_11,Sun Zi Art of War
-50302,3,book_12,Wu zi Art of War
-50303,3,book_13,WeiLiao Zi Art of War
-50304,3,book_14,Combo Mastery
-50305,3,book_15,Combo Master Book
-50306,3,book_16,Art of Combo
+50300 17 book_01 Skill Book
+50301 3 book_11 Sun Zi Art of War
+50302 3 book_12 Wu zi Art of War
+50303 3 book_13 WeiLiao Zi Art of War
+50304 3 book_14 Combo Mastery
+50305 3 book_15 Combo Master Book
+50306 3 book_16 Art of Combo
 50307,18,50307,Mission Book (Easy)
 50308,18,50308,Mission Book (Normal)
 50309,18,50309,Mission Book (Hard)
 50310,18,50310,Mission Book (Expert)
-50311,3,book_03,Shinsoo Linguistics
-50312,3,book_02,Chunjo Linguistics
-50313,3,book_06,Jinno Linguistics
-50314,3,book_07,Polymorph Book
-50315,3,book_07,Advanced Polymorph Book
-50316,3,book_07,Master Polymorph Book
+50311 3 book_03 Shinsoo Linguistics
+50312 3 book_02 Chunjo Linguistics
+50313 3 book_06 Jinno Linguistics
+50314 3 book_07 Polymorph Book
+50315 3 book_07 Advanced Polymorph Book
+50316 3 book_07 Master Polymorph Book
 50317,18,50307,Mission Book (Test)
 50318,18,50307,Mission Book (Easy)
 50319,18,50308,Mission Book (Normal)
@@ -8643,7 +8643,7 @@ ID Type Icon Name
 50322,19,50322,Transformation Role
 50323,23,50324,Ward Book Chest
 50324,23,50323,Boost Book Chest
-50325,3,book_07,Book of Precision
+50325 3 book_07 Book of Precision
 50330,18,50330,Mission Book (Lord 1)
 50331,18,50331,Mission Book (Lord 2)
 50332,18,50332,Mission Book (Lord 3)
@@ -8652,60 +8652,60 @@ ID Type Icon Name
 50335,18,50330,Mission Book (Yilad P.)
 50336,18,50330,Mission book (Nor.W. C.)
 50337,18,50330,Mission Book (Soul G.)
-50338,3,book_46,Charisma of a Rookie
-50339,3,book_47,Charisma of an Adept
-50340,3,book_48,Charisma of an Expert
-50341,3,book_49,Inspiration of a Rookie
-50342,3,book_50,Inspiration of an Adept
-50343,3,book_51,Inspiration of an Expert
-50401,17,book_11,Three-Way Cut Manual
-50402,17,book_11,Sword Spin Manual
-50403,17,book_11,Berserk Manual
-50404,17,book_11,Aura of the Sword Manual
-50405,17,book_11,Dash Manual
-50406,17,book_11,Life Force Manual
-50416,17,book_12,Strike Manual
-50417,17,book_12,Bash Manual
-50418,17,book_12,Pounding Manual
-50419,17,book_12,Strong Body Manual
-50420,17,book_12,Sword Strike Manual
-50421,17,book_12,Sword Orb Manual
-50431,17,book_13,Ambush Manual
-50432,17,book_13,Fast Attack Manual
-50433,17,book_13,Rolling Dagger Manual
-50434,17,book_13,Disguise Manual
-50435,17,book_13,Poisonous Cloud Manual
-50436,17,book_13,Insidious Poison Manual
-50446,17,book_14,Repetitive Shot Manual
-50447,17,book_14,Arrow Shower Manual
-50448,17,book_14,Fire Arrow Manual
-50449,17,book_14,Feather Walk Manual
-50450,17,book_14,Poison Arrow Manual
-50451,17,book_14,Spark Manual
-50461,17,book_15,Finger Strike Manual
-50462,17,book_15,Dragon Swirl Manual
-50463,17,book_15,Enchanted Blade Manual
-50464,17,book_15,Fear Manual
-50465,17,book_15,Enchanted Armour Manual
-50466,17,book_15,Dispel Manual
-50476,17,book_16,Dark Strike Manual
-50477,17,book_16,Flame Strike Manual
-50478,17,book_16,Flame Spirit Manual
-50479,17,book_16,Dark Protection Manual
-50480,17,book_16,Spirit Strike Manual
-50481,17,book_16,Dark Orb Manual
-50491,17,book_17,Flying Talisman Manual
-50492,17,book_17,Shooting Dragon Manual
-50493,17,book_17,Dragon's Roar Manual
-50494,17,book_17,Blessing Manual
-50495,17,book_17,Reflect Manual
-50496,17,book_17,Dragon's Aid Manual
-50506,17,book_18,Lightning Throw Manual
-50507,17,book_18,Summon Lightning Manual
-50508,17,book_18,Lightning Claw Manual
-50509,17,book_18,Cure Manual
-50510,17,book_18,Swiftness Manual
-50511,17,book_18,Attack Manual
+50338 3 book_46 Charisma of a Rookie
+50339 3 book_47 Charisma of an Adept
+50340 3 book_48 Charisma of an Expert
+50341 3 book_49 Inspiration of a Rookie
+50342 3 book_50 Inspiration of an Adept
+50343 3 book_51 Inspiration of an Expert
+50401 17 book_11 Three-Way Cut Manual
+50402 17 book_11 Sword Spin Manual
+50403 17 book_11 Berserk Manual
+50404 17 book_11 Aura of the Sword Manual
+50405 17 book_11 Dash Manual
+50406 17 book_11 Life Force Manual
+50416 17 book_12 Strike Manual
+50417 17 book_12 Bash Manual
+50418 17 book_12 Pounding Manual
+50419 17 book_12 Strong Body Manual
+50420 17 book_12 Sword Strike Manual
+50421 17 book_12 Sword Orb Manual
+50431 17 book_13 Ambush Manual
+50432 17 book_13 Fast Attack Manual
+50433 17 book_13 Rolling Dagger Manual
+50434 17 book_13 Disguise Manual
+50435 17 book_13 Poisonous Cloud Manual
+50436 17 book_13 Insidious Poison Manual
+50446 17 book_14 Repetitive Shot Manual
+50447 17 book_14 Arrow Shower Manual
+50448 17 book_14 Fire Arrow Manual
+50449 17 book_14 Feather Walk Manual
+50450 17 book_14 Poison Arrow Manual
+50451 17 book_14 Spark Manual
+50461 17 book_15 Finger Strike Manual
+50462 17 book_15 Dragon Swirl Manual
+50463 17 book_15 Enchanted Blade Manual
+50464 17 book_15 Fear Manual
+50465 17 book_15 Enchanted Armour Manual
+50466 17 book_15 Dispel Manual
+50476 17 book_16 Dark Strike Manual
+50477 17 book_16 Flame Strike Manual
+50478 17 book_16 Flame Spirit Manual
+50479 17 book_16 Dark Protection Manual
+50480 17 book_16 Spirit Strike Manual
+50481 17 book_16 Dark Orb Manual
+50491 17 book_17 Flying Talisman Manual
+50492 17 book_17 Shooting Dragon Manual
+50493 17 book_17 Dragon's Roar Manual
+50494 17 book_17 Blessing Manual
+50495 17 book_17 Reflect Manual
+50496 17 book_17 Dragon's Aid Manual
+50506 17 book_18 Lightning Throw Manual
+50507 17 book_18 Summon Lightning Manual
+50508 17 book_18 Lightning Claw Manual
+50509 17 book_18 Cure Manual
+50510 17 book_18 Swiftness Manual
+50511 17 book_18 Attack Manual
 50512,18,50512,Rainbow Stone
 50513,18,50513,Soul Stone
 50514,18,50514,Boost Manual
@@ -8721,14 +8721,14 @@ ID Type Icon Name
 50524,17,50516,Wolf's Breath Ward
 50525,18,50526,Soul Stone+
 50527,18,50527,Talent Potion
-50528,23,boss_box,Yohara Treasure Chest
+50528 23 boss_box Yohara Treasure Chest
 50529,23,50529,9th Path Book Chest
-50530,17,book_19,Shred Manual
-50531,17,book_19,Wolf's Breath Manual
-50532,17,book_19,Wolf Pounce Manual
-50533,17,book_19,Wolf's Claw Manual
-50534,17,book_19,Crimson Wolf Soul Manual
-50535,17,book_19,Indigo Wolf Soul Manual
+50530 17 book_19 Shred Manual
+50531 17 book_19 Wolf's Breath Manual
+50532 17 book_19 Wolf Pounce Manual
+50533 17 book_19 Wolf's Claw Manual
+50534 17 book_19 Crimson Wolf Soul Manual
+50535 17 book_19 Indigo Wolf Soul Manual
 50560,17,50560,Sword Spin Boost
 50561,17,50560,Ambush Boost
 50562,17,50560,Finger Strike Boost
@@ -8746,7 +8746,7 @@ ID Type Icon Name
 50574,17,50569,Meteor (9th skill)
 50575,17,50569,Aether Ward (9th skill)
 50576,17,50569,Talon Storm (9th skill)
-50600,3,book_45,Mining Guide
+50600 3 book_45 Mining Guide
 50601,6,50601,Diamond Stone
 50602,6,50602,Amber Stone
 50603,6,50603,Fossil Trunk
@@ -9420,7 +9420,7 @@ ID Type Icon Name
 53611,23,53501,Snowball Chest
 53612,23,53501,Snowdon Chest
 54041,23,50187,Wolfmantruhe lvl60
-54042,23,50217,Kiste aus der wolfman equ
+54042,23,50217,Kiste aus der wolfman equip
 54043,23,50187,Apprentice Chest I
 54700,37,54700,Beran-Setaou's Chest
 54701,37,54701,Bagjanamu's Chest
@@ -9712,7 +9712,7 @@ ID Type Icon Name
 71089,18,50308,Mission Book (Normal)
 71090,18,50309,Mission Book (Hard)
 71091,3,27995,Tincture of Trade
-71092,3,book_07,Polymorph Book
+71092 3 book_07 Polymorph Book
 71093,19,70104,Polymorph Marble
 71094,3,71094,Concentrated Reading
 71095,5,71095,Passage Ticket
@@ -9730,13 +9730,13 @@ ID Type Icon Name
 71109,3,71109,Scroll of Correction
 71110,6,71110,Horse Sugar
 71113,6,71113,Glass of Insight
-71114,23,boss_box,Wild Boar (yellow)
+71114 23 boss_box Wild Boar (yellow)
 71115,28,71119,Wild Boar (blue)
-71116,23,boss_box,Wolf (yellow)
+71116 23 boss_box Wolf (yellow)
 71117,28,71119,Wolf (blue)
-71118,23,boss_box,Tiger (yellow)
+71118 23 boss_box Tiger (yellow)
 71119,28,71119,Tiger (blue)
-71120,23,boss_box,Lion (yellow)
+71120 23 boss_box Lion (yellow)
 71121,28,71119,Lion (blue)
 71122,18,71122,Dragon's Temple Entry
 71123,5,71123,Dragon Scales
@@ -10552,7 +10552,7 @@ ID Type Icon Name
 90010,14,90010,Foundation Stone
 90011,14,90011,Trunk
 90012,14,90012,Plywood
-90013,3,itemmallb,Button-Abbild
+90013 3 itemmallb Button-Abbild
 90014,3,90014,Precious Loot
 90015,14,90015,Foundation Stone+
 90016,14,90016,Trunk+

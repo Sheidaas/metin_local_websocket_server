@@ -358,10 +358,10 @@ class WebsocketServer:
                 server.send_message(client_to_send, json.dumps(cleared_message, ensure_ascii=False))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update']:
+                print(cleared_message)
                 client_to_send = self.get_client_by_id(cleared_message['data']['client_id'])
                 if client_to_send is None:
                     return
-
                 server.send_message(client_to_send, json.dumps(cleared_message))
 
             elif cleared_message['type'] == RECEIVED_PACKETS_PATTERNS_TYPES['update_request']:
@@ -402,11 +402,6 @@ class WebsocketServer:
                     schema['NEEDED_OPTIONS'] = cleared_message['data']['needed_options']
                     message = {'type': RECEIVED_PACKETS_PATTERNS_TYPES['update_request'], 'data':{'message': schema, 'action': ACTIONS['SET_NEW_SCHEMA']}}
                     server.send_message(client_to_send, json.dumps(message))
-
-
-
-
-
 
     def run_server(self):
         self.server.set_fn_new_client(self.new_client)

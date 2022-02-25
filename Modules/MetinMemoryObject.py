@@ -62,7 +62,8 @@ class MetinMemoryObject:
             'ChannelSwitcher': {},
             'FileHandler': {},
             'InstanceInteractions': {},
-            'Protector': {}}
+            'Protector': {},
+            'Attacker': {},}
         self.InstancesList = []
         self.Equipment = {}  # Items worn
         self.Inventory = []  # Items in inventory
